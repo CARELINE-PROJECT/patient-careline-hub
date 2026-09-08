@@ -129,6 +129,28 @@
   animation: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
+/* Slow, hand-made feeling reveal used across the pages. */
+@utility anim-reveal {
+  opacity: 0;
+  transform: translateY(22px) scale(0.995);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.anim-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @layer base {
   * {
     border-color: var(--color-border);

@@ -12,7 +12,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Questions about an appointment request, a partnership or our services? Contact the Careline team by form, email or telephone.",
+          "Questions about an appointment request, a partnership or our services? Contact the Careline team by form or email.",
       },
       { property: "og:title", content: "Contact Careline" },
       {
