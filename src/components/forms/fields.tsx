@@ -4,10 +4,10 @@ import { cn } from "@/lib/utils";
 interface BaseProps {
   id: string;
   label: string;
-  error?: string;
-  required?: boolean;
-  hint?: string;
-  className?: string;
+  error?: string | undefined;
+  required?: boolean | undefined;
+  hint?: string | undefined;
+  className?: string | undefined;
 }
 
 function Wrapper({
@@ -47,11 +47,11 @@ export function TextField({
   placeholder,
   ...rest
 }: BaseProps & {
-  type?: string;
+  type?: string | undefined;
   value: string;
   onChange: (v: string) => void;
-  autoComplete?: string;
-  placeholder?: string;
+  autoComplete?: string | undefined;
+  placeholder?: string | undefined;
 }) {
   return (
     <Wrapper {...rest}>
@@ -81,9 +81,9 @@ export function TextAreaField({
 }: BaseProps & {
   value: string;
   onChange: (v: string) => void;
-  rows?: number;
-  maxLength?: number;
-  placeholder?: string;
+  rows?: number | undefined;
+  maxLength?: number | undefined;
+  placeholder?: string | undefined;
 }) {
   return (
     <Wrapper {...rest}>
@@ -148,7 +148,7 @@ export function ConsentField({
   checked: boolean;
   onChange: (v: boolean) => void;
   label: string;
-  error?: string;
+  error?: string | undefined;
 }) {
   return (
     <div className="flex flex-col gap-1.5">

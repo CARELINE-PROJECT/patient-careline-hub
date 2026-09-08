@@ -20,7 +20,8 @@ const initial = {
 export function ContactForm() {
   const { t } = useI18n();
   const [values, setValues] = useState(initial);
-  const [errors, setErrors] = useState<Record<string, string>>({});
+  type FieldKey = keyof typeof initial;
+  const [errors, setErrors] = useState<Partial<Record<FieldKey, string>>>({});
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
 
@@ -35,16 +36,16 @@ export function ContactForm() {
     consent: z.literal(true, { errorMap: () => ({ message: t("form.errors.consent") }) }),
   });
 
-  const set = (key: keyof typeof initial) => (v: string | boolean) =>
-    setValues((prev) => ({ ...prev, [key]: v }));
+  const set = (key: FieldKey) => (v: string) => setValues((prev) => ({ ...prev, [key]: v }));
+  const setBool = (key: FieldKey) => (v: boolean) => setValues((prev) => ({ ...prev, [key]: v }));
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     const parsed = schema.safeParse(values);
     if (!parsed.success) {
-      const next: Record<string, string> = {};
+      const next: Partial<Record<FieldKey, string>> = {};
       for (const issue of parsed.error.issues) {
-        const key = String(issue.path[0]);
+        const key = String(issue.path[0]) as FieldKey;
         if (!next[key]) next[key] = issue.message;
       }
       setErrors(next);
@@ -86,7 +87,7 @@ export function ContactForm() {
 
         <TextAreaField id="message" label={t("form.message")} required value={values.message} onChange={set("message")} error={errors.message} />
         <p className="text-xs leading-relaxed text-muted-foreground">{t("form.warning")}</p>
-        <ConsentField id="consent" checked={values.consent} onChange={set("consent")} label={t("form.consent")} error={errors.consent} />
+        <ConsentField id="consent" checked={values.consent} onChange={setBool("consent")} label={t("form.consent")} error={errors.consent} />
 
         <SubmitButton loading={loading} loadingLabel={t("form.sending")}>
           {t("form.submitContact")}
