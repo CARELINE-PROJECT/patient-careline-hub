@@ -65,7 +65,7 @@ export function Header() {
             aria-label={open ? t("nav.close") : t("nav.menu")}
             className="inline-flex size-10 items-center justify-center rounded-full border border-border text-branddeep lg:hidden"
           >
-            {open ? <Menu className="size-5" /> : <Menu className="size-5" />}
+            {open ? <X className="size-5" /> : <Menu className="size-5" />}
           </button>
         </div>
       </div>
