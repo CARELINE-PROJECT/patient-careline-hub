@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
-import { Glass, PageHero, Section } from "@/components/site/primitives";
+import { Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
+import patientHands from "@/assets/patient-hands.jpg";
+import coordinator from "@/assets/team-coordinator.jpg";
 import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/how-it-works")({
@@ -30,6 +32,14 @@ function HowItWorks() {
     <>
       <PageHero eyebrow={t("how.eyebrow")} title={t("how.title")} lead={t("how.lead")} />
       <Section>
+        <div className="mb-12 grid gap-6 sm:grid-cols-2">
+          <Reveal>
+            <Photo src={patientHands} alt="Les mains d'une patiente tenant son téléphone à la table de sa cuisine" />
+          </Reveal>
+          <Reveal delay={140}>
+            <Photo src={coordinator} alt="Une coordinatrice Careline écoutant une patiente, carnet à la main" />
+          </Reveal>
+        </div>
         <ol className="space-y-6">
           {steps.map((n) => (
             <li key={n}>

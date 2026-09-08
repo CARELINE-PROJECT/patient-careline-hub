@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Globe2, HeartHandshake, Languages, Layers, ShieldCheck, Timer } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { FeatureCard, PageHero, Section, SectionHeading } from "@/components/site/primitives";
+import { FeatureCard, PageHero, Photo, Reveal, Section, SectionHeading } from "@/components/site/primitives";
+import teamOffice from "@/assets/team-office.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 export const Route = createFileRoute("/companies")({
@@ -36,6 +37,9 @@ function Companies() {
         lead={t("corporations.lead")}
       />
       <Section>
+        <Reveal className="mb-12">
+          <Photo src={teamOffice} alt="Une équipe internationale échangeant autour d'une table de réunion" />
+        </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (
             <FeatureCard

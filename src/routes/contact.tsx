@@ -1,8 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
-import { DemoNote, Glass, PageHero, Section } from "@/components/site/primitives";
+import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
+import coordinator from "@/assets/team-coordinator.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 export const Route = createFileRoute("/contact")({
@@ -12,7 +13,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Questions about an appointment request, a partnership or our services? Contact the Careline team by form, email or telephone.",
+          "Questions about an appointment request, a partnership or our services? Contact the Careline team by form or email.",
       },
       { property: "og:title", content: "Contact Careline" },
       {
@@ -45,15 +46,6 @@ function Contact() {
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <Phone className="mt-0.5 size-4 text-brand" aria-hidden="true" />
-                <a
-                  className="text-muted-foreground hover:text-branddeep"
-                  href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-                >
-                  {siteConfig.phone}
-                </a>
-              </li>
-              <li className="flex items-start gap-3">
                 <Clock className="mt-0.5 size-4 text-brand" aria-hidden="true" />
                 <span className="text-muted-foreground">
                   {t("contact.hours")}: {siteConfig.supportHours}
@@ -69,8 +61,11 @@ function Contact() {
             <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">
               {t("contact.socialLabel")}: {t("contact.socialNone")}
             </p>
+            <Reveal className="mt-6">
+              <Photo src={coordinator} alt="Sophie, coordinatrice Careline, en conversation avec une patiente" />
+            </Reveal>
             <DemoNote>
-              Placeholder contact details — replace the email, phone, address and hours with your
+              Placeholder contact details — replace the email, address and hours with your
               verified information.
             </DemoNote>
           </Glass>

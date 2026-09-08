@@ -8,7 +8,8 @@ import {
   UserRoundCheck,
 } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { FeatureCard, PageHero, Section, SectionHeading } from "@/components/site/primitives";
+import { FeatureCard, PageHero, Photo, Reveal, Section, SectionHeading } from "@/components/site/primitives";
+import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import { PartnerForm } from "@/components/forms/PartnerForm";
 
 export const Route = createFileRoute("/professionals")({
@@ -43,6 +44,9 @@ function Professionals() {
         lead={t("professionals.lead")}
       />
       <Section>
+        <Reveal className="mb-12">
+          <Photo src={doctorGreeting} alt="Un médecin accueillant une patiente avec le sourire dans son cabinet" />
+        </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (
             <FeatureCard

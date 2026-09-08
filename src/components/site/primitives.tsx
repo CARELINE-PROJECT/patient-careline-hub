@@ -1,5 +1,93 @@
-import type { ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+
+/** Gentle, human reveal: content breathes in when it enters the viewport. */
+export function Reveal({
+  children,
+  delay = 0,
+  className,
+}: {
+  children: ReactNode;
+  delay?: number | undefined;
+  className?: string | undefined;
+}) {
+  const ref = useRef<HTMLDivElement | null>(null);
+  const [shown, setShown] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (typeof IntersectionObserver === "undefined") {
+      setShown(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            setShown(true);
+            io.disconnect();
+          }
+        }
+      },
+      { rootMargin: "0px 0px -8% 0px", threshold: 0.12 },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  return (
+    <div
+      ref={ref}
+      className={cn("anim-reveal", shown && "is-visible", className)}
+      style={{ transitionDelay: `${delay}ms` }}
+    >
+      {children}
+    </div>
+  );
+}
+
+/** Editorial photo with a soft frame and a slow, breathing zoom. */
+export function Photo({
+  src,
+  alt,
+  caption,
+  className,
+  imgClassName,
+  width = 1408,
+  height = 1008,
+}: {
+  src: string;
+  alt: string;
+  caption?: string | undefined;
+  className?: string | undefined;
+  imgClassName?: string | undefined;
+  width?: number | undefined;
+  height?: number | undefined;
+}) {
+  return (
+    <figure className={cn("group relative", className)}>
+      <div className="overflow-hidden rounded-[2rem] border border-border/70 shadow-[0_30px_70px_-45px_rgba(16,49,56,0.6)]">
+        <img
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          loading="lazy"
+          className={cn(
+            "h-full w-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]",
+            imgClassName,
+          )}
+        />
+      </div>
+      {caption ? (
+        <figcaption className="mt-3 text-xs leading-relaxed text-muted-foreground">
+          {caption}
+        </figcaption>
+      ) : null}
+    </figure>
+  );
+}
 
 export function Section({
   children,
