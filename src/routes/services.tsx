@@ -12,7 +12,8 @@ import {
   Users,
 } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { FeatureCard, PageHero, Section } from "@/components/site/primitives";
+import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
+import coordinator from "@/assets/team-coordinator.jpg";
 import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/services")({
@@ -58,6 +59,9 @@ function Services() {
         lead={t("services.lead")}
       />
       <Section>
+        <Reveal className="mb-12">
+          <Photo src={coordinator} alt="Une coordinatrice Careline au téléphone avec une patiente" />
+        </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (
             <FeatureCard

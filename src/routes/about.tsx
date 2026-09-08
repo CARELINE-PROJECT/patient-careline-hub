@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
-import { DemoNote, Glass, PageHero, Section } from "@/components/site/primitives";
+import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
+import teamOffice from "@/assets/team-office.jpg";
 import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/about")({
@@ -42,6 +43,9 @@ function About() {
     <>
       <PageHero eyebrow={t("about.eyebrow")} title={t("about.title")} lead={t("about.lead")} />
       <Section>
+        <Reveal className="mb-12">
+          <Photo src={teamOffice} alt="L'équipe Careline en discussion autour d'une table, tasses de café et carnets" />
+        </Reveal>
         <ul className="flex flex-wrap gap-2">
           {values.map((v) => (
             <li

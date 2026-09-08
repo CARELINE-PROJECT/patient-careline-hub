@@ -15,6 +15,10 @@ import {
   Users,
 } from "lucide-react";
 import heroImage from "@/assets/hero-careline.jpg";
+import patientHands from "@/assets/patient-hands.jpg";
+import doctorGreeting from "@/assets/doctor-greeting.jpg";
+import coordinator from "@/assets/team-coordinator.jpg";
+import teamOffice from "@/assets/team-office.jpg";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
 import {
@@ -25,6 +29,8 @@ import {
   Glass,
   Section,
   SectionHeading,
+  Photo,
+  Reveal,
 } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 
@@ -175,6 +181,14 @@ function Home() {
       {/* How it works */}
       <Section tone="muted">
         <SectionHeading eyebrow={t("how.eyebrow")} title={t("how.title")} lead={t("how.lead")} />
+        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+          <Reveal>
+            <Photo src={patientHands} alt="Les mains d'une patiente tenant son téléphone à la table de sa cuisine" />
+          </Reveal>
+          <Reveal delay={140}>
+            <Photo src={doctorGreeting} alt="Un médecin accueillant une patiente avec le sourire dans son cabinet" />
+          </Reveal>
+        </div>
         <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step) => (
             <li key={step.n}>
@@ -201,7 +215,10 @@ function Home() {
           title={t("services.title")}
           lead={t("services.lead")}
         />
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <Reveal className="mt-12">
+          <Photo src={coordinator} alt="Une coordinatrice Careline écoutant une patiente, carnet à la main" />
+        </Reveal>
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {serviceIcons.map((Icon, i) => (
             <FeatureCard
               key={i}
@@ -256,6 +273,9 @@ function Home() {
 
       {/* Audiences */}
       <Section>
+        <Reveal className="mb-12">
+          <Photo src={teamOffice} alt="Une équipe internationale échangeant autour d'une table de réunion" />
+        </Reveal>
         <div className="grid gap-6 lg:grid-cols-2">
           {[
             {

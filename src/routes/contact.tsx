@@ -2,7 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Clock, Mail, MapPin } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
-import { DemoNote, Glass, PageHero, Section } from "@/components/site/primitives";
+import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
+import coordinator from "@/assets/team-coordinator.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 export const Route = createFileRoute("/contact")({
@@ -60,6 +61,9 @@ function Contact() {
             <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">
               {t("contact.socialLabel")}: {t("contact.socialNone")}
             </p>
+            <Reveal className="mt-6">
+              <Photo src={coordinator} alt="Sophie, coordinatrice Careline, en conversation avec une patiente" />
+            </Reveal>
             <DemoNote>
               Placeholder contact details — replace the email, address and hours with your
               verified information.
