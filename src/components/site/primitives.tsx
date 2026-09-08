@@ -27,7 +27,7 @@ export function Section({
   );
 }
 
-export function Eyebrow({ children, invert }: { children: ReactNode; invert?: boolean }) {
+export function Eyebrow({ children, invert }: { children: ReactNode; invert?: boolean | undefined }) {
   return (
     <span
       className={cn(
