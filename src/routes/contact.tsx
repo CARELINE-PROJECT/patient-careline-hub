@@ -61,7 +61,7 @@ function Contact() {
               {t("contact.socialLabel")}: {t("contact.socialNone")}
             </p>
             <DemoNote>
-              Placeholder contact details — replace the email, phone, address and hours with your
+              Placeholder contact details — replace the email, address and hours with your
               verified information.
             </DemoNote>
           </Glass>
