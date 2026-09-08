@@ -13,10 +13,10 @@ export function SuccessPanel({
 }: {
   title: string;
   lead: string;
-  referenceLabel?: string;
-  reference?: string;
-  detail?: string;
-  keepNote?: string;
+  referenceLabel?: string | undefined;
+  reference?: string | undefined;
+  detail?: string | undefined;
+  keepNote?: string | undefined;
   againLabel: string;
   onAgain: () => void;
 }) {

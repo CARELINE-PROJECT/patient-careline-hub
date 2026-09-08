@@ -8,8 +8,8 @@ export function Section({
   tone = "plain",
 }: {
   children: ReactNode;
-  className?: string;
-  id?: string;
+  className?: string | undefined;
+  id?: string | undefined;
   tone?: "plain" | "muted" | "deep";
 }) {
   return (
@@ -49,11 +49,11 @@ export function SectionHeading({
   invert,
   center,
 }: {
-  eyebrow?: string;
+  eyebrow?: string | undefined;
   title: string;
-  lead?: string;
-  invert?: boolean;
-  center?: boolean;
+  lead?: string | undefined;
+  invert?: boolean | undefined;
+  center?: boolean | undefined;
 }) {
   return (
     <div className={cn("max-w-3xl", center && "mx-auto text-center")}>
@@ -86,8 +86,8 @@ export function Glass({
   invert,
 }: {
   children: ReactNode;
-  className?: string;
-  invert?: boolean;
+  className?: string | undefined;
+  invert?: boolean | undefined;
 }) {
   return (
     <div
@@ -110,10 +110,10 @@ export function FeatureCard({
   description,
   invert,
 }: {
-  icon?: ReactNode;
+  icon?: ReactNode | undefined;
   title: string;
   description: string;
-  invert?: boolean;
+  invert?: boolean | undefined;
 }) {
   return (
     <Glass invert={invert} className="h-full p-6">
@@ -174,10 +174,10 @@ export function PageHero({
   lead,
   children,
 }: {
-  eyebrow?: string;
+  eyebrow?: string | undefined;
   title: string;
-  lead?: string;
-  children?: ReactNode;
+  lead?: string | undefined;
+  children?: ReactNode | undefined;
 }) {
   return (
     <section className="relative overflow-hidden border-b border-border/60 bg-secondary/50 px-5 pb-16 pt-14 sm:px-8 md:pb-20 md:pt-20">
