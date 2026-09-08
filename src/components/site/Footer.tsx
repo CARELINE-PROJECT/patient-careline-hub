@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { HeartPulse, Mail, Phone } from "lucide-react";
+import { HeartPulse, Mail } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
 import { openConsentSettings } from "@/lib/consent";
@@ -65,10 +65,6 @@ export function Footer() {
               <a className="flex items-center gap-2 hover:underline" href={`mailto:${siteConfig.email}`}>
                 <Mail className="size-4" aria-hidden="true" />
                 {siteConfig.email}
-              </a>
-              <a className="flex items-center gap-2 hover:underline" href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}>
-                <Phone className="size-4" aria-hidden="true" />
-                {siteConfig.phone}
               </a>
             </div>
           </div>

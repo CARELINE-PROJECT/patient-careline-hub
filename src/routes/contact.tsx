@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
 import { DemoNote, Glass, PageHero, Section } from "@/components/site/primitives";
@@ -42,15 +42,6 @@ function Contact() {
                 <Mail className="mt-0.5 size-4 text-brand" aria-hidden="true" />
                 <a className="text-muted-foreground hover:text-branddeep" href={`mailto:${siteConfig.email}`}>
                   {siteConfig.email}
-                </a>
-              </li>
-              <li className="flex items-start gap-3">
-                <Phone className="mt-0.5 size-4 text-brand" aria-hidden="true" />
-                <a
-                  className="text-muted-foreground hover:text-branddeep"
-                  href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-                >
-                  {siteConfig.phone}
                 </a>
               </li>
               <li className="flex items-start gap-3">

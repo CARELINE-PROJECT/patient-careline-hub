@@ -6,9 +6,8 @@ export const siteConfig = {
   name: "Careline",
   legalName: "Careline",
   tagline: "Healthcare appointments, made simple.",
-  email: "contact@careline.example",
-  partnersEmail: "partners@careline.example",
-  phone: "+00 000 000 000",
+  email: "sophie@careline.doctor",
+  partnersEmail: "sophie@careline.doctor",
   address: "Address to be confirmed",
   supportHours: "Monday to Friday, 09:00 – 18:00 (CET)",
   social: {
