@@ -1,26 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Globe2, HeartHandshake, Languages, Layers, ShieldCheck, Timer } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section, SectionHeading } from "@/components/site/primitives";
 import teamOffice from "@/assets/team-office.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 export const Route = createFileRoute("/companies")({
   head: () => ({
-    meta: [
-      { title: "For companies — international healthcare access for your people" },
-      {
-        name: "description",
-        content:
-          "Offer employees, clients or beneficiaries a simple, coordinated route to medical appointments across countries, languages and time zones.",
-      },
-      { property: "og:title", content: "Careline for companies" },
-      {
-        property: "og:description",
-        content:
-          "One partner for medical appointment requests across multiple countries, with human accompaniment for every person.",
-      },
-    ],
+    meta: staticRouteMeta("companies"),
   }),
   component: Companies,
 });
@@ -38,7 +26,7 @@ function Companies() {
       />
       <Section>
         <Reveal className="mb-12">
-          <Photo src={teamOffice} alt="Une équipe internationale échangeant autour d'une table de réunion" />
+          <Photo src={teamOffice} alt={t("media.teamOffice")} />
         </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (

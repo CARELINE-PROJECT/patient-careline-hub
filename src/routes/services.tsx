@@ -12,26 +12,14 @@ import {
   Users,
 } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import coordinator from "@/assets/team-coordinator.jpg";
 import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
-    meta: [
-      { title: "Careline services — practitioner search, booking and support" },
-      {
-        name: "description",
-        content:
-          "Practitioner search, appointment booking, patient–practitioner matching, teleconsultation, international coordination and multilingual support.",
-      },
-      { property: "og:title", content: "Careline services" },
-      {
-        property: "og:description",
-        content:
-          "A single point of contact for patients, medical practices and organizations at every step of the appointment journey.",
-      },
-    ],
+    meta: staticRouteMeta("services"),
   }),
   component: Services,
 });
@@ -60,7 +48,7 @@ function Services() {
       />
       <Section>
         <Reveal className="mb-12">
-          <Photo src={coordinator} alt="Une coordinatrice Careline au téléphone avec une patiente" />
+          <Photo src={coordinator} alt={t("media.coordinatorPhone")} />
         </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (

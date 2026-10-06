@@ -1,22 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { Glass, PageHero, Section } from "@/components/site/primitives";
 
 export const Route = createFileRoute("/careers")({
   head: () => ({
-    meta: [
-      { title: "Careers at Careline — join an international team" },
-      {
-        name: "description",
-        content:
-          "Careline is an international team focused on quality of service and human support. Write to us if you would like to join.",
-      },
-      { property: "og:title", content: "Careers at Careline" },
-      {
-        property: "og:description",
-        content: "Join an international team focused on quality of service and human support.",
-      },
-    ],
+    meta: staticRouteMeta("careers"),
   }),
   component: Careers,
 });

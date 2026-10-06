@@ -20,6 +20,7 @@ import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import coordinator from "@/assets/team-coordinator.jpg";
 import teamOffice from "@/assets/team-office.jpg";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { siteConfig } from "@/config/site";
 import {
   AuroraBackdrop,
@@ -36,20 +37,7 @@ import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/")({
   head: () => ({
-    meta: [
-      { title: "Careline — Medical appointments, made simple" },
-      {
-        name: "description",
-        content:
-          "Careline finds and books appointments with trusted healthcare professionals for patients, practices and companies, in 10 languages worldwide.",
-      },
-      { property: "og:title", content: "Careline — Medical appointments, made simple" },
-      {
-        property: "og:description",
-        content:
-          "Careline finds and books appointments with trusted healthcare professionals for patients, practices and companies, in 10 languages worldwide.",
-      },
-    ],
+    meta: staticRouteMeta("home"),
   }),
   component: Home,
 });
@@ -86,7 +74,7 @@ function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-border/60 bg-secondary/40 px-5 py-16 sm:px-8 md:py-24">
+      <section className="relative overflow-hidden border-b border-border/60 bg-secondary/40 px-5 py-16 sm:px-8 md:py-12">
         <AuroraBackdrop />
         <div className="mx-auto grid w-full max-w-6xl items-center gap-12 lg:grid-cols-[1.05fr_1fr]">
           <div className="anim-rise">
@@ -134,7 +122,7 @@ function Home() {
                 src={heroImage}
                 width={1600}
                 height={1200}
-                alt="A Careline coordinator assisting a patient by phone in a bright clinic reception"
+                alt={t("media.heroCoordinator")}
                 className="h-full w-full object-cover"
               />
             </div>
@@ -175,7 +163,7 @@ function Home() {
             </Glass>
           ))}
         </div>
-        <DemoNote>{t("stats.note")}</DemoNote>
+        
       </Section>
 
       {/* How it works */}
@@ -183,10 +171,10 @@ function Home() {
         <SectionHeading eyebrow={t("how.eyebrow")} title={t("how.title")} lead={t("how.lead")} />
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           <Reveal>
-            <Photo src={patientHands} alt="Les mains d'une patiente tenant son téléphone à la table de sa cuisine" />
+            <Photo src={patientHands} alt={t("media.patientHands")} />
           </Reveal>
           <Reveal delay={140}>
-            <Photo src={doctorGreeting} alt="Un médecin accueillant une patiente avec le sourire dans son cabinet" />
+            <Photo src={doctorGreeting} alt={t("media.doctorGreeting")} />
           </Reveal>
         </div>
         <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -216,7 +204,7 @@ function Home() {
           lead={t("services.lead")}
         />
         <Reveal className="mt-12">
-          <Photo src={coordinator} alt="Une coordinatrice Careline écoutant une patiente, carnet à la main" />
+          <Photo src={coordinator} alt={t("media.coordinatorNotebook")} />
         </Reveal>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {serviceIcons.map((Icon, i) => (
@@ -274,7 +262,7 @@ function Home() {
       {/* Audiences */}
       <Section>
         <Reveal className="mb-12">
-          <Photo src={teamOffice} alt="Une équipe internationale échangeant autour d'une table de réunion" />
+          <Photo src={teamOffice} alt={t("media.teamOffice")} />
         </Reveal>
         <div className="grid gap-6 lg:grid-cols-2">
           {[

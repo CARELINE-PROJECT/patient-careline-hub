@@ -27,13 +27,13 @@ export function LegalPage({
 
         <div className="mt-10 max-w-3xl space-y-9">
           {sections.map((section) => (
-            <article key={section.heading}>
+            <article key={`${section.id}.${section.section}`}>
               <h2 className="font-display text-xl tracking-tight text-branddeep">
-                {section.heading}
+                {t(`legalContent.${section.id}.${section.section}.heading`)}
               </h2>
-              {section.body.map((paragraph, i) => (
+              {Array.from({ length: section.bodyCount }, (_, i) => (
                 <p key={i} className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  {paragraph}
+                  {t(`legalContent.${section.id}.${section.section}.body.${i}`)}
                 </p>
               ))}
             </article>

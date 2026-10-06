@@ -2,6 +2,172 @@ export const en = {
   meta: {
     langName: "English",
   },
+  site: {
+    tagline: "Healthcare appointments, made simple.",
+    address: "Address to be confirmed",
+    supportHours: "Monday to Friday, 09:00 - 18:00 (CET)",
+    contactDetailsPlaceholder:
+      "Placeholder contact details - replace the email, address and hours with your verified information.",
+  },
+  error: {
+    notFoundTitle: "Page not found",
+    notFoundLead: "The page you're looking for doesn't exist or has been moved.",
+    loadTitle: "This page didn't load",
+    loadLead: "Something went wrong on our end. You can try refreshing or head back home.",
+    tryAgain: "Try again",
+    goHome: "Go home",
+  },
+  ui: {
+    breadcrumb: "breadcrumb",
+    more: "More",
+    pagination: "pagination",
+    previousPage: "Go to previous page",
+    previous: "Previous",
+    nextPage: "Go to next page",
+    next: "Next",
+    morePages: "More pages",
+    close: "Close",
+    previousSlide: "Previous slide",
+    nextSlide: "Next slide",
+    sidebar: "Sidebar",
+    sidebarDescription: "Displays the mobile sidebar.",
+    toggleSidebar: "Toggle Sidebar",
+  },
+  media: {
+    heroCoordinator: "A Careline coordinator assisting a patient by phone in a bright clinic reception",
+    patientHands: "A patient holding her phone at her kitchen table",
+    coordinatorNotebook: "A Careline coordinator listening to a patient, notebook in hand",
+    doctorGreeting: "A doctor welcoming a smiling patient in the practice",
+    teamOffice: "An international team talking around a meeting table",
+    coordinatorPhone: "A Careline coordinator speaking with a patient by phone",
+    contactCoordinator: "Sophie, Careline coordinator, speaking with a patient",
+    aboutTeam: "The Careline team discussing around a table with coffee cups and notebooks",
+  },
+  head: {
+    root: {
+      title: "Careline - Medical appointments, made simple",
+      description:
+        "Careline connects patients, companies and healthcare professionals and handles medical appointment requests worldwide.",
+      ogTitle: "Careline - Medical appointments, made simple",
+      ogDescription:
+        "Careline connects patients, companies and healthcare professionals and handles medical appointment requests worldwide.",
+    },
+    home: {
+      title: "Careline - Medical appointments, made simple",
+      description:
+        "Careline finds and books appointments with trusted healthcare professionals for patients, practices and companies, in 10 languages worldwide.",
+      ogTitle: "Careline - Medical appointments, made simple",
+      ogDescription:
+        "Careline finds and books appointments with trusted healthcare professionals for patients, practices and companies, in 10 languages worldwide.",
+    },
+    about: {
+      title: "About Careline - an international company built around people",
+      description:
+        "Careline facilitates access to healthcare professionals and accompanies patients in finding and booking medical appointments worldwide.",
+      ogTitle: "About Careline",
+      ogDescription: "Our mission, vision, values and commitments to patients and professionals.",
+    },
+    careers: {
+      title: "Careers at Careline - join an international team",
+      description:
+        "Careline is an international team focused on quality of service and human support. Write to us if you would like to join.",
+      ogTitle: "Careers at Careline",
+      ogDescription: "Join an international team focused on quality of service and human support.",
+    },
+    companies: {
+      title: "For companies - international healthcare access for your people",
+      description:
+        "Offer employees, clients or beneficiaries a simple, coordinated route to medical appointments across countries, languages and time zones.",
+      ogTitle: "Careline for companies",
+      ogDescription:
+        "One partner for medical appointment requests across multiple countries, with human accompaniment for every person.",
+    },
+    contact: {
+      title: "Contact Careline - talk to our team",
+      description:
+        "Questions about an appointment request, a partnership or our services? Contact the Careline team by form or email.",
+      ogTitle: "Contact Careline",
+      ogDescription: "Reach the Careline team about a request, a partnership or our services.",
+    },
+    faq: {
+      title: "Careline FAQ - appointments, coverage, data and partnerships",
+      description:
+        "Answers about requesting an appointment, how practitioners are matched, country coverage, data protection and becoming a Careline partner.",
+      ogTitle: "Careline FAQ",
+      ogDescription: "Frequently asked questions about the Careline appointment service.",
+    },
+    howItWorks: {
+      title: "How Careline works - from request to confirmed appointment",
+      description:
+        "Four calm steps: send your request, Careline analyses your need, several practitioners are proposed, you confirm your appointment.",
+      ogTitle: "How Careline works",
+      ogDescription: "Four calm steps from your first request to a confirmed medical appointment.",
+    },
+    cookies: {
+      title: "Cookie Policy - Careline",
+      description:
+        "Which cookie categories Careline uses, how consent is collected and how to change your preferences at any time.",
+      ogTitle: "Cookie Policy - Careline",
+      ogDescription: "Cookie categories, consent and how to change it.",
+    },
+    notice: {
+      title: "Legal Notice - Careline",
+      description: "Publisher, contact, hosting and status information for the Careline website.",
+      ogTitle: "Legal Notice - Careline",
+      ogDescription: "Publisher, hosting and status of the Careline site.",
+    },
+    privacy: {
+      title: "Privacy Policy - Careline",
+      description:
+        "How Careline collects, uses, shares, protects and retains personal data, and how you can exercise your rights.",
+      ogTitle: "Privacy Policy - Careline",
+      ogDescription: "Careline's approach to personal data protection.",
+    },
+    terms: {
+      title: "Terms & Conditions - Careline",
+      description:
+        "Terms governing the use of the Careline website and of the medical appointment facilitation service.",
+      ogTitle: "Terms & Conditions - Careline",
+      ogDescription: "The terms of the Careline coordination service.",
+    },
+    preferences: {
+      title: "Manage privacy preferences - Careline",
+      description:
+        "Review and change the cookie categories you allow on the Careline website at any time.",
+      ogTitle: "Manage privacy preferences - Careline",
+      ogDescription: "Change the cookie categories you allow.",
+    },
+    professionals: {
+      title: "For healthcare professionals - partner with Careline",
+      description:
+        "Doctors, specialists, practices and clinics: receive qualified appointment requests from patients and organizations worldwide, with less administration.",
+      ogTitle: "Partner with Careline",
+      ogDescription:
+        "Qualified introductions, simplified request management and a dedicated contact for your practice.",
+    },
+    request: {
+      title: "Request a medical appointment - Careline",
+      description:
+        "Tell Careline the practitioner, city and preferences you need. Our team reviews every request and comes back with suitable options.",
+      ogTitle: "Request a medical appointment - Careline",
+      ogDescription: "Send your appointment request and receive practitioner options from our team.",
+    },
+    security: {
+      title: "Security and confidentiality at Careline",
+      description:
+        "Data minimisation, confidentiality obligations, access control, encryption in transit and clear user rights - privacy considered by design.",
+      ogTitle: "Security and confidentiality at Careline",
+      ogDescription: "How Careline protects the personal data entrusted to it.",
+    },
+    services: {
+      title: "Careline services - practitioner search, booking and support",
+      description:
+        "Practitioner search, appointment booking, patient-practitioner matching, teleconsultation, international coordination and multilingual support.",
+      ogTitle: "Careline services",
+      ogDescription:
+        "A single point of contact for patients, medical practices and organizations at every step of the appointment journey.",
+    },
+  },
   nav: {
     howItWorks: "How it works",
     services: "Services",
@@ -377,6 +543,160 @@ export const en = {
     noticeTitle: "Legal Notice",
     preferencesTitle: "Manage privacy preferences",
     preferencesLead: "Review and change the cookie categories you allow at any time.",
+  },
+  legalContent: {
+    privacy: {
+      who: {
+        heading: "1. Who we are",
+        body: {
+          0: 'Careline ("we", "us") facilitates access to healthcare professionals and coordinates medical appointment requests on behalf of patients and organizations. The data controller is [legal entity name, registration number, registered address].',
+        },
+      },
+      data: {
+        heading: "2. Data we collect",
+        body: {
+          0: "We collect only the information needed to handle your request: identity (first name, last name), contact details (email, telephone), the city and country in which you are seeking care, the type of practitioner requested, your consultation preference, your preferred period and any information you choose to add.",
+          1: "We ask you not to include detailed medical information in free-text fields. Any health-related information you nevertheless provide is treated as sensitive data and processed only to route your request.",
+        },
+      },
+      purposes: {
+        heading: "3. Purposes and legal bases",
+        body: {
+          0: "Handling and following up appointment requests (performance of a service you requested, and your explicit consent where health data is involved).",
+          1: "Responding to contact and partnership enquiries (our legitimate interest in replying to you).",
+          2: "Maintaining the security and integrity of the service (legitimate interest and legal obligations).",
+        },
+      },
+      recipients: {
+        heading: "4. Recipients",
+        body: {
+          0: "Data may be shared with the healthcare professionals, practices or establishments needed to arrange your appointment, and with technical service providers acting on our instructions under contract. We do not sell personal data.",
+        },
+      },
+      transfers: {
+        heading: "5. International transfers",
+        body: {
+          0: "Careline operates internationally. Where data is transferred outside your region, we apply appropriate safeguards required by the applicable regulations, such as standard contractual clauses.",
+        },
+      },
+      retention: {
+        heading: "6. Retention",
+        body: {
+          0: "Personal data is kept only for as long as necessary for the purposes described above and for the periods required by applicable law. Indicative retention periods must be confirmed per country: [to be completed].",
+        },
+      },
+      rights: {
+        heading: "7. Your rights",
+        body: {
+          0: "Depending on your jurisdiction, you may request access, rectification, erasure, restriction, portability, or object to certain processing, and withdraw your consent at any time. Contact us at [privacy contact email]. You may also lodge a complaint with your local supervisory authority.",
+        },
+      },
+      security: {
+        heading: "8. Security",
+        body: {
+          0: "We apply technical and organizational measures adapted to the risk, including access control, encryption of data in transit and confidentiality obligations for staff. No claim of certification is made unless explicitly stated and held.",
+        },
+      },
+      contact: {
+        heading: "9. Contact",
+        body: { 0: "For any question about this policy, write to [privacy contact email]." },
+      },
+    },
+    cookies: {
+      types: {
+        heading: "1. What cookies we use",
+        body: {
+          0: "Necessary cookies keep the site working (session integrity, security, your consent choice). They cannot be disabled.",
+          1: "Functional cookies remember preferences such as your chosen language.",
+          2: "Analytics cookies help us understand aggregated usage of the site.",
+          3: "Marketing cookies measure and personalise campaigns.",
+        },
+      },
+      consent: {
+        heading: "2. Consent",
+        body: {
+          0: 'Non-essential cookies are never loaded before you give consent. You may accept, refuse, or select categories, and you may change your choice at any time from the "Manage privacy preferences" link in the footer.',
+        },
+      },
+      duration: {
+        heading: "3. Duration",
+        body: {
+          0: "Your consent choice is stored on your device. Indicative durations for each cookie must be listed here once analytics or marketing tools are actually deployed: [to be completed].",
+        },
+      },
+      thirdParties: {
+        heading: "4. Third parties",
+        body: {
+          0: "No third-party analytics or advertising tool is active on this site at present. Any future tool will be listed here before activation.",
+        },
+      },
+    },
+    terms: {
+      purpose: {
+        heading: "1. Purpose",
+        body: {
+          0: "These terms govern the use of the Careline website and of the appointment facilitation service offered through it.",
+        },
+      },
+      service: {
+        heading: "2. Nature of the service",
+        body: {
+          0: "Careline is an intermediation and coordination service. Careline does not provide medical care, does not give medical advice, and does not carry out diagnosis. Care is delivered by independent healthcare professionals who remain solely responsible for their acts.",
+          1: "Careline is not an emergency service. In an emergency, contact your local emergency number.",
+        },
+      },
+      requests: {
+        heading: "3. Requests and appointments",
+        body: {
+          0: "Submitting a request does not create a confirmed appointment. Careline reviews each request and, where possible, proposes one or several practitioners matching the criteria provided, subject to availability and to the regulations applicable in the country concerned.",
+        },
+      },
+      obligations: {
+        heading: "4. User obligations",
+        body: {
+          0: "You undertake to provide accurate information, to use the service lawfully, and not to submit content that is unlawful or that infringes the rights of others.",
+        },
+      },
+      liability: {
+        heading: "5. Liability",
+        body: {
+          0: "Careline undertakes to provide the coordination service with reasonable care. Careline cannot be held liable for the medical acts, availability, pricing or decisions of independent professionals. Liability limits must be adapted per jurisdiction: [to be completed].",
+        },
+      },
+      ip: {
+        heading: "6. Intellectual property",
+        body: {
+          0: "The site, its content and its trademarks are protected. No reproduction is permitted without prior written authorisation.",
+        },
+      },
+      law: {
+        heading: "7. Applicable law",
+        body: { 0: "Governing law and competent courts: [to be completed by legal counsel]." },
+      },
+    },
+    notice: {
+      publisher: {
+        heading: "Publisher",
+        body: {
+          0: "[Legal entity name] - [legal form and share capital] - registered office: [address] - registration number: [number] - VAT: [number].",
+          1: "Publication director: [name].",
+        },
+      },
+      contact: {
+        heading: "Contact",
+        body: { 0: "Email: [contact email] - Telephone: [phone number]." },
+      },
+      hosting: {
+        heading: "Hosting",
+        body: { 0: "[Hosting provider name, address and contact details]." },
+      },
+      status: {
+        heading: "Status",
+        body: {
+          0: "Careline is an intermediation service and is not a healthcare provider. Any professional registration or authorisation numbers required in a given country must be added here.",
+        },
+      },
+    },
   },
 } as const;
 

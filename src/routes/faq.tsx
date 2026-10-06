@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { PageHero, Section } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 import {
@@ -11,19 +12,7 @@ import {
 
 export const Route = createFileRoute("/faq")({
   head: () => ({
-    meta: [
-      { title: "Careline FAQ — appointments, coverage, data and partnerships" },
-      {
-        name: "description",
-        content:
-          "Answers about requesting an appointment, how practitioners are matched, country coverage, data protection and becoming a Careline partner.",
-      },
-      { property: "og:title", content: "Careline FAQ" },
-      {
-        property: "og:description",
-        content: "Frequently asked questions about the Careline appointment service.",
-      },
-    ],
+    meta: staticRouteMeta("faq"),
   }),
   component: Faq,
 });

@@ -93,7 +93,7 @@ export function ContactForm() {
           {t("form.submitContact")}
         </SubmitButton>
 
-        <DemoNote>{t("form.demoNotice")}</DemoNote>
+        {/* <DemoNote>{t("form.demoNotice")}</DemoNote> */}
       </form>
     </Glass>
   );

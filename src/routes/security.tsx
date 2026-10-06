@@ -1,23 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ShieldCheck } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { DemoNote, FeatureCard, PageHero, Section } from "@/components/site/primitives";
 
 export const Route = createFileRoute("/security")({
   head: () => ({
-    meta: [
-      { title: "Security and confidentiality at Careline" },
-      {
-        name: "description",
-        content:
-          "Data minimisation, confidentiality obligations, access control, encryption in transit and clear user rights — privacy considered by design.",
-      },
-      { property: "og:title", content: "Security and confidentiality at Careline" },
-      {
-        property: "og:description",
-        content: "How Careline protects the personal data entrusted to it.",
-      },
-    ],
+    meta: staticRouteMeta("security"),
   }),
   component: Security,
 });

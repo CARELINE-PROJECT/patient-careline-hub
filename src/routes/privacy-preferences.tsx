@@ -1,22 +1,14 @@
 import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { Glass, PageHero, Section } from "@/components/site/primitives";
 import { Switch } from "@/components/ui/switch";
 import { CONSENT_CHANGED, readConsent, writeConsent } from "@/lib/consent";
 
 export const Route = createFileRoute("/privacy-preferences")({
   head: () => ({
-    meta: [
-      { title: "Manage privacy preferences — Careline" },
-      {
-        name: "description",
-        content:
-          "Review and change the cookie categories you allow on the Careline website at any time.",
-      },
-      { property: "og:title", content: "Manage privacy preferences — Careline" },
-      { property: "og:description", content: "Change the cookie categories you allow." },
-    ],
+    meta: staticRouteMeta("preferences"),
   }),
   component: Preferences,
 });

@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import patientHands from "@/assets/patient-hands.jpg";
 import coordinator from "@/assets/team-coordinator.jpg";
@@ -7,19 +8,7 @@ import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/how-it-works")({
   head: () => ({
-    meta: [
-      { title: "How Careline works — from request to confirmed appointment" },
-      {
-        name: "description",
-        content:
-          "Four calm steps: send your request, Careline analyses your need, several practitioners are proposed, you confirm your appointment.",
-      },
-      { property: "og:title", content: "How Careline works" },
-      {
-        property: "og:description",
-        content: "Four calm steps from your first request to a confirmed medical appointment.",
-      },
-    ],
+    meta: staticRouteMeta("howItWorks"),
   }),
   component: HowItWorks,
 });
@@ -34,10 +23,10 @@ function HowItWorks() {
       <Section>
         <div className="mb-12 grid gap-6 sm:grid-cols-2">
           <Reveal>
-            <Photo src={patientHands} alt="Les mains d'une patiente tenant son téléphone à la table de sa cuisine" />
+            <Photo src={patientHands} alt={t("media.patientHands")} />
           </Reveal>
           <Reveal delay={140}>
-            <Photo src={coordinator} alt="Une coordinatrice Careline écoutant une patiente, carnet à la main" />
+            <Photo src={coordinator} alt={t("media.coordinatorNotebook")} />
           </Reveal>
         </div>
         <ol className="space-y-6">

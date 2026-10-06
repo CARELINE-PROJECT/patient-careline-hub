@@ -8,26 +8,14 @@ import {
   UserRoundCheck,
 } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section, SectionHeading } from "@/components/site/primitives";
 import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import { PartnerForm } from "@/components/forms/PartnerForm";
 
 export const Route = createFileRoute("/professionals")({
   head: () => ({
-    meta: [
-      { title: "For healthcare professionals — partner with Careline" },
-      {
-        name: "description",
-        content:
-          "Doctors, specialists, practices and clinics: receive qualified appointment requests from patients and organizations worldwide, with less administration.",
-      },
-      { property: "og:title", content: "Partner with Careline" },
-      {
-        property: "og:description",
-        content:
-          "Qualified introductions, simplified request management and a dedicated contact for your practice.",
-      },
-    ],
+    meta: staticRouteMeta("professionals"),
   }),
   component: Professionals,
 });
@@ -45,7 +33,7 @@ function Professionals() {
       />
       <Section>
         <Reveal className="mb-12">
-          <Photo src={doctorGreeting} alt="Un médecin accueillant une patiente avec le sourire dans son cabinet" />
+          <Photo src={doctorGreeting} alt={t("media.doctorGreeting")} />
         </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (

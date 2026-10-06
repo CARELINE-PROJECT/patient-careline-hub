@@ -145,7 +145,7 @@ export function AppointmentForm() {
           {t("form.submit")}
         </SubmitButton>
 
-        <DemoNote>{t("form.demoNotice")}</DemoNote>
+        {/* <DemoNote>{t("form.demoNotice")}</DemoNote> */}
       </form>
     </Glass>
   );

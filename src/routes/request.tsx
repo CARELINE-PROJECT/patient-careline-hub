@@ -1,23 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { Glass, PageHero, Section } from "@/components/site/primitives";
 import { AppointmentForm } from "@/components/forms/AppointmentForm";
 
 export const Route = createFileRoute("/request")({
   head: () => ({
-    meta: [
-      { title: "Request a medical appointment — Careline" },
-      {
-        name: "description",
-        content:
-          "Tell Careline the practitioner, city and preferences you need. Our team reviews every request and comes back with suitable options.",
-      },
-      { property: "og:title", content: "Request a medical appointment — Careline" },
-      {
-        property: "og:description",
-        content: "Send your appointment request and receive practitioner options from our team.",
-      },
-    ],
+    meta: staticRouteMeta("request"),
   }),
   component: RequestPage,
 });

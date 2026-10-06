@@ -1,24 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import teamOffice from "@/assets/team-office.jpg";
 import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
-    meta: [
-      { title: "About Careline — an international company built around people" },
-      {
-        name: "description",
-        content:
-          "Careline facilitates access to healthcare professionals and accompanies patients in finding and booking medical appointments worldwide.",
-      },
-      { property: "og:title", content: "About Careline" },
-      {
-        property: "og:description",
-        content: "Our mission, vision, values and commitments to patients and professionals.",
-      },
-    ],
+    meta: staticRouteMeta("about"),
   }),
   component: About,
 });
@@ -44,7 +33,7 @@ function About() {
       <PageHero eyebrow={t("about.eyebrow")} title={t("about.title")} lead={t("about.lead")} />
       <Section>
         <Reveal className="mb-12">
-          <Photo src={teamOffice} alt="L'équipe Careline en discussion autour d'une table, tasses de café et carnets" />
+          <Photo src={teamOffice} alt={t("media.aboutTeam")} />
         </Reveal>
         <ul className="flex flex-wrap gap-2">
           {values.map((v) => (

@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Clock, Mail, MapPin } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { staticRouteMeta } from "@/i18n/head";
 import { siteConfig } from "@/config/site";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import coordinator from "@/assets/team-coordinator.jpg";
@@ -8,19 +9,7 @@ import { ContactForm } from "@/components/forms/ContactForm";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
-    meta: [
-      { title: "Contact Careline — talk to our team" },
-      {
-        name: "description",
-        content:
-          "Questions about an appointment request, a partnership or our services? Contact the Careline team by form or email.",
-      },
-      { property: "og:title", content: "Contact Careline" },
-      {
-        property: "og:description",
-        content: "Reach the Careline team about a request, a partnership or our services.",
-      },
-    ],
+    meta: staticRouteMeta("contact"),
   }),
   component: Contact,
 });
@@ -48,13 +37,13 @@ function Contact() {
               <li className="flex items-start gap-3">
                 <Clock className="mt-0.5 size-4 text-brand" aria-hidden="true" />
                 <span className="text-muted-foreground">
-                  {t("contact.hours")}: {siteConfig.supportHours}
+                  {t("contact.hours")}: {t("site.supportHours")}
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 size-4 text-brand" aria-hidden="true" />
                 <span className="text-muted-foreground">
-                  {t("contact.addressLabel")}: {siteConfig.address}
+                  {t("contact.addressLabel")}: {t("site.address")}
                 </span>
               </li>
             </ul>
@@ -62,12 +51,9 @@ function Contact() {
               {t("contact.socialLabel")}: {t("contact.socialNone")}
             </p>
             <Reveal className="mt-6">
-              <Photo src={coordinator} alt="Sophie, coordinatrice Careline, en conversation avec une patiente" />
+              <Photo src={coordinator} alt={t("media.contactCoordinator")} />
             </Reveal>
-            <DemoNote>
-              Placeholder contact details — replace the email, address and hours with your
-              verified information.
-            </DemoNote>
+            <DemoNote>{t("site.contactDetailsPlaceholder")}</DemoNote>
           </Glass>
         </div>
       </Section>
