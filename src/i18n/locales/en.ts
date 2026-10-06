@@ -2,12 +2,30 @@ export const en = {
   meta: {
     langName: "English",
   },
+  languageNames: {
+    en: "English",
+    fr: "French",
+    nl: "Dutch (NL / BE)",
+    de: "German",
+    es: "Spanish",
+    it: "Italian",
+    pt: "Portuguese",
+    ar: "Arabic",
+    zh: "Chinese",
+    ru: "Russian",
+  },
   site: {
     tagline: "Healthcare appointments, made simple.",
-    address: "Address to be confirmed",
+    address: "to be confirmed",
     supportHours: "Monday to Friday, 09:00 - 18:00 (CET)",
     contactDetailsPlaceholder:
       "Placeholder contact details - replace the email, address and hours with your verified information.",
+    stats: {
+      professionals: "3,000+",
+      countries: "40+",
+      specialties: "25+",
+      languages: "11",
+    },
   },
   error: {
     notFoundTitle: "Page not found",
@@ -32,9 +50,14 @@ export const en = {
     sidebar: "Sidebar",
     sidebarDescription: "Displays the mobile sidebar.",
     toggleSidebar: "Toggle Sidebar",
+    mainNavigation: "Main navigation",
+    mobileNavigation: "Mobile navigation",
+    carousel: "carousel",
+    slide: "slide",
   },
   media: {
-    heroCoordinator: "A Careline coordinator assisting a patient by phone in a bright clinic reception",
+    heroCoordinator:
+      "A Careline coordinator assisting a patient by phone in a bright clinic reception",
     patientHands: "A patient holding her phone at her kitchen table",
     coordinatorNotebook: "A Careline coordinator listening to a patient, notebook in hand",
     doctorGreeting: "A doctor welcoming a smiling patient in the practice",
@@ -112,9 +135,9 @@ export const en = {
     },
     notice: {
       title: "Legal Notice - Careline",
-      description: "Publisher, contact, hosting and status information for the Careline website.",
+      description: "Publisher, contact and status information for the Careline website.",
       ogTitle: "Legal Notice - Careline",
-      ogDescription: "Publisher, hosting and status of the Careline site.",
+      ogDescription: "Publisher, contact and status of the Careline site.",
     },
     privacy: {
       title: "Privacy Policy - Careline",
@@ -150,7 +173,8 @@ export const en = {
       description:
         "Tell Careline the practitioner, city and preferences you need. Our team reviews every request and comes back with suitable options.",
       ogTitle: "Request a medical appointment - Careline",
-      ogDescription: "Send your appointment request and receive practitioner options from our team.",
+      ogDescription:
+        "Send your appointment request and receive practitioner options from our team.",
     },
     security: {
       title: "Security and confidentiality at Careline",
@@ -348,8 +372,7 @@ export const en = {
     patientsD:
       "Clear information, attentive support and respect for your time and your circumstances.",
     prosT: "Our commitment to professionals",
-    prosD:
-      "Qualified requests, reliable coordination and respect for the way your practice works.",
+    prosD: "Qualified requests, reliable coordination and respect for the way your practice works.",
     privacyT: "Our commitment to confidentiality",
     privacyD:
       "Data minimisation, careful handling and security measures adapted to applicable requirements.",
@@ -507,7 +530,8 @@ export const en = {
     alwaysOn: "Always on",
   },
   footer: {
-    about: "Connecting patients and organizations with trusted healthcare professionals, worldwide.",
+    about:
+      "Connecting patients and organizations with trusted healthcare professionals, worldwide.",
     company: "Careline",
     patients: "Patients",
     professionals: "Professionals",
@@ -549,7 +573,7 @@ export const en = {
       who: {
         heading: "1. Who we are",
         body: {
-          0: 'Careline ("we", "us") facilitates access to healthcare professionals and coordinates medical appointment requests on behalf of patients and organizations. The data controller is [legal entity name, registration number, registered address].',
+          0: 'Careline ("we", "us") facilitates access to healthcare professionals and coordinates medical appointment requests on behalf of patients and organizations. The data controller is Careline SARL, SARL, registered office: to be confirmed.',
         },
       },
       data: {
@@ -582,13 +606,13 @@ export const en = {
       retention: {
         heading: "6. Retention",
         body: {
-          0: "Personal data is kept only for as long as necessary for the purposes described above and for the periods required by applicable law. Indicative retention periods must be confirmed per country: [to be completed].",
+          0: "Personal data is kept only for as long as necessary for the purposes described above and in accordance with the periods required by applicable law. As an indication, some personal data may be kept for up to 3 years, subject to applicable legal obligations and to the nature of the data concerned.",
         },
       },
       rights: {
         heading: "7. Your rights",
         body: {
-          0: "Depending on your jurisdiction, you may request access, rectification, erasure, restriction, portability, or object to certain processing, and withdraw your consent at any time. Contact us at [privacy contact email]. You may also lodge a complaint with your local supervisory authority.",
+          0: "Depending on your jurisdiction, you may request access, rectification, erasure, restriction, portability, or object to certain processing, and withdraw your consent at any time. Contact us at contact@careline.doctor. You may also lodge a complaint with your local supervisory authority.",
         },
       },
       security: {
@@ -599,7 +623,7 @@ export const en = {
       },
       contact: {
         heading: "9. Contact",
-        body: { 0: "For any question about this policy, write to [privacy contact email]." },
+        body: { 0: "For any question about this policy, write to contact@careline.doctor." },
       },
     },
     cookies: {
@@ -621,7 +645,7 @@ export const en = {
       duration: {
         heading: "3. Duration",
         body: {
-          0: "Your consent choice is stored on your device. Indicative durations for each cookie must be listed here once analytics or marketing tools are actually deployed: [to be completed].",
+          0: "Your consent choice is stored on your device.\n\nThe retention period depends on the type of cookie used:\n\nNecessary cookies for site operation: session duration or up to 12 months.\n\nPreference cookies: up to 12 months.\n\nAnalytics cookies: up to 13 months.\n\nMarketing cookies: up to 6 months.\n\nThese periods may vary depending on the tools and services actually used on Careline.",
         },
       },
       thirdParties: {
@@ -660,7 +684,7 @@ export const en = {
       liability: {
         heading: "5. Liability",
         body: {
-          0: "Careline undertakes to provide the coordination service with reasonable care. Careline cannot be held liable for the medical acts, availability, pricing or decisions of independent professionals. Liability limits must be adapted per jurisdiction: [to be completed].",
+          0: "Careline undertakes to provide the coordination service with reasonable care. Careline cannot be held liable for the medical acts, availability, pricing or decisions of independent professionals. Careline's liability is limited to the extent permitted by applicable law. Nothing in these terms excludes or limits any liability that cannot legally be excluded or limited.",
         },
       },
       ip: {
@@ -671,24 +695,21 @@ export const en = {
       },
       law: {
         heading: "7. Applicable law",
-        body: { 0: "Governing law and competent courts: [to be completed by legal counsel]." },
+        body: {
+          0: "These terms are governed by applicable law. In the event of a dispute relating to the use of Careline or to the interpretation of these terms, the parties will seek an amicable solution. Failing amicable agreement, the dispute will be submitted to the competent courts in accordance with applicable law.",
+        },
       },
     },
     notice: {
       publisher: {
         heading: "Publisher",
         body: {
-          0: "[Legal entity name] - [legal form and share capital] - registered office: [address] - registration number: [number] - VAT: [number].",
-          1: "Publication director: [name].",
+          0: "Careline SARL - SARL - registered office: to be confirmed",
         },
       },
       contact: {
         heading: "Contact",
-        body: { 0: "Email: [contact email] - Telephone: [phone number]." },
-      },
-      hosting: {
-        heading: "Hosting",
-        body: { 0: "[Hosting provider name, address and contact details]." },
+        body: { 0: "contact@careline.doctor" },
       },
       status: {
         heading: "Status",

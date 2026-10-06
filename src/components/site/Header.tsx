@@ -37,7 +37,7 @@ export function Header() {
           </span>
         </Link>
 
-        <nav aria-label="Main" className="hidden items-center gap-1 lg:flex">
+        <nav aria-label={t("ui.mainNavigation")} className="hidden items-center gap-1 lg:flex">
           {navItems.map((item) => (
             <Link
               key={item.to}
@@ -72,7 +72,7 @@ export function Header() {
 
       {open ? (
         <div className="border-t border-border/60 bg-background lg:hidden">
-          <nav aria-label="Mobile" className="mx-auto flex w-full max-w-6xl flex-col px-5 py-3 sm:px-8">
+          <nav aria-label={t("ui.mobileNavigation")} className="mx-auto flex w-full max-w-6xl flex-col px-5 py-3 sm:px-8">
             {navItems.map((item) => (
               <Link
                 key={item.to}

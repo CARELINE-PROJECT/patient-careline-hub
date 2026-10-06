@@ -9,7 +9,14 @@ import {
 } from "react";
 import { en } from "./locales/en";
 import { fr } from "./locales/fr";
-import { nl, de, es, it, pt, ar, zh, ru } from "./locales/others";
+import { nl } from "./locales/nl";
+import { de } from "./locales/de";
+import { es } from "./locales/es";
+import { it } from "./locales/it";
+import { pt } from "./locales/pt";
+import { ar } from "./locales/ar";
+import { zh } from "./locales/zh";
+import { ru } from "./locales/ru";
 import {
   defaultLocale,
   locales,

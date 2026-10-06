@@ -11,11 +11,4 @@ export const siteConfig = {
     linkedin: "",
     x: "",
   },
-  /** Placeholder figures — edit here, they propagate everywhere. */
-  stats: {
-    professionals: "3,000+",
-    countries: "40+",
-    specialties: "25+",
-    languages: "11",
-  },
 } as const;

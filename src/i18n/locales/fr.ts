@@ -1,19 +1,40 @@
 import type { PartialDictionary } from "../types";
 
 export const fr: PartialDictionary = {
-  meta: { langName: "Français" },
+  meta: {
+    langName: "Français",
+  },
+  languageNames: {
+    en: "Anglais",
+    fr: "Français",
+    nl: "Néerlandais (NL / BE)",
+    de: "Allemand",
+    es: "Espagnol",
+    it: "Italien",
+    pt: "Portugais",
+    ar: "Arabe",
+    zh: "Chinois",
+    ru: "Russe",
+  },
   site: {
     tagline: "La prise de rendez-vous médicaux, simplifiée.",
-    address: "Lot 0912 C 185 MANODIDINA NY GARA, ANTSIRABE I , MADAGASCAR",
+    address: "à confirmer",
     supportHours: "Du lundi au vendredi, 09:00 - 18:00 (CET)",
     contactDetailsPlaceholder:
       "Coordonnées provisoires - remplacez l'email, l'adresse et les horaires par vos informations vérifiées.",
+    stats: {
+      professionals: "3 000+",
+      countries: "40+",
+      specialties: "25+",
+      languages: "11",
+    },
   },
   error: {
     notFoundTitle: "Page introuvable",
     notFoundLead: "La page que vous cherchez n'existe pas ou a été déplacée.",
     loadTitle: "Cette page n'a pas chargé",
-    loadLead: "Une erreur est survenue de notre côté. Vous pouvez réessayer ou revenir à l'accueil.",
+    loadLead:
+      "Une erreur est survenue de notre côté. Vous pouvez réessayer ou revenir à l'accueil.",
     tryAgain: "Réessayer",
     goHome: "Accueil",
   },
@@ -32,9 +53,14 @@ export const fr: PartialDictionary = {
     sidebar: "Barre latérale",
     sidebarDescription: "Affiche la barre latérale mobile.",
     toggleSidebar: "Basculer la barre latérale",
+    mainNavigation: "Navigation principale",
+    mobileNavigation: "Navigation mobile",
+    carousel: "carrousel",
+    slide: "diapositive",
   },
   media: {
-    heroCoordinator: "Une coordinatrice Careline assiste une patiente par téléphone dans un accueil de clinique lumineux",
+    heroCoordinator:
+      "Une coordinatrice Careline assiste une patiente par téléphone dans un accueil de clinique lumineux",
     patientHands: "Les mains d'une patiente tenant son téléphone à la table de sa cuisine",
     coordinatorNotebook: "Une coordinatrice Careline écoutant une patiente, carnet à la main",
     doctorGreeting: "Un médecin accueillant une patiente avec le sourire dans son cabinet",
@@ -65,14 +91,16 @@ export const fr: PartialDictionary = {
       description:
         "Careline facilite l'accès aux professionnels de santé et accompagne les patients dans la recherche et la prise de rendez-vous médicaux dans le monde entier.",
       ogTitle: "À propos de Careline",
-      ogDescription: "Notre mission, notre vision, nos valeurs et nos engagements envers les patients et les professionnels.",
+      ogDescription:
+        "Notre mission, notre vision, nos valeurs et nos engagements envers les patients et les professionnels.",
     },
     careers: {
       title: "Carrières chez Careline - rejoindre une équipe internationale",
       description:
         "Careline est une équipe internationale centrée sur la qualité de service et l'accompagnement humain. Écrivez-nous si vous souhaitez nous rejoindre.",
       ogTitle: "Carrières chez Careline",
-      ogDescription: "Rejoindre une équipe internationale centrée sur la qualité de service et l'accompagnement humain.",
+      ogDescription:
+        "Rejoindre une équipe internationale centrée sur la qualité de service et l'accompagnement humain.",
     },
     companies: {
       title: "Pour les entreprises - accès international aux soins pour vos équipes",
@@ -87,7 +115,8 @@ export const fr: PartialDictionary = {
       description:
         "Une question sur une demande de rendez-vous, un partenariat ou nos services ? Contactez l'équipe Careline par formulaire ou par email.",
       ogTitle: "Contact Careline",
-      ogDescription: "Joindre l'équipe Careline au sujet d'une demande, d'un partenariat ou de nos services.",
+      ogDescription:
+        "Joindre l'équipe Careline au sujet d'une demande, d'un partenariat ou de nos services.",
     },
     faq: {
       title: "FAQ Careline - rendez-vous, couverture, données et partenariats",
@@ -101,7 +130,8 @@ export const fr: PartialDictionary = {
       description:
         "Quatre étapes sereines : envoyez votre demande, Careline analyse votre besoin, plusieurs praticiens sont proposés, vous confirmez votre rendez-vous.",
       ogTitle: "Comment Careline fonctionne",
-      ogDescription: "Quatre étapes sereines entre votre première demande et un rendez-vous médical confirmé.",
+      ogDescription:
+        "Quatre étapes sereines entre votre première demande et un rendez-vous médical confirmé.",
     },
     cookies: {
       title: "Politique de cookies - Careline",
@@ -112,9 +142,9 @@ export const fr: PartialDictionary = {
     },
     notice: {
       title: "Mentions légales - Careline",
-      description: "Informations sur l'éditeur, le contact, l'hébergement et le statut du site Careline.",
+      description: "Informations sur l'éditeur, le contact et le statut du site Careline.",
       ogTitle: "Mentions légales - Careline",
-      ogDescription: "Éditeur, hébergement et statut du site Careline.",
+      ogDescription: "Éditeur, contact et statut du site Careline.",
     },
     privacy: {
       title: "Politique de confidentialité - Careline",
@@ -150,7 +180,8 @@ export const fr: PartialDictionary = {
       description:
         "Indiquez à Careline le praticien, la ville et les préférences recherchés. Notre équipe étudie chaque demande et revient vers vous avec des options adaptées.",
       ogTitle: "Demander un rendez-vous médical - Careline",
-      ogDescription: "Envoyez votre demande de rendez-vous et recevez des options de praticiens de notre équipe.",
+      ogDescription:
+        "Envoyez votre demande de rendez-vous et recevez des options de praticiens de notre équipe.",
     },
     security: {
       title: "Sécurité et confidentialité chez Careline",
@@ -237,6 +268,16 @@ export const fr: PartialDictionary = {
     i8t: "Accompagnement international",
     i9t: "Téléconsultation",
     i10t: "Support et assistance",
+    i1d: "Nous identifions les professionnels correspondant à votre spécialité, votre ville et vos besoins linguistiques.",
+    i2d: "Nous gérons la planification afin que vous n'ayez pas à naviguer entre plusieurs systèmes.",
+    i3d: "Des mises en relation qualifiées selon les critères que vous avez indiqués.",
+    i4d: "Modifications, rappels et suivi sont pris en charge par notre équipe.",
+    i5d: "Un contact humain qui vous écoute et vous accompagne tout au long du parcours.",
+    i6d: "Des demandes qualifiées et moins de tâches administratives pour votre équipe.",
+    i7d: "Un accès centralisé aux soins pour les collaborateurs, clients ou bénéficiaires.",
+    i8d: "Une assistance entre pays, fuseaux horaires et systèmes de santé.",
+    i9d: "Des consultations à distance lorsque c'est disponible et autorisé localement.",
+    i10d: "Une assistance multilingue avant, pendant et après votre rendez-vous.",
   },
   advantages: {
     eyebrow: "Pourquoi Careline",
@@ -245,22 +286,75 @@ export const fr: PartialDictionary = {
     a2t: "Plusieurs options, pas une seule",
     a3t: "Couverture internationale",
     a4t: "Respect des réglementations",
+    a1d: "Nous prenons le temps de comprendre votre besoin réel avant de proposer une solution.",
+    a2d: "Lorsque c'est possible, nous présentons une sélection de praticiens correspondant à vos critères.",
+    a3d: "Un réseau de professionnels dans de nombreux pays et de nombreuses spécialités.",
+    a4d: "Nous travaillons dans le cadre des règles médicales applicables dans chaque pays.",
   },
   security: {
     eyebrow: "Sécurité & confidentialité",
     title: "La confidentialité pensée dès la conception.",
     lead: "Careline applique des mesures de sécurité adaptées aux exigences réglementaires applicables et aux meilleures pratiques du secteur.",
+    disclaimer:
+      "Cette page décrit notre approche. Elle constitue une base professionnelle à faire revoir par un conseil juridique dans chaque pays où Careline opère. Careline ne revendique aucune certification qu'elle ne détient pas.",
+    s1t: "Protection des données personnelles",
+    s1d: "Nous collectons uniquement les données nécessaires au traitement de votre demande et à la prise de contact.",
+    s2t: "Confidentialité",
+    s2d: "Les demandes sont traitées par du personnel autorisé soumis à des obligations de confidentialité.",
+    s3t: "Sécurité des données",
+    s3d: "Des mesures techniques et organisationnelles sont appliquées pour protéger les informations.",
+    s4t: "Contrôle d'accès",
+    s4d: "L'accès est limité à ce dont chaque rôle a besoin pour accomplir ses missions.",
+    s5t: "Chiffrement lorsque c'est applicable",
+    s5d: "Le chiffrement est utilisé pour les données en transit et ailleurs lorsque c'est approprié.",
+    s6t: "Conservation des données",
+    s6d: "Les données sont conservées uniquement pendant la durée nécessaire aux finalités indiquées.",
+    s7t: "Droits des utilisateurs",
+    s7d: "Vous pouvez demander l'accès, la rectification, l'effacement ou la limitation de vos données.",
+    s8t: "Réglementations applicables",
+    s8d: "Nos pratiques sont adaptées aux réglementations applicables dans chaque pays d'opération.",
+    s9t: "Sous-traitants",
+    s9d: "Les prestataires sont sélectionnés avec soin et soumis à des engagements contractuels.",
+    s10t: "Échanges sécurisés",
+    s10d: "Les canaux de communication sont choisis pour limiter l'exposition inutile des informations.",
   },
   professionals: {
     eyebrow: "Pour les professionnels de santé",
     title: "Travailler avec Careline.",
     cta: "Devenir partenaire",
     formTitle: "Demande de partenariat",
+    lead: "Médecins, spécialistes, cabinets, cliniques, centres médicaux et réseaux de santé.",
+    b1t: "Accès à une base de patients internationale",
+    b1d: "Recevez des demandes de patients et d'organisations dans de nombreux pays.",
+    b2t: "Gestion simplifiée des demandes",
+    b2d: "Des demandes structurées et préqualifiées au lieu de sollicitations dispersées.",
+    b3t: "Mises en relation qualifiées",
+    b3d: "Des patients dont les besoins correspondent à votre spécialité et à vos disponibilités.",
+    b4t: "Moins de tâches administratives",
+    b4d: "Notre équipe prend en charge la coordination autour du rendez-vous.",
+    b5t: "Visibilité internationale",
+    b5d: "Une présence dans un réseau utilisé par des patients et des organisations du monde entier.",
+    b6t: "Support professionnel",
+    b6d: "Un contact dédié pour votre cabinet ou votre établissement.",
+    formLead: "Présentez-nous votre cabinet et nous reviendrons vers vous.",
   },
   corporations: {
     eyebrow: "Pour les entreprises et corporations",
     title: "L'accès aux soins pour vos collaborateurs, où qu'ils soient.",
     cta: "Nous contacter",
+    lead: "Pour les organisations qui souhaitent offrir à leurs collaborateurs, clients ou bénéficiaires un accès simple aux rendez-vous médicaux.",
+    b1t: "Réseau international de praticiens",
+    b1d: "Un partenaire unique pour les demandes dans plusieurs pays.",
+    b2t: "Accompagnement des patients",
+    b2d: "Chaque personne est accompagnée par un contact humain de la demande au rendez-vous.",
+    b3t: "Demandes centralisées",
+    b3d: "Un processus coordonné au lieu d'arrangements individuels dispersés.",
+    b4t: "Service multilingue",
+    b4d: "Un support en plusieurs langues pour les équipes internationales.",
+    b5t: "Gestion internationale",
+    b5d: "Une coordination entre fuseaux horaires et systèmes de santé.",
+    b6t: "Qualité et confidentialité",
+    b6d: "Des standards de service cohérents et une gestion attentive des données personnelles.",
   },
   about: {
     eyebrow: "À propos de Careline",
@@ -276,8 +370,53 @@ export const fr: PartialDictionary = {
     v4: "Sécurité",
     v5: "Accessibilité",
     v6: "International",
+    lead: "Careline facilite l'accès aux professionnels de santé et accompagne les patients dans la recherche et la prise de rendez-vous médicaux.",
+    missionD:
+      "Rendre l'accès aux professionnels de santé plus simple, plus serein et plus humain, où que se trouve le patient.",
+    visionD:
+      "Un monde où trouver le bon praticien ne dépend pas de la connaissance du bon système, de la bonne langue ou du bon contact.",
+    valuesD:
+      "La confiance, l'écoute, la qualité, la sécurité, l'accessibilité et l'ouverture internationale guident chaque demande que nous traitons.",
+    approachD:
+      "Nous écoutons d'abord, puis nous recherchons, puis nous proposons plusieurs options. Nous ne poussons jamais un patient vers un choix unique.",
+    networkD:
+      "Nous travaillons avec des médecins, praticiens, cabinets et établissements de santé dans de nombreux pays, pour le compte d'organisations variées.",
+    patientsT: "Notre engagement envers les patients",
+    patientsD:
+      "Une information claire, un accompagnement attentif et le respect de votre temps et de votre situation.",
+    prosT: "Notre engagement envers les professionnels",
+    prosD:
+      "Des demandes qualifiées, une coordination fiable et le respect du fonctionnement de votre cabinet.",
+    privacyT: "Notre engagement envers la confidentialité",
+    privacyD:
+      "Minimisation des données, traitement attentif et mesures de sécurité adaptées aux exigences applicables.",
+    disclaimer:
+      "Careline ne fournit pas de soins médicaux. Les soins sont délivrés par les professionnels de santé indépendants avec lesquels nous vous mettons en relation.",
   },
-  faq: { eyebrow: "FAQ", title: "Questions fréquentes" },
+  faq: {
+    eyebrow: "FAQ",
+    title: "Questions fréquentes",
+    q1: "Comment demander un rendez-vous ?",
+    a1: "Remplissez le formulaire de demande avec le type de praticien, votre ville et votre pays, ainsi que vos préférences. Notre équipe vous contacte ensuite.",
+    q2: "Comment Careline choisit les praticiens ?",
+    a2: "Nous tenons compte de la spécialité, du lieu, des disponibilités, du format de consultation et de la langue, dans le cadre des réglementations applicables dans chaque pays.",
+    q3: "Puis-je demander plusieurs praticiens ?",
+    a3: "Oui. Lorsque c'est possible, nous présentons plusieurs praticiens correspondant à vos critères afin que vous puissiez choisir.",
+    q4: "Dans quels pays Careline est-il disponible ?",
+    a4: "Careline travaille avec des professionnels dans de nombreux pays. La disponibilité dépend de la spécialité et de la ville demandées ; indiquez-nous votre besoin et nous confirmerons.",
+    q5: "Mes données sont-elles protégées ?",
+    a5: "Nous collectons uniquement ce qui est nécessaire et appliquons des mesures de sécurité adaptées aux exigences réglementaires applicables et aux meilleures pratiques du secteur.",
+    q6: "Puis-je modifier ma demande ?",
+    a6: "Oui. Contactez-nous avec votre numéro de demande et nous la mettrons à jour.",
+    q7: "Comment contacter Careline ?",
+    a7: "Par le formulaire de contact, ou par email et téléphone selon les informations indiquées sur notre page de contact.",
+    q8: "Careline fournit-il directement des soins médicaux ?",
+    a8: "Non. Careline facilite l'accès et la prise de rendez-vous. Les soins sont délivrés par des professionnels de santé indépendants.",
+    q9: "Comment devenir praticien partenaire ?",
+    a9: "Remplissez le formulaire de partenariat sur la page dédiée aux professionnels de santé et notre équipe vous contactera.",
+    q10: "Comment une entreprise peut-elle travailler avec Careline ?",
+    a10: "Contactez-nous via la page entreprises et nous discuterons des besoins de vos collaborateurs, clients ou bénéficiaires.",
+  },
   cta: {
     title: "Prêt à prendre rendez-vous en confiance ?",
     lead: "Fiable, confidentiel et humain — où que vous soyez dans le monde.",
@@ -371,8 +510,14 @@ export const fr: PartialDictionary = {
     hours: "Horaires du support",
     addressLabel: "Adresse",
     socialLabel: "Réseaux sociaux",
+    socialNone: "Profils sociaux à venir.",
   },
-  careers: { eyebrow: "Carrières", title: "Travailler chez Careline" },
+  careers: {
+    eyebrow: "Carrières",
+    title: "Travailler chez Careline",
+    lead: "Nous sommes une équipe internationale centrée sur la qualité de service et l'accompagnement humain.",
+    body: "Aucune offre n'est publiée pour le moment. Si vous souhaitez nous rejoindre, écrivez-nous depuis la page de contact et présentez-vous.",
+  },
   cookies: {
     title: "Votre vie privée, notre priorité",
     lead: "Nous utilisons des cookies pour améliorer votre expérience. Choisissez vos préférences — aucun cookie non essentiel n'est chargé avant votre consentement.",
@@ -393,7 +538,8 @@ export const fr: PartialDictionary = {
     alwaysOn: "Toujours actifs",
   },
   footer: {
-    about: "Nous relions patients et organisations à des professionnels de santé de confiance, partout dans le monde.",
+    about:
+      "Nous relions patients et organisations à des professionnels de santé de confiance, partout dans le monde.",
     patients: "Patients",
     professionals: "Professionnels",
     companies: "Entreprises",
@@ -417,6 +563,7 @@ export const fr: PartialDictionary = {
     rights: "Tous droits réservés.",
     disclaimer:
       "Careline ne dispense pas de soins médicaux et n'est pas un service d'urgence. En cas d'urgence, contactez le numéro d'urgence local.",
+    company: "Careline",
   },
   legal: {
     reviewNotice:
@@ -434,7 +581,7 @@ export const fr: PartialDictionary = {
       who: {
         heading: "1. Qui nous sommes",
         body: {
-          0: 'Careline ("nous") facilite l’accès à des professionnels de santé et coordonne les demandes de rendez-vous médicaux pour les patients et les organisations. Le responsable du traitement est [nom de l’entité juridique, numéro d’immatriculation, adresse du siège].',
+          0: 'Careline ("nous") facilite l’accès à des professionnels de santé et coordonne les demandes de rendez-vous médicaux pour les patients et les organisations. Le responsable du traitement est Careline SARL, SARL, siège social : à confirmer.',
         },
       },
       data: {
@@ -467,13 +614,13 @@ export const fr: PartialDictionary = {
       retention: {
         heading: "6. Conservation",
         body: {
-          0: "Les données personnelles sont conservées uniquement pendant la durée nécessaire aux finalités décrites et aux durées imposées par la loi applicable. Les durées indicatives doivent être confirmées par pays : [à compléter].",
+          0: "Les données personnelles sont conservées uniquement pendant la durée nécessaire aux finalités décrites et conformément aux durées imposées par la législation applicable. À titre indicatif, certaines données personnelles peuvent être conservées pendant une durée maximale de 3 ans, sous réserve des obligations légales applicables et de la nature des données concernées.",
         },
       },
       rights: {
         heading: "7. Vos droits",
         body: {
-          0: "Selon votre juridiction, vous pouvez demander l’accès, la rectification, l’effacement, la limitation, la portabilité, vous opposer à certains traitements et retirer votre consentement à tout moment. Contactez-nous à [email de contact confidentialité]. Vous pouvez également saisir votre autorité de contrôle locale.",
+          0: "Selon votre juridiction, vous pouvez demander l’accès, la rectification, l’effacement, la limitation, la portabilité, vous opposer à certains traitements et retirer votre consentement à tout moment. Contactez-nous à contact@careline.doctor. Vous pouvez également saisir votre autorité de contrôle locale.",
         },
       },
       security: {
@@ -484,7 +631,9 @@ export const fr: PartialDictionary = {
       },
       contact: {
         heading: "9. Contact",
-        body: { 0: "Pour toute question sur cette politique, écrivez à [email de contact confidentialité]." },
+        body: {
+          0: "Pour toute question sur cette politique, écrivez à contact@careline.doctor.",
+        },
       },
     },
     cookies: {
@@ -506,7 +655,7 @@ export const fr: PartialDictionary = {
       duration: {
         heading: "3. Durée",
         body: {
-          0: "Votre choix de consentement est stocké sur votre appareil. Les durées indicatives de chaque cookie devront être listées ici lorsque des outils analytiques ou marketing seront effectivement déployés : [à compléter].",
+          0: "Votre choix de consentement est stocké sur votre appareil.\n\n La durée de conservation dépend du type de cookie utilisé :\n\n Cookies nécessaires au fonctionnement du site : durée de la session ou jusqu’à 12 mois.\n\n Cookies de préférences : jusqu’à 12 mois.\n\n Cookies analytiques : jusqu’à 13 mois.\n\n Cookies marketing : jusqu’à 6 mois. \n\n Ces durées peuvent varier selon les outils et services effectivement utilisés sur Careline.",
         },
       },
       thirdParties: {
@@ -545,7 +694,7 @@ export const fr: PartialDictionary = {
       liability: {
         heading: "5. Responsabilité",
         body: {
-          0: "Careline s’engage à fournir le service de coordination avec un soin raisonnable. Careline ne peut être tenue responsable des actes médicaux, disponibilités, tarifs ou décisions des professionnels indépendants. Les limites de responsabilité doivent être adaptées selon la juridiction : [à compléter].",
+          0: "Careline s’engage à fournir le service de coordination avec un soin raisonnable. Careline ne peut être tenue responsable des actes médicaux, disponibilités, tarifs ou décisions des professionnels indépendants. La responsabilité de Careline est limitée dans la mesure autorisée par la législation applicable. Aucune disposition des présentes ne saurait exclure ou limiter une responsabilité qui ne peut légalement être exclue ou limitée.",
         },
       },
       ip: {
@@ -556,24 +705,23 @@ export const fr: PartialDictionary = {
       },
       law: {
         heading: "7. Droit applicable",
-        body: { 0: "Droit applicable et juridictions compétentes : [à compléter par un conseil juridique]." },
+        body: {
+          0: "Les présentes conditions sont soumises à la législation applicable. En cas de litige relatif à l’utilisation de Careline ou à l’interprétation des présentes conditions, les parties s’efforceront de trouver une solution amiable. À défaut d’accord amiable, le litige sera soumis aux juridictions compétentes conformément à la législation applicable.",
+        },
       },
     },
     notice: {
       publisher: {
         heading: "Éditeur",
         body: {
-          0: "[Nom de l’entité juridique] - [forme juridique et capital social] - siège social : [adresse] - numéro d’immatriculation : [numéro] - TVA : [numéro].",
-          1: "Directeur de la publication : [nom].",
+          0: "Careline SARL - SARL - siège social : à confirmer",
         },
       },
       contact: {
         heading: "Contact",
-        body: { 0: "Email : [email de contact] - Téléphone : [numéro de téléphone]." },
-      },
-      hosting: {
-        heading: "Hébergement",
-        body: { 0: "[Nom, adresse et coordonnées de l’hébergeur]." },
+        body: {
+          0: "contact@careline.doctor",
+        },
       },
       status: {
         heading: "Statut",

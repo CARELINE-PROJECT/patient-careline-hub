@@ -31,7 +31,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
             onSelect={() => setLocale(l.code as LocaleCode)}
             className="flex items-center justify-between gap-2"
           >
-            <span dir={l.dir}>{l.label}</span>
+            <span dir={l.dir}>{t(`languageNames.${l.code}`)}</span>
             {l.code === locale ? <Check className="size-4 text-brand" aria-hidden="true" /> : null}
           </DropdownMenuItem>
         ))}

@@ -43,8 +43,7 @@ export const termsSections: LegalSection[] = [
 ];
 
 export const noticeSections: LegalSection[] = [
-  { id: "notice", section: "publisher", bodyCount: 2 },
+  { id: "notice", section: "publisher", bodyCount: 1 },
   { id: "notice", section: "contact", bodyCount: 1 },
-  { id: "notice", section: "hosting", bodyCount: 1 },
   { id: "notice", section: "status", bodyCount: 1 },
 ];

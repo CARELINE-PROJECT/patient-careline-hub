@@ -43,6 +43,7 @@ const Carousel = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement> & CarouselProps
 >(({ orientation = "horizontal", opts, setApi, plugins, className, children, ...props }, ref) => {
+  const { t } = useI18n();
   const [carouselRef, api] = useEmblaCarousel(
     {
       ...opts,
@@ -123,7 +124,7 @@ const Carousel = React.forwardRef<
         onKeyDownCapture={handleKeyDown}
         className={cn("relative", className)}
         role="region"
-        aria-roledescription="carousel"
+        aria-roledescription={t("ui.carousel")}
         {...props}
       >
         {children}
@@ -157,12 +158,13 @@ CarouselContent.displayName = "CarouselContent";
 const CarouselItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
   ({ className, ...props }, ref) => {
     const { orientation } = useCarousel();
+    const { t } = useI18n();
 
     return (
       <div
         ref={ref}
         role="group"
-        aria-roledescription="slide"
+        aria-roledescription={t("ui.slide")}
         className={cn(
           "min-w-0 shrink-0 grow-0 basis-full",
           orientation === "horizontal" ? "pl-4" : "pt-4",

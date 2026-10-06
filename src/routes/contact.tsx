@@ -53,7 +53,7 @@ function Contact() {
             <Reveal className="mt-6">
               <Photo src={coordinator} alt={t("media.contactCoordinator")} />
             </Reveal>
-            <DemoNote>{t("site.contactDetailsPlaceholder")}</DemoNote>
+            {/* <DemoNote>{t("site.contactDetailsPlaceholder")}</DemoNote> */}
           </Glass>
         </div>
       </Section>

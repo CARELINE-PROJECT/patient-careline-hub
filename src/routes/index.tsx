@@ -21,7 +21,6 @@ import coordinator from "@/assets/team-coordinator.jpg";
 import teamOffice from "@/assets/team-office.jpg";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
-import { siteConfig } from "@/config/site";
 import {
   AuroraBackdrop,
   DemoNote,
@@ -152,10 +151,10 @@ function Home() {
       <Section className="py-16 md:py-20">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { value: siteConfig.stats.professionals, label: t("stats.professionals") },
-            { value: siteConfig.stats.countries, label: t("stats.countries") },
-            { value: siteConfig.stats.specialties, label: t("stats.specialties") },
-            { value: siteConfig.stats.languages, label: t("stats.languages") },
+            { value: t("site.stats.professionals"), label: t("stats.professionals") },
+            { value: t("site.stats.countries"), label: t("stats.countries") },
+            { value: t("site.stats.specialties"), label: t("stats.specialties") },
+            { value: t("site.stats.languages"), label: t("stats.languages") },
           ].map((s) => (
             <Glass key={s.label} className="p-6 text-center">
               <p className="font-display text-4xl tracking-tight text-brand">{s.value}</p>
