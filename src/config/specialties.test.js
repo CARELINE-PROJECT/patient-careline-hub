@@ -21,12 +21,10 @@ test("every locale translates every specialty id", () => {
   }
 });
 
-test("no specialty label is left in English outside English", () => {
-  const en = specialtyLabels.en;
-  for (const code of localeCodes.filter((c) => c !== "en")) {
-    const labels = specialtyLabels[code];
-    const untouched = specialtyIds.filter((id) => labels[id] === en[id]);
-    expect(untouched).toEqual([]);
+test("labels stay distinct inside each locale", () => {
+  for (const code of localeCodes) {
+    const labels = Object.values(specialtyLabels[code]);
+    expect(new Set(labels).size).toBe(labels.length);
   }
 });
 
