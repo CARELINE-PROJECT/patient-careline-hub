@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep official company identity and regional phone numbers in siteConfig, with localized legal identity overrides in i18n/company and shared contact rendering, so public pages cannot drift between languages.

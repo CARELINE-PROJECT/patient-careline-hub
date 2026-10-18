@@ -29,5 +29,7 @@ export function staticRouteMeta(key: HeadKey) {
     { name: "description", content: head.description },
     { property: "og:title", content: head.ogTitle },
     { property: "og:description", content: head.ogDescription },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
   ];
 }
