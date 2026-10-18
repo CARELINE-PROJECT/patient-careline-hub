@@ -68,7 +68,6 @@ export function Footer() {
                 {siteConfig.email}
               </a>
               <PhoneContacts />
-              <p className="pt-2 text-xs leading-relaxed">{t("company.form")}<br />{siteConfig.company.address}</p>
             </div>
           </div>
 

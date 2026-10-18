@@ -144,6 +144,13 @@
   transform: none;
 }
 
+.software-scroll {
+  scrollbar-width: none;
+}
+.software-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .anim-reveal {
     opacity: 1;
