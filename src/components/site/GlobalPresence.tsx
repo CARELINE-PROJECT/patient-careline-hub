@@ -41,12 +41,11 @@ export function GlobalPresence() {
             </svg>
             {globalOffices.map(hub => {
               const point = mapPosition(hub.coordinates);
-              return <Button key={hub.id} variant="ghost" size="icon" aria-label={`${city(hub.id, hub.city)} · ${c.statuses[hub.status]}`} aria-pressed={selected === hub.id} title={city(hub.id, hub.city)} onClick={() => setSelected(hub.id)} className={cn("global-pin absolute z-10 size-11 -translate-x-1/2 -translate-y-1/2 rounded-full p-0", selected === hub.id && "is-selected")} style={{ left: `${point.x}%`, top: `${point.y}%` }}><span className="global-pin-dot" /><span className={cn("global-map-label absolute whitespace-nowrap text-[11px] font-medium", hub.id === "singapore" ? "top-9" : hub.id === "hong-kong" ? "bottom-9" : hub.id === "dubai" ? "top-9" : "bottom-9")}>{city(hub.id, hub.city)}</span></Button>;
+              return <Button key={hub.id} variant="ghost" size="icon" aria-label={city(hub.id, hub.city)} aria-pressed={selected === hub.id} title={city(hub.id, hub.city)} onClick={() => setSelected(hub.id)} className={cn("global-pin absolute z-10 size-11 -translate-x-1/2 -translate-y-1/2 rounded-full p-0", selected === hub.id && "is-selected")} style={{ left: `${point.x}%`, top: `${point.y}%` }}><span className="global-pin-dot" /><span className={cn("global-map-label absolute whitespace-nowrap text-[11px] font-medium", hub.id === "singapore" ? "top-9" : hub.id === "hong-kong" ? "bottom-9" : hub.id === "dubai" ? "top-9" : "bottom-9")}>{city(hub.id, hub.city)}</span></Button>;
             })}
           </div>
           <div className="border-s-2 border-global-accent ps-5" aria-live="polite" aria-atomic="true">
-            <span className="text-xs text-global-accent">{c.statuses[office.status]}</span>
-            <h3 className="mt-2 text-2xl font-semibold">{city(office.id, office.city)}</h3>
+            <h3 className="text-2xl font-semibold">{city(office.id, office.city)}</h3>
             <p className="mt-1 text-sm text-global-muted">{officeLabel(c.countries, office.id, office.country)}</p>
             <p className="mt-3 text-sm">{office.district}</p>
             <p className="mt-1 text-xs text-global-muted">{c.types[office.type]}</p>
@@ -59,7 +58,7 @@ export function GlobalPresence() {
 
         <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {globalOffices.map(hub => <article key={hub.id} ref={el => { cards.current[hub.id] = el; }} tabIndex={-1} aria-labelledby={`office-${hub.id}`} className={cn("global-office flex min-w-0 flex-col rounded-lg border border-global-border bg-global-surface p-6", selected === hub.id && "is-selected")}>
-            <div className="flex items-start justify-between gap-3"><span aria-hidden="true" className="text-2xl">{hub.flag}</span><span className="text-xs text-global-accent">{c.statuses[hub.status]}</span></div>
+            <span aria-hidden="true" className="text-2xl">{hub.flag}</span>
             <h3 id={`office-${hub.id}`} className="mt-4 text-xl font-semibold">{city(hub.id, hub.city)}</h3>
             <p className="mt-1 text-xs text-global-muted">{officeLabel(c.countries, hub.id, hub.country)} · {c.types[hub.type]}</p>
             <p className="mt-4 text-sm font-medium">{hub.district}</p>
