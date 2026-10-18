@@ -26,5 +26,6 @@
 - [x] Menu langues : drapeaux + 8 nouvelles langues (ja, ko, hi, tr, pl, sv, uk, id) — 18 au total, repli anglais pour les pages non traduites
 - [x] Remove domiciliation provider names and website links from the Contact global-presence section.
 - [x] Add the Antsirabe (Madagascar) registered office to the Contact global-presence section.
+- [x] Remove status, type, disclaimer, per-address note and address-label wording from the Contact global-presence cards.
 - [x] Fix Antsirabe and Dubai pins/labels overlapping on the Contact world map, especially on mobile.
 - [x] Remove the "Services in use" / "Services considered" headings and their lists from the Contact location cards.
