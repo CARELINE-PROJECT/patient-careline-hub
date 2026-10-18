@@ -77,10 +77,10 @@ export function Footer() {
             alt=""
             aria-hidden="true"
             className="h-40 w-full rounded-2xl object-cover sm:h-48"
-            height={640}
+            height={672}
             loading="lazy"
             src={worldNetwork}
-            width={1920}
+            width={1584}
           />
         </div>
         <div className="grid gap-12 md:grid-cols-[1.4fr_repeat(4,1fr)]">
