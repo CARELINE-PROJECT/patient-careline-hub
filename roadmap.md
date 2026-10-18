@@ -31,3 +31,5 @@
 - [x] Remove the "Services in use" / "Services considered" headings and their lists from the Contact location cards.
 - [x] Remove all displayed telephone numbers (footer, contact page, legal notice) so public contact is email only.
 - [x] Replace the New York location with Silicon Valley (Palo Alto) and Miami on the Contact global-presence section, and verify the seven cards, map points and labels.
+- [ ] Reduce the empty vertical space above the "Prénom" field on the form pages.
+- [ ] Show the "Facultatif" (optional) mention on the telephone field and on the company/society field in the forms.
