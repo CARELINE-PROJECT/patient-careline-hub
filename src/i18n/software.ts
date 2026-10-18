@@ -1,0 +1,14 @@
+import type { LocaleCode } from "./types";
+
+export const softwareCopy: Record<LocaleCode, { title: string; note: string; pause: string; play: string; previous: string; next: string }> = {
+  fr: { title: "Partenaires et API logiciels", note: "Sélection de 50 logiciels internationaux. Partenariats et connexions API à confirmer auprès de chaque éditeur.", pause: "Suspendre le défilement", play: "Reprendre le défilement", previous: "Logiciels précédents", next: "Logiciels suivants" },
+  en: { title: "Partners and software APIs", note: "A selection of 50 international software platforms. Partnerships and API connections subject to confirmation with each vendor.", pause: "Pause scrolling", play: "Resume scrolling", previous: "Previous software", next: "Next software" },
+  nl: { title: "Partners en software-API’s", note: "Een selectie van 50 internationale softwareplatforms. Partnerschappen en API-koppelingen moeten bij elke aanbieder worden bevestigd.", pause: "Scrollen pauzeren", play: "Scrollen hervatten", previous: "Vorige software", next: "Volgende software" },
+  de: { title: "Partner und Software-APIs", note: "Eine Auswahl von 50 internationalen Softwareplattformen. Partnerschaften und API-Verbindungen sind mit den jeweiligen Anbietern zu bestätigen.", pause: "Scrollen pausieren", play: "Scrollen fortsetzen", previous: "Vorherige Software", next: "Nächste Software" },
+  es: { title: "Socios y API de software", note: "Selección de 50 plataformas internacionales. Las asociaciones y conexiones API deben confirmarse con cada proveedor.", pause: "Pausar desplazamiento", play: "Reanudar desplazamiento", previous: "Software anterior", next: "Software siguiente" },
+  it: { title: "Partner e API software", note: "Una selezione di 50 piattaforme internazionali. Partnership e connessioni API da confermare con ciascun fornitore.", pause: "Pausa scorrimento", play: "Riprendi scorrimento", previous: "Software precedenti", next: "Software successivi" },
+  pt: { title: "Parceiros e APIs de software", note: "Seleção de 50 plataformas internacionais. Parcerias e ligações API a confirmar junto de cada fornecedor.", pause: "Pausar deslocamento", play: "Retomar deslocamento", previous: "Software anterior", next: "Software seguinte" },
+  ar: { title: "الشركاء وواجهات برمجة البرامج", note: "مجموعة مختارة من 50 منصة دولية. يجب تأكيد الشراكات واتصالات واجهات البرمجة مع كل مزود.", pause: "إيقاف التمرير", play: "استئناف التمرير", previous: "البرامج السابقة", next: "البرامج التالية" },
+  zh: { title: "合作伙伴与软件 API", note: "精选50个国际软件平台。合作关系及API连接须向各供应商确认。", pause: "暂停滚动", play: "继续滚动", previous: "上一个软件", next: "下一个软件" },
+  ru: { title: "Партнёры и API программ", note: "Подборка из 50 международных платформ. Партнёрства и API-подключения требуют подтверждения у каждого поставщика.", pause: "Приостановить прокрутку", play: "Продолжить прокрутку", previous: "Предыдущие программы", next: "Следующие программы" },
+};

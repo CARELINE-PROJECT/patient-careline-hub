@@ -33,6 +33,7 @@ import {
   Reveal,
 } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
+import { SoftwarePartners } from "@/components/site/SoftwarePartners";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -115,17 +116,17 @@ function Home() {
             </ul>
           </div>
 
-          <div className="relative">
+          <div className="relative mx-auto w-full max-w-md pb-8 lg:max-w-sm">
             <div className="overflow-hidden rounded-[2rem] border border-border/70 shadow-[0_40px_80px_-40px_rgba(16,49,56,0.55)]">
               <img
                 src={heroImage}
                 width={1600}
                 height={1200}
                 alt={t("media.heroCoordinator")}
-                className="h-full w-full object-cover"
+                className="h-60 w-full object-cover sm:h-72 lg:h-80"
               />
             </div>
-            <Glass className="anim-float absolute -bottom-8 left-4 w-[17rem] p-5 sm:left-auto sm:right-[-1.5rem]">
+            <Glass className="anim-float absolute bottom-0 left-4 w-[17rem] max-w-[calc(100%-2rem)] p-4 sm:left-auto sm:right-0">
               <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
                 {t("hero.cardTitle")}
               </p>
@@ -165,15 +166,17 @@ function Home() {
         
       </Section>
 
+      <SoftwarePartners />
+
       {/* How it works */}
       <Section tone="muted">
         <SectionHeading eyebrow={t("how.eyebrow")} title={t("how.title")} lead={t("how.lead")} />
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           <Reveal>
-            <Photo src={patientHands} alt={t("media.patientHands")} />
+            <Photo src={patientHands} alt={t("media.patientHands")} imgClassName="h-44 sm:h-52 lg:h-60" />
           </Reveal>
           <Reveal delay={140}>
-            <Photo src={doctorGreeting} alt={t("media.doctorGreeting")} />
+            <Photo src={doctorGreeting} alt={t("media.doctorGreeting")} imgClassName="h-44 sm:h-52 lg:h-60" />
           </Reveal>
         </div>
         <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -202,8 +205,8 @@ function Home() {
           title={t("services.title")}
           lead={t("services.lead")}
         />
-        <Reveal className="mt-12">
-          <Photo src={coordinator} alt={t("media.coordinatorNotebook")} />
+        <Reveal className="mx-auto mt-8 max-w-2xl">
+          <Photo src={coordinator} alt={t("media.coordinatorNotebook")} imgClassName="h-44 sm:h-56 lg:h-64" />
         </Reveal>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {serviceIcons.map((Icon, i) => (
@@ -260,8 +263,8 @@ function Home() {
 
       {/* Audiences */}
       <Section>
-        <Reveal className="mb-12">
-          <Photo src={teamOffice} alt={t("media.teamOffice")} />
+        <Reveal className="mx-auto mb-8 max-w-2xl">
+          <Photo src={teamOffice} alt={t("media.teamOffice")} imgClassName="h-44 sm:h-56 lg:h-64" />
         </Reveal>
         <div className="grid gap-6 lg:grid-cols-2">
           {[
