@@ -4,6 +4,7 @@ import { staticRouteMeta } from "@/i18n/head";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import teamOffice from "@/assets/team-office.jpg";
 import { CTASection } from "@/components/site/CTASection";
+import { operationsCopy } from "@/i18n/operations";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -13,7 +14,8 @@ export const Route = createFileRoute("/about")({
 });
 
 function About() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const ops = operationsCopy[locale] ?? operationsCopy.en;
 
   const blocks = [
     ["missionT", "missionD"],
@@ -33,7 +35,12 @@ function About() {
       <PageHero eyebrow={t("about.eyebrow")} title={t("about.title")} lead={t("about.lead")} />
       <Section>
         <Reveal className="mb-12">
-          <Photo src={teamOffice} alt={t("media.aboutTeam")} />
+          <Photo
+            src={teamOffice}
+            alt={t("media.aboutTeam")}
+            className="mx-auto max-w-3xl"
+            imgClassName="h-52 object-[50%_30%] lg:h-60"
+          />
         </Reveal>
         <ul className="flex flex-wrap gap-2">
           {values.map((v) => (
@@ -58,6 +65,33 @@ function About() {
           ))}
         </div>
         <DemoNote>{t("about.disclaimer")}</DemoNote>
+      </Section>
+      <Section className="pt-0">
+        <Reveal>
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
+            {ops.eyebrow}
+          </p>
+          <h2 className="mt-3 max-w-2xl font-display text-2xl tracking-tight text-branddeep sm:text-3xl">
+            {ops.title}
+          </h2>
+          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+            {ops.lead}
+          </p>
+        </Reveal>
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          {(
+            [
+              [ops.callCenterTitle, ops.callCenterBody],
+              [ops.itTitle, ops.itBody],
+              [ops.securityTitle, ops.securityBody],
+            ] as const
+          ).map(([title, body]) => (
+            <Glass key={title} className="p-7">
+              <h3 className="font-display text-lg tracking-tight text-branddeep">{title}</h3>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{body}</p>
+            </Glass>
+          ))}
+        </div>
       </Section>
       <CTASection />
     </>
