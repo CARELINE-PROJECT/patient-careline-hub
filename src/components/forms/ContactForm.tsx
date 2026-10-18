@@ -89,9 +89,11 @@ export function ContactForm() {
         <p className="text-xs leading-relaxed text-muted-foreground">{t("form.warning")}</p>
         <ConsentField id="consent" checked={values.consent} onChange={setBool("consent")} label={t("form.consent")} error={errors.consent} />
 
-        <SubmitButton className="sm:w-auto" loading={loading} loadingLabel={t("form.sending")}>
-          {t("form.submitContact")}
-        </SubmitButton>
+        <SubmitBar>
+          <SubmitButton loading={loading} loadingLabel={t("form.sending")}>
+            {t("form.submitContact")}
+          </SubmitButton>
+        </SubmitBar>
 
         {/* <DemoNote>{t("form.demoNotice")}</DemoNote> */}
       </form>

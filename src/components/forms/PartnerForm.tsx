@@ -95,9 +95,11 @@ export function PartnerForm() {
         <TextAreaField id="message" label={t("form.message")} rows={4} value={values.message} onChange={set("message")} error={errors.message} />
         <ConsentField id="consent" checked={values.consent} onChange={setBool("consent")} label={t("form.consent")} error={errors.consent} />
 
-        <SubmitButton className="sm:w-auto" loading={loading} loadingLabel={t("form.sending")}>
-          {t("form.submit")}
-        </SubmitButton>
+        <SubmitBar>
+          <SubmitButton loading={loading} loadingLabel={t("form.sending")}>
+            {t("form.submit")}
+          </SubmitButton>
+        </SubmitBar>
 
         {/* <DemoNote>{t("form.demoNotice")}</DemoNote> */}
       </form>
