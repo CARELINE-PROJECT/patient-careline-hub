@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
-import { Glass, PageHero, Section } from "@/components/site/primitives";
+import { Glass, Section } from "@/components/site/primitives";
 import { AppointmentForm } from "@/components/forms/AppointmentForm";
 
 export const Route = createFileRoute("/request")({
