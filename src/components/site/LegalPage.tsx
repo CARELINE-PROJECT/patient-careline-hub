@@ -1,5 +1,5 @@
 import { useI18n } from "@/i18n";
-import { PageHero, Section, Glass } from "./primitives";
+import { PageHero, Section } from "./primitives";
 import type { LegalSection } from "@/content/legal";
 import { lastUpdated } from "@/content/legal";
 import { PublicationContact } from "./CompanyDetails";

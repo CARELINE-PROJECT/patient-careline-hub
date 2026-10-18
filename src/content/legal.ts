@@ -1,7 +1,5 @@
 /**
- * LEGAL BASELINE CONTENT — DEMONSTRATION / DRAFT.
- * These texts are a professional starting point only. They must be reviewed and
- * validated by qualified legal counsel for every country in which Careline operates.
+ * Legal content shown on Careline's public legal pages.
  * Placeholders in [brackets] must be replaced with verified company information.
  */
 
