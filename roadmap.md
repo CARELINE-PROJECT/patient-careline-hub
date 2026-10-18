@@ -29,3 +29,4 @@
 - [x] Remove status, type, disclaimer, per-address note and address-label wording from the Contact global-presence cards.
 - [x] Fix Antsirabe and Dubai pins/labels overlapping on the Contact world map, especially on mobile.
 - [x] Remove the "Services in use" / "Services considered" headings and their lists from the Contact location cards.
+- [x] Remove all displayed telephone numbers (footer, contact page, legal notice) so public contact is email only.
