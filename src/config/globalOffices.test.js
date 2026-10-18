@@ -6,8 +6,8 @@ import { globalOfficeCopy } from "@/i18n/globalOffices";
 const proposed = globalOffices.filter(o => o.status !== "validated");
 
 describe("International locations", () => {
-  test("lists the registered office first, then the five proposed cities", () => {
-    expect(globalOffices.map(o => o.city)).toEqual(["Antsirabe", "New York", "Dubai", "Singapore", "London", "Hong Kong"]);
+  test("lists the registered office first, then the six proposed cities", () => {
+    expect(globalOffices.map(o => o.city)).toEqual(["Antsirabe", "Silicon Valley", "Miami", "Dubai", "Singapore", "London", "Hong Kong"]);
   });
   test("marks only Antsirabe as the confirmed registered office", () => {
     expect(globalOffices.filter(o => o.status === "validated").map(o => o.id)).toEqual(["antsirabe"]);
@@ -27,8 +27,10 @@ describe("International locations", () => {
     expect(globalOffices.every(o => !("provider" in o) && !("url" in o))).toBe(true);
     expect(JSON.stringify(globalOffices)).not.toMatch(/https?:\/\//i);
   });
-  test("keeps New York as an indicative area without inventing a street number", () => {
-    expect(globalOffices.find(o => o.id === "new-york")?.address).toBe("New York, NY 10019");
+  test("keeps New York out and shows the two United States addresses given", () => {
+    expect(globalOffices.some(o => o.id === "new-york")).toBe(false);
+    expect(globalOffices.find(o => o.id === "silicon-valley")?.address).toBe("3790 El Camino Real, Palo Alto, CA 94306, USA");
+    expect(globalOffices.find(o => o.id === "miami")?.address).toBe("4300 Biscayne Blvd, Suite 203, Miami, FL 33137, USA");
   });
   test("shows no status, type, terms or address-label wording on the public section", () => {
     const copy = globalOfficeCopy("fr");
