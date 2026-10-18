@@ -26,6 +26,7 @@ import { Route as LegalCookiesRouteImport } from './routes/legal.cookies'
 import { Route as LegalNoticeRouteImport } from './routes/legal.notice'
 import { Route as LegalPrivacyRouteImport } from './routes/legal.privacy'
 import { Route as LegalTermsRouteImport } from './routes/legal.terms'
+import { Route as SpecialtiesLaserDesYeuxRouteImport } from './routes/specialties_.laser-des-yeux'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -112,6 +113,11 @@ const LegalTermsRoute = LegalTermsRouteImport.update({
   path: '/legal/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SpecialtiesLaserDesYeuxRoute = SpecialtiesLaserDesYeuxRouteImport.update({
+  id: '/specialties_/laser-des-yeux',
+  path: '/specialties/laser-des-yeux',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -131,6 +137,7 @@ export interface FileRoutesByFullPath {
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
   '/legal/terms': typeof LegalTermsRoute
+  '/specialties/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -150,6 +157,7 @@ export interface FileRoutesByTo {
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
   '/legal/terms': typeof LegalTermsRoute
+  '/specialties/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -170,6 +178,7 @@ export interface FileRoutesById {
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
   '/legal/terms': typeof LegalTermsRoute
+  '/specialties_/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -191,6 +200,7 @@ export interface FileRouteTypes {
     | '/legal/notice'
     | '/legal/privacy'
     | '/legal/terms'
+    | '/specialties/laser-des-yeux'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -210,6 +220,7 @@ export interface FileRouteTypes {
     | '/legal/notice'
     | '/legal/privacy'
     | '/legal/terms'
+    | '/specialties/laser-des-yeux'
   id:
     | '__root__'
     | '/'
@@ -229,6 +240,7 @@ export interface FileRouteTypes {
     | '/legal/notice'
     | '/legal/privacy'
     | '/legal/terms'
+    | '/specialties_/laser-des-yeux'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -249,6 +261,7 @@ export interface RootRouteChildren {
   LegalNoticeRoute: typeof LegalNoticeRoute
   LegalPrivacyRoute: typeof LegalPrivacyRoute
   LegalTermsRoute: typeof LegalTermsRoute
+  SpecialtiesLaserDesYeuxRoute: typeof SpecialtiesLaserDesYeuxRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -372,6 +385,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LegalTermsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/specialties_/laser-des-yeux': {
+      id: '/specialties_/laser-des-yeux'
+      path: '/specialties/laser-des-yeux'
+      fullPath: '/specialties/laser-des-yeux'
+      preLoaderRoute: typeof SpecialtiesLaserDesYeuxRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -393,6 +413,7 @@ const rootRouteChildren: RootRouteChildren = {
   LegalNoticeRoute: LegalNoticeRoute,
   LegalPrivacyRoute: LegalPrivacyRoute,
   LegalTermsRoute: LegalTermsRoute,
+  SpecialtiesLaserDesYeuxRoute: SpecialtiesLaserDesYeuxRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
