@@ -1,9 +1,8 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
-import { Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
-import patientHands from "@/assets/patient-hands.jpg";
-import coordinator from "@/assets/team-coordinator.jpg";
+import { Glass, Reveal, Section } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/how-it-works")({
@@ -19,35 +18,56 @@ function HowItWorks() {
 
   return (
     <>
-      <PageHero eyebrow={t("how.eyebrow")} title={t("how.title")} lead={t("how.lead")} />
-      <Section>
-        <div className="mb-12 grid gap-6 sm:grid-cols-2">
+      <Section className="pt-10 md:pt-12">
+        <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:gap-14">
           <Reveal>
-            <Photo src={patientHands} alt={t("media.patientHands")} />
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
+              {t("how.eyebrow")}
+            </p>
+            <h1 className="mt-3 font-display text-3xl leading-tight tracking-tight text-branddeep sm:text-4xl lg:text-[2.75rem]">
+              {t("how.title")}
+            </h1>
+            <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
+              {t("how.lead")}
+            </p>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <Link
+                to="/request"
+                className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
+              >
+                {t("cta.button")}
+                <ArrowRight className="size-4" aria-hidden="true" />
+              </Link>
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3.5 text-sm font-medium text-branddeep transition-colors hover:bg-secondary"
+              >
+                {t("nav.contact")}
+              </Link>
+            </div>
           </Reveal>
-          <Reveal delay={140}>
-            <Photo src={coordinator} alt={t("media.coordinatorNotebook")} />
-          </Reveal>
+          <ol className="space-y-3">
+            {steps.map((n, i) => (
+              <li key={n}>
+                <Reveal delay={i * 90}>
+                  <Glass className="flex items-start gap-4 p-5 sm:gap-5 sm:p-6">
+                    <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-brand font-display text-lg text-primary-foreground">
+                      {n}
+                    </span>
+                    <div className="min-w-0">
+                      <h2 className="font-display text-lg tracking-tight text-branddeep">
+                        {t(`how.s${n}t`)}
+                      </h2>
+                      <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                        {t(`how.s${n}d`)}
+                      </p>
+                    </div>
+                  </Glass>
+                </Reveal>
+              </li>
+            ))}
+          </ol>
         </div>
-        <ol className="space-y-4">
-          {steps.map((n) => (
-            <li key={n}>
-              <Glass className="flex flex-col gap-4 p-7 sm:flex-row sm:items-start sm:gap-7">
-                <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-brand font-display text-xl text-primary-foreground">
-                  {n}
-                </span>
-                <div>
-                  <h2 className="font-display text-xl tracking-tight text-branddeep">
-                    {t(`how.s${n}t`)}
-                  </h2>
-                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                    {t(`how.s${n}d`)}
-                  </p>
-                </div>
-              </Glass>
-            </li>
-          ))}
-        </ol>
       </Section>
       <CTASection />
     </>
