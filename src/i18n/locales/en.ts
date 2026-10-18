@@ -529,7 +529,7 @@ export const en = {
   },
   footer: {
     about:
-      "Connecting patients and organizations with trusted healthcare professionals, worldwide.",
+      "Connecting patients with trusted healthcare professionals, worldwide.",
     company: "Careline",
     patients: "Patients",
     professionals: "Professionals",

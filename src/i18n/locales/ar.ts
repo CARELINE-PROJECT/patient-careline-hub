@@ -518,7 +518,7 @@ export const ar: PartialDictionary = {
     alwaysOn: "مفعّلة دائماً",
   },
   footer: {
-    about: "نربط المرضى والمؤسسات بمهنيين صحيين موثوقين، في كل أنحاء العالم.",
+    about: "نربط المرضى بمهنيين صحيين موثوقين، في كل أنحاء العالم.",
     patients: "المرضى",
     professionals: "المهنيون",
     companies: "الشركات",

@@ -537,7 +537,7 @@ export const it: PartialDictionary = {
   },
   footer: {
     about:
-      "Colleghiamo pazienti e organizzazioni a professionisti sanitari affidabili, in tutto il mondo.",
+      "Colleghiamo pazienti a professionisti sanitari affidabili, in tutto il mondo.",
     patients: "Pazienti",
     professionals: "Professionisti",
     companies: "Aziende",

@@ -538,7 +538,7 @@ export const de: PartialDictionary = {
   },
   footer: {
     about:
-      "Wir verbinden Patienten und Organisationen mit vertrauenswürdigen Gesundheitsfachkräften, überall auf der Welt.",
+      "Wir verbinden Patienten mit vertrauenswürdigen Gesundheitsfachkräften, überall auf der Welt.",
     patients: "Patienten",
     professionals: "Fachkräfte",
     companies: "Unternehmen",
