@@ -1,6 +1,5 @@
-import { Info } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { PageHero, Section, Glass } from "./primitives";
+import { PageHero, Section } from "./primitives";
 import type { LegalSection } from "@/content/legal";
 import { lastUpdated } from "@/content/legal";
 import { PublicationContact } from "./CompanyDetails";
@@ -22,12 +21,7 @@ export function LegalPage({
         </p>
       </PageHero>
       <Section>
-        <Glass className="flex items-start gap-3 p-5">
-          <Info className="mt-0.5 size-5 shrink-0 text-brand" aria-hidden="true" />
-          <p className="text-sm leading-relaxed text-muted-foreground">{t("legal.reviewNotice")}</p>
-        </Glass>
-
-        <div className="mt-10 max-w-3xl space-y-9">
+        <div className="mt-2 max-w-3xl space-y-9">
           {sections.map((section) => (
             <article key={`${section.id}.${section.section}`}>
               <h2 className="font-display text-xl tracking-tight text-branddeep">

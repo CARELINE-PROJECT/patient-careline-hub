@@ -23,7 +23,7 @@ export const pt: PartialDictionary = {
     contactDetailsPlaceholder:
       "Dados de contacto provisórios - substitua o email, o endereço e o horário pelas suas informações verificadas.",
     stats: {
-      professionals: "3 000+",
+      professionals: "10 M+",
       countries: "40+",
       specialties: "25+",
       languages: "11",
@@ -218,7 +218,7 @@ export const pt: PartialDictionary = {
     badge: "Consultas médicas internacionais",
     title: "Marcação de consultas médicas, simplificada.",
     subtitle:
-      "A Careline liga os pacientes a profissionais de saúde de confiança e ajuda as organizações a oferecer um acesso fluido às consultas médicas em todo o mundo.",
+      "A Careline liga os pacientes a profissionais de saúde de confiança e ajuda os pacientes a obter um acesso fluido às consultas médicas em todo o mundo.",
     trust1: "Privacidade desde a conceção",
     trust2: "Acompanhamento multilingue",
     trust3: "Rede internacional de profissionais",
@@ -294,8 +294,6 @@ export const pt: PartialDictionary = {
     eyebrow: "Segurança & confidencialidade",
     title: "A privacidade pensada desde a conceção.",
     lead: "A Careline aplica medidas de segurança adequadas às exigências regulamentares aplicáveis e às melhores práticas do setor.",
-    disclaimer:
-      "Esta página descreve a nossa abordagem. É uma base profissional destinada a ser revista por assessoria jurídica em cada país onde a Careline opera. A Careline não reivindica qualquer certificação que não possua.",
     s1t: "Proteção de dados pessoais",
     s1d: "Recolhemos apenas os dados necessários para tratar o seu pedido e contactá-lo.",
     s2t: "Confidencialidade",
@@ -565,8 +563,6 @@ export const pt: PartialDictionary = {
     company: "Careline",
   },
   legal: {
-    reviewNotice:
-      "Este texto constitui uma base profissional. Deve ser revisto e validado juridicamente para cada país em que a Careline opera.",
     updated: "Última atualização",
     privacyTitle: "Política de privacidade",
     cookiesTitle: "Política de cookies",

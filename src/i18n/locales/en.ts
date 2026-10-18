@@ -21,7 +21,7 @@ export const en = {
     contactDetailsPlaceholder:
       "Placeholder contact details - replace the email, address and hours with your verified information.",
     stats: {
-      professionals: "3,000+",
+      professionals: "10M+",
       countries: "40+",
       specialties: "25+",
       languages: "11",
@@ -212,7 +212,7 @@ export const en = {
     badge: "International medical appointments",
     title: "Healthcare appointments, made simple.",
     subtitle:
-      "Careline connects patients with trusted healthcare professionals and helps organizations provide seamless access to medical appointments worldwide.",
+      "Careline connects patients with trusted healthcare professionals and helps patients get seamless access to medical appointments worldwide.",
     trust1: "Confidential by design",
     trust2: "Multilingual support",
     trust3: "Global practitioner network",
@@ -288,8 +288,6 @@ export const en = {
     eyebrow: "Security & confidentiality",
     title: "Privacy considered from the first line of code.",
     lead: "Careline applies security measures adapted to the applicable regulatory requirements and to industry best practices.",
-    disclaimer:
-      "This page describes our approach. It is a professional baseline intended to be reviewed by legal counsel for each country in which Careline operates. Careline does not claim any certification it does not hold.",
     s1t: "Protection of personal data",
     s1d: "We collect only the data needed to process your request and to contact you.",
     s2t: "Confidentiality",
@@ -558,8 +556,6 @@ export const en = {
       "Careline does not provide medical care and is not an emergency service. In an emergency, contact your local emergency number.",
   },
   legal: {
-    reviewNotice:
-      "This text is a professional baseline. It must be reviewed and validated by legal counsel for each country in which Careline operates.",
     updated: "Last updated",
     privacyTitle: "Privacy Policy",
     cookiesTitle: "Cookie Policy",

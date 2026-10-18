@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ShieldCheck } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
-import { DemoNote, FeatureCard, PageHero, Section } from "@/components/site/primitives";
+import { FeatureCard, PageHero, Section } from "@/components/site/primitives";
 
 export const Route = createFileRoute("/security")({
   head: () => ({
@@ -33,7 +33,6 @@ function Security() {
             />
           ))}
         </div>
-        <DemoNote>{t("security.disclaimer")}</DemoNote>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link
             to="/legal/privacy"
