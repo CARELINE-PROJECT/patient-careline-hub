@@ -83,7 +83,7 @@ export function Footer() {
             width={1920}
           />
         </div>
-        <div className="grid gap-12 md:grid-cols-[1.4fr_repeat(4,1fr)]">
+        <div className="mt-12 grid gap-12 md:grid-cols-[1.4fr_repeat(4,1fr)]">
           <div>
             <div className="flex items-center gap-2.5">
               <span className="flex size-9 items-center justify-center rounded-2xl bg-primary-foreground/10">
