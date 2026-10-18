@@ -4,6 +4,7 @@ import { staticRouteMeta } from "@/i18n/head";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import teamOffice from "@/assets/team-office.jpg";
 import { CTASection } from "@/components/site/CTASection";
+import { operationsCopy } from "@/i18n/operations";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -13,7 +14,8 @@ export const Route = createFileRoute("/about")({
 });
 
 function About() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const ops = operationsCopy[locale] ?? operationsCopy.en;
 
   const blocks = [
     ["missionT", "missionD"],
