@@ -8,6 +8,7 @@ export type SecurityFocusCopy = {
   gdprBody: string;
   standardTitle: string;
   standardBody: string;
+  imageAlt: string;
 };
 
 export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
@@ -22,6 +23,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "Un niveau de sécurité aligné sur les standards internationaux les plus exigeants",
     standardBody:
       "Les informations sont traitées selon les exigences de sécurité les plus strictes applicables aux données de santé : accès limité par rôle, chiffrement en transit, obligations de confidentialité et prestataires sélectionnés avec soin.",
+    imageAlt:
+      "Un professionnel de santé travaille sur un ordinateur portable, avec un cadenas et un filtre de confidentialité posés sur le bureau.",
   },
   en: {
     badge: "The short version",
@@ -34,6 +37,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "Security aligned with the strictest international standards",
     standardBody:
       "Information is handled under the strictest security requirements applied to health data: role-based access, encryption in transit, confidentiality obligations and carefully selected service providers.",
+    imageAlt:
+      "A healthcare professional types on a laptop, with a padlock and a privacy screen on the desk beside it.",
   },
   nl: {
     badge: "Het korte verhaal",
@@ -46,6 +51,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "Beveiliging afgestemd op de strengste internationale standaarden",
     standardBody:
       "Informatie wordt behandeld volgens de strengste beveiligingseisen die voor gezondheidsgegevens gelden: toegang per rol, versleuteling tijdens transport, geheimhoudingsplicht en zorgvuldig geselecteerde dienstverleners.",
+    imageAlt:
+      "Een zorgverlener typt op een laptop, met een hangslot en een privacyfilter naast de computer op het bureau.",
   },
   de: {
     badge: "Das Wichtigste in Kürze",
@@ -58,6 +65,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "Sicherheit nach den strengsten internationalen Standards",
     standardBody:
       "Informationen werden nach den strengsten Sicherheitsanforderungen für Gesundheitsdaten verarbeitet: rollenbasierter Zugriff, Verschlüsselung bei der Übertragung, Geheimhaltungspflichten und sorgfältig ausgewählte Dienstleister.",
+    imageAlt:
+      "Eine Fachkraft tippt auf einem Laptop, neben dem Gerät liegen ein Schloss und eine Sichtschutzfolie auf dem Schreibtisch.",
   },
   es: {
     badge: "Lo esencial",
@@ -70,6 +79,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "Seguridad alineada con los estándares internacionales más estrictos",
     standardBody:
       "La información se trata conforme a los requisitos de seguridad más exigentes aplicables a los datos de salud: acceso por roles, cifrado en tránsito, obligaciones de confidencialidad y proveedores seleccionados con criterio.",
+    imageAlt:
+      "Un profesional sanitario escribe en un portátil, con un candado y un filtro de privacidad junto al equipo sobre el escritorio.",
   },
   it: {
     badge: "L'essenziale",
@@ -82,6 +93,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "Sicurezza allineata agli standard internazionali più rigorosi",
     standardBody:
       "Le informazioni sono trattate secondo i requisiti di sicurezza più severi applicabili ai dati sanitari: accesso per ruoli, cifratura in transito, obblighi di riservatezza e fornitori selezionati con attenzione.",
+    imageAlt:
+      "Un professionista sanitario digita su un laptop, con un lucchetto e un filtro privacy accanto al computer sulla scrivania.",
   },
   pt: {
     badge: "O essencial",
@@ -94,6 +107,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "Segurança alinhada com os padrões internacionais mais rigorosos",
     standardBody:
       "As informações são tratadas segundo os requisitos de segurança mais exigentes aplicáveis aos dados de saúde: acesso por funções, cifra em trânsito, obrigações de confidencialidade e fornecedores selecionados com cuidado.",
+    imageAlt:
+      "Um profissional de saúde digita num portátil, com um cadeado e um filtro de privacidade ao lado do computador, sobre a secretária.",
   },
   ar: {
     badge: "الخلاصة",
@@ -106,6 +121,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "أمن متوافق مع أشد المعايير الدولية صرامة",
     standardBody:
       "تُعالَج المعلومات وفق أشد متطلبات الأمن المطبَّقة على البيانات الصحية: وصول بحسب الدور، وتشفير أثناء النقل، والتزامات بالسرية، ومزوّدو خدمة مختارون بعناية.",
+    imageAlt:
+      "أخصائي صحة يكتب على حاسوب محمول، وبجانبه على المكتب قفل وحاجب خصوصية للشاشة.",
   },
   zh: {
     badge: "核心承诺",
@@ -118,6 +135,8 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "按最严格的国际标准实施信息安全",
     standardBody:
       "信息的处理遵循适用于健康数据的最高安全要求：按角色授权访问、传输加密、保密义务以及经过筛选的服务提供商。",
+    imageAlt:
+      "一名医护人员正在笔记本电脑上输入，桌上的电脑旁放着一枚挂锁和一块防窥屏。",
   },
   ru: {
     badge: "Суть",
@@ -130,5 +149,7 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     standardTitle: "Безопасность по самым строгим международным стандартам",
     standardBody:
       "Информация обрабатывается в соответствии с самыми строгими требованиями к безопасности, применимыми к данным о здоровье: доступ по ролям, шифрование при передаче, обязательства о конфиденциальности и отобранные подрядчики.",
+    imageAlt:
+      "Медработник печатает на ноутбуке, рядом на столе лежат замок и экран конфиденциальности.",
   },
 };

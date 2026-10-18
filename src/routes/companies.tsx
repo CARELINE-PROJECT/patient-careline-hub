@@ -25,20 +25,21 @@ function Companies() {
         lead={t("corporations.lead")}
       />
       <Section className="pt-4 md:pt-5">
-        <h2 className="sr-only">{t("contact.title")}</h2>
-        <div className="mt-4 max-w-3xl">
-          <ContactForm />
+        <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)]">
+          <div>
+            <h2 className="sr-only">{t("contact.title")}</h2>
+            <ContactForm />
+          </div>
+          <Reveal className="lg:pt-6">
+            <Photo
+              src={teamOffice}
+              alt={t("media.teamOffice")}
+              imgClassName="h-52 object-[50%_30%] lg:h-64"
+            />
+          </Reveal>
         </div>
       </Section>
       <Section tone="muted">
-        <Reveal className="mb-8">
-          <Photo
-            src={teamOffice}
-            alt={t("media.teamOffice")}
-            className="mx-auto max-w-3xl"
-            imgClassName="h-52 object-[50%_30%] lg:h-60"
-          />
-        </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (
             <FeatureCard
