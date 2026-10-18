@@ -30,12 +30,12 @@ describe("International locations", () => {
   test("keeps New York as an indicative area without inventing a street number", () => {
     expect(globalOffices.find(o => o.id === "new-york")?.address).toBe("New York, NY 10019");
   });
-  test("shows no status, type, terms or per-address disclaimer wording on the public section", () => {
+  test("shows no status, type, terms or address-label wording on the public section", () => {
     const copy = globalOfficeCopy("fr");
-    expect(["notice", "types", "terms", "indicative", "verification"].some(k => k in copy)).toBe(false);
+    expect(["notice", "types", "terms", "indicative", "verification", "address", "validatedAddress"].some(k => k in copy)).toBe(false);
     expect(globalOfficeCopy("en")).not.toHaveProperty("types");
-    expect(JSON.stringify(copy)).not.toMatch(/virtual address|adresse virtuelle/i);
+    expect(JSON.stringify(copy)).not.toMatch(/virtual address|adresse virtuelle|to confirm|à confirmer/i);
     const component = readFileSync(new URL("../components/site/GlobalPresence.tsx", import.meta.url), "utf8");
-    expect(component).not.toMatch(/c\.(notice|types|terms|indicative|verification)/);
+    expect(component).not.toMatch(/c\.(notice|types|terms|indicative|verification|address|validatedAddress)/);
   });
 });

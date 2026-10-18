@@ -58,7 +58,7 @@ export function GlobalPresence() {
             <h3 id={`office-${hub.id}`} className="mt-4 text-xl font-semibold">{city(hub.id, hub.city)}</h3>
             <p className="mt-1 text-xs text-global-muted">{officeLabel(c.countries, hub.id, hub.country)}</p>
             <p className="mt-4 text-sm font-medium">{hub.district}</p>
-            <div className="mt-4 flex items-start gap-2"><MapPin className="mt-0.5 size-4 shrink-0 text-global-accent" aria-hidden="true" /><div><p className="text-[11px] text-global-muted">{hub.status === "validated" ? c.validatedAddress : c.address}</p><p className="mt-1 text-sm leading-relaxed text-balance"><bdi>{hub.address}</bdi></p></div></div>
+            <div className="mt-4 flex items-start gap-2"><MapPin className="mt-0.5 size-4 shrink-0 text-global-accent" aria-hidden="true" /><p className="text-sm leading-relaxed text-balance"><bdi>{hub.address}</bdi></p></div>
           </article>)}
         </div>
       </div>
