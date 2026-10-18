@@ -3,7 +3,6 @@ import { HeartPulse, Mail } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
 import { openConsentSettings } from "@/lib/consent";
-import { PhoneContacts } from "./CompanyDetails";
 import worldNetwork from "@/assets/world-network.jpg";
 import { footerGlobalCopy } from "@/i18n/footerGlobal";
 import { specialtyPageCopy } from "@/i18n/specialtyPages";
@@ -101,7 +100,6 @@ export function Footer() {
                 <Mail className="size-4" aria-hidden="true" />
                 {siteConfig.email}
               </a>
-              <PhoneContacts />
             </div>
           </div>
 

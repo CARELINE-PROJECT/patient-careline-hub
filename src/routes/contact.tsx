@@ -6,7 +6,6 @@ import { siteConfig } from "@/config/site";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import coordinator from "@/assets/team-coordinator.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
-import { PhoneContacts } from "@/components/site/CompanyDetails";
 import { GlobalPresence } from "@/components/site/GlobalPresence";
 
 export const Route = createFileRoute("/contact")({
@@ -43,7 +42,6 @@ function Contact() {
                 </span>
               </li>
             </ul>
-            <div className="mt-5 text-muted-foreground"><PhoneContacts /></div>
             <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">
               {t("contact.socialLabel")}: {t("contact.socialNone")}
             </p>

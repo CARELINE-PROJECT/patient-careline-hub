@@ -15,11 +15,6 @@ export const siteConfig = {
     director: "Monsieur Ayrton AHARKIOLKIS",
     updatedAt: "2026-10-18",
   },
-  phones: [
-    { region: "madagascar", display: "+261 32 03 682 18", href: "tel:+261320368218" },
-    { region: "franceSwitzerland", display: "+33 06 44 60 25 72", href: "tel:+33644602572" },
-    { region: "belgiumNetherlands", display: "+32 0460 20 94 27", href: "tel:+32460209427" },
-  ],
   social: {
     linkedin: "",
     x: "",
