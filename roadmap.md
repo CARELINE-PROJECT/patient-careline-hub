@@ -12,3 +12,4 @@
 - [x] Replace sophie@careline.doctor with contact@careline.doctor everywhere.
 - [x] Reduce the services page photo height.
 - [ ] Add a searchable full specialty list to the professionals partner form.
+- [ ] Make the footer imagery project an international, worldwide service reach.
