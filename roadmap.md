@@ -15,5 +15,5 @@
 - [x] Make the footer imagery project an international, worldwide service reach.
 - [x] Add an international GDPR / no-health-data mention to the security page in all languages.
 - [x] Reduce the empty space below "Décrivez votre besoin" on the request page.
-- [ ] Re-arrange the other public pages so the main call to action stays above the fold.
-- [ ] Fix the partner software logos so they are actually visible on the homepage.
+- [x] Re-arrange the other public pages so the main call to action stays above the fold.
+- [ ] Fix the partner software logos so they are actually visible on the homepage (external public deployment must receive the corrected links).
