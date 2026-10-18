@@ -11,7 +11,7 @@ export type SecurityFocusCopy = {
   imageAlt: string;
 };
 
-export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
+const baseSecurityFocusCopy = {
   fr: {
     badge: "L'essentiel",
     claim: "Aucune donnée de santé n'est demandée, reçue ni stockée par Careline.",
@@ -152,4 +152,17 @@ export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
     imageAlt:
       "Медработник печатает на ноутбуке, рядом на столе лежат замок и экран конфиденциальности.",
   },
+};
+
+// Newer locales fall back to English until fully translated.
+export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
+  ...baseSecurityFocusCopy,
+  ja: baseSecurityFocusCopy.en,
+  ko: baseSecurityFocusCopy.en,
+  hi: baseSecurityFocusCopy.en,
+  tr: baseSecurityFocusCopy.en,
+  pl: baseSecurityFocusCopy.en,
+  sv: baseSecurityFocusCopy.en,
+  uk: baseSecurityFocusCopy.en,
+  id: baseSecurityFocusCopy.en,
 };

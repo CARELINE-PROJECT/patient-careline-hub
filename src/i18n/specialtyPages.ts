@@ -1,6 +1,8 @@
 import type { LocaleCode } from "./types";
 
-const labels: Record<LocaleCode, [string, string, string, string, string]> = {
+type BaseLocale = "en" | "fr" | "nl" | "de" | "es" | "it" | "pt" | "ar" | "zh" | "ru";
+
+const baseLabels: Record<BaseLocale, [string, string, string, string, string]> = {
   fr: ["Spécialités", "Trouvez la spécialité qui vous correspond", "Laser des yeux Ophtalmologiste", "Comprendre les techniques et préparer votre parcours avec un ophtalmologiste.", "Découvrir le guide"],
   en: ["Specialties", "Find the right specialty for you", "Eye laser · Ophthalmologist", "Understand the techniques and prepare your journey with an ophthalmologist.", "Explore the guide"],
   nl: ["Specialismen", "Vind het juiste specialisme", "Ooglaser · Oogarts", "Ontdek de technieken en bereid uw traject met een oogarts voor.", "Bekijk de gids"],
@@ -11,6 +13,19 @@ const labels: Record<LocaleCode, [string, string, string, string, string]> = {
   ar: ["التخصصات", "اعثر على التخصص المناسب لك", "ليزر العيون · طبيب العيون", "تعرّف على التقنيات واستعد لرحلتك مع طبيب العيون.", "استكشف الدليل"],
   zh: ["医疗专科", "找到适合您的专科", "眼部激光 · 眼科医生", "了解治疗技术，与眼科医生一起准备您的就诊过程。", "阅读指南"],
   ru: ["Специальности", "Найдите нужную специальность", "Лазерная коррекция · Офтальмолог", "Узнайте о методах и подготовьтесь к консультации офтальмолога.", "Открыть руководство"],
+};
+
+// Newer locales fall back to English until fully translated.
+const labels: Record<LocaleCode, [string, string, string, string, string]> = {
+  ...baseLabels,
+  ja: baseLabels.en,
+  ko: baseLabels.en,
+  hi: baseLabels.en,
+  tr: baseLabels.en,
+  pl: baseLabels.en,
+  sv: baseLabels.en,
+  uk: baseLabels.en,
+  id: baseLabels.en,
 };
 
 export function specialtyPageCopy(locale: LocaleCode) {

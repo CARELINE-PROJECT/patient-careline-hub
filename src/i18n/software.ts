@@ -1,6 +1,6 @@
 import type { LocaleCode } from "./types";
 
-export const softwareCopy: Record<LocaleCode, { title: string; note: string; pause: string; play: string; previous: string; next: string }> = {
+const baseSoftwareCopy = {
   fr: { title: "Plus de 100 Partenaires et API logiciels, dans le monde", note: "Sélection de 50 logiciels internationaux. Partenariats et connexions API à confirmer auprès de chaque éditeur.", pause: "Suspendre le défilement", play: "Reprendre le défilement", previous: "Logiciels précédents", next: "Logiciels suivants" },
   en: { title: "100+ Partners and software APIs, worldwide", note: "A selection of 50 international software platforms. Partnerships and API connections subject to confirmation with each vendor.", pause: "Pause scrolling", play: "Resume scrolling", previous: "Previous software", next: "Next software" },
   nl: { title: "Meer dan 100 partners en software-API’s, wereldwijd", note: "Een selectie van 50 internationale softwareplatforms. Partnerschappen en API-koppelingen moeten bij elke aanbieder worden bevestigd.", pause: "Scrollen pauzeren", play: "Scrollen hervatten", previous: "Vorige software", next: "Volgende software" },
@@ -11,4 +11,17 @@ export const softwareCopy: Record<LocaleCode, { title: string; note: string; pau
   ar: { title: "أكثر من 100 شريك وواجهة برمجة برامج حول العالم", note: "مجموعة مختارة من 50 منصة دولية. يجب تأكيد الشراكات واتصالات واجهات البرمجة مع كل مزود.", pause: "إيقاف التمرير", play: "استئناف التمرير", previous: "البرامج السابقة", next: "البرامج التالية" },
   zh: { title: "全球 100 多个合作伙伴与软件 API", note: "精选50个国际软件平台。合作关系及API连接须向各供应商确认。", pause: "暂停滚动", play: "继续滚动", previous: "上一个软件", next: "下一个软件" },
   ru: { title: "Более 100 партнёров и API программ по всему миру", note: "Подборка из 50 международных платформ. Партнёрства и API-подключения требуют подтверждения у каждого поставщика.", pause: "Приостановить прокрутку", play: "Продолжить прокрутку", previous: "Предыдущие программы", next: "Следующие программы" },
+};
+
+// Newer locales fall back to English until fully translated.
+export const softwareCopy: Record<LocaleCode, { title: string; note: string; pause: string; play: string; previous: string; next: string }> = {
+  ...baseSoftwareCopy,
+  ja: baseSoftwareCopy.en,
+  ko: baseSoftwareCopy.en,
+  hi: baseSoftwareCopy.en,
+  tr: baseSoftwareCopy.en,
+  pl: baseSoftwareCopy.en,
+  sv: baseSoftwareCopy.en,
+  uk: baseSoftwareCopy.en,
+  id: baseSoftwareCopy.en,
 };

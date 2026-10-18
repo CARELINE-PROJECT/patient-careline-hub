@@ -11,7 +11,7 @@ export interface SpecialtyUi {
   results: string;
 }
 
-export const specialtyUi: Record<LocaleCode, SpecialtyUi> = {
+const baseSpecialtyUi = {
   fr: {
     placeholder: "Rechercher une spécialité…",
     hint: "Sélectionnez dans la liste ou tapez pour filtrer.",
@@ -104,9 +104,22 @@ export const specialtyUi: Record<LocaleCode, SpecialtyUi> = {
   },
 };
 
+// Newer locales fall back to English until fully translated.
+export const specialtyUi: Record<LocaleCode, SpecialtyUi> = {
+  ...baseSpecialtyUi,
+  ja: baseSpecialtyUi.en,
+  ko: baseSpecialtyUi.en,
+  hi: baseSpecialtyUi.en,
+  tr: baseSpecialtyUi.en,
+  pl: baseSpecialtyUi.en,
+  sv: baseSpecialtyUi.en,
+  uk: baseSpecialtyUi.en,
+  id: baseSpecialtyUi.en,
+};
+
 type Labels = Record<SpecialtyId, string>;
 
-export const specialtyLabels: Record<LocaleCode, Labels> = {
+const baseSpecialtyLabels = {
   en: {
     general_medicine: "General medicine",
     primary_care: "Primary care",
@@ -847,4 +860,17 @@ export const specialtyLabels: Record<LocaleCode, Labels> = {
     vascular_surgery: "Сосудистая хирургия",
     public_health: "Общественное здоровье",
   },
+};
+
+// Newer locales fall back to English until fully translated.
+export const specialtyLabels: Record<LocaleCode, Labels> = {
+  ...baseSpecialtyLabels,
+  ja: baseSpecialtyLabels.en,
+  ko: baseSpecialtyLabels.en,
+  hi: baseSpecialtyLabels.en,
+  tr: baseSpecialtyLabels.en,
+  pl: baseSpecialtyLabels.en,
+  sv: baseSpecialtyLabels.en,
+  uk: baseSpecialtyLabels.en,
+  id: baseSpecialtyLabels.en,
 };

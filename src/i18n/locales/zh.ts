@@ -25,7 +25,7 @@ export const zh: PartialDictionary = {
       professionals: "1000万+",
       countries: "40+",
       specialties: "25+",
-      languages: "11",
+      languages: "18",
     },
   },
   error: {
