@@ -23,7 +23,7 @@ export const nl: PartialDictionary = {
     contactDetailsPlaceholder:
       "Tijdelijke contactgegevens - vervang e-mail, adres en openingstijden door uw geverifieerde informatie.",
     stats: {
-      professionals: "3.000+",
+      professionals: "10 mln+",
       countries: "40+",
       specialties: "25+",
       languages: "11",
@@ -218,7 +218,7 @@ export const nl: PartialDictionary = {
     badge: "Internationale medische afspraken",
     title: "Medische afspraken, eenvoudig gemaakt.",
     subtitle:
-      "Careline verbindt patiënten met vertrouwde zorgverleners en helpt organisaties om een vlotte toegang tot medische afspraken wereldwijd te bieden.",
+      "Careline verbindt patiënten met vertrouwde zorgverleners en helpt patiënten om wereldwijd een vlotte toegang tot medische afspraken te krijgen.",
     trust1: "Privacy vanaf het ontwerp",
     trust2: "Meertalige begeleiding",
     trust3: "Internationaal netwerk van zorgverleners",
@@ -294,8 +294,6 @@ export const nl: PartialDictionary = {
     eyebrow: "Veiligheid & vertrouwelijkheid",
     title: "Privacy vanaf het ontwerp.",
     lead: "Careline past veiligheidsmaatregelen toe die voldoen aan de toepasselijke regelgeving en beste praktijken in de sector.",
-    disclaimer:
-      "Deze pagina beschrijft onze aanpak. Het is een professionele basis die moet worden beoordeeld door juridisch adviseurs in elk land waar Careline actief is. Careline claimt geen certificering die het niet bezit.",
     s1t: "Bescherming van persoonsgegevens",
     s1d: "Wij verzamelen alleen de gegevens die nodig zijn om uw verzoek te verwerken en contact met u op te nemen.",
     s2t: "Vertrouwelijkheid",
@@ -565,8 +563,6 @@ export const nl: PartialDictionary = {
     company: "Careline",
   },
   legal: {
-    reviewNotice:
-      "Deze tekst vormt een professionele basis. Hij moet juridisch worden herzien en gevalideerd voor elk land waarin Careline actief is.",
     updated: "Laatst bijgewerkt",
     privacyTitle: "Privacybeleid",
     cookiesTitle: "Cookiebeleid",

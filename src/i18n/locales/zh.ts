@@ -22,7 +22,7 @@ export const zh: PartialDictionary = {
     supportHours: "周一至周五，09:00 - 18:00（中欧时间）",
     contactDetailsPlaceholder: "临时联系方式 - 请将电子邮件、地址和营业时间替换为您已验证的信息。",
     stats: {
-      professionals: "3,000+",
+      professionals: "1000万+",
       countries: "40+",
       specialties: "25+",
       languages: "11",
@@ -197,7 +197,7 @@ export const zh: PartialDictionary = {
     badge: "国际医疗预约",
     title: "医疗预约，化繁为简。",
     subtitle:
-      "Careline 将患者与值得信赖的医疗专业人员联系起来，并帮助机构在全球范围内提供顺畅的医疗预约通道。",
+      "Careline 将患者与值得信赖的医疗专业人员联系起来，并帮助患者在全球范围内获得顺畅的医疗预约通道。",
     trust1: "隐私源于设计",
     trust2: "多语言陪伴",
     trust3: "国际专业人员网络",
@@ -273,8 +273,6 @@ export const zh: PartialDictionary = {
     eyebrow: "安全与保密",
     title: "隐私源于设计。",
     lead: "Careline 采取符合适用法规要求和行业最佳实践的安全措施。",
-    disclaimer:
-      "本页面说明我们的做法。这是一份专业基线，应由法律顾问针对 Careline 运营的每个国家进行审查。Careline 不声称拥有其并未持有的任何认证。",
     s1t: "个人数据保护",
     s1d: "我们只收集处理您的请求和联系您所需的数据。",
     s2t: "保密",
@@ -529,7 +527,6 @@ export const zh: PartialDictionary = {
     company: "Careline",
   },
   legal: {
-    reviewNotice: "本文本构成专业基础。必须针对 Careline 运营的每个国家/地区进行法律审查和批准。",
     updated: "最后更新",
     privacyTitle: "隐私政策",
     cookiesTitle: "Cookie 政策",

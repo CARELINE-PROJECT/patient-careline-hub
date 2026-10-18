@@ -23,7 +23,7 @@ export const fr: PartialDictionary = {
     contactDetailsPlaceholder:
       "Coordonnées provisoires - remplacez l'email, l'adresse et les horaires par vos informations vérifiées.",
     stats: {
-      professionals: "3 000+",
+      professionals: "10 M+",
       countries: "40+",
       specialties: "25+",
       languages: "11",
@@ -219,7 +219,7 @@ export const fr: PartialDictionary = {
     badge: "Rendez-vous médicaux internationaux",
     title: "La prise de rendez-vous médicaux, simplifiée.",
     subtitle:
-      "Careline met en relation les patients avec des professionnels de santé de confiance et aide les organisations à offrir un accès fluide aux rendez-vous médicaux dans le monde entier.",
+      "Careline met en relation les patients avec des professionnels de santé de confiance et aide les patients à obtenir un accès fluide aux rendez-vous médicaux dans le monde entier.",
     trust1: "Confidentialité dès la conception",
     trust2: "Accompagnement multilingue",
     trust3: "Réseau international de praticiens",
@@ -295,8 +295,6 @@ export const fr: PartialDictionary = {
     eyebrow: "Sécurité & confidentialité",
     title: "La confidentialité pensée dès la conception.",
     lead: "Careline applique des mesures de sécurité adaptées aux exigences réglementaires applicables et aux meilleures pratiques du secteur.",
-    disclaimer:
-      "Cette page décrit notre approche. Elle constitue une base professionnelle à faire revoir par un conseil juridique dans chaque pays où Careline opère. Careline ne revendique aucune certification qu'elle ne détient pas.",
     s1t: "Protection des données personnelles",
     s1d: "Nous collectons uniquement les données nécessaires au traitement de votre demande et à la prise de contact.",
     s2t: "Confidentialité",
@@ -566,8 +564,6 @@ export const fr: PartialDictionary = {
     company: "Careline",
   },
   legal: {
-    reviewNotice:
-      "Ce texte constitue une base professionnelle. Il doit être revu et validé juridiquement pour chaque pays dans lequel Careline opère.",
     updated: "Dernière mise à jour",
     privacyTitle: "Politique de confidentialité",
     cookiesTitle: "Politique de cookies",

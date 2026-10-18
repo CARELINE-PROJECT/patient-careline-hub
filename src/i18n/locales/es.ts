@@ -21,7 +21,7 @@ export const es: PartialDictionary = {
     contactDetailsPlaceholder:
       "Datos de contacto provisionales: sustituya el email, la dirección y los horarios por información verificada.",
     stats: {
-      professionals: "3.000+",
+      professionals: "10 M+",
       countries: "40+",
       specialties: "25+",
       languages: "11",
@@ -217,7 +217,7 @@ export const es: PartialDictionary = {
     badge: "Citas médicas internacionales",
     title: "Citas médicas, de forma sencilla.",
     subtitle:
-      "Careline conecta a los pacientes con profesionales sanitarios de confianza y ayuda a las organizaciones a ofrecer un acceso fluido a las citas médicas en todo el mundo.",
+      "Careline conecta a los pacientes con profesionales sanitarios de confianza y ayuda a los pacientes a obtener un acceso fluido a las citas médicas en todo el mundo.",
     trust1: "Confidencialidad desde el diseño",
     trust2: "Acompañamiento multilingüe",
     trust3: "Red internacional de profesionales",
@@ -293,8 +293,6 @@ export const es: PartialDictionary = {
     eyebrow: "Seguridad y confidencialidad",
     title: "La privacidad pensada desde la primera línea de código.",
     lead: "Careline aplica medidas de seguridad adaptadas a los requisitos normativos aplicables y a las mejores prácticas del sector.",
-    disclaimer:
-      "Esta página describe nuestro enfoque. Es una base profesional destinada a ser revisada por asesores legales en cada país donde opera Careline. Careline no reivindica ninguna certificación que no posea.",
     s1t: "Protección de datos personales",
     s1d: "Recopilamos únicamente los datos necesarios para procesar tu solicitud y contactarte.",
     s2t: "Confidencialidad",
@@ -563,8 +561,6 @@ export const es: PartialDictionary = {
       "Careline no presta atención médica y no es un servicio de emergencia. En caso de emergencia, contacte con el número de emergencia local.",
   },
   legal: {
-    reviewNotice:
-      "Este texto es una base profesional. Debe ser revisado y validado jurídicamente para cada país en el que opera Careline.",
     updated: "Última actualización",
     privacyTitle: "Política de privacidad",
     cookiesTitle: "Política de cookies",

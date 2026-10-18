@@ -23,7 +23,7 @@ export const de: PartialDictionary = {
     contactDetailsPlaceholder:
       "Vorläufige Kontaktdaten - ersetzen Sie E-Mail, Adresse und Zeiten durch Ihre geprüften Angaben.",
     stats: {
-      professionals: "3 000+",
+      professionals: "10 Mio.+",
       countries: "40+",
       specialties: "25+",
       languages: "11",
@@ -220,7 +220,7 @@ export const de: PartialDictionary = {
     badge: "Internationale medizinische Termine",
     title: "Medizinische Termine, einfach gemacht.",
     subtitle:
-      "Careline verbindet Patienten mit vertrauenswürdigen Gesundheitsfachkräften und hilft Organisationen, weltweit einen reibungslosen Zugang zu medizinischen Terminen zu bieten.",
+      "Careline verbindet Patienten mit vertrauenswürdigen Gesundheitsfachkräften und hilft Patienten, weltweit einen reibungslosen Zugang zu medizinischen Terminen zu erhalten.",
     trust1: "Datenschutz von Anfang an",
     trust2: "Mehrsprachige Betreuung",
     trust3: "Internationales Behandlernetzwerk",
@@ -296,8 +296,6 @@ export const de: PartialDictionary = {
     eyebrow: "Sicherheit & Datenschutz",
     title: "Datenschutz von Anfang an mitgedacht.",
     lead: "Careline setzt Sicherheitsmaßnahmen um, die den geltenden regulatorischen Anforderungen und den bewährten Praktiken der Branche entsprechen.",
-    disclaimer:
-      "Diese Seite beschreibt unseren Ansatz. Sie ist eine professionelle Grundlage, die in jedem Land, in dem Careline tätig ist, rechtlich geprüft werden sollte. Careline beansprucht keine Zertifizierung, die nicht tatsächlich besteht.",
     s1t: "Schutz personenbezogener Daten",
     s1d: "Wir erheben nur die Daten, die zur Bearbeitung Ihrer Anfrage und zur Kontaktaufnahme erforderlich sind.",
     s2t: "Vertraulichkeit",
@@ -567,8 +565,6 @@ export const de: PartialDictionary = {
     company: "Careline",
   },
   legal: {
-    reviewNotice:
-      "Dieser Text ist eine professionelle Grundlage. Er muss für jedes Land, in dem Careline tätig ist, rechtlich geprüft und validiert werden.",
     updated: "Zuletzt aktualisiert",
     privacyTitle: "Datenschutzerklärung",
     cookiesTitle: "Cookie-Richtlinie",
