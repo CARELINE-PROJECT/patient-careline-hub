@@ -7,6 +7,7 @@ import teamOffice from "@/assets/team-office.jpg";
 import { CTASection } from "@/components/site/CTASection";
 import { operationsCopy } from "@/i18n/operations";
 import optilineLogo from "@/assets/optiline-mada-logo.png.asset.json";
+import { publicAssetUrl } from "@/lib/assets";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -98,7 +99,7 @@ function About() {
                   aria-label="Optiline Mada"
                 >
                   <img
-                    src={optilineLogo.url}
+                    src={publicAssetUrl(optilineLogo)}
                     alt="Optiline Mada"
                     className="h-10 w-auto"
                     loading="lazy"

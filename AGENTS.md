@@ -11,3 +11,4 @@
 
 - Keep official company identity and regional phone numbers in siteConfig, with localized legal identity overrides in i18n/company and shared contact rendering, so public pages cannot drift between languages.
 - Keep software vendor data and asset provenance in a shared catalog and render the localized homepage strip separately; this keeps vendor identities distinct from confirmed integrations.
+- Resolve Lovable asset pointers through the shared publicAssetUrl helper against the working Lovable published origin; the externally hosted custom domain does not serve the asset gateway.
