@@ -52,7 +52,7 @@ function Services() {
             src={coordinator}
             alt={t("media.coordinatorPhone")}
             className="mx-auto max-w-3xl"
-            imgClassName="h-44 object-top sm:h-52 lg:h-60"
+            imgClassName="h-56 object-[50%_28%] lg:h-64"
           />
         </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
