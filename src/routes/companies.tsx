@@ -27,8 +27,19 @@ function Companies() {
         actions={<HeroActions />}
       />
       <Section>
-        <Reveal className="mb-12">
-          <Photo src={teamOffice} alt={t("media.teamOffice")} />
+        <SectionHeading eyebrow={t("corporations.cta")} title={t("contact.title")} lead={t("contact.lead")} />
+        <div className="mt-6 max-w-3xl">
+          <ContactForm />
+        </div>
+      </Section>
+      <Section tone="muted">
+        <Reveal className="mb-8">
+          <Photo
+            src={teamOffice}
+            alt={t("media.teamOffice")}
+            className="mx-auto max-w-3xl"
+            imgClassName="h-52 object-[50%_30%] lg:h-60"
+          />
         </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (
@@ -39,12 +50,6 @@ function Companies() {
               description={t(`corporations.b${i + 1}d`)}
             />
           ))}
-        </div>
-      </Section>
-      <Section tone="muted">
-        <SectionHeading eyebrow={t("corporations.cta")} title={t("contact.title")} lead={t("contact.lead")} />
-        <div className="mt-10 max-w-3xl">
-          <ContactForm />
         </div>
       </Section>
     </>
