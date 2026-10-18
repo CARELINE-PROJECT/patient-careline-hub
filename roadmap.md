@@ -30,3 +30,4 @@
 - [x] Fix Antsirabe and Dubai pins/labels overlapping on the Contact world map, especially on mobile.
 - [x] Remove the "Services in use" / "Services considered" headings and their lists from the Contact location cards.
 - [x] Remove all displayed telephone numbers (footer, contact page, legal notice) so public contact is email only.
+- [x] Replace the New York location with Silicon Valley (Palo Alto) and Miami on the Contact global-presence section, and verify the seven cards, map points and labels.
