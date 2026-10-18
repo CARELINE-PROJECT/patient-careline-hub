@@ -9,7 +9,6 @@ const en = {
   cities: { antsirabe: "Antsirabe", "new-york": "New York", dubai: "Dubai", singapore: "Singapore", london: "London", "hong-kong": "Hong Kong" },
   countries: { antsirabe: "Madagascar", "new-york": "United States", dubai: "United Arab Emirates", singapore: "Singapore", london: "United Kingdom", "hong-kong": "Hong Kong SAR" },
   map: "Registered office and proposed international locations", attribution: "Map: Natural Earth · public domain",
-  verification: { "new-york": "The NY 10019 area is indicative; the exact street address remains to be confirmed.", dubai: "Gate Avenue has not been confirmed as the address for this location.", singapore: "Tower 2 at 10 Marina Boulevard is listed; the postal code remains to be confirmed.", london: "Careline’s right to use this address remains to be confirmed.", "hong-kong": "The building, street number and floor remain to be confirmed." },
 };
 const fr: typeof en = {
   eyebrow: "Careline · International",
@@ -20,7 +19,6 @@ const fr: typeof en = {
   cities: { antsirabe: "Antsirabe", "new-york": "New York", dubai: "Dubaï", singapore: "Singapour", london: "Londres", "hong-kong": "Hong Kong" },
   countries: { antsirabe: "Madagascar", "new-york": "États-Unis", dubai: "Émirats arabes unis", singapore: "Singapour", london: "Royaume-Uni", "hong-kong": "Région administrative spéciale de Hong Kong" },
   map: "Siège social et localisations internationales envisagées", attribution: "Carte : Natural Earth · domaine public",
-  verification: { "new-york": "La zone NY 10019 est indicative ; l’adresse exacte reste à confirmer.", dubai: "Gate Avenue n’a pas été confirmé comme adresse pour cette localisation.", singapore: "Le Tower 2 au 10 Marina Boulevard est indiqué ; le code postal reste à confirmer.", london: "Le droit d’utilisation de cette adresse par Careline reste à confirmer.", "hong-kong": "L’immeuble, le numéro de rue et l’étage restent à confirmer." },
 };
 
 export function globalOfficeCopy(locale: LocaleCode) {
