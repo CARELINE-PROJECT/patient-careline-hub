@@ -17,6 +17,7 @@ import { pt } from "./locales/pt";
 import { ar } from "./locales/ar";
 import { zh } from "./locales/zh";
 import { ru } from "./locales/ru";
+import { companyTranslation } from "./company";
 import {
   defaultLocale,
   locales,
@@ -94,7 +95,10 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const t = useCallback(
     (key: string) => {
       const path = key.split(".");
-      return lookup(dictionaries[locale], path) ?? lookup(en, path) ?? key;
+      const translated = companyTranslation(locale, key) ?? lookup(dictionaries[locale], path) ?? lookup(en, path) ?? key;
+      return key === "legalContent.terms.purpose.body.0"
+        ? `${translated} ${companyTranslation(locale, "company.identity") ?? ""}`
+        : translated;
     },
     [locale],
   );
