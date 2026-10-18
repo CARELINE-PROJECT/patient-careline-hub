@@ -49,7 +49,7 @@ export function Footer() {
   ] as const;
 
   return (
-    <footer className="border-t border-border/60 bg-branddeep px-5 py-16 text-primary-foreground sm:px-8">
+    <footer className="border-t border-border/60 bg-branddeep px-5 py-10 text-primary-foreground sm:px-8 md:py-12">
       <div className="mx-auto w-full max-w-6xl">
         <div className="grid gap-12 md:grid-cols-[1.4fr_repeat(4,1fr)]">
           <div>

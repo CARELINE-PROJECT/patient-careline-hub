@@ -104,7 +104,7 @@ export function Section({
     <section
       id={id}
       className={cn(
-        "relative overflow-hidden px-5 py-20 sm:px-8 md:py-28",
+        "relative overflow-hidden px-5 py-11 sm:px-8 md:py-14",
         tone === "muted" && "bg-secondary/60",
         tone === "deep" && "bg-branddeep text-primary-foreground",
         className,
@@ -148,7 +148,7 @@ export function SectionHeading({
       {eyebrow ? <Eyebrow invert={invert}>{eyebrow}</Eyebrow> : null}
       <h2
         className={cn(
-          "mt-5 font-display text-3xl leading-tight tracking-tight sm:text-4xl md:text-[2.75rem]",
+          "mt-4 font-display text-3xl leading-tight tracking-tight sm:text-4xl md:text-[2.75rem]",
           invert ? "text-primary-foreground" : "text-branddeep",
         )}
       >
@@ -157,7 +157,7 @@ export function SectionHeading({
       {lead ? (
         <p
           className={cn(
-            "mt-4 text-base leading-relaxed sm:text-lg",
+            "mt-3 text-base leading-relaxed sm:text-lg",
             invert ? "text-primary-foreground/80" : "text-muted-foreground",
           )}
         >
@@ -268,7 +268,7 @@ export function PageHero({
   children?: ReactNode | undefined;
 }) {
   return (
-    <section className="relative overflow-hidden border-b border-border/60 bg-secondary/50 px-5 pb-16 pt-14 sm:px-8 md:pb-20 md:pt-20">
+    <section className="relative overflow-hidden border-b border-border/60 bg-secondary/50 px-5 pb-9 pt-8 sm:px-8 md:pb-12 md:pt-12">
       <AuroraBackdrop />
       <div className="mx-auto w-full max-w-6xl">
         {eyebrow ? <Eyebrow>{eyebrow}</Eyebrow> : null}

@@ -29,7 +29,7 @@ function HowItWorks() {
             <Photo src={coordinator} alt={t("media.coordinatorNotebook")} />
           </Reveal>
         </div>
-        <ol className="space-y-6">
+        <ol className="space-y-4">
           {steps.map((n) => (
             <li key={n}>
               <Glass className="flex flex-col gap-4 p-7 sm:flex-row sm:items-start sm:gap-7">

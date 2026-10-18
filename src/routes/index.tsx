@@ -73,7 +73,7 @@ function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-border/60 bg-secondary/40 px-5 py-16 sm:px-8 md:py-12">
+      <section className="relative overflow-hidden border-b border-border/60 bg-secondary/40 px-5 py-10 sm:px-8 md:py-12">
         <AuroraBackdrop />
         <div className="mx-auto grid w-full max-w-6xl items-center gap-12 lg:grid-cols-[1.05fr_1fr]">
           <div className="anim-rise">
@@ -99,7 +99,7 @@ function Home() {
                 {t("nav.discover")}
               </Link>
             </div>
-            <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-muted-foreground">
+            <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-sm text-muted-foreground">
               {[
                 { icon: <Lock className="size-4" />, label: t("hero.trust1") },
                 { icon: <Languages className="size-4" />, label: t("hero.trust2") },
@@ -148,7 +148,7 @@ function Home() {
       </section>
 
       {/* Stats */}
-      <Section className="py-16 md:py-20">
+      <Section className="py-10 md:py-12">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { value: t("site.stats.professionals"), label: t("stats.professionals") },
