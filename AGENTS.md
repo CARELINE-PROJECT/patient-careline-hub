@@ -14,3 +14,4 @@
 - Resolve Lovable asset pointers through the shared publicAssetUrl helper against the working Lovable published origin; the externally hosted custom domain does not serve the asset gateway.
 - Reuse the canonical specialty IDs and translations for the public directory; keep patient guide content, source provenance and verified video IDs separate from route presentation to avoid inconsistent medical claims.
 - Load third-party patient videos only after an explicit play action through YouTube's privacy-enhanced embed; no third-party requests before the patient chooses to play.
+- Keep proposed global locations in a shared typed catalog with separate validation, representation and service-activation fields; render the Contact section independently using a local public-domain Natural Earth map, so unconfirmed proposals cannot drift into active-office claims or incur map API costs.
