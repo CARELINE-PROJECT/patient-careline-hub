@@ -20,3 +20,5 @@
 - [x] Reduce the empty space below "Décrivez votre besoin" on the request page.
 - [x] Re-arrange the other public pages so the main call to action stays above the fold.
 - [x] Fix the partner software logos and verify the external public homepage in French: all 98 image instances load, including the six vendors in the user's screenshot.
+
+- [x] Menu langues : drapeaux + 8 nouvelles langues (ja, ko, hi, tr, pl, sv, uk, id) — 18 au total, repli anglais pour les pages non traduites
