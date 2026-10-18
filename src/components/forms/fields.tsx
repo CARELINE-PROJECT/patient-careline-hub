@@ -180,16 +180,21 @@ export function SubmitButton({
   loading,
   children,
   loadingLabel,
+  className,
 }: {
   loading: boolean;
   children: ReactNode;
   loadingLabel: string;
+  className?: string | undefined;
 }) {
   return (
     <button
       type="submit"
       disabled={loading}
-      className="inline-flex w-full items-center justify-center rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-branddeep disabled:opacity-60 sm:w-auto"
+      className={cn(
+        "inline-flex w-full items-center justify-center rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-branddeep disabled:opacity-60",
+        className,
+      )}
     >
       {loading ? loadingLabel : children}
     </button>
