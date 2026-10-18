@@ -12,7 +12,7 @@ export type OperationsCopy = {
   securityBody: string;
 };
 
-export const operationsCopy: Record<LocaleCode, OperationsCopy> = {
+const baseOperationsCopy = {
   fr: {
     eyebrow: "Nos moyens",
     title: "Des outils de travail et de communication à la hauteur de nos engagements",
@@ -153,4 +153,17 @@ export const operationsCopy: Record<LocaleCode, OperationsCopy> = {
     securityBody:
       "Наши инструменты защищают каждый этап отношений: защита передаваемых данных, отслеживаемость запросов и шифрованная связь с партнёрскими клиниками и учреждениями.",
   },
+};
+
+// Newer locales fall back to English until fully translated.
+export const operationsCopy: Record<LocaleCode, OperationsCopy> = {
+  ...baseOperationsCopy,
+  ja: baseOperationsCopy.en,
+  ko: baseOperationsCopy.en,
+  hi: baseOperationsCopy.en,
+  tr: baseOperationsCopy.en,
+  pl: baseOperationsCopy.en,
+  sv: baseOperationsCopy.en,
+  uk: baseOperationsCopy.en,
+  id: baseOperationsCopy.en,
 };

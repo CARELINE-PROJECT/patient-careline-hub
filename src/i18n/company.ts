@@ -2,7 +2,9 @@ import { siteConfig } from "@/config/site";
 import type { LocaleCode } from "./types";
 
 // Official identity is centralized, independently of the draft legal dictionaries.
-const labels: Record<LocaleCode, readonly [string, string, string, string, string, string, string]> = {
+type BaseLocale = "en" | "fr" | "nl" | "de" | "es" | "it" | "pt" | "ar" | "zh" | "ru";
+
+const baseLabels: Record<BaseLocale, readonly [string, string, string, string, string, string, string]> = {
   fr: ["société à responsabilité limitée (SARL) de droit malgache", "Siège social", "Directeur de la publication et contact", "en qualité de gérant", "Centre d’appels mondial", "France & Suisse", "Belgique & Pays-Bas"],
   en: ["limited liability company (SARL) under Malagasy law", "Registered office", "Publication director and contact", "as managing director", "Global call centre", "France & Switzerland", "Belgium & Netherlands"],
   nl: ["vennootschap met beperkte aansprakelijkheid (SARL) naar Malagassisch recht", "Statutaire zetel", "Publicatiedirecteur en contact", "als zaakvoerder", "Wereldwijd callcenter", "Frankrijk & Zwitserland", "België & Nederland"],
@@ -13,6 +15,19 @@ const labels: Record<LocaleCode, readonly [string, string, string, string, strin
   ar: ["شركة ذات مسؤولية محدودة (SARL) خاضعة لقانون مدغشقر", "المقر الرئيسي", "مدير النشر والتواصل", "بصفته المدير", "مركز الاتصال العالمي", "فرنسا وسويسرا", "بلجيكا وهولندا"],
   zh: ["依马达加斯加法律设立的有限责任公司（SARL）", "注册办公地址", "出版负责人及联系方式", "担任经理", "全球呼叫中心", "法国和瑞士", "比利时和荷兰"],
   ru: ["общество с ограниченной ответственностью (SARL) по законодательству Мадагаскара", "Юридический адрес", "Ответственный за публикацию и контакты", "в качестве управляющего", "Международный колл-центр", "Франция и Швейцария", "Бельгия и Нидерланды"],
+};
+
+// Newer locales fall back to English until fully translated.
+const labels: Record<LocaleCode, readonly [string, string, string, string, string, string, string]> = {
+  ...baseLabels,
+  ja: baseLabels.en,
+  ko: baseLabels.en,
+  hi: baseLabels.en,
+  tr: baseLabels.en,
+  pl: baseLabels.en,
+  sv: baseLabels.en,
+  uk: baseLabels.en,
+  id: baseLabels.en,
 };
 
 export function companyTranslation(locale: LocaleCode, key: string): string | undefined {

@@ -26,7 +26,7 @@ export const pt: PartialDictionary = {
       professionals: "10 M+",
       countries: "40+",
       specialties: "25+",
-      languages: "11",
+      languages: "18",
     },
   },
   error: {

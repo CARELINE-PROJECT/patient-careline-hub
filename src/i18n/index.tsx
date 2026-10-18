@@ -17,6 +17,14 @@ import { pt } from "./locales/pt";
 import { ar } from "./locales/ar";
 import { zh } from "./locales/zh";
 import { ru } from "./locales/ru";
+import { ja } from "./locales/ja";
+import { ko } from "./locales/ko";
+import { hi } from "./locales/hi";
+import { tr } from "./locales/tr";
+import { pl } from "./locales/pl";
+import { sv } from "./locales/sv";
+import { uk } from "./locales/uk";
+import { id } from "./locales/id";
 import { companyTranslation } from "./company";
 import {
   defaultLocale,
@@ -40,6 +48,14 @@ const dictionaries: Record<LocaleCode, PartialDictionary> = {
   ar,
   zh,
   ru,
+  ja,
+  ko,
+  hi,
+  tr,
+  pl,
+  sv,
+  uk,
+  id,
 };
 
 const STORAGE_KEY = "careline.locale";
