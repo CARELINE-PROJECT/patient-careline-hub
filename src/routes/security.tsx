@@ -24,7 +24,7 @@ function Security() {
         title={t("security.title")}
         lead={t("security.lead")}
       >
-        <div className="mt-6 flex max-w-3xl items-start gap-4 rounded-3xl border border-brand/30 bg-card/80 p-5">
+        <div className="mt-4 flex max-w-3xl items-start gap-4 rounded-3xl border border-brand/30 bg-card/80 p-5">
           <ShieldCheck className="mt-0.5 size-5 shrink-0 text-brand" aria-hidden="true" />
           <div>
             <span className="inline-flex rounded-full bg-secondary px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-brand">
@@ -37,7 +37,7 @@ function Security() {
           </div>
         </div>
       </PageHero>
-      <Section tone="muted">
+      <Section tone="muted" className="pb-10 pt-5 md:pb-14 md:pt-7">
         <div className="grid gap-6 sm:grid-cols-2">
           <FeatureCard
             icon={<Globe2 className="size-5" />}
