@@ -47,8 +47,13 @@ function Services() {
         lead={t("services.lead")}
       />
       <Section>
-        <Reveal className="mb-12">
-          <Photo src={coordinator} alt={t("media.coordinatorPhone")} />
+        <Reveal className="mb-8">
+          <Photo
+            src={coordinator}
+            alt={t("media.coordinatorPhone")}
+            className="mx-auto max-w-3xl"
+            imgClassName="h-56 object-[50%_28%] lg:h-64"
+          />
         </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (

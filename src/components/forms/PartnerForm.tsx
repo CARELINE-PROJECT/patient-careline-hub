@@ -4,6 +4,7 @@ import { useI18n } from "@/i18n";
 import { submitForm } from "@/lib/api";
 import { Glass, DemoNote } from "@/components/site/primitives";
 import { ConsentField, SubmitButton, TextAreaField, TextField } from "./fields";
+import { SpecialtyField } from "./SpecialtyField";
 import { SuccessPanel } from "./SuccessPanel";
 
 const initial = {
@@ -84,7 +85,7 @@ export function PartnerForm() {
           <TextField id="practiceName" label={t("form.practiceName")} required value={values.practiceName} onChange={set("practiceName")} error={errors.practiceName} className="sm:col-span-2" />
           <TextField id="firstName" label={t("form.firstName")} required autoComplete="given-name" value={values.firstName} onChange={set("firstName")} error={errors.firstName} />
           <TextField id="lastName" label={t("form.lastName")} required autoComplete="family-name" value={values.lastName} onChange={set("lastName")} error={errors.lastName} />
-          <TextField id="specialty" label={t("form.specialty")} required value={values.specialty} onChange={set("specialty")} error={errors.specialty} />
+          <SpecialtyField id="specialty" label={t("form.specialty")} required value={values.specialty} onChange={set("specialty")} error={errors.specialty} />
           <TextField id="professionalEmail" type="email" label={t("form.professionalEmail")} required autoComplete="email" value={values.professionalEmail} onChange={set("professionalEmail")} error={errors.professionalEmail} />
           <TextField id="phone" type="tel" label={t("form.phone")} hint={t("form.optional")} value={values.phone} onChange={set("phone")} error={errors.phone} />
           <TextField id="city" label={t("form.city")} required value={values.city} onChange={set("city")} error={errors.city} />

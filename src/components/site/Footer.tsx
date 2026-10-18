@@ -4,10 +4,13 @@ import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
 import { openConsentSettings } from "@/lib/consent";
 import { PhoneContacts } from "./CompanyDetails";
+import worldNetwork from "@/assets/world-network.jpg";
+import { footerGlobalCopy } from "@/i18n/footerGlobal";
 
 export function Footer() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const year = new Date().getFullYear();
+  const copy = footerGlobalCopy[locale] ?? footerGlobalCopy.en;
 
   const columns = [
     {
@@ -51,6 +54,35 @@ export function Footer() {
   return (
     <footer className="border-t border-border/60 bg-branddeep px-5 py-10 text-primary-foreground sm:px-8 md:py-12">
       <div className="mx-auto w-full max-w-6xl">
+        <div className="grid items-center gap-6 rounded-3xl border border-primary-foreground/15 bg-primary-foreground/[0.04] p-6 sm:p-8 md:grid-cols-[1.05fr_1fr]">
+          <div>
+            <h2 className="font-display text-2xl leading-tight tracking-tight sm:text-[1.7rem]">
+              {copy.title}
+            </h2>
+            <p className="mt-3 max-w-xl text-sm leading-relaxed text-primary-foreground/75">
+              {copy.lead}
+            </p>
+            <ul className="mt-6 flex flex-wrap gap-2.5">
+              {[copy.languages, copy.support, copy.reach].map((item) => (
+                <li
+                  className="rounded-full border border-primary-foreground/20 bg-primary-foreground/5 px-3.5 py-1.5 text-xs text-primary-foreground/85"
+                  key={item}
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <img
+            alt=""
+            aria-hidden="true"
+            className="h-40 w-full rounded-2xl object-cover sm:h-48"
+            height={672}
+            loading="lazy"
+            src={worldNetwork}
+            width={1584}
+          />
+        </div>
         <div className="grid gap-12 md:grid-cols-[1.4fr_repeat(4,1fr)]">
           <div>
             <div className="flex items-center gap-2.5">
