@@ -21,6 +21,7 @@ import { Route as ProfessionalsRouteImport } from './routes/professionals'
 import { Route as RequestRouteImport } from './routes/request'
 import { Route as SecurityRouteImport } from './routes/security'
 import { Route as ServicesRouteImport } from './routes/services'
+import { Route as SpecialtiesRouteImport } from './routes/specialties'
 import { Route as LegalCookiesRouteImport } from './routes/legal.cookies'
 import { Route as LegalNoticeRouteImport } from './routes/legal.notice'
 import { Route as LegalPrivacyRouteImport } from './routes/legal.privacy'
@@ -86,6 +87,11 @@ const ServicesRoute = ServicesRouteImport.update({
   path: '/services',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SpecialtiesRoute = SpecialtiesRouteImport.update({
+  id: '/specialties',
+  path: '/specialties',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LegalCookiesRoute = LegalCookiesRouteImport.update({
   id: '/legal/cookies',
   path: '/legal/cookies',
@@ -120,6 +126,7 @@ export interface FileRoutesByFullPath {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
@@ -138,6 +145,7 @@ export interface FileRoutesByTo {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
@@ -157,6 +165,7 @@ export interface FileRoutesById {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
@@ -177,6 +186,7 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
     | '/legal/privacy'
@@ -195,6 +205,7 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
     | '/legal/privacy'
@@ -213,6 +224,7 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
     | '/legal/privacy'
@@ -232,6 +244,7 @@ export interface RootRouteChildren {
   RequestRoute: typeof RequestRoute
   SecurityRoute: typeof SecurityRoute
   ServicesRoute: typeof ServicesRoute
+  SpecialtiesRoute: typeof SpecialtiesRoute
   LegalCookiesRoute: typeof LegalCookiesRoute
   LegalNoticeRoute: typeof LegalNoticeRoute
   LegalPrivacyRoute: typeof LegalPrivacyRoute
@@ -324,6 +337,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/specialties': {
+      id: '/specialties'
+      path: '/specialties'
+      fullPath: '/specialties'
+      preLoaderRoute: typeof SpecialtiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/legal/cookies': {
       id: '/legal/cookies'
       path: '/legal/cookies'
@@ -368,6 +388,7 @@ const rootRouteChildren: RootRouteChildren = {
   RequestRoute: RequestRoute,
   SecurityRoute: SecurityRoute,
   ServicesRoute: ServicesRoute,
+  SpecialtiesRoute: SpecialtiesRoute,
   LegalCookiesRoute: LegalCookiesRoute,
   LegalNoticeRoute: LegalNoticeRoute,
   LegalPrivacyRoute: LegalPrivacyRoute,
