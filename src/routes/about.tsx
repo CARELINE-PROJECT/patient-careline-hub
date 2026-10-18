@@ -5,6 +5,7 @@ import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/
 import teamOffice from "@/assets/team-office.jpg";
 import { CTASection } from "@/components/site/CTASection";
 import { operationsCopy } from "@/i18n/operations";
+import optilineLogo from "@/assets/optiline-mada-logo.png.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -81,14 +82,40 @@ function About() {
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {(
             [
-              [ops.callCenterTitle, ops.callCenterBody],
-              [ops.itTitle, ops.itBody],
-              [ops.securityTitle, ops.securityBody],
+              [ops.callCenterTitle, ops.callCenterBody, true],
+              [ops.itTitle, ops.itBody, false],
+              [ops.securityTitle, ops.securityBody, false],
             ] as const
-          ).map(([title, body]) => (
+          ).map(([title, body, isCallCenter]) => (
             <Glass key={title} className="p-7">
+              {isCallCenter ? (
+                <a
+                  href="https://www.optiline-mada.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mb-4 inline-flex rounded-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
+                  aria-label="Optiline Mada"
+                >
+                  <img
+                    src={optilineLogo.url}
+                    alt="Optiline Mada"
+                    className="h-10 w-auto"
+                    loading="lazy"
+                  />
+                </a>
+              ) : null}
               <h3 className="font-display text-lg tracking-tight text-branddeep">{title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{body}</p>
+              {isCallCenter ? (
+                <a
+                  href="https://www.optiline-mada.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block text-sm font-medium text-brand underline-offset-4 hover:underline"
+                >
+                  www.optiline-mada.com
+                </a>
+              ) : null}
             </Glass>
           ))}
         </div>
