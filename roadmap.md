@@ -1,4 +1,5 @@
 # Tasks
+- [ ] Rename the +261 telephone label to “Centre d’appels mondial” everywhere it is rendered.
 - [ ] Reduce all homepage photo heights without changing other pages.
 - [ ] Add a scrolling section with the 50 software brands from the supplied list and verify assets and motion controls.
 - [x] Add official company identity and director to relevant legal pages in all languages.
