@@ -3,8 +3,9 @@ import { Globe2, Lock, ShieldCheck } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { securityFocusCopy } from "@/i18n/securityFocus";
-import { FeatureCard, PageHero, Section } from "@/components/site/primitives";
+import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import { HeroActions } from "@/components/site/HeroActions";
+import securityData from "@/assets/security-data.jpg";
 
 export const Route = createFileRoute("/security")({
   head: () => ({
@@ -74,6 +75,14 @@ function Security() {
             />
           ))}
         </div>
+        <Reveal className="mt-10">
+          <Photo
+            src={securityData}
+            alt={f.imageAlt}
+            className="mx-auto max-w-3xl"
+            imgClassName="h-52 object-[50%_45%] lg:h-64"
+          />
+        </Reveal>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link
             to="/legal/privacy"
