@@ -3,6 +3,7 @@ import { Globe2, HeartHandshake, Languages, Layers, ShieldCheck, Timer } from "l
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section, SectionHeading } from "@/components/site/primitives";
+import { HeroActions } from "@/components/site/HeroActions";
 import teamOffice from "@/assets/team-office.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
@@ -23,6 +24,7 @@ function Companies() {
         eyebrow={t("corporations.eyebrow")}
         title={t("corporations.title")}
         lead={t("corporations.lead")}
+        actions={<HeroActions />}
       />
       <Section>
         <Reveal className="mb-12">

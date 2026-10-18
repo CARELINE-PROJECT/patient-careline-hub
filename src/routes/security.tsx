@@ -4,6 +4,7 @@ import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { securityFocusCopy } from "@/i18n/securityFocus";
 import { FeatureCard, PageHero, Section } from "@/components/site/primitives";
+import { HeroActions } from "@/components/site/HeroActions";
 
 export const Route = createFileRoute("/security")({
   head: () => ({
@@ -23,6 +24,7 @@ function Security() {
         eyebrow={t("security.eyebrow")}
         title={t("security.title")}
         lead={t("security.lead")}
+        actions={<HeroActions secondary={false} />}
       >
         <div className="mt-4 max-w-4xl rounded-3xl border border-brand/30 bg-card/80 p-5">
           <div className="flex items-start gap-4">
