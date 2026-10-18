@@ -1,4 +1,6 @@
 # Tasks
+- [ ] Reduce all homepage photo heights without changing other pages.
+- [ ] Add a scrolling section with the 50 software brands from the supplied list and verify assets and motion controls.
 - [x] Add official company identity and director to relevant legal pages in all languages.
 - [x] Add address and regional telephone contacts to contact page and footer.
 - [x] Verify public pages and apply required package security update.
