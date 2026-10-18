@@ -17,14 +17,9 @@ describe("Proposed international locations", () => {
     expect(isActiveOffice({ ...office, status: "validated", serviceActive: false })).toBe(false);
     expect(isActiveOffice({ ...office, status: "validated", serviceActive: true })).toBe(true);
   });
-  test("preserves the supplied provider verification links", () => {
-    expect(globalOffices.map(o => o.url)).toEqual([
-      "https://www.manhattanvirtualoffice.com/",
-      "https://www.difc.com/business/services/spaces-and-offices",
-      "https://www.servcorp.com.sg/en/virtual-offices/prices-locations/singapore/marina-bay-financial-centre/",
-      "https://www.londonaddress.com/en/",
-      "https://www.bbcl.com.hk/en/virtual-office",
-    ]);
+  test("publishes no domiciliation provider names or links", () => {
+    expect(globalOffices.every(o => !("provider" in o) && !("url" in o))).toBe(true);
+    expect(JSON.stringify(globalOffices)).not.toMatch(/https?:\/\//i);
   });
   test("keeps New York as an indicative area without inventing a street number", () => {
     expect(globalOffices[0].address).toBe("New York, NY 10019");
