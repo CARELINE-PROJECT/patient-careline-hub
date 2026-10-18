@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Clock, Mail, MapPin } from "lucide-react";
+import { Clock, Mail } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { siteConfig } from "@/config/site";
@@ -39,12 +39,6 @@ function Contact() {
                 <Clock className="mt-0.5 size-4 text-brand" aria-hidden="true" />
                 <span className="text-muted-foreground">
                   {t("contact.hours")}: {t("site.supportHours")}
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="mt-0.5 size-4 text-brand" aria-hidden="true" />
-                <span className="text-muted-foreground">
-                  {t("contact.addressLabel")}: {t("site.address")}
                 </span>
               </li>
             </ul>
