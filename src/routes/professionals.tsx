@@ -31,11 +31,10 @@ function Professionals() {
         title={t("professionals.title")}
         lead={t("professionals.lead")}
       />
-      <Section id="partner" className="pt-6 md:pt-8">
-        <SectionHeading
-          eyebrow={t("professionals.cta")}
-          title={t("professionals.formTitle")}
-        />
+      <Section id="partner" className="pt-5 md:pt-6">
+        <h2 className="font-display text-2xl leading-tight tracking-tight text-branddeep sm:text-3xl">
+          {t("professionals.formTitle")}
+        </h2>
         <div className="mt-4 max-w-3xl">
           <PartnerForm />
         </div>

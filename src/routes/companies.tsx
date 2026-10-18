@@ -26,9 +26,11 @@ function Companies() {
         lead={t("corporations.lead")}
         actions={<HeroActions />}
       />
-      <Section>
-        <SectionHeading eyebrow={t("corporations.cta")} title={t("contact.title")} lead={t("contact.lead")} />
-        <div className="mt-6 max-w-3xl">
+      <Section className="pt-5 md:pt-6">
+        <h2 className="font-display text-2xl leading-tight tracking-tight text-branddeep sm:text-3xl">
+          {t("contact.title")}
+        </h2>
+        <div className="mt-4 max-w-3xl">
           <ContactForm />
         </div>
       </Section>
