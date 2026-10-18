@@ -2,7 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
-import { Glass, Reveal, Section } from "@/components/site/primitives";
+import patientHands from "@/assets/patient-hands.jpg";
+import { Glass, Photo, Reveal, Section } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/how-it-works")({
@@ -45,6 +46,12 @@ function HowItWorks() {
                 {t("nav.contact")}
               </Link>
             </div>
+            <Photo
+              src={patientHands}
+              alt={t("media.patientHands")}
+              className="mt-6"
+              imgClassName="h-40 sm:h-48 lg:h-56"
+            />
           </Reveal>
           <ol className="space-y-3">
             {steps.map((n, i) => (
