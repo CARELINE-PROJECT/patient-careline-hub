@@ -19,7 +19,7 @@ export const it: PartialDictionary = {
   site: {
     tagline: "Gli appuntamenti medici, resi semplici.",
     address: "da confermare",
-    supportHours: "Dal lunedì al venerdì, 09:00 - 18:00 (CET)",
+    supportHours: "24 ore su 24, 7 giorni su 7",
     contactDetailsPlaceholder:
       "Recapiti provvisori - sostituite email, indirizzo e orari con le vostre informazioni verificate.",
     stats: {

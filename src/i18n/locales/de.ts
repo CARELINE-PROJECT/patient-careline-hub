@@ -19,7 +19,7 @@ export const de: PartialDictionary = {
   site: {
     tagline: "Medizinische Termine, einfach gemacht.",
     address: "noch zu bestätigen",
-    supportHours: "Montag bis Freitag, 09:00 - 18:00 (MEZ)",
+    supportHours: "24 Stunden täglich, 7 Tage die Woche",
     contactDetailsPlaceholder:
       "Vorläufige Kontaktdaten - ersetzen Sie E-Mail, Adresse und Zeiten durch Ihre geprüften Angaben.",
     stats: {
