@@ -33,7 +33,7 @@ function About() {
 
   return (
     <>
-      <PageHero eyebrow={t("about.eyebrow")} title={t("about.title")} lead={t("about.lead")} />
+      <PageHero eyebrow={t("about.eyebrow")} title={t("about.title")} lead={t("about.lead")} actions={<HeroActions />} />
       <Section>
         <Reveal className="mb-12">
           <Photo

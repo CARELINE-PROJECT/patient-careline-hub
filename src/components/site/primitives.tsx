@@ -260,11 +260,13 @@ export function PageHero({
   eyebrow,
   title,
   lead,
+  actions,
   children,
 }: {
   eyebrow?: string | undefined;
   title: string;
   lead?: string | undefined;
+  actions?: ReactNode | undefined;
   children?: ReactNode | undefined;
 }) {
   return (
@@ -280,6 +282,7 @@ export function PageHero({
             {lead}
           </p>
         ) : null}
+        {actions}
         {children}
       </div>
     </section>

@@ -23,7 +23,7 @@ function Faq() {
 
   return (
     <>
-      <PageHero eyebrow={t("faq.eyebrow")} title={t("faq.title")} />
+      <PageHero eyebrow={t("faq.eyebrow")} title={t("faq.title")} actions={<HeroActions />} />
       <Section>
         <div className="max-w-3xl">
           <Accordion type="single" collapsible className="w-full">
