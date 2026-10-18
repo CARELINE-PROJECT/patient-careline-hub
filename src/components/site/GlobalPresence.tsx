@@ -57,7 +57,7 @@ export function GlobalPresence() {
 
         <div className="mt-7 flex max-w-4xl items-start gap-3 border-y border-global-border py-5 text-sm leading-relaxed text-global-muted"><ShieldCheck className="mt-0.5 size-5 shrink-0 text-global-accent" aria-hidden="true" /><p>{c.notice}</p></div>
 
-        <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-8 grid items-start gap-4 md:grid-cols-2 xl:grid-cols-3">
           {globalOffices.map(hub => <article key={hub.id} ref={el => { cards.current[hub.id] = el; }} tabIndex={-1} aria-labelledby={`office-${hub.id}`} className={cn("global-office flex min-w-0 flex-col rounded-lg border border-global-border bg-global-surface p-6", selected === hub.id && "is-selected")}>
             <span aria-hidden="true" className="text-2xl">{hub.flag}</span>
             <h3 id={`office-${hub.id}`} className="mt-4 text-xl font-semibold">{city(hub.id, hub.city)}</h3>
