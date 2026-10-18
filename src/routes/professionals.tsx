@@ -31,13 +31,12 @@ function Professionals() {
         title={t("professionals.title")}
         lead={t("professionals.lead")}
       />
-      <Section id="partner">
+      <Section id="partner" className="pt-6 md:pt-8">
         <SectionHeading
           eyebrow={t("professionals.cta")}
           title={t("professionals.formTitle")}
-          lead={t("professionals.formLead")}
         />
-        <div className="mt-6 max-w-3xl">
+        <div className="mt-4 max-w-3xl">
           <PartnerForm />
         </div>
       </Section>
