@@ -14,6 +14,7 @@ import {
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
+import { HeroActions } from "@/components/site/HeroActions";
 import coordinator from "@/assets/team-coordinator.jpg";
 import { CTASection } from "@/components/site/CTASection";
 
@@ -45,6 +46,7 @@ function Services() {
         eyebrow={t("services.eyebrow")}
         title={t("services.title")}
         lead={t("services.lead")}
+        actions={<HeroActions />}
       />
       <Section>
         <Reveal className="mb-8">

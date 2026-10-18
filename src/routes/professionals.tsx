@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
-import { FeatureCard, PageHero, Photo, Reveal, Section, SectionHeading } from "@/components/site/primitives";
+import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import { PartnerForm } from "@/components/forms/PartnerForm";
 
@@ -31,9 +31,22 @@ function Professionals() {
         title={t("professionals.title")}
         lead={t("professionals.lead")}
       />
-      <Section>
-        <Reveal className="mb-12">
-          <Photo src={doctorGreeting} alt={t("media.doctorGreeting")} />
+      <Section id="partner" className="pt-5 md:pt-6">
+        <h2 className="font-display text-2xl leading-tight tracking-tight text-branddeep sm:text-3xl">
+          {t("professionals.formTitle")}
+        </h2>
+        <div className="mt-4 max-w-3xl">
+          <PartnerForm />
+        </div>
+      </Section>
+      <Section tone="muted">
+        <Reveal className="mb-8">
+          <Photo
+            src={doctorGreeting}
+            alt={t("media.doctorGreeting")}
+            className="mx-auto max-w-3xl"
+            imgClassName="h-52 object-[50%_30%] lg:h-60"
+          />
         </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (
@@ -44,16 +57,6 @@ function Professionals() {
               description={t(`professionals.b${i + 1}d`)}
             />
           ))}
-        </div>
-      </Section>
-      <Section tone="muted" id="partner">
-        <SectionHeading
-          eyebrow={t("professionals.cta")}
-          title={t("professionals.formTitle")}
-          lead={t("professionals.formLead")}
-        />
-        <div className="mt-10 max-w-3xl">
-          <PartnerForm />
         </div>
       </Section>
     </>

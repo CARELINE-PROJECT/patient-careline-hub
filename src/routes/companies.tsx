@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Globe2, HeartHandshake, Languages, Layers, ShieldCheck, Timer } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
-import { FeatureCard, PageHero, Photo, Reveal, Section, SectionHeading } from "@/components/site/primitives";
+import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import teamOffice from "@/assets/team-office.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
@@ -24,9 +24,20 @@ function Companies() {
         title={t("corporations.title")}
         lead={t("corporations.lead")}
       />
-      <Section>
-        <Reveal className="mb-12">
-          <Photo src={teamOffice} alt={t("media.teamOffice")} />
+      <Section className="pt-4 md:pt-5">
+        <h2 className="sr-only">{t("contact.title")}</h2>
+        <div className="mt-4 max-w-3xl">
+          <ContactForm />
+        </div>
+      </Section>
+      <Section tone="muted">
+        <Reveal className="mb-8">
+          <Photo
+            src={teamOffice}
+            alt={t("media.teamOffice")}
+            className="mx-auto max-w-3xl"
+            imgClassName="h-52 object-[50%_30%] lg:h-60"
+          />
         </Reveal>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {icons.map((Icon, i) => (
@@ -37,12 +48,6 @@ function Companies() {
               description={t(`corporations.b${i + 1}d`)}
             />
           ))}
-        </div>
-      </Section>
-      <Section tone="muted">
-        <SectionHeading eyebrow={t("corporations.cta")} title={t("contact.title")} lead={t("contact.lead")} />
-        <div className="mt-10 max-w-3xl">
-          <ContactForm />
         </div>
       </Section>
     </>

@@ -104,7 +104,7 @@ export function Section({
     <section
       id={id}
       className={cn(
-        "relative overflow-clip px-5 py-11 sm:px-8 md:py-14",
+        "relative overflow-x-clip px-5 pt-11 pb-11 sm:px-8 md:pt-14 md:pb-14",
         tone === "muted" && "bg-secondary/60",
         tone === "deep" && "bg-branddeep text-primary-foreground",
         className,
@@ -260,11 +260,13 @@ export function PageHero({
   eyebrow,
   title,
   lead,
+  actions,
   children,
 }: {
   eyebrow?: string | undefined;
   title: string;
   lead?: string | undefined;
+  actions?: ReactNode | undefined;
   children?: ReactNode | undefined;
 }) {
   return (
@@ -280,6 +282,7 @@ export function PageHero({
             {lead}
           </p>
         ) : null}
+        {actions}
         {children}
       </div>
     </section>

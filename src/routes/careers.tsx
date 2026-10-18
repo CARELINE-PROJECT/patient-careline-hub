@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { Glass, PageHero, Section } from "@/components/site/primitives";
+import { HeroActions } from "@/components/site/HeroActions";
 
 export const Route = createFileRoute("/careers")({
   head: () => ({
@@ -14,7 +15,7 @@ function Careers() {
   const { t } = useI18n();
   return (
     <>
-      <PageHero eyebrow={t("careers.eyebrow")} title={t("careers.title")} lead={t("careers.lead")} />
+      <PageHero eyebrow={t("careers.eyebrow")} title={t("careers.title")} lead={t("careers.lead")} actions={<HeroActions />} />
       <Section>
         <Glass className="max-w-2xl p-8">
           <p className="text-sm leading-relaxed text-muted-foreground">{t("careers.body")}</p>

@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { PageHero, Section } from "@/components/site/primitives";
+import { HeroActions } from "@/components/site/HeroActions";
 import { CTASection } from "@/components/site/CTASection";
 import {
   Accordion,
@@ -23,7 +24,7 @@ function Faq() {
 
   return (
     <>
-      <PageHero eyebrow={t("faq.eyebrow")} title={t("faq.title")} />
+      <PageHero eyebrow={t("faq.eyebrow")} title={t("faq.title")} actions={<HeroActions />} />
       <Section>
         <div className="max-w-3xl">
           <Accordion type="single" collapsible className="w-full">

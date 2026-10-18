@@ -7,6 +7,7 @@ import { Glass, DemoNote } from "@/components/site/primitives";
 import {
   ConsentField,
   SelectField,
+  SubmitBar,
   SubmitButton,
   TextAreaField,
   TextField,
@@ -143,14 +144,12 @@ export function AppointmentForm() {
         <TextAreaField id="reason" label={t("form.reason")} required rows={3} value={values.reason} onChange={set("reason")} error={errors.reason} />
         <TextAreaField id="additional" label={t("form.additional")} rows={2} value={values.additional} onChange={set("additional")} error={errors.additional} />
 
-        <div className="sticky bottom-3 z-30">
-          <div className="rounded-3xl border border-border/70 bg-card/95 p-4 shadow-[0_22px_50px_-28px_rgba(16,49,56,0.6)] backdrop-blur-xl">
-            <ConsentField id="consent" checked={values.consent} onChange={setBool("consent")} label={t("form.consent")} error={errors.consent} />
-            <SubmitButton className="mt-3" loading={loading} loadingLabel={t("form.sending")}>
-              {t("form.submit")}
-            </SubmitButton>
-          </div>
-        </div>
+        <SubmitBar>
+          <ConsentField id="consent" checked={values.consent} onChange={setBool("consent")} label={t("form.consent")} error={errors.consent} />
+          <SubmitButton className="mt-3" loading={loading} loadingLabel={t("form.sending")}>
+            {t("form.submit")}
+          </SubmitButton>
+        </SubmitBar>
 
         {/* <DemoNote>{t("form.demoNotice")}</DemoNote> */}
       </form>

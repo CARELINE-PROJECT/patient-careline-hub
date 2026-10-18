@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
+import { HeroActions } from "@/components/site/HeroActions";
 import teamOffice from "@/assets/team-office.jpg";
 import { CTASection } from "@/components/site/CTASection";
 import { operationsCopy } from "@/i18n/operations";
@@ -33,7 +34,7 @@ function About() {
 
   return (
     <>
-      <PageHero eyebrow={t("about.eyebrow")} title={t("about.title")} lead={t("about.lead")} />
+      <PageHero eyebrow={t("about.eyebrow")} title={t("about.title")} lead={t("about.lead")} actions={<HeroActions />} />
       <Section>
         <Reveal className="mb-12">
           <Photo

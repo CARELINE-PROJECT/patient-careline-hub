@@ -176,6 +176,16 @@ export function ConsentField({
   );
 }
 
+export function SubmitBar({ children }: { children: ReactNode }) {
+  return (
+    <div className="sticky bottom-3 z-30">
+      <div className="rounded-3xl border border-border/70 bg-card/95 p-4 shadow-[0_22px_50px_-28px_rgba(16,49,56,0.6)] backdrop-blur-xl">
+        {children}
+      </div>
+    </div>
+  );
+}
+
 export function SubmitButton({
   loading,
   children,

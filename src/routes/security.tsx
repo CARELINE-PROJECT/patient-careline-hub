@@ -1,8 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ShieldCheck } from "lucide-react";
+import { Globe2, Lock, ShieldCheck } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
+import { securityFocusCopy } from "@/i18n/securityFocus";
 import { FeatureCard, PageHero, Section } from "@/components/site/primitives";
+import { HeroActions } from "@/components/site/HeroActions";
 
 export const Route = createFileRoute("/security")({
   head: () => ({
@@ -12,7 +14,8 @@ export const Route = createFileRoute("/security")({
 });
 
 function Security() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const f = securityFocusCopy[locale] ?? securityFocusCopy.en;
   const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
@@ -21,7 +24,45 @@ function Security() {
         eyebrow={t("security.eyebrow")}
         title={t("security.title")}
         lead={t("security.lead")}
-      />
+        actions={<HeroActions secondary={false} />}
+      >
+        <div className="mt-4 max-w-4xl rounded-3xl border border-brand/30 bg-card/80 p-5">
+          <div className="flex items-start gap-4">
+            <ShieldCheck className="mt-0.5 size-5 shrink-0 text-brand" aria-hidden="true" />
+            <div>
+              <span className="inline-flex rounded-full bg-secondary px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-brand">
+                {f.badge}
+              </span>
+              <p className="mt-3 font-display text-lg leading-snug tracking-tight text-branddeep sm:text-xl">
+                {f.claim}
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{f.claimDetail}</p>
+            </div>
+          </div>
+          <div className="mt-4 grid gap-5 border-t border-border/70 pt-4 sm:grid-cols-2">
+            <div className="flex items-start gap-3">
+              <Globe2 className="mt-0.5 size-4 shrink-0 text-brand" aria-hidden="true" />
+              <div>
+                <p className="font-display text-base leading-snug tracking-tight text-branddeep">
+                  {f.gdprTitle}
+                </p>
+                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{f.gdprBody}</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <Lock className="mt-0.5 size-4 shrink-0 text-brand" aria-hidden="true" />
+              <div>
+                <p className="font-display text-base leading-snug tracking-tight text-branddeep">
+                  {f.standardTitle}
+                </p>
+                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                  {f.standardBody}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </PageHero>
       <Section>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((n) => (
