@@ -61,7 +61,7 @@ export function GlobalPresence() {
           {globalOffices.map(hub => <article key={hub.id} ref={el => { cards.current[hub.id] = el; }} tabIndex={-1} aria-labelledby={`office-${hub.id}`} className={cn("global-office flex min-w-0 flex-col rounded-lg border border-global-border bg-global-surface p-6", selected === hub.id && "is-selected")}>
             <div className="flex items-start justify-between gap-3"><span aria-hidden="true" className="text-2xl">{hub.flag}</span><span className="text-xs text-global-accent">{c.statuses[hub.status]}</span></div>
             <h3 id={`office-${hub.id}`} className="mt-4 text-xl font-semibold">{city(hub.id, hub.city)}</h3>
-            <p className="mt-1 text-xs text-global-muted">{officeLabel(c.countries, hub.id, hub.country)}</p>
+            <p className="mt-1 text-xs text-global-muted">{officeLabel(c.countries, hub.id, hub.country)} · {c.types[hub.type]}</p>
             <p className="mt-4 text-sm font-medium">{hub.district}</p>
             <div className="mt-4 flex items-start gap-2"><MapPin className="mt-0.5 size-4 shrink-0 text-global-accent" aria-hidden="true" /><div><p className="text-[11px] text-global-muted">{hub.status === "validated" ? c.validatedAddress : hub.id === "new-york" ? c.indicative : c.address}</p><p className="mt-1 text-sm leading-relaxed"><bdi>{hub.address}</bdi></p></div></div>
             {hub.status !== "validated" && <p className="mt-2 text-xs leading-relaxed text-global-muted">{officeLabel(c.verification, hub.id, "")}</p>}
