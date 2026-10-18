@@ -7,6 +7,7 @@ import { Glass, DemoNote } from "@/components/site/primitives";
 import {
   ConsentField,
   SelectField,
+  SubmitBar,
   SubmitButton,
   TextAreaField,
   TextField,

@@ -3,7 +3,7 @@ import { z } from "zod";
 import { useI18n } from "@/i18n";
 import { submitForm } from "@/lib/api";
 import { Glass, DemoNote } from "@/components/site/primitives";
-import { ConsentField, SubmitButton, TextAreaField, TextField } from "./fields";
+import { ConsentField, SubmitBar, SubmitButton, TextAreaField, TextField } from "./fields";
 import { SuccessPanel } from "./SuccessPanel";
 
 const initial = {
