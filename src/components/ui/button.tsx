@@ -9,6 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        global: "border border-global-border bg-global-surface text-global-foreground hover:border-global-accent hover:bg-global-accent/15 focus-visible:ring-global-accent",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:

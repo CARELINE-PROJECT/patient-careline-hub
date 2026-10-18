@@ -45,6 +45,12 @@
   --color-brandlight: var(--brandlight);
   --color-aqua: var(--aqua);
   --color-ink: var(--ink);
+  --color-global-background: var(--global-background);
+  --color-global-foreground: var(--global-foreground);
+  --color-global-surface: var(--global-surface);
+  --color-global-accent: var(--global-accent);
+  --color-global-muted: var(--global-muted);
+  --color-global-border: var(--global-border);
 
   --font-display: "Fraunces", ui-serif, Georgia, serif;
   --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
@@ -52,6 +58,14 @@
 
 :root {
   --radius: 0.75rem;
+  --global-background: oklch(0.21 0.045 258);
+  --global-foreground: oklch(0.98 0.004 250);
+  --global-surface: oklch(0.26 0.045 258);
+  --global-accent: oklch(0.76 0.135 243);
+  --global-muted: oklch(0.79 0.025 250);
+  --global-border: oklch(0.4 0.04 252);
+  --global-land: oklch(0.36 0.05 254);
+  --global-glow: 0 0 16px color-mix(in oklab, var(--global-accent) 60%, transparent);
 
   --brand: oklch(0.45 0.075 205);
   --branddeep: oklch(0.32 0.06 205);
@@ -147,6 +161,18 @@
 .software-scroll {
   scrollbar-width: none;
 }
+
+.global-presence { background: var(--global-background); color: var(--global-foreground); }
+.global-land { fill: var(--global-land); stroke: var(--global-border); stroke-width: 0.5; }
+.global-route { fill: none; stroke: var(--global-accent); stroke-width: 1.2; opacity: 0.35; transition: opacity 300ms; }
+.global-route.is-selected { opacity: 0.9; }
+.global-pin { color: var(--global-foreground); }
+.global-pin:hover { background: transparent; }
+.global-pin-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--global-accent); box-shadow: var(--global-glow); }
+.global-pin.is-selected .global-pin-dot { outline: 1px solid var(--global-accent); outline-offset: 6px; }
+.global-map-label { color: var(--global-foreground); pointer-events: none; }
+.global-office { transition: border-color 250ms; }
+.global-office.is-selected { border-color: var(--global-accent); }
 .software-scroll::-webkit-scrollbar {
   display: none;
 }

@@ -7,6 +7,7 @@ import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/
 import coordinator from "@/assets/team-coordinator.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { PhoneContacts } from "@/components/site/CompanyDetails";
+import { GlobalPresence } from "@/components/site/GlobalPresence";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -53,6 +54,7 @@ function Contact() {
           </Glass>
         </div>
       </Section>
+      <GlobalPresence />
     </>
   );
 }
