@@ -19,7 +19,7 @@ export const ar: PartialDictionary = {
   site: {
     tagline: "حجز المواعيد الطبية، ببساطة.",
     address: "قيد التأكيد",
-    supportHours: "من الاثنين إلى الجمعة، 09:00 - 18:00 (بتوقيت وسط أوروبا)",
+    supportHours: "على مدار 24 ساعة طوال أيام الأسبوع",
     contactDetailsPlaceholder:
       "بيانات اتصال مؤقتة - استبدلوا البريد الإلكتروني والعنوان وساعات العمل بمعلوماتكم الموثّقة.",
     stats: {

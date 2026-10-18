@@ -19,7 +19,7 @@ export const fr: PartialDictionary = {
   site: {
     tagline: "La prise de rendez-vous médicaux, simplifiée.",
     address: "à confirmer",
-    supportHours: "Du lundi au vendredi, 09:00 - 18:00 (CET)",
+    supportHours: "24h/24, 7j/7",
     contactDetailsPlaceholder:
       "Coordonnées provisoires - remplacez l'email, l'adresse et les horaires par vos informations vérifiées.",
     stats: {

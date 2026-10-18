@@ -19,7 +19,7 @@ export const pt: PartialDictionary = {
   site: {
     tagline: "Marcação de consultas médicas, simplificada.",
     address: "a confirmar",
-    supportHours: "De segunda a sexta, 09:00 - 18:00 (CET)",
+    supportHours: "24 horas por dia, 7 dias por semana",
     contactDetailsPlaceholder:
       "Dados de contacto provisórios - substitua o email, o endereço e o horário pelas suas informações verificadas.",
     stats: {

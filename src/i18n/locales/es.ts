@@ -17,7 +17,7 @@ export const es: PartialDictionary = {
   site: {
     tagline: "Citas médicas, de forma sencilla.",
     address: "por confirmar",
-    supportHours: "De lunes a viernes, 09:00 - 18:00 (CET)",
+    supportHours: "24 horas al día, 7 días a la semana",
     contactDetailsPlaceholder:
       "Datos de contacto provisionales: sustituya el email, la dirección y los horarios por información verificada.",
     stats: {

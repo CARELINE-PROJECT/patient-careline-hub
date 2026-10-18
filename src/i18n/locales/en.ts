@@ -17,7 +17,7 @@ export const en = {
   site: {
     tagline: "Healthcare appointments, made simple.",
     address: "to be confirmed",
-    supportHours: "Monday to Friday, 09:00 - 18:00 (CET)",
+    supportHours: "24/7, every day",
     contactDetailsPlaceholder:
       "Placeholder contact details - replace the email, address and hours with your verified information.",
     stats: {

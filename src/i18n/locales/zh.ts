@@ -19,7 +19,7 @@ export const zh: PartialDictionary = {
   site: {
     tagline: "医疗预约，化繁为简。",
     address: "待确认",
-    supportHours: "周一至周五，09:00 - 18:00（中欧时间）",
+    supportHours: "全天候 24 小时，每周 7 天",
     contactDetailsPlaceholder: "临时联系方式 - 请将电子邮件、地址和营业时间替换为您已验证的信息。",
     stats: {
       professionals: "1000万+",

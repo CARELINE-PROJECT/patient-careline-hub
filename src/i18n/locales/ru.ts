@@ -19,7 +19,7 @@ export const ru: PartialDictionary = {
   site: {
     tagline: "Запись к врачу — это просто.",
     address: "требует подтверждения",
-    supportHours: "С понедельника по пятницу, 09:00 - 18:00 (CET)",
+    supportHours: "24 часа в сутки, 7 дней в неделю",
     contactDetailsPlaceholder:
       "Временные контактные данные — замените email, адрес и часы работы на проверенную информацию.",
     stats: {

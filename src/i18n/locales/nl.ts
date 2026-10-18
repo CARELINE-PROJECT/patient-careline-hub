@@ -19,7 +19,7 @@ export const nl: PartialDictionary = {
   site: {
     tagline: "Medische afspraken, eenvoudig gemaakt.",
     address: "te bevestigen",
-    supportHours: "Maandag t/m vrijdag, 09:00 - 18:00 (CET)",
+    supportHours: "24 uur per dag, 7 dagen per week",
     contactDetailsPlaceholder:
       "Tijdelijke contactgegevens - vervang e-mail, adres en openingstijden door uw geverifieerde informatie.",
     stats: {
