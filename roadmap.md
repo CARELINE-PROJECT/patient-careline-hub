@@ -13,3 +13,5 @@
 - [x] Reduce the services page photo height.
 - [x] Add a searchable full specialty list to the professionals partner form.
 - [x] Make the footer imagery project an international, worldwide service reach.
+- [x] Add an international GDPR / no-health-data mention to the security page in all languages.
+- [ ] Reduce the empty space below "Décrivez votre besoin" on the request page.
