@@ -88,7 +88,10 @@ export function AppointmentForm() {
       }
       setErrors(next);
       const first = document.getElementById(Object.keys(next)[0] ?? "");
-      first?.focus();
+      if (first) {
+        first.scrollIntoView({ behavior: "smooth", block: "center" });
+        first.focus({ preventScroll: true });
+      }
       return;
     }
     setErrors({});
@@ -96,6 +99,7 @@ export function AppointmentForm() {
     const result = await submitForm("appointment", parsed.data);
     setLoading(false);
     setReference(result.reference);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   if (reference) {
