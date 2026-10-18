@@ -3,7 +3,6 @@ import { Globe2, HeartHandshake, Languages, Layers, ShieldCheck, Timer } from "l
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
-import { HeroActions } from "@/components/site/HeroActions";
 import teamOffice from "@/assets/team-office.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
@@ -24,12 +23,9 @@ function Companies() {
         eyebrow={t("corporations.eyebrow")}
         title={t("corporations.title")}
         lead={t("corporations.lead")}
-        actions={<HeroActions />}
       />
-      <Section className="pt-5 md:pt-6">
-        <h2 className="font-display text-2xl leading-tight tracking-tight text-branddeep sm:text-3xl">
-          {t("contact.title")}
-        </h2>
+      <Section className="pt-4 md:pt-5">
+        <h2 className="sr-only">{t("contact.title")}</h2>
         <div className="mt-4 max-w-3xl">
           <ContactForm />
         </div>
