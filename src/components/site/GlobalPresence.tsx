@@ -41,7 +41,7 @@ export function GlobalPresence() {
             </svg>
             {globalOffices.map(hub => {
               const point = mapPosition(hub.coordinates);
-              const labelBelow = hub.id === "antsirabe" || hub.id === "singapore";
+              const labelBelow = hub.id === "antsirabe" || hub.id === "singapore" || hub.id === "miami";
               return <Button key={hub.id} variant="ghost" size="icon" aria-label={city(hub.id, hub.city)} aria-pressed={selected === hub.id} title={city(hub.id, hub.city)} onClick={() => setSelected(hub.id)} className={cn("global-pin absolute z-10 size-9 -translate-x-1/2 -translate-y-1/2 rounded-full p-0 sm:size-11", selected === hub.id && "is-selected")} style={{ left: `${point.x}%`, top: `${point.y}%` }}><span className="global-pin-dot" /><span className={cn("global-map-label absolute left-1/2 -translate-x-1/2 whitespace-nowrap text-[10px] font-medium sm:text-[11px]", labelBelow ? "top-full mt-1.5" : "bottom-full mb-1.5")}>{city(hub.id, hub.city)}</span></Button>;
             })}
           </div>
