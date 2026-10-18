@@ -37,7 +37,7 @@ function Professionals() {
             <h2 className="font-display text-2xl leading-tight tracking-tight text-branddeep sm:text-3xl">
               {t("professionals.formTitle")}
             </h2>
-            <div className="mt-4">
+            <div className="mt-3">
               <PartnerForm />
             </div>
           </div>
