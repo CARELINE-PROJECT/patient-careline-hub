@@ -1,7 +1,7 @@
 # Tasks
-- [ ] Add the illustrated specialties directory and its footer link under Professionals.
-- [ ] Add a sourced eye-laser guide without prices, covering techniques and before/after care.
-- [ ] Integrate verified educational YouTube videos and check both new pages and navigation.
+- [x] Add the illustrated specialties directory and its footer link under Professionals.
+- [x] Add a sourced eye-laser guide without prices, covering techniques and before/after care (French and English; other locales use the English guide with a visible language notice).
+- [x] Integrate three verified educational YouTube videos and check both new pages, search, request navigation, mobile layout and actual playback of the French video.
 - [x] Remove legal form and registered-office address from footer only, retaining legal-page identity.
 - [x] Rename the +261 telephone label to “Centre d’appels mondial” everywhere it is rendered.
 - [x] Reduce all homepage photo heights without changing other pages.
