@@ -74,14 +74,14 @@ export function ContactForm() {
   }
 
   return (
-    <Glass className="p-6 sm:p-8">
+    <Glass className="px-6 pb-6 pt-4 sm:px-8 sm:pb-8 sm:pt-5">
       <form onSubmit={onSubmit} noValidate className="space-y-5">
         <div className="grid gap-5 sm:grid-cols-2">
           <TextField id="firstName" label={t("form.firstName")} required autoComplete="given-name" value={values.firstName} onChange={set("firstName")} error={errors.firstName} />
           <TextField id="lastName" label={t("form.lastName")} required autoComplete="family-name" value={values.lastName} onChange={set("lastName")} error={errors.lastName} />
           <TextField id="email" type="email" label={t("form.email")} required autoComplete="email" value={values.email} onChange={set("email")} error={errors.email} />
           <TextField id="phone" type="tel" label={t("form.phone")} hint={t("form.optional")} autoComplete="tel" value={values.phone} onChange={set("phone")} error={errors.phone} />
-          <TextField id="company" label={t("form.company")} value={values.company} onChange={set("company")} error={errors.company} className="sm:col-span-2" />
+          <TextField id="company" label={t("form.company")} hint={t("form.optional")} value={values.company} onChange={set("company")} error={errors.company} className="sm:col-span-2" />
           <TextField id="subject" label={t("form.subject")} required value={values.subject} onChange={set("subject")} error={errors.subject} className="sm:col-span-2" />
         </div>
 

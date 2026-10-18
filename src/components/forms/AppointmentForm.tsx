@@ -44,9 +44,8 @@ export function AppointmentForm() {
     phone: z
       .string()
       .trim()
-      .min(6, t("form.errors.phone"))
       .max(30, t("form.errors.tooLong"))
-      .regex(/^[+0-9 ().-]+$/, t("form.errors.phone")),
+      .refine((v) => v === "" || /^[+0-9 ().-]{6,}$/.test(v), t("form.errors.phone")),
     city: z.string().trim().min(1, t("form.errors.required")).max(120, t("form.errors.tooLong")),
     country: z.string().trim().min(1, t("form.errors.required")).max(120, t("form.errors.tooLong")),
     practitionerType: z.string().min(1, t("form.errors.required")),
@@ -122,7 +121,7 @@ export function AppointmentForm() {
   }
 
   return (
-    <Glass className="p-5 sm:p-6">
+    <Glass className="px-5 pb-5 pt-3 sm:px-6 sm:pb-6 sm:pt-4">
       <form onSubmit={onSubmit} noValidate className="space-y-3">
         <div className="flex items-start gap-3 rounded-2xl border border-accent/40 bg-accent/10 p-3">
           <AlertTriangle className="mt-0.5 size-4 shrink-0 text-accent-foreground" aria-hidden="true" />
@@ -133,7 +132,7 @@ export function AppointmentForm() {
           <TextField id="firstName" label={t("form.firstName")} required autoComplete="given-name" value={values.firstName} onChange={set("firstName")} error={errors.firstName} />
           <TextField id="lastName" label={t("form.lastName")} required autoComplete="family-name" value={values.lastName} onChange={set("lastName")} error={errors.lastName} />
           <TextField id="email" type="email" label={t("form.email")} required autoComplete="email" value={values.email} onChange={set("email")} error={errors.email} />
-          <TextField id="phone" type="tel" label={t("form.phone")} required autoComplete="tel" value={values.phone} onChange={set("phone")} error={errors.phone} />
+          <TextField id="phone" type="tel" label={t("form.phone")} hint={t("form.optional")} autoComplete="tel" value={values.phone} onChange={set("phone")} error={errors.phone} />
           <TextField id="city" label={t("form.city")} required autoComplete="address-level2" value={values.city} onChange={set("city")} error={errors.city} />
           <TextField id="country" label={t("form.country")} required autoComplete="country-name" value={values.country} onChange={set("country")} error={errors.country} />
           <SelectField id="practitionerType" label={t("form.practitionerType")} required placeholder={t("form.select")} options={practitionerOptions} value={values.practitionerType} onChange={set("practitionerType")} error={errors.practitionerType} />

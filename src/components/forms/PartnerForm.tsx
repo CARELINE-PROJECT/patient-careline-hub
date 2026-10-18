@@ -79,7 +79,7 @@ export function PartnerForm() {
   }
 
   return (
-    <Glass className="p-6 sm:p-8">
+    <Glass className="px-6 pb-6 pt-4 sm:px-8 sm:pb-8 sm:pt-5">
       <form onSubmit={onSubmit} noValidate className="space-y-5">
         <div className="grid gap-5 sm:grid-cols-2">
           <TextField id="practiceName" label={t("form.practiceName")} required value={values.practiceName} onChange={set("practiceName")} error={errors.practiceName} className="sm:col-span-2" />

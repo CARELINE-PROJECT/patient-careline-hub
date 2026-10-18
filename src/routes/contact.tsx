@@ -21,7 +21,7 @@ function Contact() {
   return (
     <>
       <PageHero eyebrow={t("contact.eyebrow")} title={t("contact.title")} lead={t("contact.lead")} />
-      <Section>
+      <Section className="pt-4 md:pt-5">
         <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-start">
           <ContactForm />
           <Glass className="p-7">
