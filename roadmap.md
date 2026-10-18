@@ -1,6 +1,6 @@
 # Tasks
-- [ ] Add five proposed international locations on Contact, with accurate validation statuses, provider links and an accessible interactive world map.
-- [ ] Verify provider references, all five selections and desktop/mobile layouts without changing existing contact content.
+- [x] Add five proposed international locations on Contact, with accurate validation statuses, provider links and an accessible interactive world map.
+- [x] Verify provider references, all five selections and desktop/mobile layouts without changing existing contact content; show address uncertainties, including the New York ZIP discrepancy.
 - [x] Add the illustrated specialties directory and its footer link under Professionals.
 - [x] Add a sourced eye-laser guide without prices, covering techniques and before/after care (French and English; other locales use the English guide with a visible language notice).
 - [x] Integrate three verified educational YouTube videos and check both new pages, search, request navigation, mobile layout and actual playback of the French video.

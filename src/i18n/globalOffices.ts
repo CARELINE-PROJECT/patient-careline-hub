@@ -15,6 +15,7 @@ const en = {
   countries: { "new-york": "United States", dubai: "United Arab Emirates", singapore: "Singapore", london: "United Kingdom", "hong-kong": "Hong Kong SAR" },
   serviceNames: { address: "Business address", mail: "Mail handling", phone: "Telephone reception", meeting: "Meeting rooms", workspace: "Flexible workspaces", office: "Office solutions", professional: "Professional services", scan: "Mail scanning" },
   map: "Proposed international locations", attribution: "Map: Natural Earth · public domain",
+  verification: { "new-york": "The supplied NY 10019 area differs from the provider’s published NY 10036 address. Exact address to confirm.", dubai: "Gate Avenue has not been confirmed as the address of the proposed offer.", singapore: "Tower 2 and 10 Marina Boulevard appear on the provider’s page; postal code to confirm.", london: "This address is listed by the provider; Careline’s right to use it remains unconfirmed.", "hong-kong": "The building, street number and floor remain to be confirmed by the provider." },
 };
 const fr: typeof en = {
   eyebrow: "Careline · International",
@@ -31,6 +32,7 @@ const fr: typeof en = {
   countries: { "new-york": "États-Unis", dubai: "Émirats arabes unis", singapore: "Singapour", london: "Royaume-Uni", "hong-kong": "Région administrative spéciale de Hong Kong" },
   serviceNames: { address: "Adresse commerciale", mail: "Gestion du courrier", phone: "Accueil téléphonique", meeting: "Salles de réunion", workspace: "Espaces de travail flexibles", office: "Solutions de bureaux", professional: "Services professionnels", scan: "Numérisation du courrier" },
   map: "Localisations internationales envisagées", attribution: "Carte : Natural Earth · domaine public",
+  verification: { "new-york": "La zone NY 10019 fournie diffère de l’adresse NY 10036 publiée par le prestataire. Adresse exacte à confirmer.", dubai: "Gate Avenue n’a pas été confirmé comme adresse de l’offre envisagée.", singapore: "Tower 2 et 10 Marina Boulevard figurent sur le site du prestataire ; code postal à confirmer.", london: "Cette adresse figure sur le site du prestataire ; le droit d’utilisation par Careline reste à confirmer.", "hong-kong": "L’immeuble, le numéro de rue et l’étage restent à confirmer auprès du prestataire." },
 };
 
 export function globalOfficeCopy(locale: LocaleCode) {
