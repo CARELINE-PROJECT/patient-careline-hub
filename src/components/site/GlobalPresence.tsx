@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 export function GlobalPresence() {
   const { locale } = useI18n();
   const c = globalOfficeCopy(locale);
-  const [selected, setSelected] = useState("new-york");
+  const [selected, setSelected] = useState("antsirabe");
   const cards = useRef<Record<string, HTMLElement | null>>({});
   const office = globalOffices.find(o => o.id === selected) ?? globalOffices[0];
   if (!office) return null;
