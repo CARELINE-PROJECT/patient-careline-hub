@@ -84,7 +84,7 @@ export function SpecialtyField({
       custom: false,
     }));
     return trimmed && !isExact
-      ? [{ key: "__custom", label: trimmed, custom: true }, ...base]
+      ? [...base, { key: "__custom", label: trimmed, custom: true }]
       : base;
   }, [filtered, isExact, trimmed]);
 
