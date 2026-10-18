@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
-import { Glass, PageHero, Section } from "@/components/site/primitives";
+import { Glass, Section } from "@/components/site/primitives";
 import { AppointmentForm } from "@/components/forms/AppointmentForm";
 
 export const Route = createFileRoute("/request")({
@@ -16,8 +16,18 @@ function RequestPage() {
 
   return (
     <>
-      <PageHero eyebrow={t("request.eyebrow")} title={t("request.title")} lead={t("request.lead")} />
-      <Section>
+      <div className="mx-auto w-full max-w-6xl px-5 pt-6 sm:px-8">
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">
+          {t("request.eyebrow")}
+        </p>
+        <h1 className="mt-2 font-display text-2xl leading-tight tracking-tight text-branddeep sm:text-3xl">
+          {t("request.title")}
+        </h1>
+        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted-foreground">
+          {t("request.lead")}
+        </p>
+      </div>
+      <Section className="pb-10 pt-5 md:pb-14">
         <div className="grid gap-8 lg:grid-cols-[1.6fr_1fr] lg:items-start">
           <AppointmentForm />
           <Glass className="p-7">

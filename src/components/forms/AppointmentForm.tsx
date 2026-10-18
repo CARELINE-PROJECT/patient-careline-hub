@@ -88,7 +88,10 @@ export function AppointmentForm() {
       }
       setErrors(next);
       const first = document.getElementById(Object.keys(next)[0] ?? "");
-      first?.focus();
+      if (first) {
+        first.scrollIntoView({ behavior: "smooth", block: "center" });
+        first.focus({ preventScroll: true });
+      }
       return;
     }
     setErrors({});
@@ -96,6 +99,7 @@ export function AppointmentForm() {
     const result = await submitForm("appointment", parsed.data);
     setLoading(false);
     setReference(result.reference);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   if (reference) {
@@ -117,14 +121,14 @@ export function AppointmentForm() {
   }
 
   return (
-    <Glass className="p-6 sm:p-8">
-      <form onSubmit={onSubmit} noValidate className="space-y-5">
-        <div className="flex items-start gap-3 rounded-2xl border border-accent/40 bg-accent/10 p-4">
+    <Glass className="p-5 sm:p-6">
+      <form onSubmit={onSubmit} noValidate className="space-y-3">
+        <div className="flex items-start gap-3 rounded-2xl border border-accent/40 bg-accent/10 p-3">
           <AlertTriangle className="mt-0.5 size-4 shrink-0 text-accent-foreground" aria-hidden="true" />
           <p className="text-xs leading-relaxed text-accent-foreground">{t("form.warning")}</p>
         </div>
 
-        <div className="grid gap-5 sm:grid-cols-2">
+        <div className="grid gap-3 sm:grid-cols-2">
           <TextField id="firstName" label={t("form.firstName")} required autoComplete="given-name" value={values.firstName} onChange={set("firstName")} error={errors.firstName} />
           <TextField id="lastName" label={t("form.lastName")} required autoComplete="family-name" value={values.lastName} onChange={set("lastName")} error={errors.lastName} />
           <TextField id="email" type="email" label={t("form.email")} required autoComplete="email" value={values.email} onChange={set("email")} error={errors.email} />
@@ -136,14 +140,17 @@ export function AppointmentForm() {
           <TextField id="period" label={t("form.period")} hint={t("form.optional")} value={values.period} onChange={set("period")} error={errors.period} className="sm:col-span-2" />
         </div>
 
-        <TextAreaField id="reason" label={t("form.reason")} required rows={4} value={values.reason} onChange={set("reason")} error={errors.reason} />
-        <TextAreaField id="additional" label={t("form.additional")} rows={3} value={values.additional} onChange={set("additional")} error={errors.additional} />
+        <TextAreaField id="reason" label={t("form.reason")} required rows={3} value={values.reason} onChange={set("reason")} error={errors.reason} />
+        <TextAreaField id="additional" label={t("form.additional")} rows={2} value={values.additional} onChange={set("additional")} error={errors.additional} />
 
-        <ConsentField id="consent" checked={values.consent} onChange={setBool("consent")} label={t("form.consent")} error={errors.consent} />
-
-        <SubmitButton loading={loading} loadingLabel={t("form.sending")}>
-          {t("form.submit")}
-        </SubmitButton>
+        <div className="sticky bottom-3 z-30">
+          <div className="rounded-3xl border border-border/70 bg-card/95 p-4 shadow-[0_22px_50px_-28px_rgba(16,49,56,0.6)] backdrop-blur-xl">
+            <ConsentField id="consent" checked={values.consent} onChange={setBool("consent")} label={t("form.consent")} error={errors.consent} />
+            <SubmitButton className="mt-3" loading={loading} loadingLabel={t("form.sending")}>
+              {t("form.submit")}
+            </SubmitButton>
+          </div>
+        </div>
 
         {/* <DemoNote>{t("form.demoNotice")}</DemoNote> */}
       </form>

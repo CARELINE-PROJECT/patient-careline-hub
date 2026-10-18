@@ -104,7 +104,7 @@ export function Section({
     <section
       id={id}
       className={cn(
-        "relative overflow-hidden px-5 py-11 sm:px-8 md:py-14",
+        "relative overflow-clip px-5 py-11 sm:px-8 md:py-14",
         tone === "muted" && "bg-secondary/60",
         tone === "deep" && "bg-branddeep text-primary-foreground",
         className,
