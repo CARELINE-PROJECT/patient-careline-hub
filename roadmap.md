@@ -10,3 +10,5 @@
 - [x] Update the health professionals statistic to more than 10 million in all languages.
 - [x] Remove the "professional baseline / legal counsel" review notices from legal and security pages.
 - [x] Replace sophie@careline.doctor with contact@careline.doctor everywhere.
+- [x] Reduce the services page photo height.
+- [ ] Add a searchable full specialty list to the professionals partner form.
