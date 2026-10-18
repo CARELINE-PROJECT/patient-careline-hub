@@ -534,7 +534,7 @@ export const es: PartialDictionary = {
   },
   footer: {
     about:
-      "Conectamos a pacientes y organizaciones con profesionales sanitarios de confianza en todo el mundo.",
+      "Conectamos a pacientes con profesionales sanitarios de confianza en todo el mundo.",
     company: "Careline",
     patients: "Pacientes",
     professionals: "Profesionales",

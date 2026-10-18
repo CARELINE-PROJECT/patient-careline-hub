@@ -537,7 +537,7 @@ export const fr: PartialDictionary = {
   },
   footer: {
     about:
-      "Nous relions patients et organisations à des professionnels de santé de confiance, partout dans le monde.",
+      "Nous relions patients et professionnels de santé de confiance, partout dans le monde.",
     patients: "Patients",
     professionals: "Professionnels",
     companies: "Entreprises",

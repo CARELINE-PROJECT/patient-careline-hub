@@ -536,7 +536,7 @@ export const nl: PartialDictionary = {
   },
   footer: {
     about:
-      "Wij verbinden patiënten en organisaties met vertrouwde zorgverleners, overal ter wereld.",
+      "Wij verbinden patiënten met vertrouwde zorgverleners, overal ter wereld.",
     patients: "Patiënten",
     professionals: "Zorgverleners",
     companies: "Bedrijven",

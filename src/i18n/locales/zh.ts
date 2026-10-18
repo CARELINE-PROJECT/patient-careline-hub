@@ -501,7 +501,7 @@ export const zh: PartialDictionary = {
     alwaysOn: "始终启用",
   },
   footer: {
-    about: "我们将患者和机构与全球值得信赖的医疗专业人员联系起来。",
+    about: "我们将患者与全球值得信赖的医疗专业人员联系起来。",
     patients: "患者",
     professionals: "专业人员",
     companies: "企业",
