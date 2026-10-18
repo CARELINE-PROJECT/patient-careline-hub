@@ -3,16 +3,16 @@ import type { LocaleCode } from "./types";
 
 // Official identity is centralized, independently of the draft legal dictionaries.
 const labels: Record<LocaleCode, readonly [string, string, string, string, string, string, string]> = {
-  fr: ["société à responsabilité limitée (SARL) de droit malgache", "Siège social", "Directeur de la publication et contact", "en qualité de gérant", "Madagascar", "France & Suisse", "Belgique & Pays-Bas"],
-  en: ["limited liability company (SARL) under Malagasy law", "Registered office", "Publication director and contact", "as managing director", "Madagascar", "France & Switzerland", "Belgium & Netherlands"],
-  nl: ["vennootschap met beperkte aansprakelijkheid (SARL) naar Malagassisch recht", "Statutaire zetel", "Publicatiedirecteur en contact", "als zaakvoerder", "Madagaskar", "Frankrijk & Zwitserland", "België & Nederland"],
-  de: ["Gesellschaft mit beschränkter Haftung (SARL) nach madagassischem Recht", "Firmensitz", "Verantwortlicher für die Veröffentlichung und Kontakt", "als Geschäftsführer", "Madagaskar", "Frankreich & Schweiz", "Belgien & Niederlande"],
-  es: ["sociedad de responsabilidad limitada (SARL) de derecho malgache", "Domicilio social", "Director de publicación y contacto", "en calidad de gerente", "Madagascar", "Francia y Suiza", "Bélgica y Países Bajos"],
-  it: ["società a responsabilità limitata (SARL) di diritto malgascio", "Sede legale", "Direttore della pubblicazione e contatti", "in qualità di gerente", "Madagascar", "Francia e Svizzera", "Belgio e Paesi Bassi"],
-  pt: ["sociedade de responsabilidade limitada (SARL) de direito malgaxe", "Sede social", "Diretor da publicação e contacto", "na qualidade de gerente", "Madagáscar", "França e Suíça", "Bélgica e Países Baixos"],
-  ar: ["شركة ذات مسؤولية محدودة (SARL) خاضعة لقانون مدغشقر", "المقر الرئيسي", "مدير النشر والتواصل", "بصفته المدير", "مدغشقر", "فرنسا وسويسرا", "بلجيكا وهولندا"],
-  zh: ["依马达加斯加法律设立的有限责任公司（SARL）", "注册办公地址", "出版负责人及联系方式", "担任经理", "马达加斯加", "法国和瑞士", "比利时和荷兰"],
-  ru: ["общество с ограниченной ответственностью (SARL) по законодательству Мадагаскара", "Юридический адрес", "Ответственный за публикацию и контакты", "в качестве управляющего", "Мадагаскар", "Франция и Швейцария", "Бельгия и Нидерланды"],
+  fr: ["société à responsabilité limitée (SARL) de droit malgache", "Siège social", "Directeur de la publication et contact", "en qualité de gérant", "Centre d’appels mondial", "France & Suisse", "Belgique & Pays-Bas"],
+  en: ["limited liability company (SARL) under Malagasy law", "Registered office", "Publication director and contact", "as managing director", "Global call centre", "France & Switzerland", "Belgium & Netherlands"],
+  nl: ["vennootschap met beperkte aansprakelijkheid (SARL) naar Malagassisch recht", "Statutaire zetel", "Publicatiedirecteur en contact", "als zaakvoerder", "Wereldwijd callcenter", "Frankrijk & Zwitserland", "België & Nederland"],
+  de: ["Gesellschaft mit beschränkter Haftung (SARL) nach madagassischem Recht", "Firmensitz", "Verantwortlicher für die Veröffentlichung und Kontakt", "als Geschäftsführer", "Weltweites Callcenter", "Frankreich & Schweiz", "Belgien & Niederlande"],
+  es: ["sociedad de responsabilidad limitada (SARL) de derecho malgache", "Domicilio social", "Director de publicación y contacto", "en calidad de gerente", "Centro de llamadas mundial", "Francia y Suiza", "Bélgica y Países Bajos"],
+  it: ["società a responsabilità limitata (SARL) di diritto malgascio", "Sede legale", "Direttore della pubblicazione e contatti", "in qualità di gerente", "Centro chiamate mondiale", "Francia e Svizzera", "Belgio e Paesi Bassi"],
+  pt: ["sociedade de responsabilidade limitada (SARL) de direito malgaxe", "Sede social", "Diretor da publicação e contacto", "na qualidade de gerente", "Centro de chamadas mundial", "França e Suíça", "Bélgica e Países Baixos"],
+  ar: ["شركة ذات مسؤولية محدودة (SARL) خاضعة لقانون مدغشقر", "المقر الرئيسي", "مدير النشر والتواصل", "بصفته المدير", "مركز الاتصال العالمي", "فرنسا وسويسرا", "بلجيكا وهولندا"],
+  zh: ["依马达加斯加法律设立的有限责任公司（SARL）", "注册办公地址", "出版负责人及联系方式", "担任经理", "全球呼叫中心", "法国和瑞士", "比利时和荷兰"],
+  ru: ["общество с ограниченной ответственностью (SARL) по законодательству Мадагаскара", "Юридический адрес", "Ответственный за публикацию и контакты", "в качестве управляющего", "Международный колл-центр", "Франция и Швейцария", "Бельгия и Нидерланды"],
 };
 
 export function companyTranslation(locale: LocaleCode, key: string): string | undefined {
