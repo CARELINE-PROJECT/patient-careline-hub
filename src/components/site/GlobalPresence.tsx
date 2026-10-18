@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { ArrowDown, ArrowUpRight, Building2, Globe2, MapPin, ShieldCheck } from "lucide-react";
+import { ArrowDown, Globe2, MapPin, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { globalOffices, isActiveOffice, mapPosition } from "@/config/globalOffices";
 import { worldLandPath } from "@/config/worldMap";
@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 export function GlobalPresence() {
   const { locale } = useI18n();
   const c = globalOfficeCopy(locale);
-  const [selected, setSelected] = useState("new-york");
+  const [selected, setSelected] = useState("antsirabe");
   const cards = useRef<Record<string, HTMLElement | null>>({});
   const office = globalOffices.find(o => o.id === selected) ?? globalOffices[0];
   if (!office) return null;
@@ -61,15 +61,13 @@ export function GlobalPresence() {
           {globalOffices.map(hub => <article key={hub.id} ref={el => { cards.current[hub.id] = el; }} tabIndex={-1} aria-labelledby={`office-${hub.id}`} className={cn("global-office flex min-w-0 flex-col rounded-lg border border-global-border bg-global-surface p-6", selected === hub.id && "is-selected")}>
             <div className="flex items-start justify-between gap-3"><span aria-hidden="true" className="text-2xl">{hub.flag}</span><span className="text-xs text-global-accent">{c.statuses[hub.status]}</span></div>
             <h3 id={`office-${hub.id}`} className="mt-4 text-xl font-semibold">{city(hub.id, hub.city)}</h3>
-            <p className="mt-1 text-xs text-global-muted">{officeLabel(c.countries, hub.id, hub.country)}</p>
+            <p className="mt-1 text-xs text-global-muted">{officeLabel(c.countries, hub.id, hub.country)} · {c.types[hub.type]}</p>
             <p className="mt-4 text-sm font-medium">{hub.district}</p>
             <div className="mt-4 flex items-start gap-2"><MapPin className="mt-0.5 size-4 shrink-0 text-global-accent" aria-hidden="true" /><div><p className="text-[11px] text-global-muted">{hub.status === "validated" ? c.validatedAddress : hub.id === "new-york" ? c.indicative : c.address}</p><p className="mt-1 text-sm leading-relaxed"><bdi>{hub.address}</bdi></p></div></div>
             {hub.status !== "validated" && <p className="mt-2 text-xs leading-relaxed text-global-muted">{officeLabel(c.verification, hub.id, "")}</p>}
-            <div className="mt-4 border-t border-global-border pt-4"><p className="flex items-center gap-2 text-xs text-global-muted"><Building2 className="size-4" aria-hidden="true" />{c.provider}</p><p className="mt-1 text-sm font-medium">{hub.provider}</p><p className="mt-1 text-xs text-global-muted">{c.types[hub.type]} · {isActiveOffice(hub) ? c.active : c.inactive}</p></div>
             <p className="mt-4 text-xs font-medium">{isActiveOffice(hub) ? c.contracted : c.services}</p>
             <ul className="mt-2 space-y-1 text-xs text-global-muted">{(isActiveOffice(hub) ? hub.contractedServices : hub.proposedServices).map(service => <li key={service}>— {officeLabel(c.serviceNames, service, service)}</li>)}</ul>
             {!isActiveOffice(hub) && <p className="mt-3 text-[11px] leading-relaxed text-global-muted">{c.terms}</p>}
-            <div className="mt-auto pt-5"><Button asChild variant="global" className="w-full"><a href={hub.url} target="_blank" rel="noopener noreferrer" aria-label={`${c.website} · ${hub.provider}`}>{c.website}<ArrowUpRight aria-hidden="true" /></a></Button></div>
           </article>)}
         </div>
       </div>
