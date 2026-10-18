@@ -6,6 +6,7 @@ import { openConsentSettings } from "@/lib/consent";
 import { PhoneContacts } from "./CompanyDetails";
 import worldNetwork from "@/assets/world-network.jpg";
 import { footerGlobalCopy } from "@/i18n/footerGlobal";
+import { specialtyPageCopy } from "@/i18n/specialtyPages";
 
 export function Footer() {
   const { t, locale } = useI18n();
@@ -36,6 +37,7 @@ export function Footer() {
       links: [
         // { to: "/professionals", label: t("footer.partner") },
         { to: "/professionals", label: t("footer.practiceSolutions") },
+        { to: "/specialties", label: specialtyPageCopy(locale).directory },
         // { to: "/companies", label: t("footer.corpSolutions") },
         { to: "/contact", label: t("footer.contactUs") },
       ],

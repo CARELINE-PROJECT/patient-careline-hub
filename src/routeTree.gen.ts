@@ -21,10 +21,12 @@ import { Route as ProfessionalsRouteImport } from './routes/professionals'
 import { Route as RequestRouteImport } from './routes/request'
 import { Route as SecurityRouteImport } from './routes/security'
 import { Route as ServicesRouteImport } from './routes/services'
+import { Route as SpecialtiesRouteImport } from './routes/specialties'
 import { Route as LegalCookiesRouteImport } from './routes/legal.cookies'
 import { Route as LegalNoticeRouteImport } from './routes/legal.notice'
 import { Route as LegalPrivacyRouteImport } from './routes/legal.privacy'
 import { Route as LegalTermsRouteImport } from './routes/legal.terms'
+import { Route as SpecialtiesLaserDesYeuxRouteImport } from './routes/specialties_.laser-des-yeux'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -86,6 +88,11 @@ const ServicesRoute = ServicesRouteImport.update({
   path: '/services',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SpecialtiesRoute = SpecialtiesRouteImport.update({
+  id: '/specialties',
+  path: '/specialties',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LegalCookiesRoute = LegalCookiesRouteImport.update({
   id: '/legal/cookies',
   path: '/legal/cookies',
@@ -106,6 +113,11 @@ const LegalTermsRoute = LegalTermsRouteImport.update({
   path: '/legal/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SpecialtiesLaserDesYeuxRoute = SpecialtiesLaserDesYeuxRouteImport.update({
+  id: '/specialties_/laser-des-yeux',
+  path: '/specialties/laser-des-yeux',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -120,10 +132,12 @@ export interface FileRoutesByFullPath {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
   '/legal/terms': typeof LegalTermsRoute
+  '/specialties/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -138,10 +152,12 @@ export interface FileRoutesByTo {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
   '/legal/terms': typeof LegalTermsRoute
+  '/specialties/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -157,10 +173,12 @@ export interface FileRoutesById {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
   '/legal/privacy': typeof LegalPrivacyRoute
   '/legal/terms': typeof LegalTermsRoute
+  '/specialties_/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -177,10 +195,12 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
     | '/legal/privacy'
     | '/legal/terms'
+    | '/specialties/laser-des-yeux'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -195,10 +215,12 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
     | '/legal/privacy'
     | '/legal/terms'
+    | '/specialties/laser-des-yeux'
   id:
     | '__root__'
     | '/'
@@ -213,10 +235,12 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
     | '/legal/privacy'
     | '/legal/terms'
+    | '/specialties_/laser-des-yeux'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -232,10 +256,12 @@ export interface RootRouteChildren {
   RequestRoute: typeof RequestRoute
   SecurityRoute: typeof SecurityRoute
   ServicesRoute: typeof ServicesRoute
+  SpecialtiesRoute: typeof SpecialtiesRoute
   LegalCookiesRoute: typeof LegalCookiesRoute
   LegalNoticeRoute: typeof LegalNoticeRoute
   LegalPrivacyRoute: typeof LegalPrivacyRoute
   LegalTermsRoute: typeof LegalTermsRoute
+  SpecialtiesLaserDesYeuxRoute: typeof SpecialtiesLaserDesYeuxRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -324,6 +350,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/specialties': {
+      id: '/specialties'
+      path: '/specialties'
+      fullPath: '/specialties'
+      preLoaderRoute: typeof SpecialtiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/legal/cookies': {
       id: '/legal/cookies'
       path: '/legal/cookies'
@@ -352,6 +385,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LegalTermsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/specialties_/laser-des-yeux': {
+      id: '/specialties_/laser-des-yeux'
+      path: '/specialties/laser-des-yeux'
+      fullPath: '/specialties/laser-des-yeux'
+      preLoaderRoute: typeof SpecialtiesLaserDesYeuxRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -368,10 +408,12 @@ const rootRouteChildren: RootRouteChildren = {
   RequestRoute: RequestRoute,
   SecurityRoute: SecurityRoute,
   ServicesRoute: ServicesRoute,
+  SpecialtiesRoute: SpecialtiesRoute,
   LegalCookiesRoute: LegalCookiesRoute,
   LegalNoticeRoute: LegalNoticeRoute,
   LegalPrivacyRoute: LegalPrivacyRoute,
   LegalTermsRoute: LegalTermsRoute,
+  SpecialtiesLaserDesYeuxRoute: SpecialtiesLaserDesYeuxRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
