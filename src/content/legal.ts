@@ -11,7 +11,7 @@ export interface LegalSection {
   bodyCount: number;
 }
 
-export const lastUpdated = "2026-01-01";
+export const lastUpdated = "2026-10-18";
 
 export const privacySections: LegalSection[] = [
   { id: "privacy", section: "who", bodyCount: 1 },
