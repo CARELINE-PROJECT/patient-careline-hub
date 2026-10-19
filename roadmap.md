@@ -1,4 +1,7 @@
 # Tasks
+- [ ] Remove social placeholder from Contact.
+- [ ] Present administrative services, independence and onboarding on Services with partner form.
+- [ ] Highlight practitioner benefits and free registration with no subscription or entry fee; verify pages and fee rules.
 - [x] Add five proposed international locations on Contact, with accurate validation statuses, provider links and an accessible interactive world map.
 - [x] Verify provider references, all five selections and desktop/mobile layouts without changing existing contact content; show address uncertainties, including the New York ZIP discrepancy.
 - [x] Add the illustrated specialties directory and its footer link under Professionals.
