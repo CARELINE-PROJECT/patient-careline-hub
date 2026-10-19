@@ -1,7 +1,7 @@
 # Tasks
-- [ ] Remove social placeholder from Contact.
-- [ ] Present administrative services, independence and onboarding on Services with partner form.
-- [ ] Highlight practitioner benefits and free registration with no subscription or entry fee; verify pages and fee rules.
+- [x] Remove social placeholder from Contact.
+- [x] Present administrative services, independence and onboarding on Services with partner form.
+- [x] Highlight practitioner benefits and free registration with no subscription or entry fee; verify pages and fee rules (form remains demonstration-only).
 - [x] Add five proposed international locations on Contact, with accurate validation statuses, provider links and an accessible interactive world map.
 - [x] Verify provider references, all five selections and desktop/mobile layouts without changing existing contact content; show address uncertainties, including the New York ZIP discrepancy.
 - [x] Add the illustrated specialties directory and its footer link under Professionals.
@@ -34,5 +34,5 @@
 - [x] Remove the "Services in use" / "Services considered" headings and their lists from the Contact location cards.
 - [x] Remove all displayed telephone numbers (footer, contact page, legal notice) so public contact is email only.
 - [x] Replace the New York location with Silicon Valley (Palo Alto) and Miami on the Contact global-presence section, and verify the seven cards, map points and labels.
-- [ ] Reduce the empty vertical space above the "Prénom" field on the form pages.
-- [ ] Show the "Facultatif" (optional) mention on the telephone field and on the company/society field in the forms.
+- [x] Reduce the empty vertical space above the "Prénom" field on the form pages.
+- [x] Show the "Facultatif" (optional) mention on the telephone field and on the company/society field in the forms.
