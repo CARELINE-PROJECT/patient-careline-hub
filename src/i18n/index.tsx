@@ -90,8 +90,8 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  const meta = useMemo(
-    () => locales.find((l) => l.code === locale) ?? { code: defaultLocale, name: "English", nativeName: "English", htmlLang: "en", dir: "ltr" },
+  const meta = useMemo<LocaleMeta>(
+    () => locales.find((l) => l.code === locale) ?? { code: defaultLocale, name: "English", short: "EN", flag: "🇬🇧", htmlLang: "en", dir: "ltr" },
     [locale],
   );
 
