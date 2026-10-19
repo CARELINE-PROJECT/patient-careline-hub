@@ -42,9 +42,6 @@ function Contact() {
                 </span>
               </li>
             </ul>
-            <p className="mt-5 border-t border-border pt-4 text-xs text-muted-foreground">
-              {t("contact.socialLabel")}: {t("contact.socialNone")}
-            </p>
             <Reveal className="mt-6">
               <Photo src={coordinator} alt={t("media.contactCoordinator")} />
             </Reveal>

@@ -11,6 +11,7 @@
 
 - Keep official company identity in siteConfig, with localized legal identity overrides in i18n/company and shared contact rendering, so public pages cannot drift between languages. Public contact stays email-only: never display phone numbers.
 - Keep software vendor data and asset provenance in a shared catalog and render the localized homepage strip separately; this keeps vendor identities distinct from confirmed integrations.
+- Keep practitioner registration terms in a shared configuration separate from administrative service pricing, and use shared administrative-service copy for practitioner benefits, homepage service summaries and metadata to prevent contradictory offer claims.
 - Resolve Lovable asset pointers through the shared publicAssetUrl helper against the working Lovable published origin; the externally hosted custom domain does not serve the asset gateway.
 - Reuse the canonical specialty IDs and translations for the public directory; keep patient guide content, source provenance and verified video IDs separate from route presentation to avoid inconsistent medical claims.
 - Load third-party patient videos only after an explicit play action through YouTube's privacy-enhanced embed; no third-party requests before the patient chooses to play.

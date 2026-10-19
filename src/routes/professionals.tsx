@@ -12,6 +12,7 @@ import { staticRouteMeta } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import { PartnerForm } from "@/components/forms/PartnerForm";
+import { PartnerRegistration } from "@/components/site/PartnerRegistration";
 
 export const Route = createFileRoute("/professionals")({
   head: () => ({
@@ -30,7 +31,9 @@ function Professionals() {
         eyebrow={t("professionals.eyebrow")}
         title={t("professionals.title")}
         lead={t("professionals.lead")}
-      />
+      >
+        <div className="mt-5 max-w-2xl"><PartnerRegistration /></div>
+      </PageHero>
       <Section id="partner" className="pt-5 md:pt-6">
         <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)]">
           <div>
