@@ -26,6 +26,7 @@ import { sv } from "./locales/sv";
 import { uk } from "./locales/uk";
 import { id } from "./locales/id";
 import { companyTranslation } from "./company";
+import { administrativeTranslation } from "./administrativeServices";
 import {
   defaultLocale,
   locales,
@@ -90,7 +91,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const meta = useMemo(
-    () => locales.find((l) => l.code === locale) ?? locales[0]!,
+    () => locales.find((l) => l.code === locale) ?? { code: defaultLocale, name: "English", nativeName: "English", htmlLang: "en", dir: "ltr" },
     [locale],
   );
 
@@ -111,7 +112,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const t = useCallback(
     (key: string) => {
       const path = key.split(".");
-      const translated = companyTranslation(locale, key) ?? lookup(dictionaries[locale], path) ?? lookup(en, path) ?? key;
+      const translated = administrativeTranslation(locale, key) ?? companyTranslation(locale, key) ?? lookup(dictionaries[locale], path) ?? lookup(en, path) ?? key;
       return key === "legalContent.terms.purpose.body.0"
         ? `${translated} ${companyTranslation(locale, "company.identity") ?? ""}`
         : translated;
