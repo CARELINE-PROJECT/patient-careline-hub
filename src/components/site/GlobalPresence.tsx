@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { globalOffices, mapPosition } from "@/config/globalOffices";
 import { worldLandPath } from "@/config/worldMap";
 import { useI18n } from "@/i18n";
+import { Flag } from "@/components/site/Flag";
 import { globalOfficeCopy, officeLabel } from "@/i18n/globalOffices";
 import { cn } from "@/lib/utils";
 

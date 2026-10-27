@@ -40,4 +40,11 @@ describe("International locations", () => {
     const component = readFileSync(new URL("../components/site/GlobalPresence.tsx", import.meta.url), "utf8");
     expect(component).not.toMatch(/c\.(notice|types|terms|indicative|verification|address|validatedAddress)/);
   });
+  test("draws flags as inline SVG instead of emoji country letters", () => {
+    expect(globalOffices.every(o => /^[A-Z]{2}$/.test(o.flag))).toBe(true);
+    expect(JSON.stringify(globalOffices)).not.toMatch(/[\uD800-\uDBFF]/);
+    const flagFile = readFileSync(new URL("../components/site/Flag.tsx", import.meta.url), "utf8");
+    for (const code of new Set(globalOffices.map(o => o.flag))) expect(flagFile).toContain(`${code}:`);
+    expect(readFileSync(new URL("../components/site/GlobalPresence.tsx", import.meta.url), "utf8")).toMatch(/<Flag code=\{hub\.flag\}/);
+  });
 });
