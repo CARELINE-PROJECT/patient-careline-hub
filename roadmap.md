@@ -36,3 +36,4 @@
 - [x] Replace the New York location with Silicon Valley (Palo Alto) and Miami on the Contact global-presence section, and verify the seven cards, map points and labels.
 - [x] Reduce the empty vertical space above the "Prénom" field on the form pages.
 - [x] Show the "Facultatif" (optional) mention on the telephone field and on the company/society field in the forms.
+- [x] Replace the Contact page emoji flags with drawn SVG flags so no two-letter country codes (MG, US, AE, GB, SG, HK) appear.

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { globalOffices, mapPosition } from "@/config/globalOffices";
 import { worldLandPath } from "@/config/worldMap";
 import { useI18n } from "@/i18n";
+import { Flag } from "@/components/site/Flag";
 import { globalOfficeCopy, officeLabel } from "@/i18n/globalOffices";
 import { cn } from "@/lib/utils";
 
@@ -54,7 +55,7 @@ export function GlobalPresence() {
         </div>
         <div className="mt-8 grid items-start gap-4 md:grid-cols-2 xl:grid-cols-3">
           {globalOffices.map(hub => <article key={hub.id} ref={el => { cards.current[hub.id] = el; }} tabIndex={-1} aria-labelledby={`office-${hub.id}`} className={cn("global-office flex min-w-0 flex-col rounded-lg border border-global-border bg-global-surface p-6", selected === hub.id && "is-selected")}>
-            <span aria-hidden="true" className="text-2xl">{hub.flag}</span>
+            <Flag code={hub.flag} className="h-5 w-7" />
             <h3 id={`office-${hub.id}`} className="mt-4 text-xl font-semibold">{city(hub.id, hub.city)}</h3>
             <p className="mt-1 text-xs text-global-muted">{officeLabel(c.countries, hub.id, hub.country)}</p>
             <p className="mt-4 text-sm font-medium">{hub.district}</p>
