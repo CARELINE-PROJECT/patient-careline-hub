@@ -1,13 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { LegalPage } from "@/components/site/LegalPage";
 import { privacySections } from "@/content/legal";
 
 export const Route = createFileRoute("/legal/privacy")({
-  head: () => ({
-    meta: staticRouteMeta("privacy"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("privacy", "/legal/privacy"),
   component: Privacy,
 });
 

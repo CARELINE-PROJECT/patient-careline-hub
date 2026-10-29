@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { Glass, PageHero, Section } from "@/components/site/primitives";
 import { Switch } from "@/components/ui/switch";
 import { CONSENT_CHANGED, readConsent, writeConsent } from "@/lib/consent";
 
 export const Route = createFileRoute("/privacy-preferences")({
-  head: () => ({
-    meta: staticRouteMeta("preferences"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("preferences", "/privacy-preferences"),
   component: Preferences,
 });
 

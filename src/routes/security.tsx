@@ -1,16 +1,15 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Globe2, Lock, ShieldCheck } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { securityFocusCopy } from "@/i18n/securityFocus";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import { HeroActions } from "@/components/site/HeroActions";
 import securityData from "@/assets/security-data.jpg";
 
 export const Route = createFileRoute("/security")({
-  head: () => ({
-    meta: staticRouteMeta("security"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("security", "/security"),
   component: Security,
 });
 

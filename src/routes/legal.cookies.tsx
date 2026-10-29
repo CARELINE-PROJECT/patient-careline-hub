@@ -1,13 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { LegalPage } from "@/components/site/LegalPage";
 import { cookieSections } from "@/content/legal";
 
 export const Route = createFileRoute("/legal/cookies")({
-  head: () => ({
-    meta: staticRouteMeta("cookies"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("cookies", "/legal/cookies"),
   component: Cookies,
 });
 

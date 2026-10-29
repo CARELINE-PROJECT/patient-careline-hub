@@ -20,7 +20,7 @@ import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import coordinator from "@/assets/team-coordinator.jpg";
 import teamOffice from "@/assets/team-office.jpg";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import {
   AuroraBackdrop,
   DemoNote,
@@ -36,9 +36,8 @@ import { CTASection } from "@/components/site/CTASection";
 import { SoftwarePartners } from "@/components/site/SoftwarePartners";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: staticRouteMeta("home"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("home", "/"),
   component: Home,
 });
 

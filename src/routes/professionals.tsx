@@ -8,16 +8,15 @@ import {
   UserRoundCheck,
 } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import { PartnerForm } from "@/components/forms/PartnerForm";
 import { PartnerRegistration } from "@/components/site/PartnerRegistration";
 
 export const Route = createFileRoute("/professionals")({
-  head: () => ({
-    meta: staticRouteMeta("professionals"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("professionals", "/professionals"),
   component: Professionals,
 });
 
