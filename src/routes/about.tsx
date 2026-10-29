@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import { HeroActions } from "@/components/site/HeroActions";
 import teamOffice from "@/assets/team-office.jpg";
@@ -10,9 +10,8 @@ import optilineLogo from "@/assets/optiline-mada-logo.png.asset.json";
 import { publicAssetUrl } from "@/lib/assets";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: staticRouteMeta("about"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("about", "/about"),
   component: About,
 });
 

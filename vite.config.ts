@@ -11,5 +11,28 @@ export default defineConfig({
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
+    // Static prerender: every public page ships as complete HTML (text, title, meta, links)
+    // without depending on JavaScript execution. Discovery is pinned off — this list is complete.
+    pages: [
+      { path: "/" },
+      { path: "/about" },
+      { path: "/careers" },
+      { path: "/companies" },
+      { path: "/contact" },
+      { path: "/faq" },
+      { path: "/how-it-works" },
+      { path: "/legal/cookies" },
+      { path: "/legal/notice" },
+      { path: "/legal/privacy" },
+      { path: "/legal/terms" },
+      { path: "/privacy-preferences" },
+      { path: "/professionals" },
+      { path: "/request" },
+      { path: "/security" },
+      { path: "/services" },
+      { path: "/specialties" },
+      { path: "/specialties/laser-des-yeux" },
+    ],
+    prerender: { enabled: true, autoStaticPathsDiscovery: false },
   },
 });

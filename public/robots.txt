@@ -1,7 +1,37 @@
+# Careline — robots.txt
+# Search engines and AI assistants are welcome on all public pages.
+
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 User-agent: Twitterbot
@@ -12,3 +42,7 @@ Allow: /
 
 User-agent: *
 Allow: /
+# Appointment requests with query parameters are private entry points, not content.
+Disallow: /request?
+
+Sitemap: https://www.careline.doctor/sitemap.xml

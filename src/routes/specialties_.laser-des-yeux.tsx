@@ -1,13 +1,13 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, ShieldCheck, TriangleAlert } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { specialtyPageCopy, specialtyPageMeta } from "@/i18n/specialtyPages";
+import { specialtyPageCopy, specialtyPageHead } from "@/i18n/specialtyPages";
 import { eyeLaserContent, eyeLaserSources, eyeLaserVideos } from "@/content/eyeLaser";
 import { PatientVideo } from "@/components/site/PatientVideo";
 import { Button } from "@/components/ui/button";
 import eye from "@/assets/specialties-eye.jpg";
 
-export const Route = createFileRoute("/specialties_/laser-des-yeux")({ head: () => ({ meta: specialtyPageMeta("eye") }), component: EyeLaser });
+export const Route = createFileRoute("/specialties_/laser-des-yeux")({ staticData: { sitemap: true }, head: () => specialtyPageHead("eye"), component: EyeLaser });
 
 function EyeLaser() {
   const { locale, t } = useI18n();

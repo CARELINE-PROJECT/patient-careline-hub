@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Clock, Mail } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { siteConfig } from "@/config/site";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import coordinator from "@/assets/team-coordinator.jpg";
@@ -9,9 +9,8 @@ import { ContactForm } from "@/components/forms/ContactForm";
 import { GlobalPresence } from "@/components/site/GlobalPresence";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: staticRouteMeta("contact"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("contact", "/contact"),
   component: Contact,
 });
 

@@ -1,15 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import patientHands from "@/assets/patient-hands.jpg";
 import { Glass, Photo, Reveal, Section } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 
 export const Route = createFileRoute("/how-it-works")({
-  head: () => ({
-    meta: staticRouteMeta("howItWorks"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("howItWorks", "/how-it-works"),
   component: HowItWorks,
 });
 

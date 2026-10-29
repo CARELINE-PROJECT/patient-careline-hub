@@ -1,13 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { Glass } from "@/components/site/primitives";
 import { AppointmentForm } from "@/components/forms/AppointmentForm";
 
 export const Route = createFileRoute("/request")({
-  head: () => ({
-    meta: staticRouteMeta("request"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("request", "/request"),
   component: RequestPage,
 });
 

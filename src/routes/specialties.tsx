@@ -3,13 +3,13 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Search } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { specialtyLabels, specialtyUi } from "@/i18n/specialties";
-import { specialtyPageCopy, specialtyPageMeta } from "@/i18n/specialtyPages";
+import { specialtyPageCopy, specialtyPageHead } from "@/i18n/specialtyPages";
 import { filterSpecialties, specialtyImage } from "@/config/specialtyDirectory";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import eye from "@/assets/specialties-eye.jpg";
 
-export const Route = createFileRoute("/specialties")({ head: () => ({ meta: specialtyPageMeta("directory") }), component: Specialties });
+export const Route = createFileRoute("/specialties")({ staticData: { sitemap: true }, head: () => specialtyPageHead("directory"), component: Specialties });
 
 function Specialties() {
   const { locale, t } = useI18n();

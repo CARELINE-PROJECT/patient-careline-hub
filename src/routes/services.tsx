@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, CalendarCheck, Check, CheckCircle2, ClipboardList, Cpu, Globe2, HeartHandshake, Scale, ShieldCheck, Users } from "lucide-react";
 import { useI18n } from "@/i18n";
-import { staticRouteMeta } from "@/i18n/head";
+import { staticRouteHead } from "@/i18n/head";
 import { Section, SectionHeading } from "@/components/site/primitives";
 import { Button } from "@/components/ui/button";
 import coordinator from "@/assets/team-coordinator.jpg";
@@ -10,9 +10,8 @@ import { PartnerRegistration } from "@/components/site/PartnerRegistration";
 import { administrativeServicesCopy } from "@/i18n/administrativeServices";
 
 export const Route = createFileRoute("/services")({
-  head: () => ({
-    meta: staticRouteMeta("services"),
-  }),
+  staticData: { sitemap: true },
+  head: () => staticRouteHead("services", "/services"),
   component: Services,
 });
 
