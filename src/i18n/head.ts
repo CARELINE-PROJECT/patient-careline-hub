@@ -36,3 +36,12 @@ export function staticRouteMeta(key: HeadKey) {
     { name: "twitter:card", content: "summary_large_image" },
   ];
 }
+
+/** Full head for a static public route: localized meta plus self-referencing canonical and og:url. */
+export function staticRouteHead(key: HeadKey, path: string) {
+  const url = `${siteConfig.url}${path}`;
+  return {
+    meta: [...staticRouteMeta(key), { property: "og:url", content: url }],
+    links: [{ rel: "canonical", href: url }],
+  };
+}
