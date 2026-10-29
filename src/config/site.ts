@@ -5,6 +5,8 @@
 export const siteConfig = {
   name: "Careline",
   legalName: "Careline",
+  /** Canonical public origin. Becomes live once the careline.doctor DNS connection completes. */
+  url: "https://www.careline.doctor",
   email: "contact@careline.doctor",
   partnersEmail: "contact@careline.doctor",
   company: {

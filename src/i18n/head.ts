@@ -1,5 +1,6 @@
 import { en } from "./locales/en";
 import { administrativeTranslation } from "./administrativeServices";
+import { siteConfig } from "@/config/site";
 
 export type HeadKey = keyof typeof en.head;
 
