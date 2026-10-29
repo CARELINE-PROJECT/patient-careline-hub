@@ -37,3 +37,14 @@
 - [x] Reduce the empty vertical space above the "Prénom" field on the form pages.
 - [x] Show the "Facultatif" (optional) mention on the telephone field and on the company/society field in the forms.
 - [x] Replace the Contact page emoji flags with drawn SVG flags so no two-letter country codes (MG, US, AE, GB, SG, HK) appear.
+
+## SEO technical foundations (approved plan 2026-10-29)
+- [ ] Static prerender of all 18 public routes (vite.config.ts) + view-source verification
+- [ ] Canonicals and og:url → https://www.careline.doctor on all routes
+- [ ] robots.txt rewrite (AI crawlers allowed, /request params + confirmation blocked, sitemap reference)
+- [ ] Dynamic sitemap.xml (router-derived helper, no lastmod)
+- [ ] public/llms.txt + public/llms-full.txt
+- [ ] Performance: LCP image preload, lazy-load non-hero images, font swap (already), route code-splitting (native)
+- [ ] Breadcrumbs component + JSON-LD on internal pages; verify 404 page
+- [ ] GTM + Consent Mode v2 wired to cookie banner; form_start/form_submit events; GSC/Bing meta {À CONFIRMER}
+- [ ] IndexNow key file + notification function
