@@ -1,4 +1,5 @@
 import { en } from "./locales/en";
+import { dictionaries, lookup } from "./dictionaries";
 import { administrativeTranslation } from "./administrativeServices";
 import { defaultLocale, locales, type LocaleCode } from "./types";
 
@@ -29,9 +30,13 @@ export const headKeyByPath: Record<string, HeadKey> = {
   "/services": "services",
 };
 
-export function staticRouteMeta(key: HeadKey) {
+export function staticRouteMeta(key: HeadKey, locale: string = "en") {
   const head = en.head[key];
-  const value = (field: keyof typeof head) => administrativeTranslation("en", `head.${key}.${field}`) ?? head[field];
+  const dict = dictionaries[safeLocale(locale)];
+  const value = (field: keyof typeof head) =>
+    administrativeTranslation(safeLocale(locale), `head.${key}.${field}`) ??
+    lookup(dict, ["head", key, field]) ??
+    head[field];
 
   return [
     { title: value("title") },
@@ -70,7 +75,7 @@ export function staticRouteHead(key: HeadKey, path: string, locale: string) {
   const image = ogImageFor(key);
   return {
     meta: [
-      ...staticRouteMeta(key),
+      ...staticRouteMeta(key, locale),
       { property: "og:url", content: url },
       { property: "og:locale", content: ogLocale },
       ...(image

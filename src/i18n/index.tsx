@@ -8,24 +8,7 @@ import {
 } from "react";
 import { useRouterState } from "@tanstack/react-router";
 
-import { en } from "./locales/en";
-import { fr } from "./locales/fr";
-import { nl } from "./locales/nl";
-import { de } from "./locales/de";
-import { es } from "./locales/es";
-import { it } from "./locales/it";
-import { pt } from "./locales/pt";
-import { ar } from "./locales/ar";
-import { zh } from "./locales/zh";
-import { ru } from "./locales/ru";
-import { ja } from "./locales/ja";
-import { ko } from "./locales/ko";
-import { hi } from "./locales/hi";
-import { tr } from "./locales/tr";
-import { pl } from "./locales/pl";
-import { sv } from "./locales/sv";
-import { uk } from "./locales/uk";
-import { id } from "./locales/id";
+import { dictionaries, lookup } from "./dictionaries";
 import { companyTranslation } from "./company";
 import { administrativeTranslation } from "./administrativeServices";
 import {
@@ -33,32 +16,10 @@ import {
   locales,
   type LocaleCode,
   type LocaleMeta,
-  type PartialDictionary,
 } from "./types";
 
 export { locales, defaultLocale } from "./types";
 export type { LocaleCode, LocaleMeta } from "./types";
-
-const dictionaries: Record<LocaleCode, PartialDictionary> = {
-  en,
-  fr,
-  nl,
-  de,
-  es,
-  it,
-  pt,
-  ar,
-  zh,
-  ru,
-  ja,
-  ko,
-  hi,
-  tr,
-  pl,
-  sv,
-  uk,
-  id,
-};
 
 const STORAGE_KEY = "careline.locale";
 
@@ -78,15 +39,6 @@ export function stripLocalePrefix(pathname: string): string {
   if (!locale) return pathname;
   const rest = pathname.slice(locale.length + 1);
   return rest === "" ? "/" : rest;
-}
-
-function lookup(source: unknown, path: string[]): string | undefined {
-  let current: unknown = source;
-  for (const key of path) {
-    if (current === null || typeof current !== "object") return undefined;
-    current = (current as Record<string, unknown>)[key];
-  }
-  return typeof current === "string" ? current : undefined;
 }
 
 interface I18nValue {
@@ -129,7 +81,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const t = useCallback(
     (key: string) => {
       const path = key.split(".");
-      const translated = administrativeTranslation(locale, key) ?? companyTranslation(locale, key) ?? lookup(dictionaries[locale], path) ?? lookup(en, path) ?? key;
+      const translated = administrativeTranslation(locale, key) ?? companyTranslation(locale, key) ?? lookup(dictionaries[locale], path) ?? lookup(dictionaries.en, path) ?? key;
       return key === "legalContent.terms.purpose.body.0"
         ? `${translated} ${companyTranslation(locale, "company.identity") ?? ""}`
         : translated;
