@@ -166,6 +166,14 @@
 .global-land { fill: var(--global-land); stroke: var(--global-border); stroke-width: 0.5; }
 .global-route { fill: none; stroke: var(--global-accent); stroke-width: 1.2; opacity: 0.35; transition: opacity 300ms; }
 .global-route.is-selected { opacity: 0.9; }
+.global-reach { opacity: 0.45; transition: opacity 300ms; }
+.global-reach.is-selected { opacity: 1; }
+.global-reach-stop-in { stop-color: var(--global-accent); stop-opacity: 0.28; }
+.global-reach-stop-out { stop-color: var(--global-accent); stop-opacity: 0; }
+.global-reach-ring { fill: none; stroke: var(--global-accent); stroke-width: 1; stroke-dasharray: 3 4; opacity: 0.6; }
+.global-reach.is-selected .global-reach-ring { animation: global-reach-pulse 3s ease-in-out infinite; }
+@keyframes global-reach-pulse { 50% { opacity: 0.15; } }
+@media (prefers-reduced-motion: reduce) { .global-reach.is-selected .global-reach-ring { animation: none; } }
 .global-pin { color: var(--global-foreground); }
 .global-pin:hover { background: transparent; }
 .global-pin-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--global-accent); box-shadow: var(--global-glow); }
