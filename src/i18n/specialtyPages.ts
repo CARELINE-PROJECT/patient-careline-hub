@@ -88,7 +88,7 @@ const specialtySeoMeta = {
 export function specialtyPageMeta(kind: "directory" | "eye", locale: string = "fr") {
   const seo = specialtySeoMeta[kind];
   const tuned = locale === "fr" || locale === "en" ? seo[locale] : undefined;
-  const c = specialtyPageCopy(locale);
+  const c = specialtyPageCopy(locales.some((l) => l.code === locale) ? (locale as LocaleCode) : "fr");
   const title = tuned?.title ?? `${kind === "directory" ? c.title : c.eyeTitle} | Careline`;
   const description = tuned?.description ?? c.lead;
   return [
