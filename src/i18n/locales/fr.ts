@@ -71,132 +71,140 @@ export const fr: PartialDictionary = {
   },
   head: {
     root: {
-      title: "Careline - La prise de rendez-vous médicaux, simplifiée",
+      title: "Rendez-vous médicaux, réservés pour vous | Careline",
       description:
-        "Careline relie patients, entreprises et professionnels de santé et prend en charge les demandes de rendez-vous médicaux dans le monde entier.",
-      ogTitle: "Careline - La prise de rendez-vous médicaux, simplifiée",
+        "Careline coordonne vos rendez-vous médicaux avec des médecins et cliniques de confiance, partout dans le monde. Envoyez votre demande en quelques minutes.",
+      ogTitle: "Rendez-vous médicaux, réservés pour vous | Careline",
       ogDescription:
-        "Careline relie patients, entreprises et professionnels de santé et prend en charge les demandes de rendez-vous médicaux dans le monde entier.",
+        "Careline coordonne vos rendez-vous médicaux avec des médecins et cliniques de confiance, partout dans le monde. Envoyez votre demande en quelques minutes.",
     },
     home: {
-      title: "Careline - La prise de rendez-vous médicaux, simplifiée",
+      title: "Rendez-vous médicaux, réservés pour vous | Careline",
       description:
-        "Careline recherche et réserve des rendez-vous avec des professionnels de santé de confiance pour les patients, cabinets et entreprises, en 10 langues dans le monde.",
-      ogTitle: "Careline - La prise de rendez-vous médicaux, simplifiée",
+        "Careline coordonne vos rendez-vous médicaux avec des médecins et cliniques de confiance, partout dans le monde. Envoyez votre demande en quelques minutes.",
+      ogTitle: "Rendez-vous médicaux, réservés pour vous | Careline",
       ogDescription:
-        "Careline recherche et réserve des rendez-vous avec des professionnels de santé de confiance pour les patients, cabinets et entreprises, en 10 langues dans le monde.",
+        "Careline coordonne vos rendez-vous médicaux avec des médecins et cliniques de confiance, partout dans le monde. Envoyez votre demande en quelques minutes.",
     },
     about: {
-      title: "À propos de Careline - une société internationale centrée sur l'humain",
+      title: "À propos : notre mission de coordination | Careline",
       description:
-        "Careline facilite l'accès aux professionnels de santé et accompagne les patients dans la recherche et la prise de rendez-vous médicaux dans le monde entier.",
-      ogTitle: "À propos de Careline",
+        "Découvrez comment Careline aide les patients à accéder à des professionnels de santé de confiance dans le monde, avec un accompagnement humain.",
+      ogTitle: "À propos : notre mission de coordination | Careline",
       ogDescription:
-        "Notre mission, notre vision, nos valeurs et nos engagements envers les patients et les professionnels.",
+        "Découvrez comment Careline aide les patients à accéder à des professionnels de santé de confiance dans le monde, avec un accompagnement humain.",
     },
     careers: {
-      title: "Carrières chez Careline - rejoindre une équipe internationale",
+      title: "Carrières : rejoindre une équipe santé | Careline",
       description:
-        "Careline est une équipe internationale centrée sur la qualité de service et l'accompagnement humain. Écrivez-nous si vous souhaitez nous rejoindre.",
-      ogTitle: "Carrières chez Careline",
+        "Rejoignez l'équipe internationale de Careline et aidez les patients à accéder à des rendez-vous médicaux dans le monde. Découvrez nos postes ouverts.",
+      ogTitle: "Carrières : rejoindre une équipe santé | Careline",
       ogDescription:
-        "Rejoindre une équipe internationale centrée sur la qualité de service et l'accompagnement humain.",
+        "Rejoignez l'équipe internationale de Careline et aidez les patients à accéder à des rendez-vous médicaux dans le monde. Découvrez nos postes ouverts.",
     },
     companies: {
-      title: "Pour les entreprises - accès international aux soins pour vos équipes",
+      title: "Accès aux soins pour entreprises et équipes | Careline",
       description:
-        "Offrez à vos collaborateurs, clients ou bénéficiaires un parcours simple et coordonné vers des rendez-vous médicaux à travers les pays, les langues et les fuseaux horaires.",
-      ogTitle: "Careline pour les entreprises",
+        "Offrez à vos salariés, clients ou bénéficiaires un parcours simple et coordonné vers des rendez-vous médicaux, dans plusieurs pays. Contactez-nous.",
+      ogTitle: "Accès aux soins pour entreprises et équipes | Careline",
       ogDescription:
-        "Un partenaire unique pour les demandes de rendez-vous médicaux dans plusieurs pays, avec un accompagnement humain pour chaque personne.",
+        "Offrez à vos salariés, clients ou bénéficiaires un parcours simple et coordonné vers des rendez-vous médicaux, dans plusieurs pays. Contactez-nous.",
     },
     contact: {
-      title: "Contact Careline - parler à notre équipe",
+      title: "Contact : aide pour vos rendez-vous médicaux | Careline",
       description:
-        "Une question sur une demande de rendez-vous, un partenariat ou nos services ? Contactez l'équipe Careline par formulaire ou par email.",
-      ogTitle: "Contact Careline",
+        "Une question sur une demande de rendez-vous, un partenariat ou nos services ? Contactez l'équipe Careline par formulaire ou e-mail : réponse rapide.",
+      ogTitle: "Contact : aide pour vos rendez-vous médicaux | Careline",
       ogDescription:
-        "Joindre l'équipe Careline au sujet d'une demande, d'un partenariat ou de nos services.",
+        "Une question sur une demande de rendez-vous, un partenariat ou nos services ? Contactez l'équipe Careline par formulaire ou e-mail : réponse rapide.",
     },
     faq: {
-      title: "FAQ Careline - rendez-vous, couverture, données et partenariats",
+      title: "FAQ : rendez-vous médicaux et notre service | Careline",
       description:
-        "Réponses sur la demande de rendez-vous, la sélection des praticiens, la couverture par pays, la protection des données et le partenariat avec Careline.",
-      ogTitle: "FAQ Careline",
-      ogDescription: "Questions fréquentes sur le service de rendez-vous Careline.",
+        "Comment demander un rendez-vous ? Comment les praticiens sont-ils proposés ? Comment mes données sont-elles protégées ? Toutes les réponses ici.",
+      ogTitle: "FAQ : rendez-vous médicaux et notre service | Careline",
+      ogDescription:
+        "Comment demander un rendez-vous ? Comment les praticiens sont-ils proposés ? Comment mes données sont-elles protégées ? Toutes les réponses ici.",
     },
     howItWorks: {
-      title: "Comment Careline fonctionne - de la demande au rendez-vous confirmé",
+      title: "Comment ça marche : de la demande au rendez-vous | Careline",
       description:
-        "Quatre étapes sereines : envoyez votre demande, Careline analyse votre besoin, plusieurs praticiens sont proposés, vous confirmez votre rendez-vous.",
-      ogTitle: "Comment Careline fonctionne",
+        "Envoyez votre demande, nous analysons votre besoin, plusieurs praticiens vous sont proposés, vous confirmez. Découvrez le parcours en quatre étapes.",
+      ogTitle: "Comment ça marche : de la demande au rendez-vous | Careline",
       ogDescription:
-        "Quatre étapes sereines entre votre première demande et un rendez-vous médical confirmé.",
+        "Envoyez votre demande, nous analysons votre besoin, plusieurs praticiens vous sont proposés, vous confirmez. Découvrez le parcours en quatre étapes.",
     },
     cookies: {
-      title: "Politique de cookies - Careline",
+      title: "Cookies : catégories et gestion du consentement | Careline",
       description:
-        "Les catégories de cookies utilisées par Careline, la collecte du consentement et la modification de vos préférences à tout moment.",
-      ogTitle: "Politique de cookies - Careline",
-      ogDescription: "Catégories de cookies, consentement et modification de celui-ci.",
+        "Quels cookies Careline utilise, comment votre consentement est recueilli et comment modifier vos préférences à tout moment. Lisez notre politique.",
+      ogTitle: "Cookies : catégories et gestion du consentement | Careline",
+      ogDescription:
+        "Quels cookies Careline utilise, comment votre consentement est recueilli et comment modifier vos préférences à tout moment. Lisez notre politique.",
     },
     notice: {
-      title: "Mentions légales - Careline",
-      description: "Informations sur l'éditeur, le contact et le statut du site Careline.",
-      ogTitle: "Mentions légales - Careline",
-      ogDescription: "Éditeur, contact et statut du site Careline.",
+      title: "Mentions légales : éditeur et identité | Careline",
+      description:
+        "Éditeur, contact et statut du site Careline : l'identité légale de la société derrière le service de rendez-vous médicaux. Lisez les mentions légales.",
+      ogTitle: "Mentions légales : éditeur et identité | Careline",
+      ogDescription:
+        "Éditeur, contact et statut du site Careline : l'identité légale de la société derrière le service de rendez-vous médicaux. Lisez les mentions légales.",
     },
     privacy: {
-      title: "Politique de confidentialité - Careline",
+      title: "Confidentialité : protection de vos données | Careline",
       description:
-        "Comment Careline collecte, utilise, partage, protège et conserve les données personnelles, et comment exercer vos droits.",
-      ogTitle: "Politique de confidentialité - Careline",
-      ogDescription: "L'approche de Careline en matière de protection des données personnelles.",
+        "Comment Careline collecte, utilise, partage, protège et conserve vos données personnelles, et comment exercer vos droits. Lisez notre politique.",
+      ogTitle: "Confidentialité : protection de vos données | Careline",
+      ogDescription:
+        "Comment Careline collecte, utilise, partage, protège et conserve vos données personnelles, et comment exercer vos droits. Lisez notre politique.",
     },
     terms: {
-      title: "Conditions générales - Careline",
+      title: "Conditions générales d'utilisation du service | Careline",
       description:
-        "Conditions encadrant l'utilisation du site Careline et du service de facilitation de rendez-vous médicaux.",
-      ogTitle: "Conditions générales - Careline",
-      ogDescription: "Les conditions du service de coordination Careline.",
+        "Les conditions qui encadrent l'utilisation du site Careline et de son service de coordination de rendez-vous médicaux, expliquées clairement.",
+      ogTitle: "Conditions générales d'utilisation du service | Careline",
+      ogDescription:
+        "Les conditions qui encadrent l'utilisation du site Careline et de son service de coordination de rendez-vous médicaux, expliquées clairement.",
     },
     preferences: {
-      title: "Gérer les préférences de confidentialité - Careline",
+      title: "Préférences de confidentialité et cookies | Careline",
       description:
-        "Consultez et modifiez à tout moment les catégories de cookies autorisées sur le site Careline.",
-      ogTitle: "Gérer les préférences de confidentialité - Careline",
-      ogDescription: "Modifier les catégories de cookies que vous autorisez.",
+        "Consultez et modifiez à tout moment les catégories de cookies que vous autorisez sur le site Careline : vos préférences restent sous votre contrôle.",
+      ogTitle: "Préférences de confidentialité et cookies | Careline",
+      ogDescription:
+        "Consultez et modifiez à tout moment les catégories de cookies que vous autorisez sur le site Careline : vos préférences restent sous votre contrôle.",
     },
     professionals: {
-      title: "Pour les professionnels de santé - devenir partenaire Careline",
+      title: "Pour les professionnels de santé et cabinets | Careline",
       description:
-        "Médecins, spécialistes, cabinets et cliniques : recevez des demandes de rendez-vous qualifiées de patients et d'organisations du monde entier, avec moins d'administration.",
-      ogTitle: "Devenir partenaire Careline",
+        "Médecins, spécialistes et cliniques : Careline gère vos rendez-vous, confirmations et suivis patients. Inscription gratuite, sans abonnement.",
+      ogTitle: "Pour les professionnels de santé et cabinets | Careline",
       ogDescription:
-        "Mises en relation qualifiées, gestion simplifiée des demandes et contact dédié pour votre cabinet.",
+        "Médecins, spécialistes et cliniques : Careline gère vos rendez-vous, confirmations et suivis patients. Inscription gratuite, sans abonnement.",
     },
     request: {
-      title: "Demander un rendez-vous médical - Careline",
+      title: "Demander un rendez-vous médical en ligne | Careline",
       description:
-        "Indiquez à Careline le praticien, la ville et les préférences recherchés. Notre équipe étudie chaque demande et revient vers vous avec des options adaptées.",
-      ogTitle: "Demander un rendez-vous médical - Careline",
+        "Indiquez le praticien, la ville et vos préférences : notre équipe étudie chaque demande et revient avec des options adaptées. Envoyez votre demande.",
+      ogTitle: "Demander un rendez-vous médical en ligne | Careline",
       ogDescription:
-        "Envoyez votre demande de rendez-vous et recevez des options de praticiens de notre équipe.",
+        "Indiquez le praticien, la ville et vos préférences : notre équipe étudie chaque demande et revient avec des options adaptées. Envoyez votre demande.",
     },
     security: {
-      title: "Sécurité et confidentialité chez Careline",
+      title: "Sécurité et confidentialité de vos données | Careline",
       description:
-        "Minimisation des données, obligations de confidentialité, contrôle d'accès, chiffrement en transit et droits clairs des utilisateurs - la confidentialité pensée dès la conception.",
-      ogTitle: "Sécurité et confidentialité chez Careline",
-      ogDescription: "Comment Careline protège les données personnelles qui lui sont confiées.",
+        "Aucune donnée de santé demandée ni stockée, RGPD, chiffrement et contrôle d'accès : découvrez comment Careline protège vos informations au quotidien.",
+      ogTitle: "Sécurité et confidentialité de vos données | Careline",
+      ogDescription:
+        "Aucune donnée de santé demandée ni stockée, RGPD, chiffrement et contrôle d'accès : découvrez comment Careline protège vos informations au quotidien.",
     },
     services: {
-      title: "Services Careline - recherche de praticien, rendez-vous et support",
+      title: "Secrétariat médical administratif externalisé | Careline",
       description:
-        "Recherche de praticiens, prise de rendez-vous, mise en relation patient-praticien, téléconsultation, coordination internationale et support multilingue.",
-      ogTitle: "Services Careline",
+        "Careline gère la prise de rendez-vous, les confirmations et le suivi administratif de vos patients avec des équipes formées. Découvrez nos services.",
+      ogTitle: "Secrétariat médical administratif externalisé | Careline",
       ogDescription:
-        "Un interlocuteur unique pour les patients, les cabinets médicaux et les organisations à chaque étape du parcours de rendez-vous.",
+        "Careline gère la prise de rendez-vous, les confirmations et le suivi administratif de vos patients avec des équipes formées. Découvrez nos services.",
     },
   },
   nav: {
