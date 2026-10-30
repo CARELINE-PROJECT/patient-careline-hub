@@ -5,10 +5,11 @@ import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { specialtyLabels, specialtyUi } from "@/i18n/specialties";
 import { specialtyPageCopy, specialtyPageHead } from "@/i18n/specialtyPages";
-import { filterSpecialties, specialtyImage } from "@/config/specialtyDirectory";
+import { filterSpecialties } from "@/config/specialtyDirectory";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
+import { specialtyPath, specialtyPhoto } from "@/content/specialtyDetail";
 
 export const Route = createFileRoute("/$locale/specialties")({ staticData: { sitemap: true }, head: ({ params }) => specialtyPageHead("directory", params.locale), component: Specialties });
 
@@ -41,11 +42,11 @@ function Specialties() {
         <p role="status" className="mt-3 text-sm text-muted-foreground">{specialtyUi[locale].results.replace("{count}", String(matches.length))}</p>
         <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {matches.map((id) => <article key={id} className="overflow-hidden rounded-lg border border-border bg-card">
-            <ResponsivePhoto id={specialtyImage(id)} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="h-28 w-full object-cover object-center" />
+            <ResponsivePhoto id={specialtyPhoto(id)} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="h-28 w-full object-cover object-center" />
             <div className="p-4">
-              <h2 className="min-h-12 font-display text-lg leading-snug text-branddeep">{labels[id]}</h2>
+              <h2 className="min-h-12 font-display text-lg leading-snug text-branddeep"><LocalizedLink to={id === "ophthalmology" ? "/chirurgie-laser-yeux" : specialtyPath(id)} className="hover:underline">{labels[id]}</LocalizedLink></h2>
               <Button asChild variant="link" className="mt-1 h-auto justify-start whitespace-normal px-0 text-start">
-                {id === "ophthalmology" ? <LocalizedLink to="/chirurgie-laser-yeux">{c.guide}<ArrowRight aria-hidden="true" /></LocalizedLink> : <LocalizedLink to="/request">{t("cta.button")}<ArrowRight aria-hidden="true" /></LocalizedLink>}
+                {id === "ophthalmology" ? <LocalizedLink to="/chirurgie-laser-yeux">{c.guide}<ArrowRight aria-hidden="true" /></LocalizedLink> : <LocalizedLink to={specialtyPath(id)}>{specialtyPageCopy(locale).guide}<ArrowRight aria-hidden="true" /></LocalizedLink>}
               </Button>
             </div>
           </article>)}

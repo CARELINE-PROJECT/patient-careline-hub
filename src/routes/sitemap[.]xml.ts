@@ -11,7 +11,9 @@ import {
 import { defaultLocale, locales } from "@/i18n";
 import { localizedUrl } from "@/i18n/head";
 import { photoUrl, type PhotoId } from "@/lib/photos";
-import { directorySpecialties, specialtyImage } from "@/config/specialtyDirectory";
+import { directorySpecialties } from "@/config/specialtyDirectory";
+import { specialtyPath, specialtyPhoto } from "@/content/specialtyDetail";
+import { specialtyIds } from "@/config/specialties";
 
 /** Photos visible on each page (locale-free path); kept in sync with the page components. */
 const pagePhotos: Record<string, PhotoId[]> = {
@@ -22,9 +24,9 @@ const pagePhotos: Record<string, PhotoId[]> = {
   "/how-it-works": ["patient-demande-rendez-vous-telephone"],
   "/professionals": ["ophtalmologiste-accueil-patient-consultation"],
   "/security": ["securite-donnees-careline-protection"],
-  "/services": ["coordinatrice-careline-suivi-patient"],
-  "/specialties": [...new Set<PhotoId>(["chirurgie-laser-yeux-ophtalmologiste", ...directorySpecialties.map(specialtyImage)])],
+  "/specialties": [...new Set<PhotoId>(["chirurgie-laser-yeux-ophtalmologiste", ...directorySpecialties.map(specialtyPhoto)])],
   "/chirurgie-laser-yeux": ["femto-lasik-topographie-cornee"],
+  "/services": ["coordinatrice-careline-suivi-patient", "services-equipe-joyeuse", "services-accueil-colore", "services-coordination-coloree"],
 };
 
 // Public site origin requested by the site owner; live once the careline.doctor DNS connection completes.
@@ -38,7 +40,7 @@ export const Route = createFileRoute("/sitemap.xml")({
         const router = await getRouterInstance();
         // Localized page templates: included routes living under /$locale/.
         const templates = (Object.values(router.routesById) as AnyRoute[]).filter(
-          (route) => isSitemapRouteIncluded(route) && route.fullPath.includes("$locale"),
+          (route) => isSitemapRouteIncluded(route) && route.fullPath.includes("$locale") && !route.fullPath.includes("$specialty"),
         );
 
         const entries: SitemapEntry[] = [];
@@ -57,6 +59,11 @@ export const Route = createFileRoute("/sitemap.xml")({
             const path = sitemapPathForLocation(router, location, route.id);
             if (path) entries.push({ path, alternates, images: (pagePhotos[basePath] ?? []).map((id) => `${BASE_URL}${photoUrl(id)}`) });
           }
+        }
+        for (const id of specialtyIds) {
+          const basePath = specialtyPath(id);
+          const alternates = [...locales.map((l) => ({ hrefLang: l.htmlLang, href: localizedUrl(l.code, basePath) })), { hrefLang: "x-default", href: localizedUrl(defaultLocale, basePath) }];
+          for (const locale of locales) entries.push({ path: `/${locale.code}${basePath}`, alternates, images: [`${BASE_URL}${photoUrl(specialtyPhoto(id))}`] });
         }
 
         // No lastmod: there is no authoritative per-page modification date, and invented dates hurt SEO.
