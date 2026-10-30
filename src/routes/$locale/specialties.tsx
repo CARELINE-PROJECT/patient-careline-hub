@@ -44,9 +44,9 @@ function Specialties() {
           {matches.map((id) => <article key={id} className="overflow-hidden rounded-lg border border-border bg-card">
             <ResponsivePhoto id={specialtyPhoto(id)} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="h-28 w-full object-cover object-center" />
             <div className="p-4">
-              <h2 className="min-h-12 font-display text-lg leading-snug text-branddeep"><LocalizedLink to={id === "ophthalmology" ? "/chirurgie-laser-yeux" : specialtyPath(id)} className="hover:underline">{labels[id]}</LocalizedLink></h2>
+              <h2 className="min-h-12 font-display text-lg leading-snug text-branddeep"><LocalizedLink to={specialtyPath(id)} className="hover:underline">{labels[id]}</LocalizedLink></h2>
               <Button asChild variant="link" className="mt-1 h-auto justify-start whitespace-normal px-0 text-start">
-                {id === "ophthalmology" ? <LocalizedLink to="/chirurgie-laser-yeux">{c.guide}<ArrowRight aria-hidden="true" /></LocalizedLink> : <LocalizedLink to={specialtyPath(id)}>{specialtyPageCopy(locale).guide}<ArrowRight aria-hidden="true" /></LocalizedLink>}
+                <LocalizedLink to={specialtyPath(id)}>{c.guide}<ArrowRight aria-hidden="true" /></LocalizedLink>
               </Button>
             </div>
           </article>)}
