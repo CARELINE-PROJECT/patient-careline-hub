@@ -1,4 +1,5 @@
 # Tasks
+- [ ] Specialties directory: verify every specialty title and guide link opens its dedicated page.
 - [ ] Homepage French: replace “Trouver un praticien” with “Recherchez un praticien” and “3 praticiens proposés” with “Plusieurs praticiens proposés”.
 - [ ] Language menu: replace all two-letter codes (GB, FR...) with drawn flags plus the language name.
 - [ ] Services: add several bright, joyful colorful photos without changing the offer or existing layout.
