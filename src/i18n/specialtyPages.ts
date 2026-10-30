@@ -73,7 +73,7 @@ const specialtySeoMeta = {
   },
   eye: {
     fr: {
-      title: "Laser des yeux : techniques et parcours patient | Careline",
+      title: "Chirurgie laser des yeux : guide patient complet | Careline",
       description:
         "LASIK, PKR et SMILE : bilan, préparation, intervention, récupération et risques. Un guide patient sans prix pour préparer votre consultation.",
     },

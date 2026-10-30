@@ -31,7 +31,7 @@ export default defineConfig({
       { path: "/fr/security" },
       { path: "/fr/services" },
       { path: "/fr/specialties" },
-      { path: "/fr/specialties/laser-des-yeux" },
+      { path: "/fr/chirurgie-laser-yeux" },
       { path: "/en" },
       { path: "/en/about" },
       { path: "/en/careers" },
@@ -49,7 +49,7 @@ export default defineConfig({
       { path: "/en/security" },
       { path: "/en/services" },
       { path: "/en/specialties" },
-      { path: "/en/specialties/laser-des-yeux" },
+      { path: "/en/chirurgie-laser-yeux" },
       { path: "/nl" },
       { path: "/nl/about" },
       { path: "/nl/careers" },
@@ -67,7 +67,7 @@ export default defineConfig({
       { path: "/nl/security" },
       { path: "/nl/services" },
       { path: "/nl/specialties" },
-      { path: "/nl/specialties/laser-des-yeux" }
+      { path: "/nl/chirurgie-laser-yeux" }
     ],
     prerender: { enabled: true, autoStaticPathsDiscovery: false },
   },

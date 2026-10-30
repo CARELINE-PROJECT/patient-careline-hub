@@ -16,6 +16,7 @@ import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as LocaleIndexRouteImport } from './routes/$locale/index'
 import { Route as LocaleAboutRouteImport } from './routes/$locale/about'
 import { Route as LocaleCareersRouteImport } from './routes/$locale/careers'
+import { Route as LocaleChirurgieLaserYeuxRouteImport } from './routes/$locale/chirurgie-laser-yeux'
 import { Route as LocaleCompaniesRouteImport } from './routes/$locale/companies'
 import { Route as LocaleContactRouteImport } from './routes/$locale/contact'
 import { Route as LocaleFaqRouteImport } from './routes/$locale/faq'
@@ -67,6 +68,12 @@ const LocaleCareersRoute = LocaleCareersRouteImport.update({
   path: '/careers',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleChirurgieLaserYeuxRoute =
+  LocaleChirurgieLaserYeuxRouteImport.update({
+    id: '/chirurgie-laser-yeux',
+    path: '/chirurgie-laser-yeux',
+    getParentRoute: () => LocaleRoute,
+  } as any)
 const LocaleCompaniesRoute = LocaleCompaniesRouteImport.update({
   id: '/companies',
   path: '/companies',
@@ -152,6 +159,7 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/$locale/about': typeof LocaleAboutRoute
   '/$locale/careers': typeof LocaleCareersRoute
+  '/$locale/chirurgie-laser-yeux': typeof LocaleChirurgieLaserYeuxRoute
   '/$locale/companies': typeof LocaleCompaniesRoute
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/faq': typeof LocaleFaqRoute
@@ -175,6 +183,7 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/$locale/about': typeof LocaleAboutRoute
   '/$locale/careers': typeof LocaleCareersRoute
+  '/$locale/chirurgie-laser-yeux': typeof LocaleChirurgieLaserYeuxRoute
   '/$locale/companies': typeof LocaleCompaniesRoute
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/faq': typeof LocaleFaqRoute
@@ -200,6 +209,7 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/$locale/about': typeof LocaleAboutRoute
   '/$locale/careers': typeof LocaleCareersRoute
+  '/$locale/chirurgie-laser-yeux': typeof LocaleChirurgieLaserYeuxRoute
   '/$locale/companies': typeof LocaleCompaniesRoute
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/faq': typeof LocaleFaqRoute
@@ -226,6 +236,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/$locale/about'
     | '/$locale/careers'
+    | '/$locale/chirurgie-laser-yeux'
     | '/$locale/companies'
     | '/$locale/contact'
     | '/$locale/faq'
@@ -249,6 +260,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/$locale/about'
     | '/$locale/careers'
+    | '/$locale/chirurgie-laser-yeux'
     | '/$locale/companies'
     | '/$locale/contact'
     | '/$locale/faq'
@@ -273,6 +285,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/$locale/about'
     | '/$locale/careers'
+    | '/$locale/chirurgie-laser-yeux'
     | '/$locale/companies'
     | '/$locale/contact'
     | '/$locale/faq'
@@ -347,6 +360,13 @@ declare module '@tanstack/react-router' {
       path: '/careers'
       fullPath: '/$locale/careers'
       preLoaderRoute: typeof LocaleCareersRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/chirurgie-laser-yeux': {
+      id: '/$locale/chirurgie-laser-yeux'
+      path: '/chirurgie-laser-yeux'
+      fullPath: '/$locale/chirurgie-laser-yeux'
+      preLoaderRoute: typeof LocaleChirurgieLaserYeuxRouteImport
       parentRoute: typeof LocaleRoute
     }
     '/$locale/companies': {
@@ -460,6 +480,7 @@ declare module '@tanstack/react-router' {
 interface LocaleRouteChildren {
   LocaleAboutRoute: typeof LocaleAboutRoute
   LocaleCareersRoute: typeof LocaleCareersRoute
+  LocaleChirurgieLaserYeuxRoute: typeof LocaleChirurgieLaserYeuxRoute
   LocaleCompaniesRoute: typeof LocaleCompaniesRoute
   LocaleContactRoute: typeof LocaleContactRoute
   LocaleFaqRoute: typeof LocaleFaqRoute
@@ -481,6 +502,7 @@ interface LocaleRouteChildren {
 const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleAboutRoute: LocaleAboutRoute,
   LocaleCareersRoute: LocaleCareersRoute,
+  LocaleChirurgieLaserYeuxRoute: LocaleChirurgieLaserYeuxRoute,
   LocaleCompaniesRoute: LocaleCompaniesRoute,
   LocaleContactRoute: LocaleContactRoute,
   LocaleFaqRoute: LocaleFaqRoute,
