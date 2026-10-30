@@ -12,11 +12,11 @@ const en = {
 const fr: typeof en = {
   eyebrow: "Careline · International",
   title: "Notre présence mondiale",
-  lead: "Notre siège social à Madagascar et six localisations envisagées, une ambition internationale.",
+  lead: "Notre siège social à Madagascar et six localisations internationales.",
   details: "Détails de la localisation", active: "Service actif", inactive: "Aucun service actif",
   cities: { antsirabe: "Antsirabe", "silicon-valley": "Silicon Valley", miami: "Miami", dubai: "Dubaï", singapore: "Singapour", london: "Londres", "hong-kong": "Hong Kong" },
   countries: { antsirabe: "Madagascar", "silicon-valley": "États-Unis", miami: "États-Unis", dubai: "Émirats arabes unis", singapore: "Singapour", london: "Royaume-Uni", "hong-kong": "Région administrative spéciale de Hong Kong" },
-  map: "Siège social et localisations internationales envisagées", attribution: "Carte : Natural Earth · domaine public",
+  map: "Siège social et localisations internationales", attribution: "Carte : Natural Earth · domaine public",
 };
 
 export function globalOfficeCopy(locale: LocaleCode) {
