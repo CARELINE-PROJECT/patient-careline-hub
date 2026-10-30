@@ -1,0 +1,32 @@
+// Generated catalog: descriptive French file names, natural size of the 1600 px variant.
+export const photoDims = {
+  "coordinatrice-careline-rendez-vous-ophtalmologiste": [1600, 1200],
+  "chirurgie-laser-yeux-ophtalmologiste": [1408, 896],
+  "ophtalmologiste-accueil-patient-consultation": [1408, 1008],
+  "patient-demande-rendez-vous-telephone": [1408, 1008],
+  "coordinatrice-careline-suivi-patient": [1482, 1061],
+  "equipe-careline-internationale-reunion": [1482, 1061],
+  "reseau-international-careline-praticiens": [1600, 533],
+  "specialite-dentaire-consultation": [1024, 768],
+  "specialite-reeducation-kinesitherapie": [1024, 768],
+  "securite-donnees-careline-protection": [1344, 960],
+  "bilan-pre-operatoire-examen-vue": [1600, 1200],
+  "femto-lasik-topographie-cornee": [1600, 1200],
+  "laser-yeux-belgique-accueil-centre": [1600, 1200],
+  "laser-yeux-suisse-salle-attente-centre": [1600, 1200],
+  "lasik-paris-consultation-ophtalmologiste": [1600, 1200],
+  "pkr-transpkr-patiente-lecture-sans-lunettes": [1600, 1200],
+  "smile-patient-sport-sans-lunettes": [1600, 1200],
+  "specialite-cardiologie-consultation": [1600, 1200],
+  "specialite-dermatologie-examen-peau": [1600, 1200],
+  "specialite-neurologie-imagerie": [1600, 1200],
+  "specialite-nutrition-dietetique-conseil": [1600, 1200],
+  "specialite-orl-audiologie-examen": [1600, 1200],
+  "specialite-pediatrie-consultation-enfant": [1600, 1200],
+  "specialite-radiologie-imagerie-medicale": [1600, 1200],
+  "specialite-sante-femme-consultation": [1600, 1200],
+  "specialite-sante-mentale-entretien": [1600, 1200],
+  "specialite-soins-infirmiers-geriatrie": [1600, 1200],
+} as const satisfies Record<string, readonly [number, number]>;
+
+export type PhotoId = keyof typeof photoDims;
