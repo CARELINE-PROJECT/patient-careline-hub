@@ -3,7 +3,6 @@ import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { staticRouteHead } from "@/i18n/head";
-import patientHands from "@/assets/patient-hands.jpg";
 import { Glass, Photo, Reveal, Section } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 
@@ -47,8 +46,7 @@ function HowItWorks() {
               </LocalizedLink>
             </div>
             <Photo
-              src={patientHands}
-              alt={t("media.patientHands")}
+              photo="patient-demande-rendez-vous-telephone"
               className="mt-6"
               imgClassName="h-40 sm:h-48 lg:h-56"
             />

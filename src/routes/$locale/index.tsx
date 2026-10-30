@@ -14,11 +14,7 @@ import {
   Stethoscope,
   Users,
 } from "lucide-react";
-import heroImage from "@/assets/hero-careline.jpg";
-import patientHands from "@/assets/patient-hands.jpg";
-import doctorGreeting from "@/assets/doctor-greeting.jpg";
-import coordinator from "@/assets/team-coordinator.jpg";
-import teamOffice from "@/assets/team-office.jpg";
+import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
 import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { staticRouteHead } from "@/i18n/head";
@@ -45,8 +41,6 @@ export const Route = createFileRoute("/$locale/")({
       ...base,
       links: [
         ...base.links,
-        // LCP candidate: the hero photo is preloaded so first paint stays fast on mobile.
-        { rel: "preload", as: "image", href: heroImage, fetchpriority: "high" },
       ],
     };
   },
@@ -137,13 +131,7 @@ function Home() {
 
           <div className="relative mx-auto w-full max-w-md pb-8 lg:max-w-sm">
             <div className="overflow-hidden rounded-[2rem] border border-border/70 shadow-[0_40px_80px_-40px_rgba(16,49,56,0.55)]">
-              <img
-                src={heroImage}
-                width={1600}
-                height={1200}
-                alt={t("media.heroCoordinator")}
-                className="h-60 w-full object-cover sm:h-72 lg:h-80"
-              />
+              <ResponsivePhoto id="coordinatrice-careline-rendez-vous-ophtalmologiste" priority sizes="(min-width: 1024px) 24rem, 100vw" className="h-60 w-full object-cover sm:h-72 lg:h-80" />
             </div>
             <Glass className="anim-float absolute bottom-0 left-4 w-[17rem] max-w-[calc(100%-2rem)] p-4 sm:left-auto sm:right-0">
               <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
@@ -188,10 +176,10 @@ function Home() {
         <SectionHeading eyebrow={t("how.eyebrow")} title={t("how.title")} lead={t("how.lead")} />
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           <Reveal>
-            <Photo src={patientHands} alt={t("media.patientHands")} imgClassName="h-44 sm:h-52 lg:h-60" />
+            <Photo photo="patient-demande-rendez-vous-telephone" imgClassName="h-44 sm:h-52 lg:h-60" />
           </Reveal>
           <Reveal delay={140}>
-            <Photo src={doctorGreeting} alt={t("media.doctorGreeting")} imgClassName="h-44 sm:h-52 lg:h-60" />
+            <Photo photo="ophtalmologiste-accueil-patient-consultation" imgClassName="h-44 sm:h-52 lg:h-60" />
           </Reveal>
         </div>
         <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -221,7 +209,7 @@ function Home() {
           lead={t("services.lead")}
         />
         <Reveal className="mx-auto mt-8 max-w-2xl">
-          <Photo src={coordinator} alt={t("media.coordinatorNotebook")} imgClassName="h-44 sm:h-56 lg:h-64" />
+          <Photo photo="coordinatrice-careline-suivi-patient" imgClassName="h-44 sm:h-56 lg:h-64" />
         </Reveal>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {serviceIcons.map((Icon, i) => (
@@ -279,7 +267,7 @@ function Home() {
       {/* Audiences */}
       <Section>
         <Reveal className="mx-auto mb-8 max-w-2xl">
-          <Photo src={teamOffice} alt={t("media.teamOffice")} imgClassName="h-44 sm:h-56 lg:h-64" />
+          <Photo photo="equipe-careline-internationale-reunion" imgClassName="h-44 sm:h-56 lg:h-64" />
         </Reveal>
         <div className="grid gap-6 lg:grid-cols-2">
           {[

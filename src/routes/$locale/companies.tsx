@@ -3,7 +3,6 @@ import { Globe2, HeartHandshake, Languages, Layers, ShieldCheck, Timer } from "l
 import { useI18n } from "@/i18n";
 import { staticRouteHead } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
-import teamOffice from "@/assets/team-office.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
 export const Route = createFileRoute("/$locale/companies")({
@@ -31,8 +30,7 @@ function Companies() {
           </div>
           <Reveal className="lg:pt-6">
             <Photo
-              src={teamOffice}
-              alt={t("media.teamOffice")}
+              photo="equipe-careline-internationale-reunion"
               imgClassName="h-52 object-[50%_30%] lg:h-64"
             />
           </Reveal>

@@ -4,7 +4,6 @@ import { useI18n } from "@/i18n";
 import { staticRouteHead } from "@/i18n/head";
 import { siteConfig } from "@/config/site";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
-import coordinator from "@/assets/team-coordinator.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { GlobalPresence } from "@/components/site/GlobalPresence";
 
@@ -42,7 +41,7 @@ function Contact() {
               </li>
             </ul>
             <Reveal className="mt-6">
-              <Photo src={coordinator} alt={t("media.contactCoordinator")} />
+              <Photo photo="coordinatrice-careline-suivi-patient" />
             </Reveal>
             {/* <DemoNote>{t("site.contactDetailsPlaceholder")}</DemoNote> */}
           </Glass>

@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
+import type { PhotoId } from "@/lib/photos";
 
 /** Gentle, human reveal: content breathes in when it enters the viewport. */
 export function Reveal({
@@ -49,31 +51,24 @@ export function Reveal({
 
 /** Editorial photo with a soft frame and a slow, breathing zoom. */
 export function Photo({
-  src,
-  alt,
+  photo,
   caption,
   className,
   imgClassName,
-  width = 1408,
-  height = 1008,
+  priority = false,
 }: {
-  src: string;
-  alt: string;
+  photo: PhotoId;
   caption?: string | undefined;
   className?: string | undefined;
   imgClassName?: string | undefined;
-  width?: number | undefined;
-  height?: number | undefined;
+  priority?: boolean;
 }) {
   return (
     <figure className={cn("group relative", className)}>
       <div className="overflow-hidden rounded-[2rem] border border-border/70 shadow-[0_30px_70px_-45px_rgba(16,49,56,0.6)]">
-        <img
-          src={src}
-          alt={alt}
-          width={width}
-          height={height}
-          loading="lazy"
+        <ResponsivePhoto
+          id={photo}
+          priority={priority}
           className={cn(
             "h-full w-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]",
             imgClassName,

@@ -6,7 +6,6 @@ import { staticRouteHead } from "@/i18n/head";
 import { securityFocusCopy } from "@/i18n/securityFocus";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import { HeroActions } from "@/components/site/HeroActions";
-import securityData from "@/assets/security-data.jpg";
 
 export const Route = createFileRoute("/$locale/security")({
   staticData: { sitemap: true },
@@ -77,8 +76,7 @@ function Security() {
         </div>
         <Reveal className="mt-10">
           <Photo
-            src={securityData}
-            alt={f.imageAlt}
+            photo="securite-donnees-careline-protection"
             className="mx-auto max-w-3xl"
             imgClassName="h-52 object-[50%_45%] lg:h-64"
           />
