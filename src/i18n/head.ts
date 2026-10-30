@@ -1,5 +1,6 @@
 import { en } from "./locales/en";
 import { administrativeTranslation } from "./administrativeServices";
+import { defaultLocale, locales, type LocaleCode } from "./types";
 import { siteConfig } from "@/config/site";
 
 export type HeadKey = keyof typeof en.head;
@@ -37,11 +38,36 @@ export function staticRouteMeta(key: HeadKey) {
   ];
 }
 
-/** Full head for a static public route: localized meta plus self-referencing canonical and og:url. */
-export function staticRouteHead(key: HeadKey, path: string) {
-  const url = `${siteConfig.url}${path}`;
+/** Absolute URL of a page in a given language: localizedUrl("fr", "/services"). */
+export function localizedUrl(locale: LocaleCode, path: string): string {
+  return `${siteConfig.url}/${locale}${path === "/" ? "" : path}`;
+}
+
+/** Reciprocal hreflang links for every supported language plus x-default (French). */
+export function hreflangLinks(path: string) {
+  return [
+    ...locales.map((l) => ({
+      rel: "alternate",
+      hrefLang: l.htmlLang,
+      href: localizedUrl(l.code, path),
+    })),
+    { rel: "alternate", hrefLang: "x-default", href: localizedUrl(defaultLocale, path) },
+  ];
+}
+
+/**
+ * Full head for a static public route in a given language: localized meta,
+ * self-referencing canonical and og:url in that language, og:locale, hreflang.
+ */
+export function staticRouteHead(key: HeadKey, path: string, locale: LocaleCode) {
+  const url = localizedUrl(locale, path);
+  const ogLocale = locales.find((l) => l.code === locale)?.ogLocale ?? "fr_FR";
   return {
-    meta: [...staticRouteMeta(key), { property: "og:url", content: url }],
-    links: [{ rel: "canonical", href: url }],
+    meta: [
+      ...staticRouteMeta(key),
+      { property: "og:url", content: url },
+      { property: "og:locale", content: ogLocale },
+    ],
+    links: [{ rel: "canonical", href: url }, ...hreflangLinks(path)],
   };
 }
