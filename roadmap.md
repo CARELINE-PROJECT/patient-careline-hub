@@ -1,4 +1,5 @@
 # Tasks
+- [ ] Homepage French: replace “Trouver un praticien” with “Recherchez un praticien” and “3 praticiens proposés” with “Plusieurs praticiens proposés”.
 - [ ] Language menu: replace all two-letter codes (GB, FR...) with drawn flags plus the language name.
 - [ ] Services: add several bright, joyful colorful photos without changing the offer or existing layout.
 - [ ] Build all 79 specialty detail pages with specialty-specific educational content, distinct generated illustrations, verified sources/videos where available, appointment CTA, metadata, breadcrumbs and sitemap; verify directory-to-request flow.
