@@ -10,7 +10,10 @@
    "id": "CT0aB-EORMU",
    "title": "How your General Practice team can help you",
    "publisher": "NHS"
-  }
+  },
+  "topics": "fièvre, fatigue, douleurs courantes et suivi de maladies chroniques",
+  "exams": "entretien, examen clinique et examens ciblés si nécessaires",
+  "care": "prévention, vaccination, traitement des problèmes courants et coordination avec les spécialistes"
  },
  "primary_care": {
   "fr": "Les soins primaires réunissent les professionnels de premier recours : prévention, soins courants, suivi des maladies chroniques et coordination du parcours.",
@@ -23,7 +26,10 @@
    "id": "CT0aB-EORMU",
    "title": "How your General Practice team can help you",
    "publisher": "NHS"
-  }
+  },
+  "topics": "première évaluation de symptômes et suivi de santé au long cours",
+  "exams": "évaluation clinique, tension artérielle et dépistages adaptés à l'âge et aux risques",
+  "care": "soins de premier recours, éducation à la santé et orientation dans le parcours"
  },
  "internal_medicine": {
   "fr": "La médecine interne prend en charge les adultes présentant des symptômes complexes ou plusieurs maladies associées, avec une approche globale du diagnostic.",
@@ -32,7 +38,10 @@
    "url": "https://www.acponline.org/about-acp/about-internal-medicine",
    "title": "American College of Physicians · Internal medicine"
   },
-  "video": null
+  "video": null,
+  "topics": "symptômes inexpliqués, maladies auto-immunes et atteintes de plusieurs organes",
+  "exams": "analyse du dossier, examen complet et bilans biologiques ou imagerie ciblés",
+  "care": "coordination des traitements et collaboration avec les spécialistes d'organes"
  },
  "addiction_medicine": {
   "fr": "L'addictologie accompagne, sans jugement, les difficultés liées à l'alcool, au tabac, aux drogues, aux médicaments ou aux comportements comme le jeu.",
@@ -41,7 +50,10 @@
    "url": "https://www.nhs.uk/live-well/addiction-support/",
    "title": "NHS · Addiction support"
   },
-  "video": null
+  "video": null,
+  "topics": "perte de contrôle d'une consommation, dépendance et conséquences sur la vie quotidienne",
+  "exams": "entretien confidentiel sur les habitudes, retentissement et objectifs personnels",
+  "care": "accompagnement psychologique, réduction des risques et sevrage médicalement encadré si indiqué"
  },
  "allergology": {
   "fr": "L'allergologue identifie les allergies respiratoires, alimentaires, cutanées ou médicamenteuses par l'entretien et des tests adaptés, puis propose une prise en charge.",
@@ -50,7 +62,10 @@
    "url": "https://www.nhs.uk/conditions/allergies/",
    "title": "NHS · Allergies"
   },
-  "video": null
+  "video": null,
+  "topics": "rhinite, asthme allergique, urticaire et réactions à des aliments ou médicaments",
+  "exams": "histoire des réactions, tests cutanés ou analyses spécifiques selon indication",
+  "care": "éviction adaptée, traitement des symptômes et désensibilisation dans certaines allergies"
  },
  "anesthesiology": {
   "fr": "L'anesthésiste évalue votre état avant une intervention, choisit le type d'anesthésie et veille à votre sécurité et à votre confort pendant et après le geste.",
@@ -59,7 +74,10 @@
    "url": "https://www.guysandstthomas.nhs.uk/health-information/anaesthetic/having-general-anaesthetic",
    "title": "Guy's and St Thomas' · Having a general anaesthetic"
   },
-  "video": null
+  "video": null,
+  "topics": "préparation à une opération et évaluation des risques anesthésiques",
+  "exams": "entretien sur les traitements, allergies, antécédents et examen préanesthésique",
+  "care": "anesthésie générale, régionale ou sédation selon l'intervention et surveillance du réveil"
  },
  "audiology": {
   "fr": "L'audiologie évalue l'audition et l'équilibre, de l'enfant à l'adulte, et accompagne l'appareillage ou la rééducation auditive.",
@@ -72,7 +90,10 @@
    "id": "43ZViMpWUXk",
    "title": "Your baby's hearing test at Children's Audiology",
    "publisher": "Guy's and St Thomas' NHS Foundation Trust"
-  }
+  },
+  "topics": "baisse de l'audition, acouphènes et difficultés auditives chez l'enfant",
+  "exams": "audiométrie, tests de l'oreille moyenne ou potentiels auditifs selon l'âge",
+  "care": "adaptation d'aides auditives et orientation ORL lorsque nécessaire"
  },
  "cardiology": {
   "fr": "Le cardiologue diagnostique et suit les maladies du cœur et des vaisseaux : tension, rythme, douleurs thoraciques, essoufflement, prévention cardiovasculaire.",
@@ -81,7 +102,10 @@
    "url": "https://www.nhs.uk/conditions/cardiovascular-disease/",
    "title": "NHS · Cardiovascular disease"
   },
-  "video": null
+  "video": null,
+  "topics": "hypertension, palpitations, insuffisance cardiaque et maladie coronarienne",
+  "exams": "électrocardiogramme, échographie cardiaque et enregistrement du rythme si indiqués",
+  "care": "traitements médicamenteux, prévention et orientation vers un geste interventionnel si nécessaire"
  },
  "cardiothoracic_surgery": {
   "fr": "La chirurgie cardiaque et thoracique traite par intervention certaines maladies du cœur, des valves, des gros vaisseaux et des poumons, après avis d'une équipe spécialisée.",
@@ -94,7 +118,10 @@
    "id": "jHZkeezzBSw",
    "title": "Thoracic Surgery Patient Education | Your Stay After Surgery",
    "publisher": "Johns Hopkins Medicine"
-  }
+  },
+  "topics": "maladies des valves, des artères coronaires et certaines maladies pulmonaires",
+  "exams": "imagerie cardiaque ou thoracique et évaluation des capacités respiratoires selon le projet",
+  "care": "discussion des alternatives à la chirurgie, intervention et réadaptation postopératoire"
  },
  "clinical_genetics": {
   "fr": "La génétique médicale évalue les maladies héréditaires, interprète les tests génétiques et accompagne les familles dans leurs décisions.",
@@ -107,7 +134,10 @@
    "id": "jOC7mnrbh7w",
    "title": "Diagnostic Genetic Testing: What to expect",
    "publisher": "Imperial College Healthcare NHS Trust"
-  }
+  },
+  "topics": "suspicion de maladie héréditaire et histoire familiale évocatrice",
+  "exams": "arbre familial, examen clinique et test génétique après information et consentement",
+  "care": "explication des résultats, conseil génétique et orientation des apparentés si pertinent"
  },
  "clinical_pharmacology": {
   "fr": "La pharmacologie clinique optimise l'usage des médicaments : interactions, effets indésirables, traitements multiples et ajustements personnalisés.",
@@ -116,7 +146,10 @@
    "url": "https://www.stgeorges.nhs.uk/service/clinical-pharmacology/polypharmacy-service/patients/",
    "title": "St George's · Polypharmacy service"
   },
-  "video": null
+  "video": null,
+  "topics": "effets indésirables, interactions et difficultés avec plusieurs médicaments",
+  "exams": "revue des prescriptions, doses, automédication et parfois dosages sanguins",
+  "care": "optimisation du traitement en lien avec le prescripteur, sans arrêt décidé par le patient seul"
  },
  "dentistry": {
   "fr": "Le chirurgien-dentiste prévient et soigne les caries, les infections, les douleurs dentaires et assure le suivi régulier de la santé bucco-dentaire.",
@@ -125,7 +158,10 @@
    "url": "https://www.healthdirect.gov.au/guide-to-dental-procedures",
    "title": "Healthdirect · Guide to dental procedures"
   },
-  "video": null
+  "video": null,
+  "topics": "caries, douleurs dentaires, infections et prévention bucco-dentaire",
+  "exams": "examen des dents et gencives, radiographies seulement si nécessaires",
+  "care": "soins conservateurs, détartrage, restaurations et conseils d'hygiène"
  },
  "dermatology": {
   "fr": "Le dermatologue examine la peau, les cheveux et les ongles : eczéma, acné, psoriasis, grains de beauté, dépistage des cancers cutanés.",
@@ -134,7 +170,10 @@
    "url": "https://www.bad.org.uk/patient-information-leaflets",
    "title": "British Association of Dermatologists · Patient leaflets"
   },
-  "video": null
+  "video": null,
+  "topics": "acné, eczéma, psoriasis et lésions de peau qui changent",
+  "exams": "examen cutané, dermatoscopie et prélèvement ou biopsie selon indication",
+  "care": "traitements locaux ou généraux, surveillance des lésions et prévention solaire"
  },
  "emergency_medicine": {
   "fr": "La médecine d'urgence prend en charge les situations aiguës. En cas d'urgence vitale, appelez immédiatement les secours de votre pays : Careline n'organise pas les urgences.",
@@ -143,7 +182,10 @@
    "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-go-to-ae/",
    "title": "NHS · When to go to A&E"
   },
-  "video": null
+  "video": null,
+  "topics": "symptômes soudains graves, traumatismes aigus et aggravation rapide de l'état de santé",
+  "exams": "triage immédiat, examen clinique et investigations urgentes adaptées",
+  "care": "stabilisation, soins urgents et orientation hospitalière ; ne pas attendre un rendez-vous Careline"
  },
  "endocrinology": {
   "fr": "L'endocrinologue suit les maladies hormonales et métaboliques : diabète, thyroïde, surrénales, hypophyse, troubles de la croissance.",
@@ -152,7 +194,10 @@
    "url": "https://patient.info/hormones",
    "title": "Patient.info · Hormones"
   },
-  "video": null
+  "video": null,
+  "topics": "diabète, troubles thyroïdiens et maladies des glandes hormonales",
+  "exams": "bilans hormonaux, glycémie et imagerie spécialisée lorsqu'elle est indiquée",
+  "care": "équilibre hormonal, suivi des traitements et prévention des complications"
  },
  "endodontics": {
   "fr": "L'endodontie traite l'intérieur de la dent (pulpe et racines), notamment par traitement de canal, pour conserver une dent infectée ou abîmée.",
@@ -161,7 +206,10 @@
    "url": "https://www.nhs.uk/tests-and-treatments/root-canal-treatment/",
    "title": "NHS · Root canal treatment"
   },
-  "video": null
+  "video": null,
+  "topics": "infection de la pulpe dentaire, douleur persistante et reprise d'un traitement de canal",
+  "exams": "examen dentaire, tests de sensibilité et radiographie ciblée",
+  "care": "nettoyage et obturation des canaux ; restauration de la dent et suivi de la cicatrisation"
  },
  "epidemiology": {
   "fr": "L'épidémiologie étudie la fréquence et les causes des maladies dans les populations. Elle oriente surtout les politiques de santé et les programmes de prévention.",
@@ -170,7 +218,10 @@
    "url": "https://www.cdc.gov/training-publichealth101/php/training/introduction-to-epidemiology.html",
    "title": "CDC · Introduction to epidemiology"
   },
-  "video": null
+  "video": null,
+  "topics": "surveillance des maladies, recherche des facteurs de risque et investigation des épidémies",
+  "exams": "analyse de données de population, enquêtes et études observationnelles",
+  "care": "recommandations de prévention et évaluation de programmes, plutôt qu'une consultation clinique habituelle"
  },
  "forensic_medicine": {
   "fr": "La médecine légale constate et documente des blessures ou des causes de décès dans un cadre judiciaire, à la demande des autorités ou des victimes.",
@@ -179,7 +230,10 @@
    "url": "https://www.nhs.uk/tests-and-treatments/post-mortem/",
    "title": "NHS · Post-mortem"
   },
-  "video": null
+  "video": null,
+  "topics": "constat de lésions, expertise de préjudices et situations liées à une procédure judiciaire",
+  "exams": "entretien, examen médico-légal et documentation dans le cadre légal applicable",
+  "care": "certificats, expertise et orientation vers des soins ; les démarches dépendent de l'autorité compétente"
  },
  "gastroenterology": {
   "fr": "Le gastro-entérologue prend en charge l'appareil digestif et le foie : reflux, douleurs abdominales, troubles du transit, coloscopie de dépistage.",
@@ -188,7 +242,10 @@
    "url": "https://www.nhsinform.scot/tests-and-treatments/non-surgical-procedures/colonoscopy/",
    "title": "NHS Inform · Colonoscopy"
   },
-  "video": null
+  "video": null,
+  "topics": "reflux, douleurs abdominales, troubles du transit et maladies du foie",
+  "exams": "bilans biologiques, endoscopie ou coloscopie uniquement selon indication",
+  "care": "traitements digestifs, conseils adaptés et suivi des maladies inflammatoires ou hépatiques"
  },
  "geriatrics": {
   "fr": "Le gériatre accompagne les personnes âgées dans leur globalité : autonomie, mémoire, chutes, traitements multiples et maintien à domicile.",
@@ -197,7 +254,10 @@
    "url": "https://www.healthinaging.org/",
    "title": "Health in Aging Foundation"
   },
-  "video": null
+  "video": null,
+  "topics": "chutes, fragilité, mémoire, perte d'autonomie et traitements multiples",
+  "exams": "bilan global de mobilité, nutrition, cognition et environnement de vie",
+  "care": "adaptation des traitements et coordination des aides pour préserver l'autonomie"
  },
  "hematology": {
   "fr": "L'hématologue étudie le sang et la moelle osseuse : anémies, troubles de la coagulation, maladies des globules et cancers du sang.",
@@ -206,7 +266,10 @@
    "url": "https://rmpartners.nhs.uk/the-cancer-vanguard-driving-innovation-in-cancer-care/our-work/patient-information-films-blood-diseases/",
    "title": "RM Partners NHS · Blood disease patient films"
   },
-  "video": null
+  "video": null,
+  "topics": "anémies, saignements, troubles de la coagulation et maladies des cellules sanguines",
+  "exams": "numération sanguine, coagulation et parfois étude de la moelle selon la situation",
+  "care": "traitements adaptés à la maladie et surveillance des résultats et de la tolérance"
  },
  "infectious_disease": {
   "fr": "L'infectiologue prend en charge les infections complexes ou persistantes, les maladies transmissibles et conseille sur la prévention et la vaccination.",
@@ -215,7 +278,10 @@
    "url": "https://www.nhs.uk/conditions/tuberculosis-tb/",
    "title": "NHS · Tuberculosis"
   },
-  "video": null
+  "video": null,
+  "topics": "infections persistantes, compliquées ou récidivantes et maladies transmissibles",
+  "exams": "prélèvements, analyses microbiologiques et évaluation du contexte d'exposition",
+  "care": "antimicrobiens ciblés si nécessaires, prévention des transmissions et suivi"
  },
  "intensive_care": {
   "fr": "La réanimation surveille et soutient les fonctions vitales des patients gravement malades, dans des unités hospitalières spécialisées.",
@@ -224,7 +290,10 @@
    "url": "https://www.nhs.uk/tests-and-treatments/intensive-care/",
    "title": "NHS · Intensive care"
   },
-  "video": null
+  "video": null,
+  "topics": "défaillance respiratoire, circulatoire ou autre atteinte vitale grave",
+  "exams": "surveillance continue et bilans répétés dans une unité hospitalière",
+  "care": "soutien des fonctions vitales, information des proches et récupération après l'hospitalisation"
  },
  "laboratory_medicine": {
   "fr": "La médecine de laboratoire réalise et interprète les analyses de sang, d'urine et d'autres prélèvements qui aident au diagnostic et au suivi.",
@@ -237,7 +306,10 @@
    "id": "gFMg2BO-eqE",
    "title": "Tests to check kidney function",
    "publisher": "Leicester's Hospitals"
-  }
+  },
+  "topics": "analyses prescrites pour rechercher ou surveiller une maladie",
+  "exams": "prélèvements sanguins, urinaires ou autres, selon prescription et consignes",
+  "care": "résultats interprétés avec le médecin en fonction des symptômes, et non isolément"
  },
  "maxillofacial_surgery": {
   "fr": "La chirurgie maxillo-faciale traite le visage, les mâchoires et la bouche : traumatismes, malformations, kystes, chirurgie orthognathique.",
@@ -246,7 +318,10 @@
    "url": "https://www.baoms.org.uk/patients/",
    "title": "BAOMS · Patient information"
   },
-  "video": null
+  "video": null,
+  "topics": "malformations des mâchoires, traumatismes du visage et lésions buccales",
+  "exams": "examen du visage et de l'occlusion, radiographies ou scanner selon indication",
+  "care": "traitement chirurgical ou alternatives, coordination dentaire et suivi fonctionnel"
  },
  "midwifery": {
   "fr": "La sage-femme suit la grossesse, prépare à la naissance, accompagne l'accouchement et le post-partum, et assure aussi un suivi gynécologique de prévention.",
@@ -255,7 +330,10 @@
    "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
    "title": "NHS · Antenatal care"
   },
-  "video": null
+  "video": null,
+  "topics": "grossesse, préparation à la naissance, post-partum et prévention gynécologique",
+  "exams": "consultations prénatales et examens recommandés adaptés à la grossesse",
+  "care": "accompagnement de la naissance, allaitement et orientation médicale en cas de complication"
  },
  "nutrition_dietetics": {
   "fr": "Le diététicien-nutritionniste construit avec vous une alimentation adaptée à votre santé : poids, diabète, troubles digestifs, allergies, sport.",
@@ -264,7 +342,10 @@
    "url": "https://www.bda.uk.com/food-health/food-facts.html",
    "title": "British Dietetic Association · Food facts"
   },
-  "video": null
+  "video": null,
+  "topics": "besoins alimentaires, troubles métaboliques et difficultés à équilibrer l'alimentation",
+  "exams": "entretien sur les habitudes, contraintes, objectifs et santé générale",
+  "care": "conseils individualisés et suivi progressif sans régime universel ni promesse de résultat"
  },
  "nephrology": {
   "fr": "Le néphrologue prend en charge les maladies des reins : insuffisance rénale, hypertension liée aux reins, dialyse et préparation à la greffe.",
@@ -277,7 +358,10 @@
    "id": "uTfa9Tia1A4",
    "title": "What is Chronic Kidney Disease (CKD)",
    "publisher": "Leicester's Hospitals"
-  }
+  },
+  "topics": "baisse de fonction rénale, anomalies urinaires et maladies rénales chroniques",
+  "exams": "créatinine, analyses urinaires, échographie et parfois biopsie si indiquée",
+  "care": "protection de la fonction rénale, adaptation des médicaments et dialyse ou greffe lorsque nécessaire"
  },
  "neurology": {
   "fr": "Le neurologue diagnostique les maladies du cerveau, de la moelle et des nerfs : migraines, épilepsie, AVC, sclérose en plaques, Parkinson.",
@@ -286,7 +370,10 @@
    "url": "https://www.sth.nhs.uk/patients-visitor-information/patient-information-leaflets/view-all-by-specialty/?i=Neurology",
    "title": "Sheffield Teaching Hospitals · Neurology leaflets"
   },
-  "video": null
+  "video": null,
+  "topics": "migraines, épilepsie, troubles moteurs et symptômes des nerfs",
+  "exams": "examen neurologique, IRM, EEG ou électromyogramme selon la question clinique",
+  "care": "traitement de la maladie, prévention des complications et rééducation si nécessaire"
  },
  "neuropsychology": {
   "fr": "Le neuropsychologue évalue la mémoire, l'attention, le langage et les fonctions exécutives, et propose une remédiation cognitive.",
@@ -295,7 +382,10 @@
    "url": "https://www.nbt.nhs.uk/our-services/a-z-services/neuropsychology/neuropsychological-assessment",
    "title": "North Bristol NHS · Neuropsychological assessment"
   },
-  "video": null
+  "video": null,
+  "topics": "troubles de mémoire, attention, langage et organisation",
+  "exams": "entretien et tests standardisés adaptés à l'âge et au contexte",
+  "care": "explication du profil cognitif et stratégies de compensation ou réhabilitation"
  },
  "neurosurgery": {
   "fr": "Le neurochirurgien opère le cerveau, la colonne vertébrale et les nerfs : hernies discales, tumeurs, traumatismes, malformations.",
@@ -304,7 +394,10 @@
    "url": "https://www.aans.org/patients/",
    "title": "AANS · Patient information"
   },
-  "video": null
+  "video": null,
+  "topics": "maladies du cerveau, compression des nerfs et certaines maladies de la colonne",
+  "exams": "examen neurologique et analyse de l'IRM ou du scanner",
+  "care": "discussion d'une opération, de ses alternatives et du suivi avec l'équipe spécialisée"
  },
  "nuclear_medicine": {
   "fr": "La médecine nucléaire utilise de faibles doses de produits radioactifs pour l'imagerie (scintigraphie, TEP) et certains traitements.",
@@ -313,7 +406,10 @@
    "url": "https://www.nhs.uk/tests-and-treatments/pet-scan/",
    "title": "NHS · PET scan"
   },
-  "video": null
+  "video": null,
+  "topics": "recherche d'anomalies fonctionnelles et bilan de certaines maladies",
+  "exams": "scintigraphie ou TEP avec un traceur adapté ; consignes spécifiques au produit",
+  "care": "interprétation des images et, dans certaines indications, traitement par radiopharmaceutique"
  },
  "nursing": {
   "fr": "Les infirmiers réalisent les soins prescrits, les pansements, les injections, l'éducation thérapeutique et le suivi à domicile ou en cabinet.",
@@ -322,7 +418,10 @@
    "url": "https://www.esht.nhs.uk/service/district-nursing/",
    "title": "East Sussex NHS · District nursing"
   },
-  "video": null
+  "video": null,
+  "topics": "pansements, injections, surveillance et soins à domicile",
+  "exams": "évaluation des besoins et vérification des prescriptions et consignes",
+  "care": "soins techniques et éducation du patient en lien avec le médecin et les autres soignants"
  },
  "occupational_health": {
   "fr": "La médecine du travail protège la santé des salariés : aptitude au poste, prévention des risques professionnels, reprise après arrêt.",
@@ -331,7 +430,10 @@
    "url": "https://www.som.org.uk/sites/som.org.uk/files/Occupational_health_A_guide_for_workers_and_their_representatives.pdf",
    "title": "Society of Occupational Medicine · Guide for workers"
   },
-  "video": null
+  "video": null,
+  "topics": "risques professionnels, adaptation du poste et reprise après arrêt",
+  "exams": "entretien sur le travail, exposition et état de santé dans un cadre confidentiel",
+  "care": "prévention et propositions d'aménagement ; accès généralement par le service de santé au travail"
  },
  "occupational_therapy": {
   "fr": "L'ergothérapeute aide à retrouver l'autonomie dans les gestes du quotidien grâce à des exercices, des aides techniques et l'adaptation du domicile.",
@@ -340,7 +442,10 @@
    "url": "https://www.rcot.co.uk/learn-about-occupational-therapy",
    "title": "Royal College of Occupational Therapists"
   },
-  "video": null
+  "video": null,
+  "topics": "difficultés dans les gestes quotidiens liées à une maladie ou un handicap",
+  "exams": "évaluation des activités, de l'environnement et des objectifs d'autonomie",
+  "care": "aides techniques, adaptations et entraînement aux gestes utiles"
  },
  "oncology": {
   "fr": "L'oncologue diagnostique et traite les cancers en équipe pluridisciplinaire : chimiothérapie, immunothérapie, radiothérapie, suivi.",
@@ -353,7 +458,10 @@
    "id": "hkYOYR9QIeI",
    "title": "Chemotherapy",
    "publisher": "Bristol NHS Foundation Trust"
-  }
+  },
+  "topics": "cancer confirmé ou suspicion nécessitant un avis spécialisé",
+  "exams": "analyse des biopsies et de l'imagerie, évaluation de l'extension selon le cancer",
+  "care": "plan discuté en équipe : traitements systémiques, chirurgie ou radiothérapie selon indication"
  },
  "ophthalmology": {
   "fr": "L'ophtalmologiste soigne les yeux : examens de la vue, cataracte, glaucome, rétine, et chirurgie réfractive au laser.",
@@ -366,7 +474,10 @@
    "id": "dDWNZQ-u3Y4",
    "title": "Patient information video explaining cataract surgery",
    "publisher": "Moorfields Eye Hospital NHS Foundation Trust"
-  }
+  },
+  "topics": "baisse de vision, cataracte, glaucome, maladies de la rétine et défauts visuels",
+  "exams": "mesure de la vue, lampe à fente, pression oculaire et examens complémentaires adaptés",
+  "care": "lunettes, médicaments, laser ou chirurgie selon le diagnostic, avec suivi régulier"
  },
  "optometry": {
   "fr": "L'optométriste mesure la vue, adapte lunettes et lentilles et repère des signes nécessitant l'avis d'un ophtalmologiste.",
@@ -375,7 +486,10 @@
    "url": "https://www.nhs.uk/nhs-services/opticians/visiting-an-optician/",
    "title": "NHS · Visiting an optician"
   },
-  "video": null
+  "video": null,
+  "topics": "correction visuelle, adaptation de lentilles et suivi de la vision",
+  "exams": "réfraction et évaluation visuelle ; actes autorisés variables selon le pays",
+  "care": "adaptation optique et orientation vers l'ophtalmologiste devant un signe de maladie"
  },
  "oral_surgery": {
   "fr": "La chirurgie orale réalise les extractions complexes, dents de sagesse, implants et traitements des lésions de la bouche.",
@@ -384,7 +498,10 @@
    "url": "https://www.baoms.org.uk/patients/",
    "title": "BAOMS · Patient information"
   },
-  "video": null
+  "video": null,
+  "topics": "dents incluses, extractions complexes et lésions de la bouche",
+  "exams": "examen oral et imagerie dentaire adaptée à l'intervention envisagée",
+  "care": "geste chirurgical selon indication, consignes d'hygiène et contrôle de cicatrisation"
  },
  "orthopedics": {
   "fr": "L'orthopédiste traite les os, articulations, muscles et tendons : arthrose, fractures, prothèses de hanche ou de genou, lésions sportives.",
@@ -393,7 +510,10 @@
    "url": "https://www.orthoinfo.org/",
    "title": "AAOS · OrthoInfo"
   },
-  "video": null
+  "video": null,
+  "topics": "arthrose, fractures et lésions des tendons ou articulations",
+  "exams": "examen de mobilité et radiographie, échographie ou IRM si nécessaire",
+  "care": "rééducation, traitements conservateurs et chirurgie seulement si indiquée"
  },
  "orthodontics": {
   "fr": "L'orthodontiste corrige la position des dents et des mâchoires, chez l'enfant comme chez l'adulte, avec appareils ou aligneurs.",
@@ -402,7 +522,10 @@
    "url": "https://bos.org.uk/patients/",
    "title": "British Orthodontic Society · Patients"
   },
-  "video": null
+  "video": null,
+  "topics": "dents mal alignées, difficultés d'occlusion et croissance des mâchoires",
+  "exams": "bilan de l'occlusion, photos et radiographies lorsqu'elles sont justifiées",
+  "care": "appareils ou aligneurs et contention, avec suivi régulier et hygiène renforcée"
  },
  "otolaryngology": {
   "fr": "L'ORL prend en charge l'oreille, le nez, la gorge et le cou : otites, sinusites, troubles de l'audition, de la voix et du sommeil.",
@@ -411,7 +534,10 @@
    "url": "https://www.entuk.org/patients/conditions",
    "title": "ENT UK · Conditions"
   },
-  "video": null
+  "video": null,
+  "topics": "otites, sinusites, baisse d'audition et troubles de voix ou déglutition",
+  "exams": "examen ORL, audiogramme et endoscopie selon les symptômes",
+  "care": "traitements médicaux, rééducation ou chirurgie selon la maladie"
  },
  "palliative_care": {
   "fr": "Les soins palliatifs soulagent la douleur et les symptômes d'une maladie grave et soutiennent le patient et ses proches, à tout stade.",
@@ -420,7 +546,10 @@
    "url": "https://www.nhs.uk/tests-and-treatments/end-of-life-care/what-it-involves-and-when-it-starts/",
    "title": "NHS · Palliative and end of life care"
   },
-  "video": null
+  "video": null,
+  "topics": "douleur, essoufflement et autres symptômes d'une maladie grave",
+  "exams": "évaluation du confort, des souhaits du patient et des besoins des proches",
+  "care": "soulagement et soutien en complément des autres traitements ; ne se limite pas aux derniers jours"
  },
  "pathology": {
   "fr": "L'anatomopathologiste analyse au microscope les tissus et cellules prélevés pour confirmer un diagnostic, notamment de cancer.",
@@ -429,7 +558,10 @@
    "url": "https://labtestsonline.org.uk/",
    "title": "Lab Tests Online UK"
   },
-  "video": null
+  "video": null,
+  "topics": "analyse des tissus et cellules prélevés lors d'une biopsie ou d'une intervention",
+  "exams": "préparation et examen microscopique, parfois tests immunologiques ou moléculaires",
+  "care": "rapport transmis à l'équipe médicale pour guider le diagnostic et les traitements"
  },
  "pediatrics": {
   "fr": "Le pédiatre suit la santé et le développement de l'enfant, de la naissance à l'adolescence : vaccins, croissance, maladies courantes.",
@@ -438,7 +570,10 @@
    "url": "https://www.healthychildren.org/English/Pages/default.aspx",
    "title": "American Academy of Pediatrics · HealthyChildren"
   },
-  "video": null
+  "video": null,
+  "topics": "croissance, développement, prévention et maladies de l'enfant",
+  "exams": "examen adapté à l'âge, courbe de croissance et examens ciblés si nécessaires",
+  "care": "conseils aux parents, vaccination et traitements adaptés au développement"
  },
  "neonatology": {
   "fr": "La néonatologie prend soin des nouveau-nés prématurés ou malades, en lien étroit avec les parents.",
@@ -447,7 +582,10 @@
    "url": "https://www.nhs.uk/pregnancy/labour-and-birth/special-care-ill-or-premature-babies/",
    "title": "NHS · Special care for babies"
   },
-  "video": null
+  "video": null,
+  "topics": "prématurité et problèmes de santé des premiers jours de vie",
+  "exams": "surveillance de respiration, alimentation, température et développement",
+  "care": "soins hospitaliers spécialisés et préparation du retour à domicile avec les parents"
  },
  "pediatric_surgery": {
   "fr": "Le chirurgien pédiatre opère les enfants et nouveau-nés, avec un accompagnement adapté pour l'enfant et sa famille.",
@@ -456,7 +594,10 @@
    "url": "https://library.sheffieldchildrens.nhs.uk/welcome-to-the-neonatal-surgical-unit/",
    "title": "Sheffield Children's NHS · Neonatal surgery"
   },
-  "video": null
+  "video": null,
+  "topics": "malformations et maladies de l'enfant pouvant nécessiter une opération",
+  "exams": "examen adapté, imagerie ciblée et consultation d'anesthésie si indiquée",
+  "care": "discussion du geste avec les parents et l'enfant, prise en charge de la douleur et suivi"
  },
  "periodontics": {
   "fr": "La parodontologie soigne les gencives et les tissus qui soutiennent les dents : gingivite, parodontite, déchaussement.",
@@ -465,7 +606,10 @@
    "url": "https://www.nhs.uk/conditions/gum-disease/",
    "title": "NHS · Gum disease"
   },
-  "video": null
+  "video": null,
+  "topics": "gingivite, parodontite et perte de soutien des dents",
+  "exams": "examen des gencives, mesure des poches et radiographies selon besoin",
+  "care": "hygiène renforcée, détartrage ou surfaçage et parfois chirurgie, puis entretien régulier"
  },
  "pharmacy": {
   "fr": "Le pharmacien délivre les médicaments, conseille sur leur bon usage, vérifie les interactions et peut assurer certains suivis.",
@@ -474,7 +618,10 @@
    "url": "https://www.nhs.uk/nhs-services/pharmacies/",
    "title": "NHS · Pharmacies"
   },
-  "video": null
+  "video": null,
+  "topics": "bon usage des médicaments, renouvellement et conseils de prévention",
+  "exams": "analyse de l'ordonnance et recherche d'interactions ou contre-indications",
+  "care": "délivrance sécurisée et conseil ; ne pas modifier seul un traitement prescrit"
  },
  "physical_rehabilitation": {
   "fr": "La médecine physique et de réadaptation coordonne la récupération après un accident, un AVC, une chirurgie ou face à un handicap.",
@@ -483,7 +630,10 @@
    "url": "https://www.aapmr.org/about-physiatry/about-physical-medicine-rehabilitation",
    "title": "AAPM&R · About PM&R"
   },
-  "video": null
+  "video": null,
+  "topics": "séquelles d'AVC, de chirurgie, de traumatisme et handicap fonctionnel",
+  "exams": "bilan de force, mobilité, douleur et activités quotidiennes",
+  "care": "programme coordonné de rééducation, appareillage et adaptation aux objectifs de vie"
  },
  "physiotherapy": {
   "fr": "Le kinésithérapeute rééduque par le mouvement et l'exercice : douleurs de dos, entorses, suites opératoires, troubles respiratoires.",
@@ -496,7 +646,10 @@
    "id": "nkfGekREHeE",
    "title": "What is a first contact physiotherapist?",
    "publisher": "NHS England – East of England"
-  }
+  },
+  "topics": "douleurs musculosquelettiques, récupération après blessure et certaines difficultés respiratoires",
+  "exams": "bilan du mouvement, de la force et des limitations fonctionnelles",
+  "care": "exercices progressifs, conseils et techniques adaptées ; pas d'exercice universel pour tous"
  },
  "plastic_surgery": {
   "fr": "La chirurgie plastique répare et reconstruit les tissus après un traumatisme, une brûlure, un cancer ou une malformation, et inclut l'esthétique.",
@@ -505,7 +658,10 @@
    "url": "https://www.bapras.org.uk/public/patient-information",
    "title": "BAPRAS · Patient information"
   },
-  "video": null
+  "video": null,
+  "topics": "reconstruction après cancer, brûlure, traumatisme ou malformation",
+  "exams": "évaluation des tissus, des attentes et des facteurs de cicatrisation",
+  "care": "discussion des options, risques, limites et suivi ; distinguer indication réparatrice et esthétique"
  },
  "podiatry": {
   "fr": "Le podologue soigne les pieds : ongles, cors, douleurs, semelles orthopédiques et prévention chez les personnes diabétiques.",
@@ -514,7 +670,10 @@
    "url": "https://www.esht.nhs.uk/service/podiatry/patient-information-leaflets/",
    "title": "East Sussex NHS · Podiatry leaflets"
   },
-  "video": null
+  "video": null,
+  "topics": "douleurs de pied, problèmes d'ongles et troubles d'appui",
+  "exams": "examen du pied, de la peau, des appuis et de la marche",
+  "care": "soins locaux, conseils de chaussage et orthèses si nécessaires"
  },
  "pain_medicine": {
   "fr": "La médecine de la douleur évalue et traite les douleurs chroniques par une approche globale : traitements, techniques et accompagnement.",
@@ -527,7 +686,10 @@
    "id": "RpipxPa3baE",
    "title": "Persistent pain - Patient Information Video",
    "publisher": "Somerset NHS Foundation Trust"
-  }
+  },
+  "topics": "douleur persistante perturbant sommeil, activité ou qualité de vie",
+  "exams": "évaluation de la douleur, de son retentissement et des traitements déjà essayés",
+  "care": "approche pluridisciplinaire associant stratégies physiques, psychologiques et médicamenteuses"
  },
  "preventive_medicine": {
   "fr": "La médecine préventive aide à rester en bonne santé : bilans, dépistages, vaccinations et conseils d'hygiène de vie.",
@@ -536,7 +698,10 @@
    "url": "https://www.nhs.uk/vaccinations/",
    "title": "NHS · Vaccinations"
   },
-  "video": null
+  "video": null,
+  "topics": "prévention des maladies, dépistages et habitudes de vie",
+  "exams": "évaluation des risques individuels et recommandations adaptées à l'âge",
+  "care": "vaccination, dépistages indiqués et soutien au changement des habitudes"
  },
  "psychology": {
   "fr": "Le psychologue accompagne les difficultés émotionnelles, relationnelles ou de stress par l'écoute, l'évaluation et des approches thérapeutiques.",
@@ -545,7 +710,10 @@
    "url": "https://www.nhs.uk/tests-and-treatments/cognitive-behavioural-therapy-cbt/",
    "title": "NHS · CBT"
   },
-  "video": null
+  "video": null,
+  "topics": "stress, difficultés émotionnelles et problèmes relationnels",
+  "exams": "entretien clinique et, si utile, outils d'évaluation psychologique",
+  "care": "accompagnement adapté et orientation médicale si nécessaire ; le psychologue ne prescrit pas de médicaments"
  },
  "psychotherapy": {
   "fr": "La psychothérapie propose un travail régulier de parole pour comprendre et faire évoluer des souffrances psychiques durables.",
@@ -554,7 +722,10 @@
    "url": "https://www.nhs.uk/mental-health/mental-health-treatments/",
    "title": "NHS · Mental health treatments"
   },
-  "video": null
+  "video": null,
+  "topics": "souffrance psychique, anxiété et difficultés répétées de vie",
+  "exams": "entretiens initiaux sur les objectifs et la méthode proposée",
+  "care": "séances régulières avec un professionnel qualifié ; durée et approche définies ensemble"
  },
  "psychiatry": {
   "fr": "Le psychiatre, médecin, diagnostique et traite les troubles psychiques : dépression, anxiété, troubles bipolaires, et peut prescrire.",
@@ -563,7 +734,10 @@
    "url": "https://www.rcpsych.ac.uk/mental-health",
    "title": "Royal College of Psychiatrists · Mental health"
   },
-  "video": null
+  "video": null,
+  "topics": "dépression, anxiété sévère, troubles bipolaires et autres maladies psychiques",
+  "exams": "entretien médical, histoire des symptômes et évaluation du retentissement",
+  "care": "psychothérapie et/ou médicaments selon indication, avec suivi de la tolérance"
  },
  "radiology": {
   "fr": "Le radiologue réalise et interprète les examens d'imagerie : radiographie, échographie, scanner, IRM, mammographie.",
@@ -576,7 +750,10 @@
    "id": "6s7Xsz9y2ck",
    "title": "NHS Radiology Patient Film",
    "publisher": "Maidstone and Tunbridge Wells NHS Trust"
-  }
+  },
+  "topics": "exploration d'un symptôme ou surveillance d'une maladie par l'imagerie",
+  "exams": "radiographie, échographie, scanner ou IRM selon prescription",
+  "care": "compte rendu destiné au prescripteur ; certaines techniques comportent des précautions spécifiques"
  },
  "reproductive_medicine": {
   "fr": "La médecine de la reproduction accompagne les difficultés à concevoir : bilans de fertilité, stimulation, insémination, FIV.",
@@ -585,7 +762,10 @@
    "url": "https://www.hfea.gov.uk/treatments/",
    "title": "HFEA · Fertility treatments"
   },
-  "video": null
+  "video": null,
+  "topics": "difficulté à concevoir et bilan de fertilité d'un couple ou d'une personne",
+  "exams": "entretiens et bilans hormonaux, échographie ou analyse du sperme selon indication",
+  "care": "discussion des alternatives et traitements d'assistance médicale à la procréation selon le cadre légal"
  },
  "rheumatology": {
   "fr": "Le rhumatologue traite les maladies des articulations, des os et les maladies inflammatoires : arthrose, polyarthrite, ostéoporose, goutte.",
@@ -594,7 +774,10 @@
    "url": "https://rheumatology.org/patients",
    "title": "American College of Rheumatology · Patients"
   },
-  "video": null
+  "video": null,
+  "topics": "douleurs articulaires, maladies inflammatoires et fragilité osseuse",
+  "exams": "examen articulaire, analyses et imagerie adaptées à la maladie suspectée",
+  "care": "traitements de fond si indiqués, prévention osseuse et adaptation de l'activité"
  },
  "sleep_medicine": {
   "fr": "La médecine du sommeil explore insomnie, apnées, somnolence et troubles du rythme, souvent avec un enregistrement du sommeil.",
@@ -603,7 +786,10 @@
    "url": "https://sleepeducation.org/",
    "title": "AASM · Sleep Education"
   },
-  "video": null
+  "video": null,
+  "topics": "insomnie, ronflement, apnées et somnolence diurne",
+  "exams": "entretien, agenda du sommeil et enregistrement nocturne selon indication",
+  "care": "hygiène du sommeil, thérapies spécifiques et appareillage lorsque nécessaire"
  },
  "speech_therapy": {
   "fr": "L'orthophoniste rééduque le langage, la parole, la voix, la déglutition et les apprentissages, chez l'enfant et l'adulte.",
@@ -616,7 +802,10 @@
    "id": "gmvONBMJUNQ",
    "title": "FEES demonstration | Fibreoptic Endoscopic Evaluation of Swallowing",
    "publisher": "Royal Papworth Hospital NHS Foundation Trust"
-  }
+  },
+  "topics": "troubles de parole, langage, voix et déglutition",
+  "exams": "bilan adapté à l'âge, aux difficultés et aux objectifs de communication",
+  "care": "rééducation et stratégies personnalisées avec implication de l'entourage si pertinente"
  },
  "sports_medicine": {
   "fr": "La médecine du sport accompagne la pratique sportive : aptitude, prévention et traitement des blessures, reprise après lésion.",
@@ -625,7 +814,10 @@
    "url": "https://www.sportsmedtoday.com/",
    "title": "AMSSM · Sports Med Today"
   },
-  "video": null
+  "video": null,
+  "topics": "blessures sportives, prévention et retour à l'activité",
+  "exams": "examen de mobilité, contraintes du sport et imagerie si nécessaire",
+  "care": "programme de reprise adapté et coordination avec la kinésithérapie"
  },
  "thoracic_surgery": {
   "fr": "La chirurgie thoracique opère les poumons, la plèvre, l'œsophage et la paroi du thorax, avec un parcours de récupération accéléré.",
@@ -638,7 +830,10 @@
    "id": "jHZkeezzBSw",
    "title": "Thoracic Surgery Patient Education | Your Stay After Surgery",
    "publisher": "Johns Hopkins Medicine"
-  }
+  },
+  "topics": "maladies du poumon, de la plèvre et de la paroi thoracique",
+  "exams": "imagerie et évaluation respiratoire avant décision opératoire",
+  "care": "discussion des alternatives, intervention et suivi respiratoire adapté"
  },
  "toxicology": {
   "fr": "La toxicologie évalue les intoxications par médicaments, produits chimiques ou plantes. En cas d'intoxication, contactez immédiatement un centre antipoison.",
@@ -647,7 +842,10 @@
    "url": "https://www.nhs.uk/conditions/poisoning/",
    "title": "NHS · Poisoning"
   },
-  "video": null
+  "video": null,
+  "topics": "intoxication par médicament, produit ou substance",
+  "exams": "évaluation urgente de la substance, de la quantité et du délai d'exposition",
+  "care": "contact immédiat d'un centre antipoison ; ne pas provoquer de vomissement sans consigne médicale"
  },
  "transplant_medicine": {
   "fr": "La transplantation prépare, réalise et suit la greffe d'organes comme le rein, le foie ou le cœur, avec un suivi immunologique à long terme.",
@@ -660,7 +858,10 @@
    "id": "sMFPmkTJ6gs",
    "title": "What is a kidney transplant",
    "publisher": "Leicester's Hospitals"
-  }
+  },
+  "topics": "insuffisance d'organe nécessitant une discussion de greffe",
+  "exams": "bilan de compatibilité, état général et examens selon l'organe",
+  "care": "greffe selon critères de l'équipe et suivi durable du traitement antirejet"
  },
  "traumatology": {
   "fr": "La traumatologie prend en charge les blessures des os, articulations et tissus : fractures, entorses, luxations, puis la rééducation.",
@@ -669,7 +870,10 @@
    "url": "https://www.nhs.uk/conditions/broken-leg/",
    "title": "NHS · Broken leg"
   },
-  "video": null
+  "video": null,
+  "topics": "fractures, entorses, luxations et séquelles après accident",
+  "exams": "examen de la blessure et imagerie ciblée",
+  "care": "immobilisation ou opération selon la lésion, puis rééducation et contrôle de consolidation"
  },
  "tropical_medicine": {
   "fr": "La médecine tropicale conseille avant un voyage et prend en charge les infections contractées en zone tropicale, comme le paludisme.",
@@ -678,7 +882,10 @@
    "url": "https://www.nhs.uk/conditions/malaria/",
    "title": "NHS · Malaria"
   },
-  "video": null
+  "video": null,
+  "topics": "préparation de voyage et symptômes après séjour en zone tropicale",
+  "exams": "entretien sur les destinations, expositions et analyses adaptées si nécessaire",
+  "care": "prévention et vaccination selon destination ; fièvre après voyage nécessite un avis rapide"
  },
  "urology": {
   "fr": "L'urologue traite les reins, la vessie, la prostate et l'appareil génital masculin : calculs, troubles urinaires, dépistage.",
@@ -687,7 +894,10 @@
    "url": "https://www.baus.org.uk/patients/",
    "title": "BAUS · Patient information"
   },
-  "video": null
+  "video": null,
+  "topics": "calculs urinaires, troubles de la prostate et difficultés à uriner",
+  "exams": "examen, analyses urinaires et imagerie ou endoscopie selon indication",
+  "care": "traitements médicaux, gestes endoscopiques ou chirurgie selon la maladie"
  },
  "vascular_surgery": {
   "fr": "La chirurgie vasculaire traite les artères et les veines : artérite des jambes, anévrismes, carotides, varices.",
@@ -696,7 +906,10 @@
    "url": "https://vascular.org/patients-and-referring-physicians",
    "title": "Society for Vascular Surgery · Patients"
   },
-  "video": null
+  "video": null,
+  "topics": "varices, obstruction artérielle et anévrisme",
+  "exams": "examen vasculaire, écho-Doppler et imagerie ciblée",
+  "care": "prévention cardiovasculaire, traitements médicaux ou intervention selon le risque"
  },
  "public_health": {
   "fr": "La santé publique protège la santé des populations : prévention, vaccination, dépistage organisé et éducation à la santé.",
@@ -705,6 +918,9 @@
    "url": "https://www.nhs.uk/vaccinations/",
    "title": "NHS · Vaccinations"
   },
-  "video": null
+  "video": null,
+  "topics": "prévention collective, vaccination et programmes de dépistage",
+  "exams": "analyse des besoins de la population et suivi de programmes sanitaires",
+  "care": "organisation et évaluation de politiques de santé ; les soins individuels relèvent du parcours clinique"
  }
 }
