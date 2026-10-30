@@ -68,128 +68,140 @@ export const en = {
   },
   head: {
     root: {
-      title: "Careline - Medical appointments, made simple",
+      title: "Medical Appointments, Booked for You Worldwide | Careline",
       description:
-        "Careline connects patients, companies and healthcare professionals and handles medical appointment requests worldwide.",
-      ogTitle: "Careline - Medical appointments, made simple",
+        "Careline coordinates your medical appointments with trusted doctors and clinics worldwide. Send your request in minutes — our team books for you.",
+      ogTitle: "Medical Appointments, Booked for You Worldwide | Careline",
       ogDescription:
-        "Careline connects patients, companies and healthcare professionals and handles medical appointment requests worldwide.",
+        "Careline coordinates your medical appointments with trusted doctors and clinics worldwide. Send your request in minutes — our team books for you.",
     },
     home: {
-      title: "Careline - Medical appointments, made simple",
+      title: "Medical Appointments, Booked for You Worldwide | Careline",
       description:
-        "Careline finds and books appointments with trusted healthcare professionals for patients, practices and companies, in 10 languages worldwide.",
-      ogTitle: "Careline - Medical appointments, made simple",
+        "Careline coordinates your medical appointments with trusted doctors and clinics worldwide. Send your request in minutes — our team books for you.",
+      ogTitle: "Medical Appointments, Booked for You Worldwide | Careline",
       ogDescription:
-        "Careline finds and books appointments with trusted healthcare professionals for patients, practices and companies, in 10 languages worldwide.",
+        "Careline coordinates your medical appointments with trusted doctors and clinics worldwide. Send your request in minutes — our team books for you.",
     },
     about: {
-      title: "About Careline - an international company built around people",
+      title: "About Our Medical Coordination Mission | Careline",
       description:
-        "Careline facilitates access to healthcare professionals and accompanies patients in finding and booking medical appointments worldwide.",
-      ogTitle: "About Careline",
-      ogDescription: "Our mission, vision, values and commitments to patients and professionals.",
+        "Discover how Careline helps patients reach trusted healthcare professionals worldwide, with human support at every step. Learn more about us.",
+      ogTitle: "About Our Medical Coordination Mission | Careline",
+      ogDescription:
+        "Discover how Careline helps patients reach trusted healthcare professionals worldwide, with human support at every step. Learn more about us.",
     },
     careers: {
-      title: "Careers at Careline - join an international team",
+      title: "Careers: Join Our International Health Team | Careline",
       description:
-        "Careline is an international team focused on quality of service and human support. Write to us if you would like to join.",
-      ogTitle: "Careers at Careline",
-      ogDescription: "Join an international team focused on quality of service and human support.",
+        "Join Careline's international team and help patients access medical appointments worldwide. Discover our open roles and apply online today.",
+      ogTitle: "Careers: Join Our International Health Team | Careline",
+      ogDescription:
+        "Join Careline's international team and help patients access medical appointments worldwide. Discover our open roles and apply online today.",
     },
     companies: {
-      title: "For companies - international healthcare access for your people",
+      title: "Healthcare Access for Companies & Teams | Careline",
       description:
-        "Offer employees, clients or beneficiaries a simple, coordinated route to medical appointments across countries, languages and time zones.",
-      ogTitle: "Careline for companies",
+        "Offer your employees, clients or beneficiaries a simple, coordinated route to medical appointments across countries and time zones. Contact us.",
+      ogTitle: "Healthcare Access for Companies & Teams | Careline",
       ogDescription:
-        "One partner for medical appointment requests across multiple countries, with human accompaniment for every person.",
+        "Offer your employees, clients or beneficiaries a simple, coordinated route to medical appointments across countries and time zones. Contact us.",
     },
     contact: {
-      title: "Contact Careline - talk to our team",
+      title: "Contact Careline — Medical Appointment Support | Careline",
       description:
-        "Questions about an appointment request, a partnership or our services? Contact the Careline team by form or email.",
-      ogTitle: "Contact Careline",
-      ogDescription: "Reach the Careline team about a request, a partnership or our services.",
+        "A question about an appointment request, a partnership or our services? Contact the Careline team by form or email — we reply quickly and personally.",
+      ogTitle: "Contact Careline — Medical Appointment Support | Careline",
+      ogDescription:
+        "A question about an appointment request, a partnership or our services? Contact the Careline team by form or email — we reply quickly and personally.",
     },
     faq: {
-      title: "Careline FAQ - appointments, coverage, data and partnerships",
+      title: "FAQ: Medical Appointments & Our Service | Careline",
       description:
-        "Answers about requesting an appointment, how practitioners are matched, country coverage, data protection and becoming a Careline partner.",
-      ogTitle: "Careline FAQ",
-      ogDescription: "Frequently asked questions about the Careline appointment service.",
+        "How do I request an appointment? How are practitioners matched? How is my data protected? Find every answer about Careline in our FAQ.",
+      ogTitle: "FAQ: Medical Appointments & Our Service | Careline",
+      ogDescription:
+        "How do I request an appointment? How are practitioners matched? How is my data protected? Find every answer about Careline in our FAQ.",
     },
     howItWorks: {
-      title: "How Careline works - from request to confirmed appointment",
+      title: "How It Works: From Request to Appointment | Careline",
       description:
-        "Four calm steps: send your request, Careline analyses your need, several practitioners are proposed, you confirm your appointment.",
-      ogTitle: "How Careline works",
-      ogDescription: "Four calm steps from your first request to a confirmed medical appointment.",
+        "Send your request, we analyse your need, several practitioners are proposed, you confirm. Discover Careline's calm four-step appointment path.",
+      ogTitle: "How It Works: From Request to Appointment | Careline",
+      ogDescription:
+        "Send your request, we analyse your need, several practitioners are proposed, you confirm. Discover Careline's calm four-step appointment path.",
     },
     cookies: {
-      title: "Cookie Policy - Careline",
+      title: "Cookie Policy: Categories & Consent Settings | Careline",
       description:
-        "Which cookie categories Careline uses, how consent is collected and how to change your preferences at any time.",
-      ogTitle: "Cookie Policy - Careline",
-      ogDescription: "Cookie categories, consent and how to change it.",
+        "Which cookies does Careline use, how is your consent collected and how can you change your preferences at any time? Read our full cookie policy.",
+      ogTitle: "Cookie Policy: Categories & Consent Settings | Careline",
+      ogDescription:
+        "Which cookies does Careline use, how is your consent collected and how can you change your preferences at any time? Read our full cookie policy.",
     },
     notice: {
-      title: "Legal Notice - Careline",
-      description: "Publisher, contact and status information for the Careline website.",
-      ogTitle: "Legal Notice - Careline",
-      ogDescription: "Publisher, contact and status of the Careline site.",
+      title: "Legal Notice: Publisher & Company Details | Careline",
+      description:
+        "Publisher, contact and status information for the Careline website: the legal identity behind the medical appointment service. Read the notice.",
+      ogTitle: "Legal Notice: Publisher & Company Details | Careline",
+      ogDescription:
+        "Publisher, contact and status information for the Careline website: the legal identity behind the medical appointment service. Read the notice.",
     },
     privacy: {
-      title: "Privacy Policy - Careline",
+      title: "Privacy Policy: How We Protect Your Data | Careline",
       description:
-        "How Careline collects, uses, shares, protects and retains personal data, and how you can exercise your rights.",
-      ogTitle: "Privacy Policy - Careline",
-      ogDescription: "Careline's approach to personal data protection.",
+        "How Careline collects, uses, shares, protects and retains personal data — and how you can exercise your rights at any time. Read the policy.",
+      ogTitle: "Privacy Policy: How We Protect Your Data | Careline",
+      ogDescription:
+        "How Careline collects, uses, shares, protects and retains personal data — and how you can exercise your rights at any time. Read the policy.",
     },
     terms: {
-      title: "Terms & Conditions - Careline",
+      title: "Terms & Conditions of the Careline Service | Careline",
       description:
-        "Terms governing the use of the Careline website and of the medical appointment facilitation service.",
-      ogTitle: "Terms & Conditions - Careline",
-      ogDescription: "The terms of the Careline coordination service.",
+        "The terms governing the use of the Careline website and its medical appointment coordination service, clearly explained. Read our full terms.",
+      ogTitle: "Terms & Conditions of the Careline Service | Careline",
+      ogDescription:
+        "The terms governing the use of the Careline website and its medical appointment coordination service, clearly explained. Read our full terms.",
     },
     preferences: {
-      title: "Manage privacy preferences - Careline",
+      title: "Privacy Preferences & Cookie Consent Settings | Careline",
       description:
-        "Review and change the cookie categories you allow on the Careline website at any time.",
-      ogTitle: "Manage privacy preferences - Careline",
-      ogDescription: "Change the cookie categories you allow.",
+        "Review and change the cookie categories you allow on the Careline website at any time — your privacy preferences stay under your control here.",
+      ogTitle: "Privacy Preferences & Cookie Consent Settings | Careline",
+      ogDescription:
+        "Review and change the cookie categories you allow on the Careline website at any time — your privacy preferences stay under your control here.",
     },
     professionals: {
-      title: "For healthcare professionals - partner with Careline",
+      title: "For Healthcare Professionals & Practices | Careline",
       description:
-        "Doctors, specialists, practices and clinics: receive qualified appointment requests from patients and organizations worldwide, with less administration.",
-      ogTitle: "Partner with Careline",
+        "Doctors, specialists and clinics: Careline handles your appointment bookings, confirmations and patient follow-up. Registration is free — join us.",
+      ogTitle: "For Healthcare Professionals & Practices | Careline",
       ogDescription:
-        "Qualified introductions, simplified request management and a dedicated contact for your practice.",
+        "Doctors, specialists and clinics: Careline handles your appointment bookings, confirmations and patient follow-up. Registration is free — join us.",
     },
     request: {
-      title: "Request a medical appointment - Careline",
+      title: "Request a Medical Appointment Online Now | Careline",
       description:
-        "Tell Careline the practitioner, city and preferences you need. Our team reviews every request and comes back with suitable options.",
-      ogTitle: "Request a medical appointment - Careline",
+        "Tell us the practitioner, city and preferences you need: our team reviews every request and comes back with suitable options. Send your request.",
+      ogTitle: "Request a Medical Appointment Online Now | Careline",
       ogDescription:
-        "Send your appointment request and receive practitioner options from our team.",
+        "Tell us the practitioner, city and preferences you need: our team reviews every request and comes back with suitable options. Send your request.",
     },
     security: {
-      title: "Security and confidentiality at Careline",
+      title: "Security & Confidentiality of Your Data | Careline",
       description:
-        "Data minimisation, confidentiality obligations, access control, encryption in transit and clear user rights - privacy considered by design.",
-      ogTitle: "Security and confidentiality at Careline",
-      ogDescription: "How Careline protects the personal data entrusted to it.",
+        "No health data requested or stored, GDPR compliance, encryption and access control: discover how Careline protects your information every day.",
+      ogTitle: "Security & Confidentiality of Your Data | Careline",
+      ogDescription:
+        "No health data requested or stored, GDPR compliance, encryption and access control: discover how Careline protects your information every day.",
     },
     services: {
-      title: "Careline services - practitioner search, booking and support",
+      title: "Medical Appointment Secretarial Services | Careline",
       description:
-        "Practitioner search, appointment booking, patient-practitioner matching, teleconsultation, international coordination and multilingual support.",
-      ogTitle: "Careline services",
+        "Careline manages your appointment booking, confirmations and patient follow-up with trained teams and traceable tools. Discover our services.",
+      ogTitle: "Medical Appointment Secretarial Services | Careline",
       ogDescription:
-        "A single point of contact for patients, medical practices and organizations at every step of the appointment journey.",
+        "Careline manages your appointment booking, confirmations and patient follow-up with trained teams and traceable tools. Discover our services.",
     },
   },
   nav: {
