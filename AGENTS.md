@@ -23,3 +23,4 @@
 - Internal navigation uses `LocalizedLink` (locale-free `to`) or `useLocalePath()`; never raw `<Link to="/...">` for in-site links.
 - Page head metadata comes from `staticRouteHead(key, path, locale)` / `specialtyPageHead(kind, locale)` — they emit the per-language canonical, og:locale, og:image and the 18 hreflang + x-default links. Never hardcode a canonical.
 - Key figures live in `src/config/figures.ts`; a figure with `confirmed: false` is hidden everywhere (pages, meta, llms.txt) until the owner validates it.
+- Photos live in src/assets/photos as <descriptive-french-name>-{480,960,1600}.{webp,jpg} and render only through ResponsivePhoto with localized alts from src/i18n/imageAlts.ts; one catalog keeps file names, sizes, alt text and sitemap images consistent.
