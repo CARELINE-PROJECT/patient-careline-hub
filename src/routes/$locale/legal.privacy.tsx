@@ -4,9 +4,9 @@ import { staticRouteHead } from "@/i18n/head";
 import { LegalPage } from "@/components/site/LegalPage";
 import { privacySections } from "@/content/legal";
 
-export const Route = createFileRoute("/legal/privacy")({
+export const Route = createFileRoute("/$locale/legal/privacy")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("privacy", "/legal/privacy"),
+  head: ({ params }) => staticRouteHead("privacy", "/legal/privacy", params.locale),
   component: Privacy,
 });
 

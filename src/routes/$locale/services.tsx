@@ -9,10 +9,10 @@ import { PartnerForm } from "@/components/forms/PartnerForm";
 import { PartnerRegistration } from "@/components/site/PartnerRegistration";
 import { administrativeServicesCopy } from "@/i18n/administrativeServices";
 
-export const Route = createFileRoute("/services")({
+export const Route = createFileRoute("/$locale/services")({
   staticData: { sitemap: true },
-  head: () => {
-    const base = staticRouteHead("services", "/services");
+  head: ({ params }) => {
+    const base = staticRouteHead("services", "/services", params.locale);
     return {
       ...base,
       links: [

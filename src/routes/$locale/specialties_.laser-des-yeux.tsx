@@ -7,7 +7,7 @@ import { PatientVideo } from "@/components/site/PatientVideo";
 import { Button } from "@/components/ui/button";
 import eye from "@/assets/specialties-eye.jpg";
 
-export const Route = createFileRoute("/specialties_/laser-des-yeux")({ staticData: { sitemap: true }, head: () => specialtyPageHead("eye"), component: EyeLaser });
+export const Route = createFileRoute("/$locale/specialties_/laser-des-yeux")({ staticData: { sitemap: true }, head: ({ params }) => specialtyPageHead("eye", params.locale), component: EyeLaser });
 
 function EyeLaser() {
   const { locale, t } = useI18n();

@@ -35,10 +35,10 @@ import {
 import { CTASection } from "@/components/site/CTASection";
 import { SoftwarePartners } from "@/components/site/SoftwarePartners";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/$locale/")({
   staticData: { sitemap: true },
-  head: () => {
-    const base = staticRouteHead("home", "/");
+  head: ({ params }) => {
+    const base = staticRouteHead("home", "/", params.locale);
     return {
       ...base,
       links: [

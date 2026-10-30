@@ -6,9 +6,9 @@ import patientHands from "@/assets/patient-hands.jpg";
 import { Glass, Photo, Reveal, Section } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 
-export const Route = createFileRoute("/how-it-works")({
+export const Route = createFileRoute("/$locale/how-it-works")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("howItWorks", "/how-it-works"),
+  head: ({ params }) => staticRouteHead("howItWorks", "/how-it-works", params.locale),
   component: HowItWorks,
 });
 

@@ -4,9 +4,9 @@ import { staticRouteHead } from "@/i18n/head";
 import { Glass, PageHero, Section } from "@/components/site/primitives";
 import { HeroActions } from "@/components/site/HeroActions";
 
-export const Route = createFileRoute("/careers")({
+export const Route = createFileRoute("/$locale/careers")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("careers", "/careers"),
+  head: ({ params }) => staticRouteHead("careers", "/careers", params.locale),
   component: Careers,
 });
 

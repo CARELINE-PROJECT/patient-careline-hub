@@ -7,9 +7,9 @@ import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site
 import { HeroActions } from "@/components/site/HeroActions";
 import securityData from "@/assets/security-data.jpg";
 
-export const Route = createFileRoute("/security")({
+export const Route = createFileRoute("/$locale/security")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("security", "/security"),
+  head: ({ params }) => staticRouteHead("security", "/security", params.locale),
   component: Security,
 });
 

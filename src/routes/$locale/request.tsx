@@ -4,9 +4,9 @@ import { staticRouteHead } from "@/i18n/head";
 import { Glass } from "@/components/site/primitives";
 import { AppointmentForm } from "@/components/forms/AppointmentForm";
 
-export const Route = createFileRoute("/request")({
+export const Route = createFileRoute("/$locale/request")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("request", "/request"),
+  head: ({ params }) => staticRouteHead("request", "/request", params.locale),
   component: RequestPage,
 });
 

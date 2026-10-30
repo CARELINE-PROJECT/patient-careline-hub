@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import eye from "@/assets/specialties-eye.jpg";
 
-export const Route = createFileRoute("/specialties")({ staticData: { sitemap: true }, head: () => specialtyPageHead("directory"), component: Specialties });
+export const Route = createFileRoute("/$locale/specialties")({ staticData: { sitemap: true }, head: ({ params }) => specialtyPageHead("directory", params.locale), component: Specialties });
 
 function Specialties() {
   const { locale, t } = useI18n();

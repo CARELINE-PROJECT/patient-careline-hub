@@ -14,9 +14,9 @@ import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import { PartnerForm } from "@/components/forms/PartnerForm";
 import { PartnerRegistration } from "@/components/site/PartnerRegistration";
 
-export const Route = createFileRoute("/professionals")({
+export const Route = createFileRoute("/$locale/professionals")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("professionals", "/professionals"),
+  head: ({ params }) => staticRouteHead("professionals", "/professionals", params.locale),
   component: Professionals,
 });
 
