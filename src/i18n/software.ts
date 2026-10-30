@@ -25,3 +25,47 @@ export const softwareCopy: Record<LocaleCode, { title: string; note: string; pau
   uk: baseSoftwareCopy.en,
   id: baseSoftwareCopy.en,
 };
+
+/** Strip title without any unconfirmed figure (used while softwarePartners is unconfirmed). */
+export const softwarePlainTitle: Record<LocaleCode, string> = {
+  fr: "Partenaires et API logiciels, dans le monde",
+  en: "Partners and software APIs, worldwide",
+  nl: "Partners en software-API's, wereldwijd",
+  de: "Partner und Software-APIs, weltweit",
+  es: "Socios y API de software, en todo el mundo",
+  it: "Partner e API software, nel mondo",
+  pt: "Parceiros e APIs de software, no mundo",
+  ar: "شركاء وواجهات برمجة برامج حول العالم",
+  zh: "全球合作伙伴与软件 API",
+  ru: "Партнёры и API программ по всему миру",
+  ja: "世界中のパートナーとソフトウェアAPI",
+  ko: "전 세계 파트너 및 소프트웨어 API",
+  hi: "दुनिया भर में पार्टनर और सॉफ़्टवेयर API",
+  tr: "Dünya genelinde iş ortakları ve yazılım API'leri",
+  pl: "Partnerzy i API oprogramowania na całym świecie",
+  sv: "Partners och programvaru-API:er, världen över",
+  uk: "Партнери та програмні API по всьому світу",
+  id: "Mitra dan API perangkat lunak, di seluruh dunia",
+};
+
+/** Label when the strip shows only actually-connected software. */
+export const softwareCompatibleLabel: Record<LocaleCode, string> = {
+  fr: "Compatible avec",
+  en: "Compatible with",
+  nl: "Compatibel met",
+  de: "Kompatibel mit",
+  es: "Compatible con",
+  it: "Compatibile con",
+  pt: "Compatível com",
+  ar: "متوافق مع",
+  zh: "兼容",
+  ru: "Совместимо с",
+  ja: "対応ソフトウェア",
+  ko: "호환 가능",
+  hi: "के साथ संगत",
+  tr: "Şununla uyumlu",
+  pl: "Kompatybilne z",
+  sv: "Kompatibel med",
+  uk: "Сумісно з",
+  id: "Kompatibel dengan",
+};
