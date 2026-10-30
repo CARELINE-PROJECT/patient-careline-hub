@@ -1,6 +1,8 @@
 import type { PhotoId } from "@/config/photoDims";
 import type { LocaleCode } from "@/i18n/types";
 import { useI18n } from "@/i18n";
+import { specialtyIds } from "@/config/specialties";
+import { specialtyLabels } from "@/i18n/specialties";
 
 type Alts = Partial<Record<LocaleCode, string>> & { fr: string; en: string };
 
@@ -8,7 +10,7 @@ type Alts = Partial<Record<LocaleCode, string>> & { fr: string; en: string };
  * Localized alt text per photo: what the image shows, 8–15 words, no keyword stuffing.
  * Translations beyond fr/en are machine-assisted and pending human review.
  */
-export const photoAlts: Record<PhotoId, Alts> = {
+const handAlts = {
   "coordinatrice-careline-rendez-vous-ophtalmologiste": {
     fr: "Coordinatrice Careline au casque organisant un rendez-vous patient depuis son poste de travail",
     en: "Careline coordinator wearing a headset arranging a patient appointment at her workstation",
@@ -438,6 +440,19 @@ export const photoAlts: Record<PhotoId, Alts> = {
     en: "Patient reading a visual acuity chart during an eye examination",
   },
 };
+
+const specialtyAlts = Object.fromEntries(specialtyIds.map((id) => [
+  `specialite-${id.replace(/_/g, "-")}-consultation`,
+  { fr: `Professionnel de santé et patient lors d'une consultation de ${specialtyLabels.fr[id].toLowerCase()}`, en: `Healthcare professional with a patient during a ${specialtyLabels.en[id].toLowerCase()} consultation` },
+]));
+
+export const photoAlts = {
+  ...handAlts,
+  ...specialtyAlts,
+  "services-equipe-joyeuse": { fr: "Équipe de coordination souriante travaillant ensemble autour d'un ordinateur dans un bureau lumineux", en: "Smiling coordination team working together around a laptop in a bright office" },
+  "services-accueil-colore": { fr: "Réceptionniste souriante accueillant une visiteuse devant un comptoir turquoise lumineux", en: "Smiling receptionist welcoming a visitor at a bright turquoise front desk" },
+  "services-coordination-coloree": { fr: "Coordinatrice au casque organisant un agenda avec une collègue dans un bureau fleuri", en: "Coordinator with headset planning a calendar with a colleague in a cheerful office" },
+} as Record<PhotoId, Alts>;
 
 export function photoAlt(id: PhotoId, locale: LocaleCode): string {
   const entry = photoAlts[id];
