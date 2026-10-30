@@ -1,5 +1,7 @@
+import { hreflangLinks, localizedUrl } from "./head";
+import { ogLaserImage, ogSpecialtiesImage } from "@/config/ogImages";
 import { siteConfig } from "@/config/site";
-import type { LocaleCode } from "./types";
+import { locales, type LocaleCode } from "./types";
 
 type BaseLocale = "en" | "fr" | "nl" | "de" | "es" | "it" | "pt" | "ar" | "zh" | "ru";
 
@@ -36,11 +38,22 @@ export function specialtyPageCopy(locale: LocaleCode) {
 
 const specialtyPaths = { directory: "/specialties", eye: "/specialties/laser-des-yeux" } as const;
 
-export function specialtyPageHead(kind: "directory" | "eye") {
-  const url = `${siteConfig.url}${specialtyPaths[kind]}`;
+export function specialtyPageHead(kind: "directory" | "eye", locale: string) {
+  const path = specialtyPaths[kind];
+  const url = localizedUrl(locales.some((l) => l.code === locale) ? (locale as LocaleCode) : "fr", path);
+  const ogLocale = locales.find((l) => l.code === locale)?.ogLocale ?? "fr_FR";
+  const image = `${siteConfig.url}${kind === "eye" ? ogLaserImage : ogSpecialtiesImage}`;
   return {
-    meta: [...specialtyPageMeta(kind), { property: "og:url", content: url }],
-    links: [{ rel: "canonical", href: url }],
+    meta: [
+      ...specialtyPageMeta(kind),
+      { property: "og:url", content: url },
+      { property: "og:locale", content: ogLocale },
+      { property: "og:image", content: image },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { name: "twitter:image", content: image },
+    ],
+    links: [{ rel: "canonical", href: url }, ...hreflangLinks(path)],
   };
 }
 

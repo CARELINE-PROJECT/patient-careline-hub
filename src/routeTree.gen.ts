@@ -10,83 +10,41 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as AboutRouteImport } from './routes/about'
-import { Route as CareersRouteImport } from './routes/careers'
-import { Route as CompaniesRouteImport } from './routes/companies'
-import { Route as ContactRouteImport } from './routes/contact'
-import { Route as FaqRouteImport } from './routes/faq'
-import { Route as HowItWorksRouteImport } from './routes/how-it-works'
-import { Route as PrivacyPreferencesRouteImport } from './routes/privacy-preferences'
-import { Route as ProfessionalsRouteImport } from './routes/professionals'
-import { Route as RequestRouteImport } from './routes/request'
-import { Route as SecurityRouteImport } from './routes/security'
-import { Route as ServicesRouteImport } from './routes/services'
+import { Route as SplatRouteImport } from './routes/$'
+import { Route as LocaleRouteImport } from './routes/$locale'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
-import { Route as SpecialtiesRouteImport } from './routes/specialties'
-import { Route as LegalCookiesRouteImport } from './routes/legal.cookies'
-import { Route as LegalNoticeRouteImport } from './routes/legal.notice'
-import { Route as LegalPrivacyRouteImport } from './routes/legal.privacy'
-import { Route as LegalTermsRouteImport } from './routes/legal.terms'
-import { Route as SpecialtiesLaserDesYeuxRouteImport } from './routes/specialties_.laser-des-yeux'
+import { Route as LocaleIndexRouteImport } from './routes/$locale/index'
+import { Route as LocaleAboutRouteImport } from './routes/$locale/about'
+import { Route as LocaleCareersRouteImport } from './routes/$locale/careers'
+import { Route as LocaleCompaniesRouteImport } from './routes/$locale/companies'
+import { Route as LocaleContactRouteImport } from './routes/$locale/contact'
+import { Route as LocaleFaqRouteImport } from './routes/$locale/faq'
+import { Route as LocaleHowItWorksRouteImport } from './routes/$locale/how-it-works'
+import { Route as LocalePrivacyPreferencesRouteImport } from './routes/$locale/privacy-preferences'
+import { Route as LocaleProfessionalsRouteImport } from './routes/$locale/professionals'
+import { Route as LocaleRequestRouteImport } from './routes/$locale/request'
+import { Route as LocaleSecurityRouteImport } from './routes/$locale/security'
+import { Route as LocaleServicesRouteImport } from './routes/$locale/services'
+import { Route as LocaleSpecialtiesRouteImport } from './routes/$locale/specialties'
+import { Route as LocaleLegalCookiesRouteImport } from './routes/$locale/legal.cookies'
+import { Route as LocaleLegalNoticeRouteImport } from './routes/$locale/legal.notice'
+import { Route as LocaleLegalPrivacyRouteImport } from './routes/$locale/legal.privacy'
+import { Route as LocaleLegalTermsRouteImport } from './routes/$locale/legal.terms'
+import { Route as LocaleSpecialtiesLaserDesYeuxRouteImport } from './routes/$locale/specialties_.laser-des-yeux'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
+const SplatRoute = SplatRouteImport.update({
+  id: '/$',
+  path: '/$',
   getParentRoute: () => rootRouteImport,
 } as any)
-const CareersRoute = CareersRouteImport.update({
-  id: '/careers',
-  path: '/careers',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CompaniesRoute = CompaniesRouteImport.update({
-  id: '/companies',
-  path: '/companies',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ContactRoute = ContactRouteImport.update({
-  id: '/contact',
-  path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const FaqRoute = FaqRouteImport.update({
-  id: '/faq',
-  path: '/faq',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const HowItWorksRoute = HowItWorksRouteImport.update({
-  id: '/how-it-works',
-  path: '/how-it-works',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PrivacyPreferencesRoute = PrivacyPreferencesRouteImport.update({
-  id: '/privacy-preferences',
-  path: '/privacy-preferences',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ProfessionalsRoute = ProfessionalsRouteImport.update({
-  id: '/professionals',
-  path: '/professionals',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const RequestRoute = RequestRouteImport.update({
-  id: '/request',
-  path: '/request',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SecurityRoute = SecurityRouteImport.update({
-  id: '/security',
-  path: '/security',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ServicesRoute = ServicesRouteImport.update({
-  id: '/services',
-  path: '/services',
+const LocaleRoute = LocaleRouteImport.update({
+  id: '/$locale',
+  path: '/$locale',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -94,187 +52,250 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
-const SpecialtiesRoute = SpecialtiesRouteImport.update({
+const LocaleIndexRoute = LocaleIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleAboutRoute = LocaleAboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleCareersRoute = LocaleCareersRouteImport.update({
+  id: '/careers',
+  path: '/careers',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleCompaniesRoute = LocaleCompaniesRouteImport.update({
+  id: '/companies',
+  path: '/companies',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleContactRoute = LocaleContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleFaqRoute = LocaleFaqRouteImport.update({
+  id: '/faq',
+  path: '/faq',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleHowItWorksRoute = LocaleHowItWorksRouteImport.update({
+  id: '/how-it-works',
+  path: '/how-it-works',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocalePrivacyPreferencesRoute =
+  LocalePrivacyPreferencesRouteImport.update({
+    id: '/privacy-preferences',
+    path: '/privacy-preferences',
+    getParentRoute: () => LocaleRoute,
+  } as any)
+const LocaleProfessionalsRoute = LocaleProfessionalsRouteImport.update({
+  id: '/professionals',
+  path: '/professionals',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleRequestRoute = LocaleRequestRouteImport.update({
+  id: '/request',
+  path: '/request',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleSecurityRoute = LocaleSecurityRouteImport.update({
+  id: '/security',
+  path: '/security',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleServicesRoute = LocaleServicesRouteImport.update({
+  id: '/services',
+  path: '/services',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleSpecialtiesRoute = LocaleSpecialtiesRouteImport.update({
   id: '/specialties',
   path: '/specialties',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const LegalCookiesRoute = LegalCookiesRouteImport.update({
+const LocaleLegalCookiesRoute = LocaleLegalCookiesRouteImport.update({
   id: '/legal/cookies',
   path: '/legal/cookies',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const LegalNoticeRoute = LegalNoticeRouteImport.update({
+const LocaleLegalNoticeRoute = LocaleLegalNoticeRouteImport.update({
   id: '/legal/notice',
   path: '/legal/notice',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const LegalPrivacyRoute = LegalPrivacyRouteImport.update({
+const LocaleLegalPrivacyRoute = LocaleLegalPrivacyRouteImport.update({
   id: '/legal/privacy',
   path: '/legal/privacy',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const LegalTermsRoute = LegalTermsRouteImport.update({
+const LocaleLegalTermsRoute = LocaleLegalTermsRouteImport.update({
   id: '/legal/terms',
   path: '/legal/terms',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const SpecialtiesLaserDesYeuxRoute = SpecialtiesLaserDesYeuxRouteImport.update({
-  id: '/specialties_/laser-des-yeux',
-  path: '/specialties/laser-des-yeux',
-  getParentRoute: () => rootRouteImport,
-} as any)
+const LocaleSpecialtiesLaserDesYeuxRoute =
+  LocaleSpecialtiesLaserDesYeuxRouteImport.update({
+    id: '/specialties_/laser-des-yeux',
+    path: '/specialties/laser-des-yeux',
+    getParentRoute: () => LocaleRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
-  '/careers': typeof CareersRoute
-  '/companies': typeof CompaniesRoute
-  '/contact': typeof ContactRoute
-  '/faq': typeof FaqRoute
-  '/how-it-works': typeof HowItWorksRoute
-  '/privacy-preferences': typeof PrivacyPreferencesRoute
-  '/professionals': typeof ProfessionalsRoute
-  '/request': typeof RequestRoute
-  '/security': typeof SecurityRoute
-  '/services': typeof ServicesRoute
+  '/$': typeof SplatRoute
+  '/$locale': typeof LocaleRouteWithChildren
   '/sitemap.xml': typeof SitemapDotxmlRoute
-  '/specialties': typeof SpecialtiesRoute
-  '/legal/cookies': typeof LegalCookiesRoute
-  '/legal/notice': typeof LegalNoticeRoute
-  '/legal/privacy': typeof LegalPrivacyRoute
-  '/legal/terms': typeof LegalTermsRoute
-  '/specialties/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
+  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/careers': typeof LocaleCareersRoute
+  '/$locale/companies': typeof LocaleCompaniesRoute
+  '/$locale/contact': typeof LocaleContactRoute
+  '/$locale/faq': typeof LocaleFaqRoute
+  '/$locale/how-it-works': typeof LocaleHowItWorksRoute
+  '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
+  '/$locale/professionals': typeof LocaleProfessionalsRoute
+  '/$locale/request': typeof LocaleRequestRoute
+  '/$locale/security': typeof LocaleSecurityRoute
+  '/$locale/services': typeof LocaleServicesRoute
+  '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/$locale/': typeof LocaleIndexRoute
+  '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
+  '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
+  '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
+  '/$locale/legal/terms': typeof LocaleLegalTermsRoute
+  '/$locale/specialties/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
-  '/careers': typeof CareersRoute
-  '/companies': typeof CompaniesRoute
-  '/contact': typeof ContactRoute
-  '/faq': typeof FaqRoute
-  '/how-it-works': typeof HowItWorksRoute
-  '/privacy-preferences': typeof PrivacyPreferencesRoute
-  '/professionals': typeof ProfessionalsRoute
-  '/request': typeof RequestRoute
-  '/security': typeof SecurityRoute
-  '/services': typeof ServicesRoute
+  '/$': typeof SplatRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
-  '/specialties': typeof SpecialtiesRoute
-  '/legal/cookies': typeof LegalCookiesRoute
-  '/legal/notice': typeof LegalNoticeRoute
-  '/legal/privacy': typeof LegalPrivacyRoute
-  '/legal/terms': typeof LegalTermsRoute
-  '/specialties/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
+  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/careers': typeof LocaleCareersRoute
+  '/$locale/companies': typeof LocaleCompaniesRoute
+  '/$locale/contact': typeof LocaleContactRoute
+  '/$locale/faq': typeof LocaleFaqRoute
+  '/$locale/how-it-works': typeof LocaleHowItWorksRoute
+  '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
+  '/$locale/professionals': typeof LocaleProfessionalsRoute
+  '/$locale/request': typeof LocaleRequestRoute
+  '/$locale/security': typeof LocaleSecurityRoute
+  '/$locale/services': typeof LocaleServicesRoute
+  '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/$locale': typeof LocaleIndexRoute
+  '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
+  '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
+  '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
+  '/$locale/legal/terms': typeof LocaleLegalTermsRoute
+  '/$locale/specialties/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
-  '/careers': typeof CareersRoute
-  '/companies': typeof CompaniesRoute
-  '/contact': typeof ContactRoute
-  '/faq': typeof FaqRoute
-  '/how-it-works': typeof HowItWorksRoute
-  '/privacy-preferences': typeof PrivacyPreferencesRoute
-  '/professionals': typeof ProfessionalsRoute
-  '/request': typeof RequestRoute
-  '/security': typeof SecurityRoute
-  '/services': typeof ServicesRoute
+  '/$': typeof SplatRoute
+  '/$locale': typeof LocaleRouteWithChildren
   '/sitemap.xml': typeof SitemapDotxmlRoute
-  '/specialties': typeof SpecialtiesRoute
-  '/legal/cookies': typeof LegalCookiesRoute
-  '/legal/notice': typeof LegalNoticeRoute
-  '/legal/privacy': typeof LegalPrivacyRoute
-  '/legal/terms': typeof LegalTermsRoute
-  '/specialties_/laser-des-yeux': typeof SpecialtiesLaserDesYeuxRoute
+  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/careers': typeof LocaleCareersRoute
+  '/$locale/companies': typeof LocaleCompaniesRoute
+  '/$locale/contact': typeof LocaleContactRoute
+  '/$locale/faq': typeof LocaleFaqRoute
+  '/$locale/how-it-works': typeof LocaleHowItWorksRoute
+  '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
+  '/$locale/professionals': typeof LocaleProfessionalsRoute
+  '/$locale/request': typeof LocaleRequestRoute
+  '/$locale/security': typeof LocaleSecurityRoute
+  '/$locale/services': typeof LocaleServicesRoute
+  '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/$locale/': typeof LocaleIndexRoute
+  '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
+  '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
+  '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
+  '/$locale/legal/terms': typeof LocaleLegalTermsRoute
+  '/$locale/specialties_/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/about'
-    | '/careers'
-    | '/companies'
-    | '/contact'
-    | '/faq'
-    | '/how-it-works'
-    | '/privacy-preferences'
-    | '/professionals'
-    | '/request'
-    | '/security'
-    | '/services'
+    | '/$'
+    | '/$locale'
     | '/sitemap.xml'
-    | '/specialties'
-    | '/legal/cookies'
-    | '/legal/notice'
-    | '/legal/privacy'
-    | '/legal/terms'
-    | '/specialties/laser-des-yeux'
+    | '/$locale/about'
+    | '/$locale/careers'
+    | '/$locale/companies'
+    | '/$locale/contact'
+    | '/$locale/faq'
+    | '/$locale/how-it-works'
+    | '/$locale/privacy-preferences'
+    | '/$locale/professionals'
+    | '/$locale/request'
+    | '/$locale/security'
+    | '/$locale/services'
+    | '/$locale/specialties'
+    | '/$locale/'
+    | '/$locale/legal/cookies'
+    | '/$locale/legal/notice'
+    | '/$locale/legal/privacy'
+    | '/$locale/legal/terms'
+    | '/$locale/specialties/laser-des-yeux'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/about'
-    | '/careers'
-    | '/companies'
-    | '/contact'
-    | '/faq'
-    | '/how-it-works'
-    | '/privacy-preferences'
-    | '/professionals'
-    | '/request'
-    | '/security'
-    | '/services'
+    | '/$'
     | '/sitemap.xml'
-    | '/specialties'
-    | '/legal/cookies'
-    | '/legal/notice'
-    | '/legal/privacy'
-    | '/legal/terms'
-    | '/specialties/laser-des-yeux'
+    | '/$locale/about'
+    | '/$locale/careers'
+    | '/$locale/companies'
+    | '/$locale/contact'
+    | '/$locale/faq'
+    | '/$locale/how-it-works'
+    | '/$locale/privacy-preferences'
+    | '/$locale/professionals'
+    | '/$locale/request'
+    | '/$locale/security'
+    | '/$locale/services'
+    | '/$locale/specialties'
+    | '/$locale'
+    | '/$locale/legal/cookies'
+    | '/$locale/legal/notice'
+    | '/$locale/legal/privacy'
+    | '/$locale/legal/terms'
+    | '/$locale/specialties/laser-des-yeux'
   id:
     | '__root__'
     | '/'
-    | '/about'
-    | '/careers'
-    | '/companies'
-    | '/contact'
-    | '/faq'
-    | '/how-it-works'
-    | '/privacy-preferences'
-    | '/professionals'
-    | '/request'
-    | '/security'
-    | '/services'
+    | '/$'
+    | '/$locale'
     | '/sitemap.xml'
-    | '/specialties'
-    | '/legal/cookies'
-    | '/legal/notice'
-    | '/legal/privacy'
-    | '/legal/terms'
-    | '/specialties_/laser-des-yeux'
+    | '/$locale/about'
+    | '/$locale/careers'
+    | '/$locale/companies'
+    | '/$locale/contact'
+    | '/$locale/faq'
+    | '/$locale/how-it-works'
+    | '/$locale/privacy-preferences'
+    | '/$locale/professionals'
+    | '/$locale/request'
+    | '/$locale/security'
+    | '/$locale/services'
+    | '/$locale/specialties'
+    | '/$locale/'
+    | '/$locale/legal/cookies'
+    | '/$locale/legal/notice'
+    | '/$locale/legal/privacy'
+    | '/$locale/legal/terms'
+    | '/$locale/specialties_/laser-des-yeux'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
-  CareersRoute: typeof CareersRoute
-  CompaniesRoute: typeof CompaniesRoute
-  ContactRoute: typeof ContactRoute
-  FaqRoute: typeof FaqRoute
-  HowItWorksRoute: typeof HowItWorksRoute
-  PrivacyPreferencesRoute: typeof PrivacyPreferencesRoute
-  ProfessionalsRoute: typeof ProfessionalsRoute
-  RequestRoute: typeof RequestRoute
-  SecurityRoute: typeof SecurityRoute
-  ServicesRoute: typeof ServicesRoute
+  SplatRoute: typeof SplatRoute
+  LocaleRoute: typeof LocaleRouteWithChildren
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
-  SpecialtiesRoute: typeof SpecialtiesRoute
-  LegalCookiesRoute: typeof LegalCookiesRoute
-  LegalNoticeRoute: typeof LegalNoticeRoute
-  LegalPrivacyRoute: typeof LegalPrivacyRoute
-  LegalTermsRoute: typeof LegalTermsRoute
-  SpecialtiesLaserDesYeuxRoute: typeof SpecialtiesLaserDesYeuxRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -286,81 +307,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
+    '/$': {
+      id: '/$'
+      path: '/$'
+      fullPath: '/$'
+      preLoaderRoute: typeof SplatRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/careers': {
-      id: '/careers'
-      path: '/careers'
-      fullPath: '/careers'
-      preLoaderRoute: typeof CareersRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/companies': {
-      id: '/companies'
-      path: '/companies'
-      fullPath: '/companies'
-      preLoaderRoute: typeof CompaniesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/contact': {
-      id: '/contact'
-      path: '/contact'
-      fullPath: '/contact'
-      preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/faq': {
-      id: '/faq'
-      path: '/faq'
-      fullPath: '/faq'
-      preLoaderRoute: typeof FaqRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/how-it-works': {
-      id: '/how-it-works'
-      path: '/how-it-works'
-      fullPath: '/how-it-works'
-      preLoaderRoute: typeof HowItWorksRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/privacy-preferences': {
-      id: '/privacy-preferences'
-      path: '/privacy-preferences'
-      fullPath: '/privacy-preferences'
-      preLoaderRoute: typeof PrivacyPreferencesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/professionals': {
-      id: '/professionals'
-      path: '/professionals'
-      fullPath: '/professionals'
-      preLoaderRoute: typeof ProfessionalsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/request': {
-      id: '/request'
-      path: '/request'
-      fullPath: '/request'
-      preLoaderRoute: typeof RequestRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/security': {
-      id: '/security'
-      path: '/security'
-      fullPath: '/security'
-      preLoaderRoute: typeof SecurityRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/services': {
-      id: '/services'
-      path: '/services'
-      fullPath: '/services'
-      preLoaderRoute: typeof ServicesRouteImport
+    '/$locale': {
+      id: '/$locale'
+      path: '/$locale'
+      fullPath: '/$locale'
+      preLoaderRoute: typeof LocaleRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -370,71 +328,185 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/specialties': {
-      id: '/specialties'
+    '/$locale/': {
+      id: '/$locale/'
+      path: '/'
+      fullPath: '/$locale/'
+      preLoaderRoute: typeof LocaleIndexRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/about': {
+      id: '/$locale/about'
+      path: '/about'
+      fullPath: '/$locale/about'
+      preLoaderRoute: typeof LocaleAboutRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/careers': {
+      id: '/$locale/careers'
+      path: '/careers'
+      fullPath: '/$locale/careers'
+      preLoaderRoute: typeof LocaleCareersRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/companies': {
+      id: '/$locale/companies'
+      path: '/companies'
+      fullPath: '/$locale/companies'
+      preLoaderRoute: typeof LocaleCompaniesRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/contact': {
+      id: '/$locale/contact'
+      path: '/contact'
+      fullPath: '/$locale/contact'
+      preLoaderRoute: typeof LocaleContactRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/faq': {
+      id: '/$locale/faq'
+      path: '/faq'
+      fullPath: '/$locale/faq'
+      preLoaderRoute: typeof LocaleFaqRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/how-it-works': {
+      id: '/$locale/how-it-works'
+      path: '/how-it-works'
+      fullPath: '/$locale/how-it-works'
+      preLoaderRoute: typeof LocaleHowItWorksRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/privacy-preferences': {
+      id: '/$locale/privacy-preferences'
+      path: '/privacy-preferences'
+      fullPath: '/$locale/privacy-preferences'
+      preLoaderRoute: typeof LocalePrivacyPreferencesRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/professionals': {
+      id: '/$locale/professionals'
+      path: '/professionals'
+      fullPath: '/$locale/professionals'
+      preLoaderRoute: typeof LocaleProfessionalsRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/request': {
+      id: '/$locale/request'
+      path: '/request'
+      fullPath: '/$locale/request'
+      preLoaderRoute: typeof LocaleRequestRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/security': {
+      id: '/$locale/security'
+      path: '/security'
+      fullPath: '/$locale/security'
+      preLoaderRoute: typeof LocaleSecurityRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/services': {
+      id: '/$locale/services'
+      path: '/services'
+      fullPath: '/$locale/services'
+      preLoaderRoute: typeof LocaleServicesRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/specialties': {
+      id: '/$locale/specialties'
       path: '/specialties'
-      fullPath: '/specialties'
-      preLoaderRoute: typeof SpecialtiesRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/specialties'
+      preLoaderRoute: typeof LocaleSpecialtiesRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/legal/cookies': {
-      id: '/legal/cookies'
+    '/$locale/legal/cookies': {
+      id: '/$locale/legal/cookies'
       path: '/legal/cookies'
-      fullPath: '/legal/cookies'
-      preLoaderRoute: typeof LegalCookiesRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/legal/cookies'
+      preLoaderRoute: typeof LocaleLegalCookiesRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/legal/notice': {
-      id: '/legal/notice'
+    '/$locale/legal/notice': {
+      id: '/$locale/legal/notice'
       path: '/legal/notice'
-      fullPath: '/legal/notice'
-      preLoaderRoute: typeof LegalNoticeRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/legal/notice'
+      preLoaderRoute: typeof LocaleLegalNoticeRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/legal/privacy': {
-      id: '/legal/privacy'
+    '/$locale/legal/privacy': {
+      id: '/$locale/legal/privacy'
       path: '/legal/privacy'
-      fullPath: '/legal/privacy'
-      preLoaderRoute: typeof LegalPrivacyRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/legal/privacy'
+      preLoaderRoute: typeof LocaleLegalPrivacyRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/legal/terms': {
-      id: '/legal/terms'
+    '/$locale/legal/terms': {
+      id: '/$locale/legal/terms'
       path: '/legal/terms'
-      fullPath: '/legal/terms'
-      preLoaderRoute: typeof LegalTermsRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/legal/terms'
+      preLoaderRoute: typeof LocaleLegalTermsRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/specialties_/laser-des-yeux': {
-      id: '/specialties_/laser-des-yeux'
+    '/$locale/specialties_/laser-des-yeux': {
+      id: '/$locale/specialties_/laser-des-yeux'
       path: '/specialties/laser-des-yeux'
-      fullPath: '/specialties/laser-des-yeux'
-      preLoaderRoute: typeof SpecialtiesLaserDesYeuxRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/specialties/laser-des-yeux'
+      preLoaderRoute: typeof LocaleSpecialtiesLaserDesYeuxRouteImport
+      parentRoute: typeof LocaleRoute
     }
   }
 }
 
+interface LocaleRouteChildren {
+  LocaleAboutRoute: typeof LocaleAboutRoute
+  LocaleCareersRoute: typeof LocaleCareersRoute
+  LocaleCompaniesRoute: typeof LocaleCompaniesRoute
+  LocaleContactRoute: typeof LocaleContactRoute
+  LocaleFaqRoute: typeof LocaleFaqRoute
+  LocaleHowItWorksRoute: typeof LocaleHowItWorksRoute
+  LocalePrivacyPreferencesRoute: typeof LocalePrivacyPreferencesRoute
+  LocaleProfessionalsRoute: typeof LocaleProfessionalsRoute
+  LocaleRequestRoute: typeof LocaleRequestRoute
+  LocaleSecurityRoute: typeof LocaleSecurityRoute
+  LocaleServicesRoute: typeof LocaleServicesRoute
+  LocaleSpecialtiesRoute: typeof LocaleSpecialtiesRoute
+  LocaleIndexRoute: typeof LocaleIndexRoute
+  LocaleLegalCookiesRoute: typeof LocaleLegalCookiesRoute
+  LocaleLegalNoticeRoute: typeof LocaleLegalNoticeRoute
+  LocaleLegalPrivacyRoute: typeof LocaleLegalPrivacyRoute
+  LocaleLegalTermsRoute: typeof LocaleLegalTermsRoute
+  LocaleSpecialtiesLaserDesYeuxRoute: typeof LocaleSpecialtiesLaserDesYeuxRoute
+}
+
+const LocaleRouteChildren: LocaleRouteChildren = {
+  LocaleAboutRoute: LocaleAboutRoute,
+  LocaleCareersRoute: LocaleCareersRoute,
+  LocaleCompaniesRoute: LocaleCompaniesRoute,
+  LocaleContactRoute: LocaleContactRoute,
+  LocaleFaqRoute: LocaleFaqRoute,
+  LocaleHowItWorksRoute: LocaleHowItWorksRoute,
+  LocalePrivacyPreferencesRoute: LocalePrivacyPreferencesRoute,
+  LocaleProfessionalsRoute: LocaleProfessionalsRoute,
+  LocaleRequestRoute: LocaleRequestRoute,
+  LocaleSecurityRoute: LocaleSecurityRoute,
+  LocaleServicesRoute: LocaleServicesRoute,
+  LocaleSpecialtiesRoute: LocaleSpecialtiesRoute,
+  LocaleIndexRoute: LocaleIndexRoute,
+  LocaleLegalCookiesRoute: LocaleLegalCookiesRoute,
+  LocaleLegalNoticeRoute: LocaleLegalNoticeRoute,
+  LocaleLegalPrivacyRoute: LocaleLegalPrivacyRoute,
+  LocaleLegalTermsRoute: LocaleLegalTermsRoute,
+  LocaleSpecialtiesLaserDesYeuxRoute: LocaleSpecialtiesLaserDesYeuxRoute,
+}
+
+const LocaleRouteWithChildren =
+  LocaleRoute._addFileChildren(LocaleRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
-  CareersRoute: CareersRoute,
-  CompaniesRoute: CompaniesRoute,
-  ContactRoute: ContactRoute,
-  FaqRoute: FaqRoute,
-  HowItWorksRoute: HowItWorksRoute,
-  PrivacyPreferencesRoute: PrivacyPreferencesRoute,
-  ProfessionalsRoute: ProfessionalsRoute,
-  RequestRoute: RequestRoute,
-  SecurityRoute: SecurityRoute,
-  ServicesRoute: ServicesRoute,
+  SplatRoute: SplatRoute,
+  LocaleRoute: LocaleRouteWithChildren,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
-  SpecialtiesRoute: SpecialtiesRoute,
-  LegalCookiesRoute: LegalCookiesRoute,
-  LegalNoticeRoute: LegalNoticeRoute,
-  LegalPrivacyRoute: LegalPrivacyRoute,
-  LegalTermsRoute: LegalTermsRoute,
-  SpecialtiesLaserDesYeuxRoute: SpecialtiesLaserDesYeuxRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

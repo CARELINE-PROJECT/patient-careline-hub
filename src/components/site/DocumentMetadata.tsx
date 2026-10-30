@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useRouterState } from "@tanstack/react-router";
-import { useI18n } from "@/i18n";
+import { stripLocalePrefix, useI18n } from "@/i18n";
 import { headKeyByPath, type HeadKey } from "@/i18n/head";
 import { specialtyPageCopy } from "@/i18n/specialtyPages";
 
@@ -23,16 +23,17 @@ export function DocumentMetadata() {
   const { t, locale } = useI18n();
 
   useEffect(() => {
-    if (pathname === "/specialties" || pathname === "/specialties/laser-des-yeux") {
+    const path = stripLocalePrefix(pathname);
+    if (path === "/specialties" || path === "/specialties/laser-des-yeux") {
       const c = specialtyPageCopy(locale);
-      const title = `${pathname === "/specialties" ? c.title : c.eyeTitle} | Careline`;
+      const title = `${path === "/specialties" ? c.title : c.eyeTitle} | Careline`;
       document.title = title;
       upsertMeta('meta[name="description"]', { name: "description" }, c.lead);
       upsertMeta('meta[property="og:title"]', { property: "og:title" }, title);
       upsertMeta('meta[property="og:description"]', { property: "og:description" }, c.lead);
       return;
     }
-    const headKey: HeadKey = headKeyByPath[pathname] ?? "root";
+    const headKey: HeadKey = headKeyByPath[path] ?? "root";
     const base = `head.${headKey}`;
 
     document.title = t(`${base}.title`);

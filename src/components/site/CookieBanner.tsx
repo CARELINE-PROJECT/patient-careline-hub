@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { Link } from "@tanstack/react-router";
+
 import { ShieldCheck } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { CONSENT_OPEN, readConsent, writeConsent } from "@/lib/consent";
 import { Switch } from "@/components/ui/switch";
 
@@ -89,9 +90,9 @@ export function CookieBanner() {
             <h2 className="font-display text-lg text-branddeep">{t("cookies.title")}</h2>
             <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
               {t("cookies.lead")}{" "}
-              <Link to="/legal/cookies" className="text-brand underline underline-offset-4">
+              <LocalizedLink to="/legal/cookies" className="text-brand underline underline-offset-4">
                 {t("footer.cookies")}
-              </Link>
+              </LocalizedLink>
             </p>
           </div>
         </div>

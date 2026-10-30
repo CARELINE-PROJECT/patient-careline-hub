@@ -6,9 +6,9 @@ import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site
 import teamOffice from "@/assets/team-office.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 
-export const Route = createFileRoute("/companies")({
+export const Route = createFileRoute("/$locale/companies")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("companies", "/companies"),
+  head: ({ params }) => staticRouteHead("companies", "/companies", params.locale),
   component: Companies,
 });
 

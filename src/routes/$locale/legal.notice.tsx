@@ -4,9 +4,9 @@ import { staticRouteHead } from "@/i18n/head";
 import { LegalPage } from "@/components/site/LegalPage";
 import { noticeSections } from "@/content/legal";
 
-export const Route = createFileRoute("/legal/notice")({
+export const Route = createFileRoute("/$locale/legal/notice")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("notice", "/legal/notice"),
+  head: ({ params }) => staticRouteHead("notice", "/legal/notice", params.locale),
   component: Notice,
 });
 

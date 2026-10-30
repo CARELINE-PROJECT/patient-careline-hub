@@ -9,9 +9,9 @@ import { operationsCopy } from "@/i18n/operations";
 import optilineLogo from "@/assets/optiline-mada-logo.png.asset.json";
 import { publicAssetUrl } from "@/lib/assets";
 
-export const Route = createFileRoute("/about")({
+export const Route = createFileRoute("/$locale/about")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("about", "/about"),
+  head: ({ params }) => staticRouteHead("about", "/about", params.locale),
   component: About,
 });
 

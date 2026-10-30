@@ -1,15 +1,16 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, } from "@tanstack/react-router";
 import { Globe2, Lock, ShieldCheck } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { staticRouteHead } from "@/i18n/head";
 import { securityFocusCopy } from "@/i18n/securityFocus";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import { HeroActions } from "@/components/site/HeroActions";
 import securityData from "@/assets/security-data.jpg";
 
-export const Route = createFileRoute("/security")({
+export const Route = createFileRoute("/$locale/security")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("security", "/security"),
+  head: ({ params }) => staticRouteHead("security", "/security", params.locale),
   component: Security,
 });
 
@@ -83,18 +84,18 @@ function Security() {
           />
         </Reveal>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link
+          <LocalizedLink
             to="/legal/privacy"
             className="rounded-full border border-brand px-5 py-2.5 text-sm font-medium text-brand transition-colors hover:bg-secondary"
           >
             {t("footer.privacy")}
-          </Link>
-          <Link
+          </LocalizedLink>
+          <LocalizedLink
             to="/privacy-preferences"
             className="rounded-full border border-border px-5 py-2.5 text-sm font-medium text-branddeep transition-colors hover:bg-secondary"
           >
             {t("footer.preferences")}
-          </Link>
+          </LocalizedLink>
         </div>
       </Section>
     </>

@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { HeartPulse, Mail } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
@@ -111,12 +111,12 @@ export function Footer() {
               <ul className="mt-4 space-y-2.5">
                 {col.links.map((link, i) => (
                   <li key={`${link.to}-${i}`}>
-                    <Link
+                    <LocalizedLink
                       to={link.to}
                       className="text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
                     >
                       {link.label}
-                    </Link>
+                    </LocalizedLink>
                   </li>
                 ))}
               </ul>

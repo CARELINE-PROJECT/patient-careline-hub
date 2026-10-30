@@ -6,9 +6,9 @@ import { Glass, PageHero, Section } from "@/components/site/primitives";
 import { Switch } from "@/components/ui/switch";
 import { CONSENT_CHANGED, readConsent, writeConsent } from "@/lib/consent";
 
-export const Route = createFileRoute("/privacy-preferences")({
+export const Route = createFileRoute("/$locale/privacy-preferences")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("preferences", "/privacy-preferences"),
+  head: ({ params }) => staticRouteHead("preferences", "/privacy-preferences", params.locale),
   component: Preferences,
 });
 

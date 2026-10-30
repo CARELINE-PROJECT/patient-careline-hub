@@ -11,9 +11,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export const Route = createFileRoute("/faq")({
+export const Route = createFileRoute("/$locale/faq")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("faq", "/faq"),
+  head: ({ params }) => staticRouteHead("faq", "/faq", params.locale),
   component: Faq,
 });
 

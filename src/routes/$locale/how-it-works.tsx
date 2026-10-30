@@ -1,14 +1,15 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { staticRouteHead } from "@/i18n/head";
 import patientHands from "@/assets/patient-hands.jpg";
 import { Glass, Photo, Reveal, Section } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 
-export const Route = createFileRoute("/how-it-works")({
+export const Route = createFileRoute("/$locale/how-it-works")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("howItWorks", "/how-it-works"),
+  head: ({ params }) => staticRouteHead("howItWorks", "/how-it-works", params.locale),
   component: HowItWorks,
 });
 
@@ -31,19 +32,19 @@ function HowItWorks() {
               {t("how.lead")}
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
-              <Link
+              <LocalizedLink
                 to="/request"
                 className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
               >
                 {t("cta.button")}
                 <ArrowRight className="size-4" aria-hidden="true" />
-              </Link>
-              <Link
+              </LocalizedLink>
+              <LocalizedLink
                 to="/contact"
                 className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3.5 text-sm font-medium text-branddeep transition-colors hover:bg-secondary"
               >
                 {t("nav.contact")}
-              </Link>
+              </LocalizedLink>
             </div>
             <Photo
               src={patientHands}

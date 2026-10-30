@@ -8,9 +8,9 @@ import coordinator from "@/assets/team-coordinator.jpg";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { GlobalPresence } from "@/components/site/GlobalPresence";
 
-export const Route = createFileRoute("/contact")({
+export const Route = createFileRoute("/$locale/contact")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("contact", "/contact"),
+  head: ({ params }) => staticRouteHead("contact", "/contact", params.locale),
   component: Contact,
 });
 

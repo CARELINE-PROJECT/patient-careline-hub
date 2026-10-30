@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Link } from "@tanstack/react-router";
+
 import { Menu, X, HeartPulse } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { siteConfig } from "@/config/site";
 
@@ -28,36 +29,36 @@ export function Header() {
         {t("nav.discover")}
       </a>
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-3 sm:px-8">
-        <Link to="/" className="flex items-center gap-2.5" aria-label={siteConfig.name}>
+        <LocalizedLink to="/" className="flex items-center gap-2.5" aria-label={siteConfig.name}>
           <span className="flex size-9 items-center justify-center rounded-2xl bg-brand text-primary-foreground">
             <HeartPulse className="size-5" aria-hidden="true" />
           </span>
           <span className="font-display text-xl tracking-tight text-branddeep">
             {siteConfig.name}
           </span>
-        </Link>
+        </LocalizedLink>
 
         <nav aria-label={t("ui.mainNavigation")} className="hidden items-center gap-1 lg:flex">
           {navItems.map((item) => (
-            <Link
+            <LocalizedLink
               key={item.to}
               to={item.to}
               activeProps={{ className: "bg-secondary text-branddeep" }}
               className="rounded-full px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-branddeep"
             >
               {t(item.key)}
-            </Link>
+            </LocalizedLink>
           ))}
         </nav>
 
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
-          <Link
+          <LocalizedLink
             to="/request"
             className="hidden rounded-full bg-brand px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-branddeep sm:inline-flex"
           >
             {t("nav.requestShort")}
-          </Link>
+          </LocalizedLink>
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
@@ -74,29 +75,29 @@ export function Header() {
         <div className="border-t border-border/60 bg-background lg:hidden">
           <nav aria-label={t("ui.mobileNavigation")} className="mx-auto flex w-full max-w-6xl flex-col px-5 py-3 sm:px-8">
             {navItems.map((item) => (
-              <Link
+              <LocalizedLink
                 key={item.to}
                 to={item.to}
                 onClick={() => setOpen(false)}
                 className="rounded-xl px-3 py-3 text-sm font-medium text-branddeep hover:bg-secondary"
               >
                 {t(item.key)}
-              </Link>
+              </LocalizedLink>
             ))}
-            <Link
+            <LocalizedLink
               to="/faq"
               onClick={() => setOpen(false)}
               className="rounded-xl px-3 py-3 text-sm font-medium text-branddeep hover:bg-secondary"
             >
               {t("nav.faq")}
-            </Link>
-            <Link
+            </LocalizedLink>
+            <LocalizedLink
               to="/request"
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-brand px-4 py-3 text-center text-sm font-semibold text-primary-foreground"
             >
               {t("nav.request")}
-            </Link>
+            </LocalizedLink>
             <button
               type="button"
               onClick={() => setOpen(false)}
