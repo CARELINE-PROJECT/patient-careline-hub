@@ -1,7 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
-  Link,
   createRootRouteWithContext,
   useRouter,
   useRouterState,
@@ -14,13 +13,14 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { initAnalytics, trackEvent } from "../lib/analytics";
-import { I18nProvider, useI18n } from "@/i18n";
+import { I18nProvider, localeFromPath, locales, stripLocalePrefix, useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { CookieBanner } from "@/components/site/CookieBanner";
 import { DocumentMetadata } from "@/components/site/DocumentMetadata";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 const faviconHref = `data:image/svg+xml,${encodeURIComponent(`
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
@@ -42,24 +42,24 @@ function NotFoundComponent() {
         <h2 className="mt-4 text-xl font-semibold text-foreground">{t("error.notFoundTitle")}</h2>
         <p className="mt-2 text-sm text-muted-foreground">{t("error.notFoundLead")}</p>
         <div className="mt-6 flex flex-wrap justify-center gap-2">
-          <Link
+          <LocalizedLink
             to="/"
             className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
             {t("error.goHome")}
-          </Link>
-          <Link
+          </LocalizedLink>
+          <LocalizedLink
             to="/request"
             className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"
           >
             {t("nav.requestShort")}
-          </Link>
-          <Link
+          </LocalizedLink>
+          <LocalizedLink
             to="/specialties"
             className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"
           >
             {t("stats.specialties")}
-          </Link>
+          </LocalizedLink>
         </div>
       </div>
     </div>
@@ -141,8 +141,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: ReactNode }) {
+  const pathname = useRouterState({ select: (state) => state.location.pathname });
+  const locale = localeFromPath(pathname);
+  const meta = locales.find((l) => l.code === locale);
+
   return (
-    <html lang="en">
+    <html lang={meta?.htmlLang ?? "fr"} dir={meta?.dir ?? "ltr"}>
       <head>
         <HeadContent />
       </head>
@@ -171,7 +175,7 @@ function RootComponent() {
       <I18nProvider>
         <div className="flex min-h-screen flex-col bg-background">
           <Header />
-          {pathname !== "/" && <Breadcrumbs pathname={pathname} />}
+          {stripLocalePrefix(pathname) !== "/" && <Breadcrumbs pathname={pathname} />}
           <main id="main" className="flex-1">
             {/* Required: nested routes render here. */}
             <Outlet />
