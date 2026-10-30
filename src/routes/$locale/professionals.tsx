@@ -10,7 +10,6 @@ import {
 import { useI18n } from "@/i18n";
 import { staticRouteHead } from "@/i18n/head";
 import { FeatureCard, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
-import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import { PartnerForm } from "@/components/forms/PartnerForm";
 import { PartnerRegistration } from "@/components/site/PartnerRegistration";
 
@@ -45,8 +44,7 @@ function Professionals() {
           </div>
           <Reveal className="lg:pt-6">
             <Photo
-              src={doctorGreeting}
-              alt={t("media.doctorGreeting")}
+              photo="ophtalmologiste-accueil-patient-consultation"
               imgClassName="h-52 object-[50%_30%] lg:h-64"
             />
           </Reveal>

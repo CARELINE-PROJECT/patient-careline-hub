@@ -4,7 +4,6 @@ import { useI18n } from "@/i18n";
 import { staticRouteHead } from "@/i18n/head";
 import { Section, SectionHeading } from "@/components/site/primitives";
 import { Button } from "@/components/ui/button";
-import coordinator from "@/assets/team-coordinator.jpg";
 import { PartnerForm } from "@/components/forms/PartnerForm";
 import { PartnerRegistration } from "@/components/site/PartnerRegistration";
 import { administrativeServicesCopy } from "@/i18n/administrativeServices";

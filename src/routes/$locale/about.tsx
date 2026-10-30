@@ -3,7 +3,6 @@ import { useI18n } from "@/i18n";
 import { staticRouteHead } from "@/i18n/head";
 import { DemoNote, Glass, PageHero, Photo, Reveal, Section } from "@/components/site/primitives";
 import { HeroActions } from "@/components/site/HeroActions";
-import teamOffice from "@/assets/team-office.jpg";
 import { CTASection } from "@/components/site/CTASection";
 import { operationsCopy } from "@/i18n/operations";
 import optilineLogo from "@/assets/optiline-mada-logo.png.asset.json";
@@ -38,8 +37,7 @@ function About() {
       <Section>
         <Reveal className="mb-12">
           <Photo
-            src={teamOffice}
-            alt={t("media.aboutTeam")}
+            photo="equipe-careline-internationale-reunion"
             className="mx-auto max-w-3xl"
             imgClassName="h-52 object-[50%_30%] lg:h-60"
           />

@@ -15,10 +15,6 @@ import {
   Users,
 } from "lucide-react";
 import heroImage from "@/assets/hero-careline.jpg";
-import patientHands from "@/assets/patient-hands.jpg";
-import doctorGreeting from "@/assets/doctor-greeting.jpg";
-import coordinator from "@/assets/team-coordinator.jpg";
-import teamOffice from "@/assets/team-office.jpg";
 import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { staticRouteHead } from "@/i18n/head";
@@ -188,10 +184,10 @@ function Home() {
         <SectionHeading eyebrow={t("how.eyebrow")} title={t("how.title")} lead={t("how.lead")} />
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           <Reveal>
-            <Photo src={patientHands} alt={t("media.patientHands")} imgClassName="h-44 sm:h-52 lg:h-60" />
+            <Photo photo="patient-demande-rendez-vous-telephone" imgClassName="h-44 sm:h-52 lg:h-60" />
           </Reveal>
           <Reveal delay={140}>
-            <Photo src={doctorGreeting} alt={t("media.doctorGreeting")} imgClassName="h-44 sm:h-52 lg:h-60" />
+            <Photo photo="ophtalmologiste-accueil-patient-consultation" imgClassName="h-44 sm:h-52 lg:h-60" />
           </Reveal>
         </div>
         <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -221,7 +217,7 @@ function Home() {
           lead={t("services.lead")}
         />
         <Reveal className="mx-auto mt-8 max-w-2xl">
-          <Photo src={coordinator} alt={t("media.coordinatorNotebook")} imgClassName="h-44 sm:h-56 lg:h-64" />
+          <Photo photo="coordinatrice-careline-suivi-patient" imgClassName="h-44 sm:h-56 lg:h-64" />
         </Reveal>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {serviceIcons.map((Icon, i) => (
@@ -279,7 +275,7 @@ function Home() {
       {/* Audiences */}
       <Section>
         <Reveal className="mx-auto mb-8 max-w-2xl">
-          <Photo src={teamOffice} alt={t("media.teamOffice")} imgClassName="h-44 sm:h-56 lg:h-64" />
+          <Photo photo="equipe-careline-internationale-reunion" imgClassName="h-44 sm:h-56 lg:h-64" />
         </Reveal>
         <div className="grid gap-6 lg:grid-cols-2">
           {[
