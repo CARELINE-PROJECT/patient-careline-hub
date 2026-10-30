@@ -5,19 +5,19 @@ import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { siteConfig } from "@/config/site";
+import { specialtyPageCopy } from "@/i18n/specialtyPages";
 
 const navItems = [
   { to: "/how-it-works", key: "nav.howItWorks" },
   { to: "/services", key: "nav.services" },
-  { to: "/professionals", key: "nav.professionals" },
+  { to: "/specialties", key: "hero.specialties" },
   { to: "/companies", key: "nav.corporations" },
   { to: "/security", key: "nav.security" },
-  { to: "/about", key: "nav.about" },
   { to: "/contact", key: "nav.contact" },
 ] as const;
 
 export function Header() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const [open, setOpen] = useState(false);
 
   return (
@@ -46,7 +46,7 @@ export function Header() {
               activeProps={{ className: "bg-secondary text-branddeep" }}
               className="rounded-full px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-branddeep"
             >
-              {t(item.key)}
+              {item.to === "/specialties" ? specialtyPageCopy(locale).directory : t(item.key)}
             </LocalizedLink>
           ))}
         </nav>
@@ -81,7 +81,7 @@ export function Header() {
                 onClick={() => setOpen(false)}
                 className="rounded-xl px-3 py-3 text-sm font-medium text-branddeep hover:bg-secondary"
               >
-                {t(item.key)}
+                {item.to === "/specialties" ? specialtyPageCopy(locale).directory : t(item.key)}
               </LocalizedLink>
             ))}
             <LocalizedLink

@@ -34,8 +34,7 @@ export function Footer() {
     {
       title: t("footer.professionals"),
       links: [
-        // { to: "/professionals", label: t("footer.partner") },
-        { to: "/professionals", label: t("footer.practiceSolutions") },
+        { to: "/professionals", label: t("nav.professionals") },
         { to: "/specialties", label: specialtyPageCopy(locale).directory },
         // { to: "/companies", label: t("footer.corpSolutions") },
         { to: "/contact", label: t("footer.contactUs") },
