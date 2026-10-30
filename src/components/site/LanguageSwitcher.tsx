@@ -1,5 +1,6 @@
 import { Check, Globe } from "lucide-react";
-import { useI18n, locales, type LocaleCode } from "@/i18n";
+import { useRouterState } from "@tanstack/react-router";
+import { useI18n, locales, stripLocalePrefix } from "@/i18n";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,7 +10,9 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 export function LanguageSwitcher({ className }: { className?: string }) {
-  const { locale, setLocale, t, meta } = useI18n();
+  const { locale, t, meta } = useI18n();
+  const pathname = useRouterState({ select: (state) => state.location.pathname });
+  const basePath = stripLocalePrefix(pathname);
 
   return (
     <DropdownMenu>
@@ -27,16 +30,18 @@ export function LanguageSwitcher({ className }: { className?: string }) {
       <DropdownMenuContent align="end" className="max-h-80 w-56 overflow-y-auto">
         <DropdownMenuLabel>{t("nav.language")}</DropdownMenuLabel>
         {locales.map((l) => (
-          <DropdownMenuItem
-            key={l.code}
-            onSelect={() => setLocale(l.code as LocaleCode)}
-            className="flex items-center justify-between gap-2"
-          >
-            <span dir={l.dir} className="flex items-center gap-2">
-              <span aria-hidden="true">{l.flag}</span>
-              {l.name}
-            </span>
-            {l.code === locale ? <Check className="size-4 text-brand" aria-hidden="true" /> : null}
+          <DropdownMenuItem key={l.code} asChild>
+            <a
+              href={`/${l.code}${basePath === "/" ? "" : basePath}`}
+              hrefLang={l.htmlLang}
+              className="flex items-center justify-between gap-2"
+            >
+              <span dir={l.dir} className="flex items-center gap-2">
+                <span aria-hidden="true">{l.flag}</span>
+                {l.name}
+              </span>
+              {l.code === locale ? <Check className="size-4 text-brand" aria-hidden="true" /> : null}
+            </a>
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>

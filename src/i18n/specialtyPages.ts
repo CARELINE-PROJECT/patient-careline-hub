@@ -1,4 +1,5 @@
-import { siteConfig } from "@/config/site";
+import { hreflangLinks, localizedUrl } from "./head";
+import { locales, type LocaleCode } from "./types";
 import type { LocaleCode } from "./types";
 
 type BaseLocale = "en" | "fr" | "nl" | "de" | "es" | "it" | "pt" | "ar" | "zh" | "ru";
@@ -36,11 +37,17 @@ export function specialtyPageCopy(locale: LocaleCode) {
 
 const specialtyPaths = { directory: "/specialties", eye: "/specialties/laser-des-yeux" } as const;
 
-export function specialtyPageHead(kind: "directory" | "eye") {
-  const url = `${siteConfig.url}${specialtyPaths[kind]}`;
+export function specialtyPageHead(kind: "directory" | "eye", locale: LocaleCode) {
+  const path = specialtyPaths[kind];
+  const url = localizedUrl(locale, path);
+  const ogLocale = locales.find((l) => l.code === locale)?.ogLocale ?? "fr_FR";
   return {
-    meta: [...specialtyPageMeta(kind), { property: "og:url", content: url }],
-    links: [{ rel: "canonical", href: url }],
+    meta: [
+      ...specialtyPageMeta(kind),
+      { property: "og:url", content: url },
+      { property: "og:locale", content: ogLocale },
+    ],
+    links: [{ rel: "canonical", href: url }, ...hreflangLinks(path)],
   };
 }
 
