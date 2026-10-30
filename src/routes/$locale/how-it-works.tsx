@@ -5,6 +5,7 @@ import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { staticRouteHead } from "@/i18n/head";
 import { Glass, Photo, Reveal, Section } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
+import { AboutContent } from "@/components/site/AboutContent";
 
 export const Route = createFileRoute("/$locale/how-it-works")({
   staticData: { sitemap: true },
@@ -74,6 +75,7 @@ function HowItWorks() {
           </ol>
         </div>
       </Section>
+      <AboutContent />
       <CTASection />
     </>
   );
