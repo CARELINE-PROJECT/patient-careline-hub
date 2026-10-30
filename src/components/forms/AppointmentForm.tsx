@@ -98,8 +98,8 @@ export function AppointmentForm() {
     }
     setErrors({});
     setLoading(true);
-    const result = trackSubmit();
-    await submitForm("appointment", parsed.data);
+    trackSubmit();
+    const result = await submitForm("appointment", parsed.data);
     setLoading(false);
     setReference(result.reference);
     window.scrollTo({ top: 0, behavior: "smooth" });

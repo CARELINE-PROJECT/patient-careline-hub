@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { CONSENT_CHANGED, readConsent, type ConsentState } from "./consent";
 
 // {À CONFIRMER}: set VITE_GTM_ID once the Google Tag Manager container exists.
-const GTM_ID = import.meta.env.VITE_GTM_ID as string | undefined;
+const GTM_ID = import.meta.env["VITE_GTM_ID"] as string | undefined;
 
 declare global {
   interface Window {
