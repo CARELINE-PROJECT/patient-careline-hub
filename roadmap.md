@@ -48,3 +48,12 @@
 - [ ] Breadcrumbs component + JSON-LD on internal pages; verify 404 page
 - [ ] GTM + Consent Mode v2 wired to cookie banner; form_start/form_submit events; GSC/Bing meta {À CONFIRMER}
 - [ ] IndexNow key file + notification function
+
+## SEO step 2 — languages, tags, structure (new uploaded brief)
+- [ ] URL-based i18n: /fr/ /en/ /nl/ subdirectories (+ /de/ prepared), root redirect, hreflang + x-default, lang attribute
+- [ ] 301 redirects from old URLs to /fr/ equivalents
+- [ ] Per-page tags: single H1, unique 50-60 char titles, 140-155 char descriptions, per-language canonical, OG/Twitter with dedicated 1200x630 image
+- [ ] Specialties: no indexable URL without real content; single list page; only ophthalmology dedicated
+- [ ] Centralize key figures as single-source {À CONFIRMER} variables
+- [ ] Logo strip: "Compatible avec" option for actually-connected software only
+- [ ] Sitemap: per-language URLs + hreflang xhtml:link
