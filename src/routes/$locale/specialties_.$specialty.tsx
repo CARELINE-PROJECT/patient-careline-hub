@@ -19,12 +19,12 @@ export const Route = createFileRoute("/$locale/specialties_/$specialty")({
 function SpecialtyPage() {
   const { specialty } = Route.useParams();
   const { locale } = useI18n();
+  const [playing, setPlaying] = useState(false);
   const id = specialtyFromSlug(specialty);
   if (!id) throw notFound();
   const c = specialtyDetailCopy(locale);
   const g = specialtyGuides[id];
   const name = specialtyLabels[locale][id];
-  const [playing, setPlaying] = useState(false);
   const related = directorySpecialties.filter((x) => x !== id && specialtyImage(x) === specialtyImage(id)).slice(0, 4);
   const list = (items: string[]) => <ul className="mt-4 space-y-2.5 text-sm leading-relaxed text-muted-foreground">{items.map((i) => <li key={i} className="flex gap-2.5"><Check className="mt-1 size-3.5 shrink-0 text-brand" aria-hidden="true" />{i}</li>)}</ul>;
 
@@ -44,6 +44,28 @@ function SpecialtyPage() {
       </div>
     </section>
     <section className="px-5 py-10 sm:px-8">
+      {locale === "fr" && <div className="mx-auto mb-9 max-w-6xl">
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
+          <div className="space-y-7">
+            <div><h2 className="font-display text-2xl text-branddeep">Comprendre la spécialité et ses indications</h2>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">Les motifs fréquemment rencontrés comprennent : {g.topics}. Cette liste donne des repères et ne permet pas de déduire un diagnostic. Le professionnel évalue votre situation, vos antécédents et le retentissement sur votre vie quotidienne avant de proposer un parcours adapté.</p></div>
+            <div><h2 className="font-display text-2xl text-branddeep">Examens et déroulement de l'évaluation</h2>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">Selon la question clinique, l'évaluation peut comprendre : {g.exams}. Tous les examens ne sont pas systématiques. Le praticien vous explique leur intérêt, les alternatives, les éventuelles précautions et la façon dont les résultats orienteront la suite.</p>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">Transmettez vos informations médicales directement au professionnel, jamais à Careline. Demandez au cabinet si une prescription ou des consignes particulières sont nécessaires. Ne jeûnez pas et ne modifiez pas vos médicaments sans instruction de l'équipe soignante.</p></div>
+            <div><h2 className="font-display text-2xl text-branddeep">Soins possibles et suivi</h2>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">Les prises en charge possibles incluent : {g.care}. Le choix dépend du diagnostic, de vos objectifs et des bénéfices et risques discutés avec le professionnel. La présence d'un acte dans ce guide ne signifie pas qu'il est indiqué pour vous ni disponible auprès d'un partenaire Careline.</p>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">À la fin du rendez-vous, vérifiez que vous avez compris le plan proposé, les contrôles à prévoir et les signes qui nécessitent de recontacter l'équipe. Si vous consultez loin de votre domicile, discutez de la continuité des soins et de la transmission des comptes rendus à votre médecin habituel.</p></div>
+          </div>
+          <aside className="border-l border-border pl-6">
+            <h2 className="font-display text-xl text-branddeep">Questions à poser au professionnel</h2>
+            {list(["Quelles explications envisagez-vous et quels examens sont réellement utiles ?", "Quelles sont les alternatives, les limites et les risques de la prise en charge ?", "Quelles consignes suivre avant et après un examen ou un geste ?", "Quand prévoir le prochain contrôle et qui contacter en cas d'aggravation ?"])}
+            <h2 className="mt-7 font-display text-xl text-branddeep">Un parcours adapté à votre situation</h2>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">Les qualifications, les actes autorisés, le besoin d'une prescription et les règles de remboursement varient selon les pays et les professions. Confirmez ces points avec le cabinet et votre organisme de couverture avant le rendez-vous.</p>
+            <p className="mt-4 text-sm leading-relaxed text-muted-foreground">Pour les urgences, la réanimation, les expertises, les analyses et les disciplines de santé publique, l'accès se fait souvent par un hôpital, un prescripteur, un employeur ou une autorité compétente, plutôt que par un rendez-vous direct.</p>
+            {id === "ophthalmology" && <Button asChild variant="outline" className="mt-5 h-auto whitespace-normal"><LocalizedLink to="/chirurgie-laser-yeux">Guide complet de la chirurgie laser des yeux<ArrowRight aria-hidden="true" /></LocalizedLink></Button>}
+          </aside>
+        </div>
+      </div>}
       <div className="mx-auto grid max-w-6xl gap-5 md:grid-cols-3">
         <article className="rounded-lg border border-border bg-card p-6"><h2 className="font-display text-xl text-branddeep">{c.when}</h2>{list(c.whenItems)}</article>
         <article className="rounded-lg border border-border bg-card p-6"><h2 className="font-display text-xl text-branddeep">{c.prepare}</h2>{list(c.prepareItems)}</article>
