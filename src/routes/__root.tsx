@@ -4,6 +4,7 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useRouterState,
   HeadContent,
   Scripts,
   type ErrorComponentProps,
@@ -12,12 +13,14 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { initAnalytics, trackEvent } from "../lib/analytics";
 import { I18nProvider, useI18n } from "@/i18n";
 import { staticRouteMeta } from "@/i18n/head";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { CookieBanner } from "@/components/site/CookieBanner";
 import { DocumentMetadata } from "@/components/site/DocumentMetadata";
+import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 
 const faviconHref = `data:image/svg+xml,${encodeURIComponent(`
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
