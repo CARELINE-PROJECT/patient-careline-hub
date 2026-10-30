@@ -1,8 +1,9 @@
-import { Link, type LinkProps } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
+import type { ComponentProps } from "react";
 
 import { useLocalePath } from "@/i18n";
 
-type LocalizedLinkProps = Omit<LinkProps, "to" | "params"> & {
+type LocalizedLinkProps = Omit<ComponentProps<typeof Link>, "to" | "params"> & {
   /** Locale-free path, e.g. "/services". The current locale prefix is added automatically. */
   to: string;
 };
@@ -13,5 +14,6 @@ type LocalizedLinkProps = Omit<LinkProps, "to" | "params"> & {
  */
 export function LocalizedLink({ to, ...rest }: LocalizedLinkProps) {
   const lp = useLocalePath();
-  return <Link to={lp(to) as unknown as LinkProps["to"]} {...rest} />;
+  // The computed href is always a valid localized route; the cast keeps call sites simple.
+  return <Link to={lp(to) as never} {...rest} />;
 }
