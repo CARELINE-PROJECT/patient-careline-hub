@@ -1,4 +1,5 @@
 # Tasks
+- [ ] Language menu: replace all two-letter codes (GB, FR...) with drawn flags plus the language name.
 - [ ] Services: add several bright, joyful colorful photos without changing the offer or existing layout.
 - [ ] Build all 79 specialty detail pages with specialty-specific educational content, distinct generated illustrations, verified sources/videos where available, appointment CTA, metadata, breadcrumbs and sitemap; verify directory-to-request flow.
 - [x] Header: replace Professionals with Specialties, retain Professionals in footer, remove About from header; include all About content in How it works and verify both menus and pages.
