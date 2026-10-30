@@ -1,4 +1,5 @@
 # Tasks
+- [ ] Build all 79 specialty detail pages with specialty-specific educational content, distinct generated illustrations, verified sources/videos where available, appointment CTA, metadata, breadcrumbs and sitemap; verify directory-to-request flow.
 - [x] Header: replace Professionals with Specialties, retain Professionals in footer, remove About from header; include all About content in How it works and verify both menus and pages.
 - [x] Remove social placeholder from Contact.
 - [x] Present administrative services, independence and onboarding on Services with partner form.
