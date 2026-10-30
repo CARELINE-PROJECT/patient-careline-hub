@@ -14,11 +14,6 @@ type LocalizedLinkProps = Omit<ComponentProps<typeof Link>, "to" | "params"> & {
  */
 export function LocalizedLink({ to, ...rest }: LocalizedLinkProps) {
   const lp = useLocalePath();
-  const detail = to.match(/^\/specialties\/([^/]+)$/);
-  const specialty = detail?.[1];
-  if (specialty) {
-    return <Link {...rest} to="/$locale/specialties/$specialty" params={{ locale: lp("/").split("/")[1] ?? "fr", specialty }} />;
-  }
   // The computed href is always a valid localized route; the cast keeps call sites simple.
   return <Link to={lp(to) as never} {...rest} />;
 }
