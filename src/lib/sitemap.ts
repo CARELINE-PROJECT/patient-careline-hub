@@ -57,6 +57,8 @@ export function sitemapPathForLocation(
 export interface SitemapEntry {
   path: string;
   lastmod?: string;
+  /** hreflang alternates (including x-default) emitted as xhtml:link. */
+  alternates?: { hrefLang: string; href: string }[];
 }
 
 function isSafeSitemapPath(pathname: string): boolean {
