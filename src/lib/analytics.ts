@@ -1,3 +1,5 @@
+import { useRef } from "react";
+
 import { CONSENT_CHANGED, readConsent, type ConsentState } from "./consent";
 
 // {À CONFIRMER}: set VITE_GTM_ID once the Google Tag Manager container exists.
