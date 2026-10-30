@@ -1,0 +1,27 @@
+# Careline
+
+> Careline est un service international de coordination de rendez-vous médicaux entre patients et professionnels de santé.
+
+Careline met en relation des patients avec des médecins, praticiens, cabinets et établissements de santé, et gère la prise de rendez-vous, les confirmations et le suivi administratif. Careline ne soigne pas, ne pose aucun diagnostic et ne donne aucun avis médical. Careline ne gère pas les urgences : en cas d'urgence, contactez les services d'urgence de votre pays. Careline ne demande, ne reçoit ni ne stocke aucune donnée médicale. L'inscription des praticiens est gratuite, sans abonnement ni droit d'entrée.
+
+## Pages
+
+- [Accueil](/): Présentation du service de coordination de rendez-vous médicaux.
+- [Nos services](/services): Secrétariat administratif des praticiens : rendez-vous, confirmations, suivi, traçabilité.
+- [Professionnels de santé](/professionals): Inscription gratuite des praticiens, sans abonnement ni droit d'entrée.
+- [Établissements de santé](/companies): Coordination des rendez-vous pour cabinets, cliniques et établissements.
+- [Comment ça marche](/how-it-works): Le parcours de la demande de rendez-vous à la confirmation.
+- [Demander un rendez-vous](/request): Formulaire de demande de rendez-vous médical.
+- [Spécialités médicales](/specialties): Répertoire des spécialités couvertes par la coordination Careline.
+- [Laser des yeux : guide patient](/specialties/laser-des-yeux): LASIK, Femto-LASIK, PKR/TransPKR, SMILE : bilan, préparation, intervention, récupération et risques, sans prix.
+- [Sécurité et données](/security): Aucune donnée de santé demandée ni stockée ; RGPD et standards internationaux.
+- [Questions fréquentes](/faq): Réponses aux questions des patients et des praticiens.
+- [Contact](/contact): Contacter Careline (e-mail uniquement).
+
+## Optional
+
+- [À propos](/about): La mission et l'équipe Careline.
+- [Mentions légales](/legal/notice): Identité légale de la société.
+- [Politique de confidentialité](/legal/privacy): Traitement des données personnelles.
+- [Conditions d'utilisation](/legal/terms): Conditions d'usage du service.
+- [Cookies](/legal/cookies): Gestion des cookies et du consentement.
