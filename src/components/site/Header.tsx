@@ -9,10 +9,9 @@ import { siteConfig } from "@/config/site";
 const navItems = [
   { to: "/how-it-works", key: "nav.howItWorks" },
   { to: "/services", key: "nav.services" },
-  { to: "/professionals", key: "nav.professionals" },
+  { to: "/specialties", key: "hero.specialties" },
   { to: "/companies", key: "nav.corporations" },
   { to: "/security", key: "nav.security" },
-  { to: "/about", key: "nav.about" },
   { to: "/contact", key: "nav.contact" },
 ] as const;
 

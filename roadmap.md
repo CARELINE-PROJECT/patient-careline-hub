@@ -1,4 +1,5 @@
 # Tasks
+- [ ] Header: replace Professionals with Specialties, retain Professionals in footer, remove About from header; include all About content in How it works and verify both menus and pages.
 - [x] Remove social placeholder from Contact.
 - [x] Present administrative services, independence and onboarding on Services with partner form.
 - [x] Highlight practitioner benefits and free registration with no subscription or entry fee; verify pages and fee rules (form remains demonstration-only).
