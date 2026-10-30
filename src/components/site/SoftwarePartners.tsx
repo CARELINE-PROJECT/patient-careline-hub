@@ -56,6 +56,9 @@ export function SoftwarePartners() {
     viewport.current?.scrollBy({ left: direction * 400, behavior: reduced ? "instant" : "smooth" });
   };
 
+  // "Compatible avec" mode with no confirmed connection yet: hide the strip entirely.
+  if (brands.length === 0) return null;
+
   return (
     <Section id="software-partners" tone="muted" className="border-y border-border/60 py-8 md:py-10">
       <div className="flex flex-wrap items-center justify-between gap-4">
