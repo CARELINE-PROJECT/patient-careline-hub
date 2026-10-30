@@ -8,7 +8,7 @@ import { specialtyPageCopy, specialtyPageHead } from "@/i18n/specialtyPages";
 import { filterSpecialties, specialtyImage } from "@/config/specialtyDirectory";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import eye from "@/assets/specialties-eye.jpg";
+import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
 
 export const Route = createFileRoute("/$locale/specialties")({ staticData: { sitemap: true }, head: ({ params }) => specialtyPageHead("directory", params.locale), component: Specialties });
 
@@ -23,7 +23,7 @@ function Specialties() {
       <div className="mx-auto max-w-6xl">
         <h1 className="font-display text-3xl leading-tight text-branddeep sm:text-4xl">{c.title}</h1>
         <div className="mt-5 grid gap-5 overflow-hidden rounded-lg border border-border bg-card md:grid-cols-2">
-          <img src={eye} width={1408} height={896} alt={labels.ophthalmology} loading="lazy" className="h-44 w-full object-cover md:h-56" />
+          <ResponsivePhoto id="chirurgie-laser-yeux-ophtalmologiste" priority className="h-44 w-full object-cover md:h-56" />
           <div className="flex flex-col justify-center p-5 md:pe-8">
             <h2 className="font-display text-2xl text-branddeep">{c.eyeTitle}</h2>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{c.lead}</p>
@@ -41,7 +41,7 @@ function Specialties() {
         <p role="status" className="mt-3 text-sm text-muted-foreground">{specialtyUi[locale].results.replace("{count}", String(matches.length))}</p>
         <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {matches.map((id) => <article key={id} className="overflow-hidden rounded-lg border border-border bg-card">
-            <img src={specialtyImage(id)} alt="" width={1024} height={768} loading="lazy" className="h-28 w-full object-cover object-center" />
+            <ResponsivePhoto id={specialtyImage(id)} sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="h-28 w-full object-cover object-center" />
             <div className="p-4">
               <h2 className="min-h-12 font-display text-lg leading-snug text-branddeep">{labels[id]}</h2>
               <Button asChild variant="link" className="mt-1 h-auto justify-start whitespace-normal px-0 text-start">

@@ -3,7 +3,7 @@ import { HeartPulse, Mail } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
 import { openConsentSettings } from "@/lib/consent";
-import worldNetwork from "@/assets/world-network.jpg";
+import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
 import { footerGlobalCopy } from "@/i18n/footerGlobal";
 import { specialtyPageCopy } from "@/i18n/specialtyPages";
 
@@ -74,15 +74,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
-          <img
-            alt=""
-            aria-hidden="true"
-            className="h-40 w-full rounded-2xl object-cover sm:h-48"
-            height={640}
-            loading="lazy"
-            src={worldNetwork}
-            width={1920}
-          />
+          <ResponsivePhoto id="reseau-international-careline-praticiens" decorative sizes="100vw" className="h-40 w-full rounded-2xl object-cover sm:h-48" />
         </div>
         <div className="mt-12 grid gap-12 md:grid-cols-[1.4fr_repeat(4,1fr)]">
           <div>

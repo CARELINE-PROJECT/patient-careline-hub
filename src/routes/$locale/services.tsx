@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, CalendarCheck, Check, CheckCircle2, ClipboardList, Cpu, Globe2, HeartHandshake, Scale, ShieldCheck, Users } from "lucide-react";
+import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
 import { useI18n } from "@/i18n";
 import { staticRouteHead } from "@/i18n/head";
 import { Section, SectionHeading } from "@/components/site/primitives";
@@ -16,8 +17,6 @@ export const Route = createFileRoute("/$locale/services")({
       ...base,
       links: [
         ...base.links,
-        // LCP candidate: the full-screen hero photo is preloaded.
-        { rel: "preload", as: "image", href: coordinator, fetchpriority: "high" },
       ],
     };
   },
@@ -33,7 +32,7 @@ function Services() {
   return (
     <>
       <section className="relative isolate overflow-hidden border-b border-border bg-branddeep px-5 py-10 sm:px-8 md:py-14">
-        <img src={coordinator} alt={t("media.coordinatorPhone")} className="absolute inset-0 -z-20 h-full w-full object-cover object-[50%_28%]" />
+        <div className="absolute inset-0 -z-20"><ResponsivePhoto id="coordinatrice-careline-suivi-patient" priority sizes="100vw" className="h-full w-full object-cover object-[50%_28%]" /></div>
         <div className="absolute inset-0 -z-10 bg-branddeep/90" aria-hidden="true" />
         <div className="mx-auto w-full max-w-6xl">
           <p className="text-sm font-medium text-aqua">Careline · {c.eyebrow}</p>

@@ -6,7 +6,7 @@ import { specialtyPageCopy, specialtyPageHead } from "@/i18n/specialtyPages";
 import { eyeLaserContent, eyeLaserSources, eyeLaserVideos } from "@/content/eyeLaser";
 import { PatientVideo } from "@/components/site/PatientVideo";
 import { Button } from "@/components/ui/button";
-import eye from "@/assets/specialties-eye.jpg";
+import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
 
 export const Route = createFileRoute("/$locale/specialties_/laser-des-yeux")({ staticData: { sitemap: true }, head: ({ params }) => specialtyPageHead("eye", params.locale), component: EyeLaser });
 
@@ -27,7 +27,7 @@ function EyeLaser() {
               <Button asChild variant="outline"><LocalizedLink to="/contact">{t("nav.contact")}</LocalizedLink></Button>
             </div>
           </div>
-          <img src={eye} alt={c.eyeTitle} width={1408} height={896} loading="lazy" className="h-44 w-full rounded-lg object-cover md:h-56" />
+          <ResponsivePhoto id="femto-lasik-topographie-cornee" priority className="h-44 w-full rounded-lg object-cover md:h-56" />
         </div>
         <p className="mt-5 flex items-start gap-2 text-xs leading-relaxed text-muted-foreground"><ShieldCheck className="mt-0.5 size-4 shrink-0 text-brand" aria-hidden="true" />{f.note}</p>
         {locale !== "fr" && locale !== "en" && <p className="mt-2 text-xs text-muted-foreground" lang="en">Medical guide available in English and French.</p>}
