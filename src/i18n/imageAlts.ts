@@ -31,7 +31,7 @@ export const photoAlts: Record<PhotoId, Alts> = {
   },
   "chirurgie-laser-yeux-ophtalmologiste": {
     fr: "Ophtalmologiste examinant les yeux d'un patient à la lampe à fente en cabinet",
-    en: "Ophthalmologist examining a patient"s eyes with a slit lamp in her practice",
+    en: "Ophthalmologist examining a patient's eyes with a slit lamp in her practice",
     nl: "Oogarts onderzoekt de ogen van een patiënt met een spleetlamp in de praktijk",
     de: "Augenärztin untersucht die Augen eines Patienten an der Spaltlampe in ihrer Praxis",
     es: "Oftalmóloga examinando los ojos de un paciente con una lámpara de hendidura",
@@ -70,8 +70,8 @@ export const photoAlts: Record<PhotoId, Alts> = {
     id: "Dokter menyambut pasien dengan hangat sambil berjabat tangan di awal konsultasi",
   },
   "patient-demande-rendez-vous-telephone": {
-    fr: "Mains d'une patiente tenant son smartphone près d"une tasse de café pour demander un rendez-vous",
-    en: "Patient"s hands holding a smartphone beside a cup of coffee to request an appointment",
+    fr: "Mains d'une patiente tenant son smartphone près d'une tasse de café pour demander un rendez-vous",
+    en: "Patient's hands holding a smartphone beside a cup of coffee to request an appointment",
     nl: "Handen van een patiënte met smartphone naast een kop koffie om een afspraak aan te vragen",
     de: "Hände einer Patientin mit Smartphone neben einer Kaffeetasse beim Anfragen eines Termins",
     es: "Manos de una paciente con su smartphone junto a una taza de café para pedir cita",

@@ -58,3 +58,7 @@
 - [x] Logo strip: unconfirmed "100+" masked; connected-only mode ready
 - [x] Sitemap: 324 URLs (18 pages × 18 locales) + hreflang xhtml:link
 - [ ] {À CONFIRMER}: GTM ID, GSC/Bing verification codes, DNS careline.doctor, figure validation
+
+## Images (étape images)
+- [ ] Photos renommées, WebP/JPG 480/960/1600, alt 18 langues, sitemap image:image, tableau de vérification
+- [ ] Page /specialties : une image distincte par spécialité + une page dédiée par spécialité (description complète, CTA rendez-vous) — périmètre à confirmer (≈79 spécialités × 18 langues)
