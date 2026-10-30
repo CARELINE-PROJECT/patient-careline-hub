@@ -27,7 +27,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         }
       >
         <Globe className="size-4" aria-hidden="true" />
-        <Flag code={localeFlag[locale]} className="h-3.5 w-5" />
+        <Flag code={localeFlag[locale] ?? "GB"} className="h-3.5 w-5" />
         <span>{meta.name}</span>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="max-h-80 w-56 overflow-y-auto">
@@ -40,7 +40,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
               className="flex items-center justify-between gap-2"
             >
               <span dir={l.dir} className="flex items-center gap-2">
-                <Flag code={localeFlag[l.code]} className="h-3.5 w-5 shrink-0" />
+                <Flag code={localeFlag[l.code] ?? "GB"} className="h-3.5 w-5 shrink-0" />
                 {l.name}
               </span>
               {l.code === locale ? <Check className="size-4 text-brand" aria-hidden="true" /> : null}

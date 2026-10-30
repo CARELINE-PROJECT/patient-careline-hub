@@ -19,7 +19,8 @@ export const Route = createFileRoute("/$locale/specialties_/$specialty")({
 function SpecialtyPage() {
   const { specialty } = Route.useParams();
   const { locale } = useI18n();
-  const id = specialtyFromSlug(specialty)!;
+  const id = specialtyFromSlug(specialty);
+  if (!id) throw notFound();
   const c = specialtyDetailCopy(locale);
   const g = specialtyGuides[id];
   const name = specialtyLabels[locale][id];
