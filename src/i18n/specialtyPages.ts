@@ -36,7 +36,7 @@ export function specialtyPageCopy(locale: LocaleCode) {
   return { directory, title, eyeTitle, lead, guide };
 }
 
-const specialtyPaths = { directory: "/specialties", eye: "/specialties/laser-des-yeux" } as const;
+const specialtyPaths = { directory: "/specialties", eye: "/chirurgie-laser-yeux" } as const;
 
 export function specialtyPageHead(kind: "directory" | "eye", locale: string) {
   const path = specialtyPaths[kind];

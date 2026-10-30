@@ -24,7 +24,7 @@ export function DocumentMetadata() {
 
   useEffect(() => {
     const path = stripLocalePrefix(pathname);
-    if (path === "/specialties" || path === "/specialties/laser-des-yeux") {
+    if (path === "/specialties" || path === "/chirurgie-laser-yeux") {
       const c = specialtyPageCopy(locale);
       const title = `${path === "/specialties" ? c.title : c.eyeTitle} | Careline`;
       document.title = title;

@@ -7,21 +7,21 @@ Careline met en relation des patients avec des médecins, praticiens, cabinets e
 ## Pages
 
 - [Accueil](/fr/fr): Présentation du service de coordination de rendez-vous médicaux.
-- [Nos services](/fr/fr/services): Secrétariat administratif des praticiens : rendez-vous, confirmations, suivi, traçabilité.
-- [Professionnels de santé](/fr/fr/professionals): Inscription gratuite des praticiens, sans abonnement ni droit d'entrée.
-- [Établissements de santé](/fr/fr/companies): Coordination des rendez-vous pour cabinets, cliniques et établissements.
-- [Comment ça marche](/fr/fr/how-it-works): Le parcours de la demande de rendez-vous à la confirmation.
-- [Demander un rendez-vous](/fr/fr/request): Formulaire de demande de rendez-vous médical.
-- [Spécialités médicales](/fr/fr/specialties): Répertoire des spécialités couvertes par la coordination Careline.
-- [Laser des yeux : guide patient](/fr/fr/specialties/laser-des-yeux): LASIK, Femto-LASIK, PKR/TransPKR, SMILE : bilan, préparation, intervention, récupération et risques, sans prix.
-- [Sécurité et données](/fr/fr/security): Aucune donnée de santé demandée ni stockée ; RGPD et standards internationaux.
-- [Questions fréquentes](/fr/fr/faq): Réponses aux questions des patients et des praticiens.
-- [Contact](/fr/fr/contact): Contacter Careline (e-mail uniquement).
+- [Nos services](/fr/services): Secrétariat administratif des praticiens : rendez-vous, confirmations, suivi, traçabilité.
+- [Professionnels de santé](/fr/professionals): Inscription gratuite des praticiens, sans abonnement ni droit d'entrée.
+- [Établissements de santé](/fr/companies): Coordination des rendez-vous pour cabinets, cliniques et établissements.
+- [Comment ça marche](/fr/how-it-works): Le parcours de la demande de rendez-vous à la confirmation.
+- [Demander un rendez-vous](/fr/request): Formulaire de demande de rendez-vous médical.
+- [Spécialités médicales](/fr/specialties): Répertoire des spécialités couvertes par la coordination Careline.
+- [Laser des yeux : guide patient](/fr/chirurgie-laser-yeux): LASIK, Femto-LASIK, PKR/TransPKR, SMILE : bilan, préparation, intervention, récupération et risques, sans prix.
+- [Sécurité et données](/fr/security): Aucune donnée de santé demandée ni stockée ; RGPD et standards internationaux.
+- [Questions fréquentes](/fr/faq): Réponses aux questions des patients et des praticiens.
+- [Contact](/fr/contact): Contacter Careline (e-mail uniquement).
 
 ## Optional
 
-- [À propos](/fr/fr/about): La mission et l'équipe Careline.
-- [Mentions légales](/fr/fr/legal/notice): Identité légale de la société.
-- [Politique de confidentialité](/fr/fr/legal/privacy): Traitement des données personnelles.
-- [Conditions d'utilisation](/fr/fr/legal/terms): Conditions d'usage du service.
-- [Cookies](/fr/fr/legal/cookies): Gestion des cookies et du consentement.
+- [À propos](/fr/about): La mission et l'équipe Careline.
+- [Mentions légales](/fr/legal/notice): Identité légale de la société.
+- [Politique de confidentialité](/fr/legal/privacy): Traitement des données personnelles.
+- [Conditions d'utilisation](/fr/legal/terms): Conditions d'usage du service.
+- [Cookies](/fr/legal/cookies): Gestion des cookies et du consentement.

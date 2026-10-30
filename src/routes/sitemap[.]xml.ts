@@ -24,7 +24,7 @@ const pagePhotos: Record<string, PhotoId[]> = {
   "/security": ["securite-donnees-careline-protection"],
   "/services": ["coordinatrice-careline-suivi-patient"],
   "/specialties": [...new Set<PhotoId>(["chirurgie-laser-yeux-ophtalmologiste", ...directorySpecialties.map(specialtyImage)])],
-  "/specialties/laser-des-yeux": ["femto-lasik-topographie-cornee"],
+  "/chirurgie-laser-yeux": ["femto-lasik-topographie-cornee"],
 };
 
 // Public site origin requested by the site owner; live once the careline.doctor DNS connection completes.
