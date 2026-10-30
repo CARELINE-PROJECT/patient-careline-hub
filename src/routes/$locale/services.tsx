@@ -46,6 +46,11 @@ function Services() {
       </section>
 
       <Section className="pb-6 md:pb-8">
+        <div className="mb-8 grid gap-4 sm:grid-cols-3">
+          {(["services-equipe-joyeuse", "services-accueil-colore", "services-coordination-coloree"] as const).map((id) => (
+            <ResponsivePhoto key={id} id={id} sizes="(min-width: 640px) 33vw, 100vw" className="h-44 w-full rounded-lg object-cover sm:h-52" />
+          ))}
+        </div>
         <div className="flex max-w-4xl items-start gap-4">
           <CalendarCheck className="mt-1 size-6 shrink-0 text-brand" aria-hidden="true" />
           <div>
