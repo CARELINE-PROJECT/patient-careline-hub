@@ -6,6 +6,7 @@ function safeLocale(locale: string): LocaleCode {
   return locales.some((l) => l.code === locale) ? (locale as LocaleCode) : defaultLocale;
 }
 import { siteConfig } from "@/config/site";
+import { ogImageFor } from "@/config/ogImages";
 
 export type HeadKey = keyof typeof en.head;
 
@@ -66,11 +67,20 @@ export function hreflangLinks(path: string) {
 export function staticRouteHead(key: HeadKey, path: string, locale: string) {
   const url = localizedUrl(safeLocale(locale), path);
   const ogLocale = locales.find((l) => l.code === safeLocale(locale))?.ogLocale ?? "fr_FR";
+  const image = ogImageFor(key);
   return {
     meta: [
       ...staticRouteMeta(key),
       { property: "og:url", content: url },
       { property: "og:locale", content: ogLocale },
+      ...(image
+        ? [
+            { property: "og:image", content: image },
+            { property: "og:image:width", content: "1200" },
+            { property: "og:image:height", content: "630" },
+            { name: "twitter:image", content: image },
+          ]
+        : []),
     ],
     links: [{ rel: "canonical", href: url }, ...hreflangLinks(path)],
   };
