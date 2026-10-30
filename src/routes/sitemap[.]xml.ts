@@ -10,6 +10,22 @@ import {
 } from "@/lib/sitemap";
 import { defaultLocale, locales } from "@/i18n";
 import { localizedUrl } from "@/i18n/head";
+import { photoUrl, type PhotoId } from "@/lib/photos";
+import { directorySpecialties, specialtyImage } from "@/config/specialtyDirectory";
+
+/** Photos visible on each page (locale-free path); kept in sync with the page components. */
+const pagePhotos: Record<string, PhotoId[]> = {
+  "/": ["coordinatrice-careline-rendez-vous-ophtalmologiste", "patient-demande-rendez-vous-telephone", "ophtalmologiste-accueil-patient-consultation", "coordinatrice-careline-suivi-patient", "equipe-careline-internationale-reunion"],
+  "/about": ["equipe-careline-internationale-reunion"],
+  "/companies": ["equipe-careline-internationale-reunion"],
+  "/contact": ["coordinatrice-careline-suivi-patient"],
+  "/how-it-works": ["patient-demande-rendez-vous-telephone"],
+  "/professionals": ["ophtalmologiste-accueil-patient-consultation"],
+  "/security": ["securite-donnees-careline-protection"],
+  "/services": ["coordinatrice-careline-suivi-patient"],
+  "/specialties": [...new Set<PhotoId>(["chirurgie-laser-yeux-ophtalmologiste", ...directorySpecialties.map(specialtyImage)])],
+  "/specialties/laser-des-yeux": ["femto-lasik-topographie-cornee"],
+};
 
 // Public site origin requested by the site owner; live once the careline.doctor DNS connection completes.
 const BASE_URL = "https://www.careline.doctor";
@@ -39,7 +55,7 @@ export const Route = createFileRoute("/sitemap.xml")({
               params: { locale: locale.code } as never,
             });
             const path = sitemapPathForLocation(router, location, route.id);
-            if (path) entries.push({ path, alternates });
+            if (path) entries.push({ path, alternates, images: (pagePhotos[basePath] ?? []).map((id) => `${BASE_URL}${photoUrl(id)}`) });
           }
         }
 

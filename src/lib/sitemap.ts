@@ -59,6 +59,8 @@ export interface SitemapEntry {
   lastmod?: string;
   /** hreflang alternates (including x-default) emitted as xhtml:link. */
   alternates?: { hrefLang: string; href: string }[];
+  /** Absolute image URLs shown on the page, emitted as image:image. */
+  images?: string[];
 }
 
 function isSafeSitemapPath(pathname: string): boolean {
@@ -101,9 +103,12 @@ export function sitemapXML(baseURL: string, entries: SitemapEntry[]): string {
           `<xhtml:link rel="alternate" hreflang="${escape(a.hrefLang)}" href="${escape(a.href)}"/>`,
       )
       .join("");
+    const images = (entry.images ?? [])
+      .map((src) => `<image:image><image:loc>${escape(src)}</image:loc></image:image>`)
+      .join("");
     urls.push(
-      `<url><loc>${escape(url.href)}</loc>${entry.lastmod ? `<lastmod>${escape(entry.lastmod)}</lastmod>` : ""}${alternates}</url>`,
+      `<url><loc>${escape(url.href)}</loc>${entry.lastmod ? `<lastmod>${escape(entry.lastmod)}</lastmod>` : ""}${alternates}${images}</url>`,
     );
   }
-  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls.join("")}</urlset>`;
+  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${urls.join("")}</urlset>`;
 }
