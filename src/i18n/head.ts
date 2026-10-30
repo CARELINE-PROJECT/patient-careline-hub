@@ -1,6 +1,10 @@
 import { en } from "./locales/en";
 import { administrativeTranslation } from "./administrativeServices";
 import { defaultLocale, locales, type LocaleCode } from "./types";
+
+function safeLocale(locale: string): LocaleCode {
+  return locales.some((l) => l.code === locale) ? (locale as LocaleCode) : defaultLocale;
+}
 import { siteConfig } from "@/config/site";
 
 export type HeadKey = keyof typeof en.head;
@@ -59,9 +63,9 @@ export function hreflangLinks(path: string) {
  * Full head for a static public route in a given language: localized meta,
  * self-referencing canonical and og:url in that language, og:locale, hreflang.
  */
-export function staticRouteHead(key: HeadKey, path: string, locale: LocaleCode) {
-  const url = localizedUrl(locale, path);
-  const ogLocale = locales.find((l) => l.code === locale)?.ogLocale ?? "fr_FR";
+export function staticRouteHead(key: HeadKey, path: string, locale: string) {
+  const url = localizedUrl(safeLocale(locale), path);
+  const ogLocale = locales.find((l) => l.code === safeLocale(locale))?.ogLocale ?? "fr_FR";
   return {
     meta: [
       ...staticRouteMeta(key),

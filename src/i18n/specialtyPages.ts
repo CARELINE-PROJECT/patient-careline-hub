@@ -1,6 +1,5 @@
 import { hreflangLinks, localizedUrl } from "./head";
 import { locales, type LocaleCode } from "./types";
-import type { LocaleCode } from "./types";
 
 type BaseLocale = "en" | "fr" | "nl" | "de" | "es" | "it" | "pt" | "ar" | "zh" | "ru";
 
@@ -37,9 +36,9 @@ export function specialtyPageCopy(locale: LocaleCode) {
 
 const specialtyPaths = { directory: "/specialties", eye: "/specialties/laser-des-yeux" } as const;
 
-export function specialtyPageHead(kind: "directory" | "eye", locale: LocaleCode) {
+export function specialtyPageHead(kind: "directory" | "eye", locale: string) {
   const path = specialtyPaths[kind];
-  const url = localizedUrl(locale, path);
+  const url = localizedUrl(locales.some((l) => l.code === locale) ? (locale as LocaleCode) : "fr", path);
   const ogLocale = locales.find((l) => l.code === locale)?.ogLocale ?? "fr_FR";
   return {
     meta: [
