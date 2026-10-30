@@ -70,6 +70,8 @@
 - [ ] Lire, lister fichiers et points ambigus avant de coder
 
 ## Laser pillar & contact (2026-10-30)
-- [ ] Laser pillar page /fr/chirurgie-laser-yeux with 301 from old guide
-- [ ] Contact: remove "envisagées" wording
-- [ ] Contact map: show each office regional action radius
+- [x] Laser pillar page /fr/chirurgie-laser-yeux with 301 from old guide
+- [x] Contact: remove "envisagées" wording
+- [x] Contact map: show each office regional action radius
+- [ ] Laser sub-pages (17), quiz, guides hub, /fr/a-propos (+301 from /about), méthode éditoriale, choix chirurgien
+- [ ] 79 specialty pages with distinct images
