@@ -102,3 +102,14 @@ export const softwareBrands = [
   { name: "OpenMRS", website: "https://openmrs.org", logo: publicAssetUrl(logo49), source: "https://i0.wp.com/openmrs.org/wp-content/uploads/2025/07/OpenMRS-logo-transparent-1.png?fit=1200%2C304&ssl=1" },
   { name: "Bahmni", website: "https://www.bahmni.org", logo: publicAssetUrl(logo50), source: "https://images.squarespace-cdn.com/content/v1/54358a40e4b0d0810faf80c2/1449227490774-VM0J81B5NXHRUIGXPF5H/Bahmni+logo+black+font.png?format=1500w" },
 ] as const;
+
+/**
+ * Logo strip display mode.
+ * onlyConnected: when true, the strip shows only software with a confirmed,
+ * working connection, under the "Compatible avec" label. connectedIds is
+ * empty today — no vendor connection is confirmed yet.
+ */
+export const softwareDisplay = {
+  onlyConnected: false,
+  connectedIds: [] as string[],
+};

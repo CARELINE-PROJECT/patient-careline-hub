@@ -22,6 +22,7 @@ import teamOffice from "@/assets/team-office.jpg";
 import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { staticRouteHead } from "@/i18n/head";
+import { isFigureConfirmed } from "@/config/figures";
 import {
   AuroraBackdrop,
   DemoNote,
@@ -54,6 +55,14 @@ export const Route = createFileRoute("/$locale/")({
 
 function Home() {
   const { t } = useI18n();
+  const confirmedStats = (
+    [
+      { key: "professionals", value: t("site.stats.professionals"), label: t("stats.professionals") },
+      { key: "countries", value: t("site.stats.countries"), label: t("stats.countries") },
+      { key: "specialties", value: t("site.stats.specialties"), label: t("stats.specialties") },
+      { key: "languages", value: t("site.stats.languages"), label: t("stats.languages") },
+    ] as const
+  ).filter((s) => isFigureConfirmed(s.key));
 
   const steps = [1, 2, 3, 4].map((n) => ({
     n,
@@ -158,23 +167,19 @@ function Home() {
         </div>
       </section>
 
-      {/* Stats */}
-      <Section className="py-10 md:py-12">
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {[
-            { value: t("site.stats.professionals"), label: t("stats.professionals") },
-            { value: t("site.stats.countries"), label: t("stats.countries") },
-            { value: t("site.stats.specialties"), label: t("stats.specialties") },
-            { value: t("site.stats.languages"), label: t("stats.languages") },
-          ].map((s) => (
-            <Glass key={s.label} className="p-6 text-center">
-              <p className="font-display text-4xl tracking-tight text-brand">{s.value}</p>
-              <p className="mt-2 text-sm text-muted-foreground">{s.label}</p>
-            </Glass>
-          ))}
-        </div>
-        
-      </Section>
+      {/* Stats — only figures confirmed in src/config/figures.ts are shown */}
+      {confirmedStats.length > 0 && (
+        <Section className="py-10 md:py-12">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {confirmedStats.map((s) => (
+              <Glass key={s.label} className="p-6 text-center">
+                <p className="font-display text-4xl tracking-tight text-brand">{s.value}</p>
+                <p className="mt-2 text-sm text-muted-foreground">{s.label}</p>
+              </Glass>
+            ))}
+          </div>
+        </Section>
+      )}
 
       <SoftwarePartners />
 

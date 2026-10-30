@@ -7,7 +7,7 @@
  */
 export const figures = {
   professionals: { value: "10M+", confirmed: false },
-  countries: { value: "190+", confirmed: false },
+  countries: { value: "40+", confirmed: false },
   specialties: { value: "25+", confirmed: false },
   /** Verifiable from the code: the site ships 18 locale dictionaries. */
   languages: { value: "18", confirmed: true },
