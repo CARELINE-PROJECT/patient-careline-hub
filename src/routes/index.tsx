@@ -37,7 +37,17 @@ import { SoftwarePartners } from "@/components/site/SoftwarePartners";
 
 export const Route = createFileRoute("/")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("home", "/"),
+  head: () => {
+    const base = staticRouteHead("home", "/");
+    return {
+      ...base,
+      links: [
+        ...base.links,
+        // LCP candidate: the hero photo is preloaded so first paint stays fast on mobile.
+        { rel: "preload", as: "image", href: heroImage, fetchpriority: "high" },
+      ],
+    };
+  },
   component: Home,
 });
 

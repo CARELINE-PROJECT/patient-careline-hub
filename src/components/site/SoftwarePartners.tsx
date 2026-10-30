@@ -67,7 +67,7 @@ export function SoftwarePartners() {
                 <li key={brand.name} className="w-44 shrink-0">
                   <a href={brand.website} target="_blank" rel="noopener noreferrer" tabIndex={group === 1 ? -1 : undefined}
                     className="flex h-28 flex-col items-center justify-center gap-3 rounded-lg border border-border bg-card px-4 transition-colors hover:border-brand/50">
-                    {brand.logo ? <img src={brand.logo} alt="" width={136} height={40} className="h-10 w-full object-contain" /> : <span className="font-display text-xl text-branddeep">微医</span>}
+                    {brand.logo ? <img src={brand.logo} alt="" width={136} height={40} loading="lazy" className="h-10 w-full object-contain" /> : <span className="font-display text-xl text-branddeep">微医</span>}
                     <span className="text-center text-sm font-medium leading-tight text-foreground">{brand.name}</span>
                   </a>
                 </li>

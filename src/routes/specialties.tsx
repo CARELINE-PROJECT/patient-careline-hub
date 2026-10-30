@@ -22,7 +22,7 @@ function Specialties() {
       <div className="mx-auto max-w-6xl">
         <h1 className="font-display text-3xl leading-tight text-branddeep sm:text-4xl">{c.title}</h1>
         <div className="mt-5 grid gap-5 overflow-hidden rounded-lg border border-border bg-card md:grid-cols-2">
-          <img src={eye} width={1408} height={896} alt={labels.ophthalmology} className="h-44 w-full object-cover md:h-56" />
+          <img src={eye} width={1408} height={896} alt={labels.ophthalmology} loading="lazy" className="h-44 w-full object-cover md:h-56" />
           <div className="flex flex-col justify-center p-5 md:pe-8">
             <h2 className="font-display text-2xl text-branddeep">{c.eyeTitle}</h2>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{c.lead}</p>

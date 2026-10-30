@@ -11,7 +11,17 @@ import { administrativeServicesCopy } from "@/i18n/administrativeServices";
 
 export const Route = createFileRoute("/services")({
   staticData: { sitemap: true },
-  head: () => staticRouteHead("services", "/services"),
+  head: () => {
+    const base = staticRouteHead("services", "/services");
+    return {
+      ...base,
+      links: [
+        ...base.links,
+        // LCP candidate: the full-screen hero photo is preloaded.
+        { rel: "preload", as: "image", href: coordinator, fetchpriority: "high" },
+      ],
+    };
+  },
   component: Services,
 });
 

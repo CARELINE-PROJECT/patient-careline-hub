@@ -3,6 +3,7 @@ import { z } from "zod";
 import { AlertTriangle } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { submitForm } from "@/lib/api";
+import { useFormTracking } from "@/lib/analytics";
 import { Glass, DemoNote } from "@/components/site/primitives";
 import {
   ConsentField,
@@ -30,6 +31,7 @@ const initial = {
 };
 
 export function AppointmentForm() {
+  const { onFocusCapture, trackSubmit } = useFormTracking("appointment_request");
   const { t } = useI18n();
   const [values, setValues] = useState(initial);
   type FieldKey = keyof typeof initial;
@@ -96,6 +98,7 @@ export function AppointmentForm() {
     }
     setErrors({});
     setLoading(true);
+    trackSubmit();
     const result = await submitForm("appointment", parsed.data);
     setLoading(false);
     setReference(result.reference);
@@ -122,7 +125,7 @@ export function AppointmentForm() {
 
   return (
     <Glass className="px-5 pb-5 pt-3 sm:px-6 sm:pb-6 sm:pt-4">
-      <form onSubmit={onSubmit} noValidate className="space-y-3">
+      <form onFocusCapture={onFocusCapture} onSubmit={onSubmit} noValidate className="space-y-3">
         <div className="flex items-start gap-3 rounded-2xl border border-accent/40 bg-accent/10 p-3">
           <AlertTriangle className="mt-0.5 size-4 shrink-0 text-accent-foreground" aria-hidden="true" />
           <p className="text-xs leading-relaxed text-accent-foreground">{t("form.warning")}</p>
