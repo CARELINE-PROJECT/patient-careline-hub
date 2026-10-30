@@ -59,3 +59,19 @@ export function trackEvent(event: string, params: Record<string, unknown> = {}) 
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({ event, ...params });
 }
+
+/**
+ * Form measurement: fires `form_start` on the first field focus and exposes
+ * `trackSubmit` to fire `form_submit` when the request is actually sent.
+ */
+export function useFormTracking(form: string) {
+  const started = useRef(false);
+  const onFocusCapture = () => {
+    if (!started.current) {
+      started.current = true;
+      trackEvent("form_start", { form });
+    }
+  };
+  const trackSubmit = () => trackEvent("form_submit", { form });
+  return { onFocusCapture, trackSubmit };
+}
