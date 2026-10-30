@@ -5,6 +5,8 @@ import { stripLocalePrefix, useI18n } from "@/i18n";
 import { localizedUrl } from "@/i18n/head";
 import { headKeyByPath } from "@/i18n/head";
 import { specialtyPageCopy } from "@/i18n/specialtyPages";
+import { specialtyFromSlug } from "@/content/specialtyDetail";
+import { specialtyLabels } from "@/i18n/specialties";
 
 /** Short navigation labels where they exist; otherwise the cleaned page title. */
 const navLabelByPath: Record<string, string> = {
@@ -38,7 +40,10 @@ export function Breadcrumbs({ pathname }: { pathname: string }) {
 
   const crumbs: Crumb[] = [{ label: "Careline", to: "/" }];
 
-  if (pathname === "/specialties" || pathname === "/chirurgie-laser-yeux") {
+  const specialtyId = pathname.startsWith("/specialties/") ? specialtyFromSlug(pathname.slice(13)) : undefined;
+  if (specialtyId) {
+    crumbs.push({ label: specialtyPageCopy(locale).title, to: "/specialties" }, { label: specialtyLabels[locale][specialtyId] });
+  } else if (pathname === "/specialties" || pathname === "/chirurgie-laser-yeux") {
     const copy = specialtyPageCopy(locale);
     if (pathname === "/chirurgie-laser-yeux") {
       crumbs.push({ label: copy.title, to: "/specialties" }, { label: copy.eyeTitle });

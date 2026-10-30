@@ -31,6 +31,7 @@ import { Route as LocaleLegalCookiesRouteImport } from './routes/$locale/legal.c
 import { Route as LocaleLegalNoticeRouteImport } from './routes/$locale/legal.notice'
 import { Route as LocaleLegalPrivacyRouteImport } from './routes/$locale/legal.privacy'
 import { Route as LocaleLegalTermsRouteImport } from './routes/$locale/legal.terms'
+import { Route as LocaleSpecialtiesSpecialtyRouteImport } from './routes/$locale/specialties_.$specialty'
 import { Route as LocaleSpecialtiesLaserDesYeuxRouteImport } from './routes/$locale/specialties_.laser-des-yeux'
 
 const IndexRoute = IndexRouteImport.update({
@@ -145,6 +146,12 @@ const LocaleLegalTermsRoute = LocaleLegalTermsRouteImport.update({
   path: '/legal/terms',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleSpecialtiesSpecialtyRoute =
+  LocaleSpecialtiesSpecialtyRouteImport.update({
+    id: '/specialties_/$specialty',
+    path: '/specialties/$specialty',
+    getParentRoute: () => LocaleRoute,
+  } as any)
 const LocaleSpecialtiesLaserDesYeuxRoute =
   LocaleSpecialtiesLaserDesYeuxRouteImport.update({
     id: '/specialties_/laser-des-yeux',
@@ -175,6 +182,7 @@ export interface FileRoutesByFullPath {
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
+  '/$locale/specialties/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
 }
 export interface FileRoutesByTo {
@@ -199,6 +207,7 @@ export interface FileRoutesByTo {
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
+  '/$locale/specialties/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
 }
 export interface FileRoutesById {
@@ -225,6 +234,7 @@ export interface FileRoutesById {
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
+  '/$locale/specialties_/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties_/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
 }
 export interface FileRouteTypes {
@@ -252,6 +262,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
     | '/$locale/legal/terms'
+    | '/$locale/specialties/$specialty'
     | '/$locale/specialties/laser-des-yeux'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -276,6 +287,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
     | '/$locale/legal/terms'
+    | '/$locale/specialties/$specialty'
     | '/$locale/specialties/laser-des-yeux'
   id:
     | '__root__'
@@ -301,6 +313,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
     | '/$locale/legal/terms'
+    | '/$locale/specialties_/$specialty'
     | '/$locale/specialties_/laser-des-yeux'
   fileRoutesById: FileRoutesById
 }
@@ -467,6 +480,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleLegalTermsRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/specialties_/$specialty': {
+      id: '/$locale/specialties_/$specialty'
+      path: '/specialties/$specialty'
+      fullPath: '/$locale/specialties/$specialty'
+      preLoaderRoute: typeof LocaleSpecialtiesSpecialtyRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/specialties_/laser-des-yeux': {
       id: '/$locale/specialties_/laser-des-yeux'
       path: '/specialties/laser-des-yeux'
@@ -496,6 +516,7 @@ interface LocaleRouteChildren {
   LocaleLegalNoticeRoute: typeof LocaleLegalNoticeRoute
   LocaleLegalPrivacyRoute: typeof LocaleLegalPrivacyRoute
   LocaleLegalTermsRoute: typeof LocaleLegalTermsRoute
+  LocaleSpecialtiesSpecialtyRoute: typeof LocaleSpecialtiesSpecialtyRoute
   LocaleSpecialtiesLaserDesYeuxRoute: typeof LocaleSpecialtiesLaserDesYeuxRoute
 }
 
@@ -518,6 +539,7 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleLegalNoticeRoute: LocaleLegalNoticeRoute,
   LocaleLegalPrivacyRoute: LocaleLegalPrivacyRoute,
   LocaleLegalTermsRoute: LocaleLegalTermsRoute,
+  LocaleSpecialtiesSpecialtyRoute: LocaleSpecialtiesSpecialtyRoute,
   LocaleSpecialtiesLaserDesYeuxRoute: LocaleSpecialtiesLaserDesYeuxRoute,
 }
 

@@ -8,6 +8,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Flag } from "@/components/site/Flag";
+
+const localeFlag: Record<string, string> = { en: "GB", fr: "FR", nl: "NL", de: "DE", es: "ES", it: "IT", pt: "PT", ar: "SA", zh: "CN", ru: "RU", ja: "JP", ko: "KR", hi: "IN", tr: "TR", pl: "PL", sv: "SE", uk: "UA", id: "ID" };
 
 export function LanguageSwitcher({ className }: { className?: string }) {
   const { locale, t, meta } = useI18n();
@@ -24,8 +27,8 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         }
       >
         <Globe className="size-4" aria-hidden="true" />
-        <span aria-hidden="true">{meta.flag}</span>
-        <span>{meta.short}</span>
+        <Flag code={localeFlag[locale] ?? "GB"} className="h-3.5 w-5" />
+        <span>{meta.name}</span>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="max-h-80 w-56 overflow-y-auto">
         <DropdownMenuLabel>{t("nav.language")}</DropdownMenuLabel>
@@ -37,7 +40,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
               className="flex items-center justify-between gap-2"
             >
               <span dir={l.dir} className="flex items-center gap-2">
-                <span aria-hidden="true">{l.flag}</span>
+                <Flag code={localeFlag[l.code] ?? "GB"} className="h-3.5 w-5 shrink-0" />
                 {l.name}
               </span>
               {l.code === locale ? <Check className="size-4 text-brand" aria-hidden="true" /> : null}

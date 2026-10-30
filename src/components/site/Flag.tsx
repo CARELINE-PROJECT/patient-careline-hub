@@ -5,6 +5,23 @@ import { cn } from "@/lib/utils";
 // flag font (Windows, and some Linux/Android setups) the regional-indicator
 // pairs render as bare letters such as "MG", "US", "AE", "GB", "SG", "HK".
 const flags: Record<string, ReactNode> = {
+  FR: <><rect width="10" height="20" fill="#0055A4" /><rect x="10" width="10" height="20" fill="#fff" /><rect x="20" width="10" height="20" fill="#EF4135" /></>,
+  IT: <><rect width="10" height="20" fill="#009246" /><rect x="10" width="10" height="20" fill="#fff" /><rect x="20" width="10" height="20" fill="#CE2B37" /></>,
+  NL: <><rect width="30" height="7" fill="#AE1C28" /><rect y="7" width="30" height="6" fill="#fff" /><rect y="13" width="30" height="7" fill="#21468B" /></>,
+  DE: <><rect width="30" height="7" fill="#000" /><rect y="7" width="30" height="6" fill="#DD0000" /><rect y="13" width="30" height="7" fill="#FFCE00" /></>,
+  RU: <><rect width="30" height="7" fill="#fff" /><rect y="7" width="30" height="6" fill="#0039A6" /><rect y="13" width="30" height="7" fill="#D52B1E" /></>,
+  ES: <><rect width="30" height="20" fill="#AA151B" /><rect y="5" width="30" height="10" fill="#F1BF00" /></>,
+  PT: <><rect width="30" height="20" fill="#FF0000" /><rect width="12" height="20" fill="#006600" /><circle cx="12" cy="10" r="3.5" fill="#FFCC00" /></>,
+  SA: <><rect width="30" height="20" fill="#006C35" /><rect x="7" y="12" width="16" height="1.2" fill="#fff" /><rect x="8" y="7" width="14" height="1.5" fill="#fff" /></>,
+  CN: <><rect width="30" height="20" fill="#DE2910" /><circle cx="6" cy="6" r="2.6" fill="#FFDE00" />{[[11, 2.5], [13, 5], [13, 8.5], [11, 11]].map(([x, y]) => <circle key={x + "-" + y} cx={x} cy={y} r=".9" fill="#FFDE00" />)}</>,
+  JP: <><rect width="30" height="20" fill="#fff" /><circle cx="15" cy="10" r="6" fill="#BC002D" /></>,
+  KR: <><rect width="30" height="20" fill="#fff" /><circle cx="15" cy="10" r="5" fill="#CD2E3A" /><path d="M10 10a5 5 0 0 0 10 0a2.5 2.5 0 0 0-5 0a2.5 2.5 0 0 1-5 0" fill="#0047A0" />{([[5, 4], [25, 4], [5, 16], [25, 16]] as const).map(([x, y]) => <rect key={x + "-" + y} x={x - 2} y={y - 1.5} width="4" height="3" fill="#000" transform={`rotate(${x === 5 ? -33 : 33} ${x} ${y})`} />)}</>,
+  IN: <><rect width="30" height="7" fill="#FF9933" /><rect y="7" width="30" height="6" fill="#fff" /><rect y="13" width="30" height="7" fill="#138808" /><circle cx="15" cy="10" r="2.2" fill="none" stroke="#000080" strokeWidth=".7" /></>,
+  TR: <><rect width="30" height="20" fill="#E30A17" /><circle cx="11" cy="10" r="5" fill="#fff" /><circle cx="12.3" cy="10" r="4" fill="#E30A17" /><circle cx="18" cy="10" r="1.6" fill="#fff" /></>,
+  PL: <><rect width="30" height="10" fill="#fff" /><rect y="10" width="30" height="10" fill="#DC143C" /></>,
+  SE: <><rect width="30" height="20" fill="#006AA7" /><rect x="9" width="4" height="20" fill="#FECC00" /><rect y="8" width="30" height="4" fill="#FECC00" /></>,
+  UA: <><rect width="30" height="10" fill="#0057B7" /><rect y="10" width="30" height="10" fill="#FFD700" /></>,
+  ID: <><rect width="30" height="10" fill="#CE1126" /><rect y="10" width="30" height="10" fill="#fff" /></>,
   MG: (
     <>
       <rect width="30" height="20" fill="#fff" />

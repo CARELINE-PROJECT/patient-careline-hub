@@ -1,4 +1,9 @@
 # Tasks
+- [x] Specialties directory: verify every specialty title and guide link opens its dedicated page.
+- [x] Homepage French: replace “Trouver un praticien” with “Recherchez un praticien” and “3 praticiens proposés” with “Plusieurs praticiens proposés”.
+- [x] Language menu: replace all two-letter codes (GB, FR...) with drawn flags plus the language name.
+- [x] Services: add several bright, joyful colorful photos without changing the offer or existing layout.
+- [x] Build pages for all 72 catalog specialties (requested 79; catalog contains 72) with distinct images, specialty content, sources/verified videos where available, CTA, metadata and sitemap.
 - [x] Header: replace Professionals with Specialties, retain Professionals in footer, remove About from header; include all About content in How it works and verify both menus and pages.
 - [x] Remove social placeholder from Contact.
 - [x] Present administrative services, independence and onboarding on Services with partner form.
