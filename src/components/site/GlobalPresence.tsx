@@ -7,6 +7,7 @@ import { useI18n } from "@/i18n";
 import { Flag } from "@/components/site/Flag";
 import { globalOfficeCopy, officeLabel } from "@/i18n/globalOffices";
 import { cn } from "@/lib/utils";
+import { officeReach, officeRegion, reachLabel } from "@/i18n/officeReach";
 
 export function GlobalPresence() {
   const { locale } = useI18n();
@@ -33,7 +34,13 @@ export function GlobalPresence() {
         <div className="mt-7 grid gap-6 lg:grid-cols-[minmax(0,1fr)_280px] lg:items-center">
           <div className="global-map relative aspect-[1000/440] w-full" role="group" aria-label={c.map} dir="ltr">
             <svg viewBox="0 0 1000 440" className="absolute inset-0 h-full w-full" aria-hidden="true">
+              <defs><radialGradient id="global-reach-fill"><stop offset="0%" className="global-reach-stop-in" /><stop offset="100%" className="global-reach-stop-out" /></radialGradient></defs>
               <path d={worldLandPath} className="global-land" />
+              {globalOffices.map(hub => {
+                const p = mapPosition(hub.coordinates);
+                const r = officeReach[hub.id] ?? 50;
+                return <g key={`reach-${hub.id}`} className={cn("global-reach", selected === hub.id && "is-selected")}><ellipse cx={p.x * 10} cy={p.y * 4.4} rx={r} ry={r * 0.8} fill="url(#global-reach-fill)" /><ellipse cx={p.x * 10} cy={p.y * 4.4} rx={r} ry={r * 0.8} className="global-reach-ring" /></g>;
+              })}
               {globalOffices.slice(1).map(hub => {
                 const start = mapPosition(globalOffices[0]?.coordinates ?? [0, 0]);
                 const end = mapPosition(hub.coordinates);
@@ -50,6 +57,7 @@ export function GlobalPresence() {
             <h3 className="text-2xl font-semibold">{city(office.id, office.city)}</h3>
             <p className="mt-1 text-sm text-global-muted">{officeLabel(c.countries, office.id, office.country)}</p>
             <p className="mt-3 text-sm">{office.district}</p>
+            <p className="mt-2 text-sm text-global-muted"><span className="font-medium text-global-accent">{reachLabel(locale)} :</span> {officeRegion(locale, office.id)}</p>
             <Button variant="global" className="mt-4" onClick={() => showDetails(office.id)}>{c.details}<ArrowDown aria-hidden="true" /></Button>
           </div>
         </div>

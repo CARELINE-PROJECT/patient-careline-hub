@@ -38,9 +38,9 @@ export function Breadcrumbs({ pathname }: { pathname: string }) {
 
   const crumbs: Crumb[] = [{ label: "Careline", to: "/" }];
 
-  if (pathname === "/specialties" || pathname === "/specialties/laser-des-yeux") {
+  if (pathname === "/specialties" || pathname === "/chirurgie-laser-yeux") {
     const copy = specialtyPageCopy(locale);
-    if (pathname === "/specialties/laser-des-yeux") {
+    if (pathname === "/chirurgie-laser-yeux") {
       crumbs.push({ label: copy.title, to: "/specialties" }, { label: copy.eyeTitle });
     } else {
       crumbs.push({ label: copy.title });
