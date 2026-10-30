@@ -30,7 +30,7 @@ export const photoAlts: Record<PhotoId, Alts> = {
     id: "Koordinator Careline memakai headset mengatur janji temu pasien dari meja kerjanya",
   },
   "chirurgie-laser-yeux-ophtalmologiste": {
-    fr: "Ophtalmologiste examinant les yeux d"un patient à la lampe à fente en cabinet",
+    fr: "Ophtalmologiste examinant les yeux d'un patient à la lampe à fente en cabinet",
     en: "Ophthalmologist examining a patient"s eyes with a slit lamp in her practice",
     nl: "Oogarts onderzoekt de ogen van een patiënt met een spleetlamp in de praktijk",
     de: "Augenärztin untersucht die Augen eines Patienten an der Spaltlampe in ihrer Praxis",
@@ -70,7 +70,7 @@ export const photoAlts: Record<PhotoId, Alts> = {
     id: "Dokter menyambut pasien dengan hangat sambil berjabat tangan di awal konsultasi",
   },
   "patient-demande-rendez-vous-telephone": {
-    fr: "Mains d"une patiente tenant son smartphone près d"une tasse de café pour demander un rendez-vous",
+    fr: "Mains d'une patiente tenant son smartphone près d"une tasse de café pour demander un rendez-vous",
     en: "Patient"s hands holding a smartphone beside a cup of coffee to request an appointment",
     nl: "Handen van een patiënte met smartphone naast een kop koffie om een afspraak aan te vragen",
     de: "Hände einer Patientin mit Smartphone neben einer Kaffeetasse beim Anfragen eines Termins",
@@ -170,7 +170,7 @@ export const photoAlts: Record<PhotoId, Alts> = {
     id: "Dokter gigi menjelaskan perawatan kepada pasien yang duduk di kursi praktik gigi",
   },
   "specialite-reeducation-kinesitherapie": {
-    fr: "Kinésithérapeute accompagnant un patient pendant un exercice de rééducation de l"épaule",
+    fr: "Kinésithérapeute accompagnant un patient pendant un exercice de rééducation de l'épaule",
     en: "Physiotherapist guiding a patient through a shoulder rehabilitation exercise",
     nl: "Fysiotherapeut begeleidt een patiënt bij een revalidatieoefening voor de schouder",
     de: "Physiotherapeutin begleitet einen Patienten bei einer Reha-Übung für die Schulter",
@@ -190,7 +190,7 @@ export const photoAlts: Record<PhotoId, Alts> = {
     id: "Fisioterapis mendampingi pasien selama latihan rehabilitasi bahu",
   },
   "securite-donnees-careline-protection": {
-    fr: "Soignant tapant sur un ordinateur portable à côté d"un cadenas, symbole de données protégées",
+    fr: "Soignant tapant sur un ordinateur portable à côté d'un cadenas, symbole de données protégées",
     en: "Healthcare worker typing on a laptop beside a padlock, symbolising protected data",
     nl: "Zorgverlener typt op een laptop naast een hangslot, symbool voor beschermde gegevens",
     de: "Pflegekraft tippt am Laptop neben einem Vorhängeschloss als Symbol für geschützte Daten",
