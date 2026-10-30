@@ -4,7 +4,7 @@ import { operationsCopy } from "@/i18n/operations";
 import optilineLogo from "@/assets/optiline-mada-logo.png.asset.json";
 import { publicAssetUrl } from "@/lib/assets";
 
-export function AboutContent() {
+export function AboutContent({ showIntro = false }: { showIntro?: boolean }) {
   const { t, locale } = useI18n();
   const ops = operationsCopy[locale] ?? operationsCopy.en;
 
@@ -23,13 +23,13 @@ export function AboutContent() {
 
   return (
     <>
-      <Section className="pb-0">
+      {showIntro ? <Section className="pb-0">
         <Reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">{t("about.eyebrow")}</p>
           <h2 className="mt-3 font-display text-2xl text-branddeep sm:text-3xl">{t("about.title")}</h2>
           <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted-foreground">{t("about.lead")}</p>
         </Reveal>
-      </Section>
+      </Section> : null}
       <Section>
         <Reveal className="mb-12">
           <Photo

@@ -75,7 +75,7 @@ function HowItWorks() {
           </ol>
         </div>
       </Section>
-      <AboutContent />
+      <AboutContent showIntro />
       <CTASection />
     </>
   );
