@@ -2,6 +2,7 @@ import { useState } from "react";
 import { z } from "zod";
 import { useI18n } from "@/i18n";
 import { submitForm } from "@/lib/api";
+import { useFormTracking } from "@/lib/analytics";
 import { Glass, DemoNote } from "@/components/site/primitives";
 import { ConsentField, SubmitBar, SubmitButton, TextAreaField, TextField } from "./fields";
 import { SuccessPanel } from "./SuccessPanel";
@@ -18,6 +19,7 @@ const initial = {
 };
 
 export function ContactForm() {
+  const { onFocusCapture, trackSubmit } = useFormTracking("contact");
   const { t } = useI18n();
   const [values, setValues] = useState(initial);
   type FieldKey = keyof typeof initial;
@@ -54,6 +56,7 @@ export function ContactForm() {
     }
     setErrors({});
     setLoading(true);
+    trackSubmit();
     await submitForm("contact", parsed.data);
     setLoading(false);
     setDone(true);
@@ -75,7 +78,7 @@ export function ContactForm() {
 
   return (
     <Glass className="px-6 pb-6 pt-4 sm:px-8 sm:pb-8 sm:pt-5">
-      <form onSubmit={onSubmit} noValidate className="space-y-5">
+      <form onFocusCapture={onFocusCapture} onSubmit={onSubmit} noValidate className="space-y-5">
         <div className="grid gap-5 sm:grid-cols-2">
           <TextField id="firstName" label={t("form.firstName")} required autoComplete="given-name" value={values.firstName} onChange={set("firstName")} error={errors.firstName} />
           <TextField id="lastName" label={t("form.lastName")} required autoComplete="family-name" value={values.lastName} onChange={set("lastName")} error={errors.lastName} />

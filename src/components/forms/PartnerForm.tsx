@@ -2,6 +2,7 @@ import { useState } from "react";
 import { z } from "zod";
 import { useI18n } from "@/i18n";
 import { submitForm } from "@/lib/api";
+import { useFormTracking } from "@/lib/analytics";
 import { Glass, DemoNote } from "@/components/site/primitives";
 import { ConsentField, SubmitBar, SubmitButton, TextAreaField, TextField } from "./fields";
 import { SpecialtyField } from "./SpecialtyField";
@@ -21,6 +22,7 @@ const initial = {
 };
 
 export function PartnerForm() {
+  const { onFocusCapture, trackSubmit } = useFormTracking("partner");
   const { t } = useI18n();
   const [values, setValues] = useState(initial);
   type FieldKey = keyof typeof initial;
@@ -59,6 +61,7 @@ export function PartnerForm() {
     }
     setErrors({});
     setLoading(true);
+    trackSubmit();
     await submitForm("partner", parsed.data);
     setLoading(false);
     setDone(true);
@@ -80,7 +83,7 @@ export function PartnerForm() {
 
   return (
     <Glass className="px-6 pb-6 pt-4 sm:px-8 sm:pb-8 sm:pt-5">
-      <form onSubmit={onSubmit} noValidate className="space-y-5">
+      <form onFocusCapture={onFocusCapture} onSubmit={onSubmit} noValidate className="space-y-5">
         <div className="grid gap-5 sm:grid-cols-2">
           <TextField id="practiceName" label={t("form.practiceName")} required value={values.practiceName} onChange={set("practiceName")} error={errors.practiceName} className="sm:col-span-2" />
           <TextField id="firstName" label={t("form.firstName")} required autoComplete="given-name" value={values.firstName} onChange={set("firstName")} error={errors.firstName} />
