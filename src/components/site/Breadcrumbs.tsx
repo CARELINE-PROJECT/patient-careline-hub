@@ -1,10 +1,10 @@
-import { Link } from "@tanstack/react-router";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { ChevronRight } from "lucide-react";
 
-import { useI18n } from "@/i18n";
+import { stripLocalePrefix, useI18n } from "@/i18n";
+import { localizedUrl } from "@/i18n/head";
 import { headKeyByPath } from "@/i18n/head";
 import { specialtyPageCopy } from "@/i18n/specialtyPages";
-import { siteConfig } from "@/config/site";
 
 /** Short navigation labels where they exist; otherwise the cleaned page title. */
 const navLabelByPath: Record<string, string> = {
@@ -34,6 +34,7 @@ function cleanTitle(title: string): string {
  */
 export function Breadcrumbs({ pathname }: { pathname: string }) {
   const { t, locale } = useI18n();
+  pathname = stripLocalePrefix(pathname);
 
   const crumbs: Crumb[] = [{ label: "Careline", to: "/" }];
 
@@ -58,7 +59,7 @@ export function Breadcrumbs({ pathname }: { pathname: string }) {
       "@type": "ListItem",
       position: index + 1,
       name: crumb.label,
-      ...(crumb.to ? { item: `${siteConfig.url}${crumb.to}` } : {}),
+      ...(crumb.to ? { item: localizedUrl(locale, crumb.to) } : {}),
     })),
   };
 
@@ -69,9 +70,9 @@ export function Breadcrumbs({ pathname }: { pathname: string }) {
           <li key={`${crumb.label}-${index}`} className="flex items-center gap-1.5">
             {index > 0 && <ChevronRight className="size-3 opacity-60" aria-hidden />}
             {crumb.to ? (
-              <Link to={crumb.to} className="transition-colors hover:text-foreground">
+              <LocalizedLink to={crumb.to} className="transition-colors hover:text-foreground">
                 {crumb.label}
-              </Link>
+              </LocalizedLink>
             ) : (
               <span aria-current="page" className="font-medium text-foreground">
                 {crumb.label}
