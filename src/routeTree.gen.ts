@@ -21,6 +21,7 @@ import { Route as ProfessionalsRouteImport } from './routes/professionals'
 import { Route as RequestRouteImport } from './routes/request'
 import { Route as SecurityRouteImport } from './routes/security'
 import { Route as ServicesRouteImport } from './routes/services'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SpecialtiesRouteImport } from './routes/specialties'
 import { Route as LegalCookiesRouteImport } from './routes/legal.cookies'
 import { Route as LegalNoticeRouteImport } from './routes/legal.notice'
@@ -88,6 +89,11 @@ const ServicesRoute = ServicesRouteImport.update({
   path: '/services',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SpecialtiesRoute = SpecialtiesRouteImport.update({
   id: '/specialties',
   path: '/specialties',
@@ -132,6 +138,7 @@ export interface FileRoutesByFullPath {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
@@ -152,6 +159,7 @@ export interface FileRoutesByTo {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
@@ -173,6 +181,7 @@ export interface FileRoutesById {
   '/request': typeof RequestRoute
   '/security': typeof SecurityRoute
   '/services': typeof ServicesRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/specialties': typeof SpecialtiesRoute
   '/legal/cookies': typeof LegalCookiesRoute
   '/legal/notice': typeof LegalNoticeRoute
@@ -195,6 +204,7 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/sitemap.xml'
     | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
@@ -215,6 +225,7 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/sitemap.xml'
     | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
@@ -235,6 +246,7 @@ export interface FileRouteTypes {
     | '/request'
     | '/security'
     | '/services'
+    | '/sitemap.xml'
     | '/specialties'
     | '/legal/cookies'
     | '/legal/notice'
@@ -256,6 +268,7 @@ export interface RootRouteChildren {
   RequestRoute: typeof RequestRoute
   SecurityRoute: typeof SecurityRoute
   ServicesRoute: typeof ServicesRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SpecialtiesRoute: typeof SpecialtiesRoute
   LegalCookiesRoute: typeof LegalCookiesRoute
   LegalNoticeRoute: typeof LegalNoticeRoute
@@ -350,6 +363,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/specialties': {
       id: '/specialties'
       path: '/specialties'
@@ -408,6 +428,7 @@ const rootRouteChildren: RootRouteChildren = {
   RequestRoute: RequestRoute,
   SecurityRoute: SecurityRoute,
   ServicesRoute: ServicesRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   SpecialtiesRoute: SpecialtiesRoute,
   LegalCookiesRoute: LegalCookiesRoute,
   LegalNoticeRoute: LegalNoticeRoute,
