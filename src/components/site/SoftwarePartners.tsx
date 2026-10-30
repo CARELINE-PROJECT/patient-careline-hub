@@ -12,7 +12,7 @@ export function SoftwarePartners() {
   const copy = softwareCopy[locale];
   // "Compatible avec" mode: only confirmed connections. Numbered title only once the figure is validated.
   const brands = softwareDisplay.onlyConnected
-    ? softwareBrands.filter((b) => softwareDisplay.connectedIds.includes(b.id))
+    ? softwareBrands.filter((b) => softwareDisplay.connectedIds.includes(b.name))
     : softwareBrands;
   const title = softwareDisplay.onlyConnected
     ? softwareCompatibleLabel[locale]

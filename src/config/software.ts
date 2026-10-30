@@ -111,5 +111,5 @@ export const softwareBrands = [
  */
 export const softwareDisplay = {
   onlyConnected: false,
-  connectedIds: [] as string[],
+  connectedIds: [] as string[], // brand `name` values with a confirmed connection
 };

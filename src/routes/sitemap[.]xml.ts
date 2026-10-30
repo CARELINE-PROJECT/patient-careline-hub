@@ -36,7 +36,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           for (const locale of locales) {
             const location = router.buildLocation({
               to: route.fullPath as never,
-              params: { locale: locale.code },
+              params: { locale: locale.code } as never,
             });
             const path = sitemapPathForLocation(router, location, route.id);
             if (path) entries.push({ path, alternates });
