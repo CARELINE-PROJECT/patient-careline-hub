@@ -1,0 +1,710 @@
+{
+ "general_medicine": {
+  "fr": "Le médecin généraliste assure le suivi global de votre santé, traite les problèmes courants, coordonne les examens et oriente vers un spécialiste si nécessaire.",
+  "en": "The general practitioner oversees your overall health, treats common problems, coordinates tests and refers you to a specialist when needed.",
+  "source": {
+   "url": "https://www.nhs.uk/nhs-services/gps/",
+   "title": "NHS · GP services"
+  },
+  "video": {
+   "id": "CT0aB-EORMU",
+   "title": "How your General Practice team can help you",
+   "publisher": "NHS"
+  }
+ },
+ "primary_care": {
+  "fr": "Les soins primaires réunissent les professionnels de premier recours : prévention, soins courants, suivi des maladies chroniques et coordination du parcours.",
+  "en": "Primary care brings together first-contact professionals: prevention, everyday care, chronic disease follow-up and care coordination.",
+  "source": {
+   "url": "https://www.nhs.uk/nhs-services/gps/",
+   "title": "NHS · GP services"
+  },
+  "video": {
+   "id": "CT0aB-EORMU",
+   "title": "How your General Practice team can help you",
+   "publisher": "NHS"
+  }
+ },
+ "internal_medicine": {
+  "fr": "La médecine interne prend en charge les adultes présentant des symptômes complexes ou plusieurs maladies associées, avec une approche globale du diagnostic.",
+  "en": "Internal medicine cares for adults with complex symptoms or several conditions, taking a whole-person approach to diagnosis.",
+  "source": {
+   "url": "https://www.acponline.org/about-acp/about-internal-medicine",
+   "title": "American College of Physicians · Internal medicine"
+  },
+  "video": null
+ },
+ "addiction_medicine": {
+  "fr": "L'addictologie accompagne, sans jugement, les difficultés liées à l'alcool, au tabac, aux drogues, aux médicaments ou aux comportements comme le jeu.",
+  "en": "Addiction medicine offers non-judgemental support for problems with alcohol, tobacco, drugs, medicines or behaviours such as gambling.",
+  "source": {
+   "url": "https://www.nhs.uk/live-well/addiction-support/",
+   "title": "NHS · Addiction support"
+  },
+  "video": null
+ },
+ "allergology": {
+  "fr": "L'allergologue identifie les allergies respiratoires, alimentaires, cutanées ou médicamenteuses par l'entretien et des tests adaptés, puis propose une prise en charge.",
+  "en": "The allergist identifies respiratory, food, skin or drug allergies through history-taking and suitable tests, then proposes management.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/allergies/",
+   "title": "NHS · Allergies"
+  },
+  "video": null
+ },
+ "anesthesiology": {
+  "fr": "L'anesthésiste évalue votre état avant une intervention, choisit le type d'anesthésie et veille à votre sécurité et à votre confort pendant et après le geste.",
+  "en": "The anaesthetist assesses you before a procedure, chooses the type of anaesthesia and ensures your safety and comfort during and after it.",
+  "source": {
+   "url": "https://www.guysandstthomas.nhs.uk/health-information/anaesthetic/having-general-anaesthetic",
+   "title": "Guy's and St Thomas' · Having a general anaesthetic"
+  },
+  "video": null
+ },
+ "audiology": {
+  "fr": "L'audiologie évalue l'audition et l'équilibre, de l'enfant à l'adulte, et accompagne l'appareillage ou la rééducation auditive.",
+  "en": "Audiology assesses hearing and balance in children and adults and supports hearing aids or auditory rehabilitation.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/hearing-tests/",
+   "title": "NHS · Hearing tests"
+  },
+  "video": {
+   "id": "43ZViMpWUXk",
+   "title": "Your baby's hearing test at Children's Audiology",
+   "publisher": "Guy's and St Thomas' NHS Foundation Trust"
+  }
+ },
+ "cardiology": {
+  "fr": "Le cardiologue diagnostique et suit les maladies du cœur et des vaisseaux : tension, rythme, douleurs thoraciques, essoufflement, prévention cardiovasculaire.",
+  "en": "The cardiologist diagnoses and follows heart and blood vessel conditions: blood pressure, rhythm, chest pain, breathlessness and cardiovascular prevention.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/cardiovascular-disease/",
+   "title": "NHS · Cardiovascular disease"
+  },
+  "video": null
+ },
+ "cardiothoracic_surgery": {
+  "fr": "La chirurgie cardiaque et thoracique traite par intervention certaines maladies du cœur, des valves, des gros vaisseaux et des poumons, après avis d'une équipe spécialisée.",
+  "en": "Cardiothoracic surgery treats certain diseases of the heart, valves, great vessels and lungs surgically, after specialist team assessment.",
+  "source": {
+   "url": "https://www.nhsinform.scot/tests-and-treatments/surgical-procedures/heart-surgery/",
+   "title": "NHS Inform · Heart surgery"
+  },
+  "video": {
+   "id": "jHZkeezzBSw",
+   "title": "Thoracic Surgery Patient Education | Your Stay After Surgery",
+   "publisher": "Johns Hopkins Medicine"
+  }
+ },
+ "clinical_genetics": {
+  "fr": "La génétique médicale évalue les maladies héréditaires, interprète les tests génétiques et accompagne les familles dans leurs décisions.",
+  "en": "Clinical genetics assesses inherited conditions, interprets genetic tests and supports families with their decisions.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/genetic-and-genomic-testing/",
+   "title": "NHS · Genetic and genomic testing"
+  },
+  "video": {
+   "id": "jOC7mnrbh7w",
+   "title": "Diagnostic Genetic Testing: What to expect",
+   "publisher": "Imperial College Healthcare NHS Trust"
+  }
+ },
+ "clinical_pharmacology": {
+  "fr": "La pharmacologie clinique optimise l'usage des médicaments : interactions, effets indésirables, traitements multiples et ajustements personnalisés.",
+  "en": "Clinical pharmacology optimises medicine use: interactions, side effects, multiple treatments and personalised adjustments.",
+  "source": {
+   "url": "https://www.stgeorges.nhs.uk/service/clinical-pharmacology/polypharmacy-service/patients/",
+   "title": "St George's · Polypharmacy service"
+  },
+  "video": null
+ },
+ "dentistry": {
+  "fr": "Le chirurgien-dentiste prévient et soigne les caries, les infections, les douleurs dentaires et assure le suivi régulier de la santé bucco-dentaire.",
+  "en": "The dentist prevents and treats decay, infections and tooth pain and provides regular oral health check-ups.",
+  "source": {
+   "url": "https://www.healthdirect.gov.au/guide-to-dental-procedures",
+   "title": "Healthdirect · Guide to dental procedures"
+  },
+  "video": null
+ },
+ "dermatology": {
+  "fr": "Le dermatologue examine la peau, les cheveux et les ongles : eczéma, acné, psoriasis, grains de beauté, dépistage des cancers cutanés.",
+  "en": "The dermatologist examines skin, hair and nails: eczema, acne, psoriasis, moles and skin cancer screening.",
+  "source": {
+   "url": "https://www.bad.org.uk/patient-information-leaflets",
+   "title": "British Association of Dermatologists · Patient leaflets"
+  },
+  "video": null
+ },
+ "emergency_medicine": {
+  "fr": "La médecine d'urgence prend en charge les situations aiguës. En cas d'urgence vitale, appelez immédiatement les secours de votre pays : Careline n'organise pas les urgences.",
+  "en": "Emergency medicine treats acute situations. In a life-threatening emergency call your local emergency number immediately: Careline does not handle emergencies.",
+  "source": {
+   "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-go-to-ae/",
+   "title": "NHS · When to go to A&E"
+  },
+  "video": null
+ },
+ "endocrinology": {
+  "fr": "L'endocrinologue suit les maladies hormonales et métaboliques : diabète, thyroïde, surrénales, hypophyse, troubles de la croissance.",
+  "en": "The endocrinologist manages hormonal and metabolic conditions: diabetes, thyroid, adrenal, pituitary and growth disorders.",
+  "source": {
+   "url": "https://patient.info/hormones",
+   "title": "Patient.info · Hormones"
+  },
+  "video": null
+ },
+ "endodontics": {
+  "fr": "L'endodontie traite l'intérieur de la dent (pulpe et racines), notamment par traitement de canal, pour conserver une dent infectée ou abîmée.",
+  "en": "Endodontics treats the inside of the tooth (pulp and roots), notably with root canal treatment, to save an infected or damaged tooth.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/root-canal-treatment/",
+   "title": "NHS · Root canal treatment"
+  },
+  "video": null
+ },
+ "epidemiology": {
+  "fr": "L'épidémiologie étudie la fréquence et les causes des maladies dans les populations. Elle oriente surtout les politiques de santé et les programmes de prévention.",
+  "en": "Epidemiology studies how often diseases occur in populations and why. It mainly informs health policy and prevention programmes.",
+  "source": {
+   "url": "https://www.cdc.gov/training-publichealth101/php/training/introduction-to-epidemiology.html",
+   "title": "CDC · Introduction to epidemiology"
+  },
+  "video": null
+ },
+ "forensic_medicine": {
+  "fr": "La médecine légale constate et documente des blessures ou des causes de décès dans un cadre judiciaire, à la demande des autorités ou des victimes.",
+  "en": "Forensic medicine records and documents injuries or causes of death in a legal context, at the request of authorities or victims.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/post-mortem/",
+   "title": "NHS · Post-mortem"
+  },
+  "video": null
+ },
+ "gastroenterology": {
+  "fr": "Le gastro-entérologue prend en charge l'appareil digestif et le foie : reflux, douleurs abdominales, troubles du transit, coloscopie de dépistage.",
+  "en": "The gastroenterologist treats the digestive system and liver: reflux, abdominal pain, bowel problems and screening colonoscopy.",
+  "source": {
+   "url": "https://www.nhsinform.scot/tests-and-treatments/non-surgical-procedures/colonoscopy/",
+   "title": "NHS Inform · Colonoscopy"
+  },
+  "video": null
+ },
+ "geriatrics": {
+  "fr": "Le gériatre accompagne les personnes âgées dans leur globalité : autonomie, mémoire, chutes, traitements multiples et maintien à domicile.",
+  "en": "The geriatrician supports older people as a whole: independence, memory, falls, multiple medicines and living at home.",
+  "source": {
+   "url": "https://www.healthinaging.org/",
+   "title": "Health in Aging Foundation"
+  },
+  "video": null
+ },
+ "hematology": {
+  "fr": "L'hématologue étudie le sang et la moelle osseuse : anémies, troubles de la coagulation, maladies des globules et cancers du sang.",
+  "en": "The haematologist studies blood and bone marrow: anaemia, clotting disorders, blood cell diseases and blood cancers.",
+  "source": {
+   "url": "https://rmpartners.nhs.uk/the-cancer-vanguard-driving-innovation-in-cancer-care/our-work/patient-information-films-blood-diseases/",
+   "title": "RM Partners NHS · Blood disease patient films"
+  },
+  "video": null
+ },
+ "infectious_disease": {
+  "fr": "L'infectiologue prend en charge les infections complexes ou persistantes, les maladies transmissibles et conseille sur la prévention et la vaccination.",
+  "en": "The infectious disease specialist treats complex or persistent infections and communicable diseases and advises on prevention and vaccination.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/tuberculosis-tb/",
+   "title": "NHS · Tuberculosis"
+  },
+  "video": null
+ },
+ "intensive_care": {
+  "fr": "La réanimation surveille et soutient les fonctions vitales des patients gravement malades, dans des unités hospitalières spécialisées.",
+  "en": "Intensive care monitors and supports the vital functions of critically ill patients in specialised hospital units.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/intensive-care/",
+   "title": "NHS · Intensive care"
+  },
+  "video": null
+ },
+ "laboratory_medicine": {
+  "fr": "La médecine de laboratoire réalise et interprète les analyses de sang, d'urine et d'autres prélèvements qui aident au diagnostic et au suivi.",
+  "en": "Laboratory medicine performs and interprets blood, urine and other sample tests that support diagnosis and monitoring.",
+  "source": {
+   "url": "https://labtestsonline.org.uk/",
+   "title": "Lab Tests Online UK"
+  },
+  "video": {
+   "id": "gFMg2BO-eqE",
+   "title": "Tests to check kidney function",
+   "publisher": "Leicester's Hospitals"
+  }
+ },
+ "maxillofacial_surgery": {
+  "fr": "La chirurgie maxillo-faciale traite le visage, les mâchoires et la bouche : traumatismes, malformations, kystes, chirurgie orthognathique.",
+  "en": "Maxillofacial surgery treats the face, jaws and mouth: injuries, deformities, cysts and corrective jaw surgery.",
+  "source": {
+   "url": "https://www.baoms.org.uk/patients/",
+   "title": "BAOMS · Patient information"
+  },
+  "video": null
+ },
+ "midwifery": {
+  "fr": "La sage-femme suit la grossesse, prépare à la naissance, accompagne l'accouchement et le post-partum, et assure aussi un suivi gynécologique de prévention.",
+  "en": "The midwife follows pregnancy, prepares for birth, supports delivery and the postnatal period, and provides preventive gynaecological follow-up.",
+  "source": {
+   "url": "https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/",
+   "title": "NHS · Antenatal care"
+  },
+  "video": null
+ },
+ "nutrition_dietetics": {
+  "fr": "Le diététicien-nutritionniste construit avec vous une alimentation adaptée à votre santé : poids, diabète, troubles digestifs, allergies, sport.",
+  "en": "The dietitian builds with you a diet suited to your health: weight, diabetes, digestive disorders, allergies and sport.",
+  "source": {
+   "url": "https://www.bda.uk.com/food-health/food-facts.html",
+   "title": "British Dietetic Association · Food facts"
+  },
+  "video": null
+ },
+ "nephrology": {
+  "fr": "Le néphrologue prend en charge les maladies des reins : insuffisance rénale, hypertension liée aux reins, dialyse et préparation à la greffe.",
+  "en": "The nephrologist treats kidney diseases: kidney failure, kidney-related hypertension, dialysis and transplant preparation.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/kidney-disease/",
+   "title": "NHS · Chronic kidney disease"
+  },
+  "video": {
+   "id": "uTfa9Tia1A4",
+   "title": "What is Chronic Kidney Disease (CKD)",
+   "publisher": "Leicester's Hospitals"
+  }
+ },
+ "neurology": {
+  "fr": "Le neurologue diagnostique les maladies du cerveau, de la moelle et des nerfs : migraines, épilepsie, AVC, sclérose en plaques, Parkinson.",
+  "en": "The neurologist diagnoses diseases of the brain, spinal cord and nerves: migraine, epilepsy, stroke, multiple sclerosis and Parkinson's.",
+  "source": {
+   "url": "https://www.sth.nhs.uk/patients-visitor-information/patient-information-leaflets/view-all-by-specialty/?i=Neurology",
+   "title": "Sheffield Teaching Hospitals · Neurology leaflets"
+  },
+  "video": null
+ },
+ "neuropsychology": {
+  "fr": "Le neuropsychologue évalue la mémoire, l'attention, le langage et les fonctions exécutives, et propose une remédiation cognitive.",
+  "en": "The neuropsychologist assesses memory, attention, language and executive functions and offers cognitive rehabilitation.",
+  "source": {
+   "url": "https://www.nbt.nhs.uk/our-services/a-z-services/neuropsychology/neuropsychological-assessment",
+   "title": "North Bristol NHS · Neuropsychological assessment"
+  },
+  "video": null
+ },
+ "neurosurgery": {
+  "fr": "Le neurochirurgien opère le cerveau, la colonne vertébrale et les nerfs : hernies discales, tumeurs, traumatismes, malformations.",
+  "en": "The neurosurgeon operates on the brain, spine and nerves: herniated discs, tumours, injuries and malformations.",
+  "source": {
+   "url": "https://www.aans.org/patients/",
+   "title": "AANS · Patient information"
+  },
+  "video": null
+ },
+ "nuclear_medicine": {
+  "fr": "La médecine nucléaire utilise de faibles doses de produits radioactifs pour l'imagerie (scintigraphie, TEP) et certains traitements.",
+  "en": "Nuclear medicine uses small amounts of radioactive tracers for imaging (scintigraphy, PET) and some treatments.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/pet-scan/",
+   "title": "NHS · PET scan"
+  },
+  "video": null
+ },
+ "nursing": {
+  "fr": "Les infirmiers réalisent les soins prescrits, les pansements, les injections, l'éducation thérapeutique et le suivi à domicile ou en cabinet.",
+  "en": "Nurses deliver prescribed care, dressings, injections, patient education and follow-up at home or in clinic.",
+  "source": {
+   "url": "https://www.esht.nhs.uk/service/district-nursing/",
+   "title": "East Sussex NHS · District nursing"
+  },
+  "video": null
+ },
+ "occupational_health": {
+  "fr": "La médecine du travail protège la santé des salariés : aptitude au poste, prévention des risques professionnels, reprise après arrêt.",
+  "en": "Occupational health protects workers' health: fitness for work, prevention of workplace risks and return to work.",
+  "source": {
+   "url": "https://www.som.org.uk/sites/som.org.uk/files/Occupational_health_A_guide_for_workers_and_their_representatives.pdf",
+   "title": "Society of Occupational Medicine · Guide for workers"
+  },
+  "video": null
+ },
+ "occupational_therapy": {
+  "fr": "L'ergothérapeute aide à retrouver l'autonomie dans les gestes du quotidien grâce à des exercices, des aides techniques et l'adaptation du domicile.",
+  "en": "The occupational therapist helps regain independence in daily activities through exercises, equipment and home adaptations.",
+  "source": {
+   "url": "https://www.rcot.co.uk/learn-about-occupational-therapy",
+   "title": "Royal College of Occupational Therapists"
+  },
+  "video": null
+ },
+ "oncology": {
+  "fr": "L'oncologue diagnostique et traite les cancers en équipe pluridisciplinaire : chimiothérapie, immunothérapie, radiothérapie, suivi.",
+  "en": "The oncologist diagnoses and treats cancer within a multidisciplinary team: chemotherapy, immunotherapy, radiotherapy and follow-up.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/cancer/",
+   "title": "NHS · Cancer"
+  },
+  "video": {
+   "id": "hkYOYR9QIeI",
+   "title": "Chemotherapy",
+   "publisher": "Bristol NHS Foundation Trust"
+  }
+ },
+ "ophthalmology": {
+  "fr": "L'ophtalmologiste soigne les yeux : examens de la vue, cataracte, glaucome, rétine, et chirurgie réfractive au laser.",
+  "en": "The ophthalmologist treats the eyes: eye exams, cataract, glaucoma, retina and laser refractive surgery.",
+  "source": {
+   "url": "https://www.aao.org/eye-health",
+   "title": "American Academy of Ophthalmology · Eye health"
+  },
+  "video": {
+   "id": "dDWNZQ-u3Y4",
+   "title": "Patient information video explaining cataract surgery",
+   "publisher": "Moorfields Eye Hospital NHS Foundation Trust"
+  }
+ },
+ "optometry": {
+  "fr": "L'optométriste mesure la vue, adapte lunettes et lentilles et repère des signes nécessitant l'avis d'un ophtalmologiste.",
+  "en": "The optometrist measures vision, fits glasses and lenses and detects signs requiring an ophthalmologist's opinion.",
+  "source": {
+   "url": "https://www.nhs.uk/nhs-services/opticians/visiting-an-optician/",
+   "title": "NHS · Visiting an optician"
+  },
+  "video": null
+ },
+ "oral_surgery": {
+  "fr": "La chirurgie orale réalise les extractions complexes, dents de sagesse, implants et traitements des lésions de la bouche.",
+  "en": "Oral surgery performs complex extractions, wisdom teeth, implants and treatment of mouth lesions.",
+  "source": {
+   "url": "https://www.baoms.org.uk/patients/",
+   "title": "BAOMS · Patient information"
+  },
+  "video": null
+ },
+ "orthopedics": {
+  "fr": "L'orthopédiste traite les os, articulations, muscles et tendons : arthrose, fractures, prothèses de hanche ou de genou, lésions sportives.",
+  "en": "The orthopaedic surgeon treats bones, joints, muscles and tendons: arthritis, fractures, hip or knee replacements and sports injuries.",
+  "source": {
+   "url": "https://www.orthoinfo.org/",
+   "title": "AAOS · OrthoInfo"
+  },
+  "video": null
+ },
+ "orthodontics": {
+  "fr": "L'orthodontiste corrige la position des dents et des mâchoires, chez l'enfant comme chez l'adulte, avec appareils ou aligneurs.",
+  "en": "The orthodontist corrects the position of teeth and jaws in children and adults with braces or aligners.",
+  "source": {
+   "url": "https://bos.org.uk/patients/",
+   "title": "British Orthodontic Society · Patients"
+  },
+  "video": null
+ },
+ "otolaryngology": {
+  "fr": "L'ORL prend en charge l'oreille, le nez, la gorge et le cou : otites, sinusites, troubles de l'audition, de la voix et du sommeil.",
+  "en": "The ENT specialist treats the ear, nose, throat and neck: ear infections, sinusitis, hearing, voice and sleep problems.",
+  "source": {
+   "url": "https://www.entuk.org/patients/conditions",
+   "title": "ENT UK · Conditions"
+  },
+  "video": null
+ },
+ "palliative_care": {
+  "fr": "Les soins palliatifs soulagent la douleur et les symptômes d'une maladie grave et soutiennent le patient et ses proches, à tout stade.",
+  "en": "Palliative care relieves pain and symptoms of serious illness and supports patients and families at any stage.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/end-of-life-care/what-it-involves-and-when-it-starts/",
+   "title": "NHS · Palliative and end of life care"
+  },
+  "video": null
+ },
+ "pathology": {
+  "fr": "L'anatomopathologiste analyse au microscope les tissus et cellules prélevés pour confirmer un diagnostic, notamment de cancer.",
+  "en": "The pathologist examines tissue and cell samples under the microscope to confirm a diagnosis, notably cancer.",
+  "source": {
+   "url": "https://labtestsonline.org.uk/",
+   "title": "Lab Tests Online UK"
+  },
+  "video": null
+ },
+ "pediatrics": {
+  "fr": "Le pédiatre suit la santé et le développement de l'enfant, de la naissance à l'adolescence : vaccins, croissance, maladies courantes.",
+  "en": "The paediatrician follows children's health and development from birth to adolescence: vaccines, growth and common illnesses.",
+  "source": {
+   "url": "https://www.healthychildren.org/English/Pages/default.aspx",
+   "title": "American Academy of Pediatrics · HealthyChildren"
+  },
+  "video": null
+ },
+ "neonatology": {
+  "fr": "La néonatologie prend soin des nouveau-nés prématurés ou malades, en lien étroit avec les parents.",
+  "en": "Neonatology cares for premature or ill newborns, in close partnership with parents.",
+  "source": {
+   "url": "https://www.nhs.uk/pregnancy/labour-and-birth/special-care-ill-or-premature-babies/",
+   "title": "NHS · Special care for babies"
+  },
+  "video": null
+ },
+ "pediatric_surgery": {
+  "fr": "Le chirurgien pédiatre opère les enfants et nouveau-nés, avec un accompagnement adapté pour l'enfant et sa famille.",
+  "en": "The paediatric surgeon operates on children and newborns, with support suited to the child and family.",
+  "source": {
+   "url": "https://library.sheffieldchildrens.nhs.uk/welcome-to-the-neonatal-surgical-unit/",
+   "title": "Sheffield Children's NHS · Neonatal surgery"
+  },
+  "video": null
+ },
+ "periodontics": {
+  "fr": "La parodontologie soigne les gencives et les tissus qui soutiennent les dents : gingivite, parodontite, déchaussement.",
+  "en": "Periodontics treats gums and the tissues supporting the teeth: gingivitis, periodontitis and gum recession.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/gum-disease/",
+   "title": "NHS · Gum disease"
+  },
+  "video": null
+ },
+ "pharmacy": {
+  "fr": "Le pharmacien délivre les médicaments, conseille sur leur bon usage, vérifie les interactions et peut assurer certains suivis.",
+  "en": "The pharmacist dispenses medicines, advises on correct use, checks interactions and may provide some follow-up services.",
+  "source": {
+   "url": "https://www.nhs.uk/nhs-services/pharmacies/",
+   "title": "NHS · Pharmacies"
+  },
+  "video": null
+ },
+ "physical_rehabilitation": {
+  "fr": "La médecine physique et de réadaptation coordonne la récupération après un accident, un AVC, une chirurgie ou face à un handicap.",
+  "en": "Physical and rehabilitation medicine coordinates recovery after injury, stroke or surgery and in disability.",
+  "source": {
+   "url": "https://www.aapmr.org/about-physiatry/about-physical-medicine-rehabilitation",
+   "title": "AAPM&R · About PM&R"
+  },
+  "video": null
+ },
+ "physiotherapy": {
+  "fr": "Le kinésithérapeute rééduque par le mouvement et l'exercice : douleurs de dos, entorses, suites opératoires, troubles respiratoires.",
+  "en": "The physiotherapist rehabilitates through movement and exercise: back pain, sprains, post-surgery recovery and breathing problems.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/physiotherapy/",
+   "title": "NHS · Physiotherapy"
+  },
+  "video": {
+   "id": "nkfGekREHeE",
+   "title": "What is a first contact physiotherapist?",
+   "publisher": "NHS England – East of England"
+  }
+ },
+ "plastic_surgery": {
+  "fr": "La chirurgie plastique répare et reconstruit les tissus après un traumatisme, une brûlure, un cancer ou une malformation, et inclut l'esthétique.",
+  "en": "Plastic surgery repairs and reconstructs tissue after injury, burns, cancer or malformation, and includes aesthetic surgery.",
+  "source": {
+   "url": "https://www.bapras.org.uk/public/patient-information",
+   "title": "BAPRAS · Patient information"
+  },
+  "video": null
+ },
+ "podiatry": {
+  "fr": "Le podologue soigne les pieds : ongles, cors, douleurs, semelles orthopédiques et prévention chez les personnes diabétiques.",
+  "en": "The podiatrist treats feet: nails, corns, pain, orthotic insoles and prevention for people with diabetes.",
+  "source": {
+   "url": "https://www.esht.nhs.uk/service/podiatry/patient-information-leaflets/",
+   "title": "East Sussex NHS · Podiatry leaflets"
+  },
+  "video": null
+ },
+ "pain_medicine": {
+  "fr": "La médecine de la douleur évalue et traite les douleurs chroniques par une approche globale : traitements, techniques et accompagnement.",
+  "en": "Pain medicine assesses and treats chronic pain with a whole-person approach: medicines, procedures and support.",
+  "source": {
+   "url": "https://www.leedsth.nhs.uk/services/pain-management/patient-information-videos/",
+   "title": "Leeds Teaching Hospitals · Pain management"
+  },
+  "video": {
+   "id": "RpipxPa3baE",
+   "title": "Persistent pain - Patient Information Video",
+   "publisher": "Somerset NHS Foundation Trust"
+  }
+ },
+ "preventive_medicine": {
+  "fr": "La médecine préventive aide à rester en bonne santé : bilans, dépistages, vaccinations et conseils d'hygiène de vie.",
+  "en": "Preventive medicine helps you stay healthy: check-ups, screening, vaccinations and lifestyle advice.",
+  "source": {
+   "url": "https://www.nhs.uk/vaccinations/",
+   "title": "NHS · Vaccinations"
+  },
+  "video": null
+ },
+ "psychology": {
+  "fr": "Le psychologue accompagne les difficultés émotionnelles, relationnelles ou de stress par l'écoute, l'évaluation et des approches thérapeutiques.",
+  "en": "The psychologist supports emotional, relationship or stress difficulties through listening, assessment and therapeutic approaches.",
+  "source": {
+   "url": "https://www.nhs.uk/tests-and-treatments/cognitive-behavioural-therapy-cbt/",
+   "title": "NHS · CBT"
+  },
+  "video": null
+ },
+ "psychotherapy": {
+  "fr": "La psychothérapie propose un travail régulier de parole pour comprendre et faire évoluer des souffrances psychiques durables.",
+  "en": "Psychotherapy offers regular talking sessions to understand and change long-standing psychological distress.",
+  "source": {
+   "url": "https://www.nhs.uk/mental-health/mental-health-treatments/",
+   "title": "NHS · Mental health treatments"
+  },
+  "video": null
+ },
+ "psychiatry": {
+  "fr": "Le psychiatre, médecin, diagnostique et traite les troubles psychiques : dépression, anxiété, troubles bipolaires, et peut prescrire.",
+  "en": "The psychiatrist is a doctor who diagnoses and treats mental disorders such as depression, anxiety and bipolar disorder, and can prescribe.",
+  "source": {
+   "url": "https://www.rcpsych.ac.uk/mental-health",
+   "title": "Royal College of Psychiatrists · Mental health"
+  },
+  "video": null
+ },
+ "radiology": {
+  "fr": "Le radiologue réalise et interprète les examens d'imagerie : radiographie, échographie, scanner, IRM, mammographie.",
+  "en": "The radiologist performs and interprets imaging: X-ray, ultrasound, CT, MRI and mammography.",
+  "source": {
+   "url": "https://www.radiologyinfo.org/",
+   "title": "RadiologyInfo · ACR/RSNA"
+  },
+  "video": {
+   "id": "6s7Xsz9y2ck",
+   "title": "NHS Radiology Patient Film",
+   "publisher": "Maidstone and Tunbridge Wells NHS Trust"
+  }
+ },
+ "reproductive_medicine": {
+  "fr": "La médecine de la reproduction accompagne les difficultés à concevoir : bilans de fertilité, stimulation, insémination, FIV.",
+  "en": "Reproductive medicine supports difficulty conceiving: fertility tests, stimulation, insemination and IVF.",
+  "source": {
+   "url": "https://www.hfea.gov.uk/treatments/",
+   "title": "HFEA · Fertility treatments"
+  },
+  "video": null
+ },
+ "rheumatology": {
+  "fr": "Le rhumatologue traite les maladies des articulations, des os et les maladies inflammatoires : arthrose, polyarthrite, ostéoporose, goutte.",
+  "en": "The rheumatologist treats joint, bone and inflammatory diseases: osteoarthritis, rheumatoid arthritis, osteoporosis and gout.",
+  "source": {
+   "url": "https://rheumatology.org/patients",
+   "title": "American College of Rheumatology · Patients"
+  },
+  "video": null
+ },
+ "sleep_medicine": {
+  "fr": "La médecine du sommeil explore insomnie, apnées, somnolence et troubles du rythme, souvent avec un enregistrement du sommeil.",
+  "en": "Sleep medicine investigates insomnia, sleep apnoea, sleepiness and rhythm disorders, often with a sleep study.",
+  "source": {
+   "url": "https://sleepeducation.org/",
+   "title": "AASM · Sleep Education"
+  },
+  "video": null
+ },
+ "speech_therapy": {
+  "fr": "L'orthophoniste rééduque le langage, la parole, la voix, la déglutition et les apprentissages, chez l'enfant et l'adulte.",
+  "en": "The speech and language therapist treats language, speech, voice, swallowing and learning difficulties in children and adults.",
+  "source": {
+   "url": "https://www.rcslt.org/speech-and-language-therapy/",
+   "title": "RCSLT · Speech and language therapy"
+  },
+  "video": {
+   "id": "gmvONBMJUNQ",
+   "title": "FEES demonstration | Fibreoptic Endoscopic Evaluation of Swallowing",
+   "publisher": "Royal Papworth Hospital NHS Foundation Trust"
+  }
+ },
+ "sports_medicine": {
+  "fr": "La médecine du sport accompagne la pratique sportive : aptitude, prévention et traitement des blessures, reprise après lésion.",
+  "en": "Sports medicine supports physical activity: fitness assessment, injury prevention and treatment, and return to sport.",
+  "source": {
+   "url": "https://www.sportsmedtoday.com/",
+   "title": "AMSSM · Sports Med Today"
+  },
+  "video": null
+ },
+ "thoracic_surgery": {
+  "fr": "La chirurgie thoracique opère les poumons, la plèvre, l'œsophage et la paroi du thorax, avec un parcours de récupération accéléré.",
+  "en": "Thoracic surgery operates on the lungs, pleura, oesophagus and chest wall, with an enhanced recovery pathway.",
+  "source": {
+   "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/thoracic-surgery-enhanced-recovery-patient-diary",
+   "title": "UCLH · Thoracic surgery recovery"
+  },
+  "video": {
+   "id": "jHZkeezzBSw",
+   "title": "Thoracic Surgery Patient Education | Your Stay After Surgery",
+   "publisher": "Johns Hopkins Medicine"
+  }
+ },
+ "toxicology": {
+  "fr": "La toxicologie évalue les intoxications par médicaments, produits chimiques ou plantes. En cas d'intoxication, contactez immédiatement un centre antipoison.",
+  "en": "Toxicology assesses poisoning by medicines, chemicals or plants. If poisoning is suspected, contact a poison centre immediately.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/poisoning/",
+   "title": "NHS · Poisoning"
+  },
+  "video": null
+ },
+ "transplant_medicine": {
+  "fr": "La transplantation prépare, réalise et suit la greffe d'organes comme le rein, le foie ou le cœur, avec un suivi immunologique à long terme.",
+  "en": "Transplant medicine prepares, performs and follows organ transplants such as kidney, liver or heart, with long-term immune follow-up.",
+  "source": {
+   "url": "https://www.nhsbt.nhs.uk/organ-transplantation/",
+   "title": "NHS Blood and Transplant"
+  },
+  "video": {
+   "id": "sMFPmkTJ6gs",
+   "title": "What is a kidney transplant",
+   "publisher": "Leicester's Hospitals"
+  }
+ },
+ "traumatology": {
+  "fr": "La traumatologie prend en charge les blessures des os, articulations et tissus : fractures, entorses, luxations, puis la rééducation.",
+  "en": "Traumatology treats injuries to bones, joints and tissues: fractures, sprains, dislocations, followed by rehabilitation.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/broken-leg/",
+   "title": "NHS · Broken leg"
+  },
+  "video": null
+ },
+ "tropical_medicine": {
+  "fr": "La médecine tropicale conseille avant un voyage et prend en charge les infections contractées en zone tropicale, comme le paludisme.",
+  "en": "Tropical medicine advises before travel and treats infections acquired in tropical areas, such as malaria.",
+  "source": {
+   "url": "https://www.nhs.uk/conditions/malaria/",
+   "title": "NHS · Malaria"
+  },
+  "video": null
+ },
+ "urology": {
+  "fr": "L'urologue traite les reins, la vessie, la prostate et l'appareil génital masculin : calculs, troubles urinaires, dépistage.",
+  "en": "The urologist treats the kidneys, bladder, prostate and male reproductive organs: stones, urinary problems and screening.",
+  "source": {
+   "url": "https://www.baus.org.uk/patients/",
+   "title": "BAUS · Patient information"
+  },
+  "video": null
+ },
+ "vascular_surgery": {
+  "fr": "La chirurgie vasculaire traite les artères et les veines : artérite des jambes, anévrismes, carotides, varices.",
+  "en": "Vascular surgery treats arteries and veins: leg artery disease, aneurysms, carotid disease and varicose veins.",
+  "source": {
+   "url": "https://vascular.org/patients-and-referring-physicians",
+   "title": "Society for Vascular Surgery · Patients"
+  },
+  "video": null
+ },
+ "public_health": {
+  "fr": "La santé publique protège la santé des populations : prévention, vaccination, dépistage organisé et éducation à la santé.",
+  "en": "Public health protects population health: prevention, vaccination, organised screening and health education.",
+  "source": {
+   "url": "https://www.nhs.uk/vaccinations/",
+   "title": "NHS · Vaccinations"
+  },
+  "video": null
+ }
+}
