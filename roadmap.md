@@ -65,3 +65,6 @@
 
 ## Données structurées JSON-LD (étape suivante)
 - [ ] Organization/WebSite, BreadcrumbList, MedicalWebPage, MedicalProcedure, MedicalCondition, Service, FAQPage — liste des fichiers et points ambigus à présenter avant de coder
+
+## Page pilier et landing pages (prompt 5)
+- [ ] Lire, lister fichiers et points ambigus avant de coder
