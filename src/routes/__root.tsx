@@ -89,6 +89,7 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+  staticData: { sitemap: false },
   head: () => ({
     meta: [
       { charSet: "utf-8" },
@@ -97,6 +98,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Careline" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      // Search Console / Bing ownership verification — replace the placeholders with the real codes.
+      { name: "google-site-verification", content: "{À CONFIRMER}" },
+      { name: "msvalidate.01", content: "{À CONFIRMER}" },
+    ],
+    scripts: [
+      {
+        type: "text/javascript",
+        children: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",functionality_storage:"denied",security_storage:"granted",wait_for_update:500});`,
+      },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
