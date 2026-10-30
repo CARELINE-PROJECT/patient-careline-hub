@@ -1,6 +1,7 @@
-import { Link } from "@tanstack/react-router";
+
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 
 /**
  * Primary actions placed inside a page hero so the main action stays
@@ -11,20 +12,20 @@ export function HeroActions({ secondary = true }: { secondary?: boolean }) {
 
   return (
     <div className="mt-5 flex flex-wrap gap-3">
-      <Link
+      <LocalizedLink
         to="/request"
         className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
       >
         {t("cta.button")}
         <ArrowRight className="size-4" aria-hidden="true" />
-      </Link>
+      </LocalizedLink>
       {secondary ? (
-        <Link
+        <LocalizedLink
           to="/contact"
           className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3.5 text-sm font-medium text-branddeep transition-colors hover:bg-secondary"
         >
           {t("nav.contact")}
-        </Link>
+        </LocalizedLink>
       ) : null}
     </div>
   );

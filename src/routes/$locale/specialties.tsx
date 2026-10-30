@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, } from "@tanstack/react-router";
 import { ArrowRight, Search } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { specialtyLabels, specialtyUi } from "@/i18n/specialties";
 import { specialtyPageCopy, specialtyPageHead } from "@/i18n/specialtyPages";
 import { filterSpecialties, specialtyImage } from "@/config/specialtyDirectory";
@@ -26,7 +27,7 @@ function Specialties() {
           <div className="flex flex-col justify-center p-5 md:pe-8">
             <h2 className="font-display text-2xl text-branddeep">{c.eyeTitle}</h2>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{c.lead}</p>
-            <Button asChild className="mt-4 w-fit"><Link to="/specialties/laser-des-yeux">{c.guide}<ArrowRight aria-hidden="true" /></Link></Button>
+            <Button asChild className="mt-4 w-fit"><LocalizedLink to="/specialties/laser-des-yeux">{c.guide}<ArrowRight aria-hidden="true" /></LocalizedLink></Button>
           </div>
         </div>
       </div>
@@ -44,7 +45,7 @@ function Specialties() {
             <div className="p-4">
               <h2 className="min-h-12 font-display text-lg leading-snug text-branddeep">{labels[id]}</h2>
               <Button asChild variant="link" className="mt-1 h-auto justify-start whitespace-normal px-0 text-start">
-                {id === "ophthalmology" ? <Link to="/specialties/laser-des-yeux">{c.guide}<ArrowRight aria-hidden="true" /></Link> : <Link to="/request">{t("cta.button")}<ArrowRight aria-hidden="true" /></Link>}
+                {id === "ophthalmology" ? <LocalizedLink to="/specialties/laser-des-yeux">{c.guide}<ArrowRight aria-hidden="true" /></LocalizedLink> : <LocalizedLink to="/request">{t("cta.button")}<ArrowRight aria-hidden="true" /></LocalizedLink>}
               </Button>
             </div>
           </article>)}

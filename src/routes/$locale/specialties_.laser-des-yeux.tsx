@@ -1,6 +1,7 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, ShieldCheck, TriangleAlert } from "lucide-react";
 import { useI18n } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { specialtyPageCopy, specialtyPageHead } from "@/i18n/specialtyPages";
 import { eyeLaserContent, eyeLaserSources, eyeLaserVideos } from "@/content/eyeLaser";
 import { PatientVideo } from "@/components/site/PatientVideo";
@@ -16,14 +17,14 @@ function EyeLaser() {
   return <>
     <section className="border-b border-border bg-secondary/40 px-5 py-7 sm:px-8">
       <div className="mx-auto max-w-6xl">
-        <Button asChild variant="link" className="h-auto px-0"><Link to="/specialties"><ArrowLeft aria-hidden="true" />{c.directory}</Link></Button>
+        <Button asChild variant="link" className="h-auto px-0"><LocalizedLink to="/specialties"><ArrowLeft aria-hidden="true" />{c.directory}</LocalizedLink></Button>
         <div className="mt-3 grid items-center gap-6 md:grid-cols-[1.25fr_1fr]">
           <div>
             <h1 className="font-display text-3xl leading-tight text-branddeep sm:text-4xl">{c.eyeTitle}</h1>
             <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">{f.intro}</p>
             <div className="mt-4 flex flex-wrap gap-3">
-              <Button asChild><Link to="/request">{t("cta.button")}<ArrowRight aria-hidden="true" /></Link></Button>
-              <Button asChild variant="outline"><Link to="/contact">{t("nav.contact")}</Link></Button>
+              <Button asChild><LocalizedLink to="/request">{t("cta.button")}<ArrowRight aria-hidden="true" /></LocalizedLink></Button>
+              <Button asChild variant="outline"><LocalizedLink to="/contact">{t("nav.contact")}</LocalizedLink></Button>
             </div>
           </div>
           <img src={eye} alt={c.eyeTitle} width={1408} height={896} loading="lazy" className="h-44 w-full rounded-lg object-cover md:h-56" />
@@ -68,7 +69,7 @@ function EyeLaser() {
           <h2 className="font-display text-lg text-branddeep">{f.sources}</h2>
           <ul className="mt-3 space-y-2 text-xs text-brand">{eyeLaserSources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">{source.title}</a></li>)}</ul>
           <p className="mt-4 text-xs leading-relaxed text-muted-foreground">{f.date}</p>
-          <Button asChild className="mt-5"><Link to="/request">{t("cta.button")}<ArrowRight aria-hidden="true" /></Link></Button>
+          <Button asChild className="mt-5"><LocalizedLink to="/request">{t("cta.button")}<ArrowRight aria-hidden="true" /></LocalizedLink></Button>
         </section>
       </div>
     </div>

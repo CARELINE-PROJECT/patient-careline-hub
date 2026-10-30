@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, } from "@tanstack/react-router";
 import {
   ArrowRight,
   Building2,
@@ -20,6 +20,7 @@ import doctorGreeting from "@/assets/doctor-greeting.jpg";
 import coordinator from "@/assets/team-coordinator.jpg";
 import teamOffice from "@/assets/team-office.jpg";
 import { useI18n } from "@/i18n";
+import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { staticRouteHead } from "@/i18n/head";
 import {
   AuroraBackdrop,
@@ -95,19 +96,19 @@ function Home() {
               {t("hero.subtitle")}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link
+              <LocalizedLink
                 to="/request"
                 className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
               >
                 {t("nav.request")}
                 <ArrowRight className="size-4" aria-hidden="true" />
-              </Link>
-              <Link
+              </LocalizedLink>
+              <LocalizedLink
                 to="/how-it-works"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-6 py-3.5 text-sm font-medium text-branddeep transition-colors hover:bg-secondary"
               >
                 {t("nav.discover")}
-              </Link>
+              </LocalizedLink>
             </div>
             <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-3 text-sm text-muted-foreground">
               {[
@@ -259,13 +260,13 @@ function Home() {
                 description={t(`security.s${n}d`)}
               />
             ))}
-            <Link
+            <LocalizedLink
               to="/security"
               className="inline-flex items-center gap-2 text-sm font-medium text-aqua underline underline-offset-4"
             >
               {t("nav.security")}
               <ArrowRight className="size-4" aria-hidden="true" />
-            </Link>
+            </LocalizedLink>
           </div>
         </div>
       </Section>
@@ -305,13 +306,13 @@ function Home() {
                 {card.title}
               </h2>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{card.lead}</p>
-              <Link
+              <LocalizedLink
                 to={card.to}
                 className="mt-6 inline-flex items-center gap-2 rounded-full border border-brand px-5 py-2.5 text-sm font-medium text-brand transition-colors hover:bg-secondary"
               >
                 {card.cta}
                 <ArrowRight className="size-4" aria-hidden="true" />
-              </Link>
+              </LocalizedLink>
             </Glass>
           ))}
         </div>
