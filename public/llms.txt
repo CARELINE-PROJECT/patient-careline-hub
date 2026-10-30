@@ -13,6 +13,7 @@ Careline met en relation des patients avec des médecins, praticiens, cabinets e
 - [Comment ça marche](/fr/how-it-works): Le parcours de la demande de rendez-vous à la confirmation.
 - [Demander un rendez-vous](/fr/request): Formulaire de demande de rendez-vous médical.
 - [Spécialités médicales](/fr/specialties): Répertoire des spécialités couvertes par la coordination Careline.
+- Le répertoire relie chaque spécialité à son guide propre sous /fr/specialties/ : indications, examens possibles, soins, préparation, sources médicales et vidéos lorsqu'une ressource vérifiée est disponible. Les guides sont informatifs et n'établissent pas la disponibilité d'un praticien ou d'un acte.
 - [Laser des yeux : guide patient](/fr/chirurgie-laser-yeux): LASIK, Femto-LASIK, PKR/TransPKR, SMILE : bilan, préparation, intervention, récupération et risques, sans prix.
 - [Sécurité et données](/fr/security): Aucune donnée de santé demandée ni stockée ; RGPD et standards internationaux.
 - [Questions fréquentes](/fr/faq): Réponses aux questions des patients et des praticiens.
