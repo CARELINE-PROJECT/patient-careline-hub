@@ -45,7 +45,7 @@ export function specialtyPageHead(kind: "directory" | "eye", locale: string) {
   const image = `${siteConfig.url}${kind === "eye" ? ogLaserImage : ogSpecialtiesImage}`;
   return {
     meta: [
-      ...specialtyPageMeta(kind),
+      ...specialtyPageMeta(kind, locale),
       { property: "og:url", content: url },
       { property: "og:locale", content: ogLocale },
       { property: "og:image", content: image },
@@ -57,9 +57,40 @@ export function specialtyPageHead(kind: "directory" | "eye", locale: string) {
   };
 }
 
-export function specialtyPageMeta(kind: "directory" | "eye") {
-  const title = kind === "directory" ? "Spécialités médicales | Careline" : "Laser des yeux : techniques et parcours patient | Careline";
-  const description = kind === "directory" ? "Explorez les spécialités médicales et découvrez le guide Careline sur la correction de la vision au laser." : "LASIK, PKR et SMILE : bilan, préparation, intervention, récupération et risques. Un guide patient sans prix pour préparer votre consultation.";
+/** SEO-tuned titles (50–60 chars) and descriptions (140–155 chars, with CTA) for fr and en. */
+const specialtySeoMeta = {
+  directory: {
+    fr: {
+      title: "Spécialités médicales : trouvez le bon praticien | Careline",
+      description:
+        "Parcourez les spécialités médicales couvertes par Careline et découvrez notre guide complet sur la correction de la vision au laser. Trouvez votre praticien.",
+    },
+    en: {
+      title: "Medical Specialties: Find the Right Practitioner | Careline",
+      description:
+        "Browse the medical specialties covered by Careline and discover our complete guide to laser vision correction. Find the right practitioner for you.",
+    },
+  },
+  eye: {
+    fr: {
+      title: "Laser des yeux : techniques et parcours patient | Careline",
+      description:
+        "LASIK, PKR et SMILE : bilan, préparation, intervention, récupération et risques. Un guide patient sans prix pour préparer votre consultation.",
+    },
+    en: {
+      title: "Eye Laser Surgery: Techniques & Patient Journey | Careline",
+      description:
+        "LASIK, PRK and SMILE: assessment, preparation, procedure, recovery and risks. A price-free patient guide to prepare for your consultation.",
+    },
+  },
+} as const;
+
+export function specialtyPageMeta(kind: "directory" | "eye", locale: string = "fr") {
+  const seo = specialtySeoMeta[kind];
+  const tuned = locale === "fr" || locale === "en" ? seo[locale] : undefined;
+  const c = specialtyPageCopy(locales.some((l) => l.code === locale) ? (locale as LocaleCode) : "fr");
+  const title = tuned?.title ?? `${kind === "directory" ? c.title : c.eyeTitle} | Careline`;
+  const description = tuned?.description ?? c.lead;
   return [
     { title }, { name: "description", content: description },
     { property: "og:title", content: title }, { property: "og:description", content: description },

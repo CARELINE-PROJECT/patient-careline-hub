@@ -49,11 +49,12 @@
 - [ ] GTM + Consent Mode v2 wired to cookie banner; form_start/form_submit events; GSC/Bing meta {À CONFIRMER}
 - [ ] IndexNow key file + notification function
 
-## SEO step 2 — languages, tags, structure (new uploaded brief)
-- [ ] URL-based i18n: /fr/ /en/ /nl/ subdirectories (+ /de/ prepared), root redirect, hreflang + x-default, lang attribute
-- [ ] 301 redirects from old URLs to /fr/ equivalents
-- [ ] Per-page tags: single H1, unique 50-60 char titles, 140-155 char descriptions, per-language canonical, OG/Twitter with dedicated 1200x630 image
-- [ ] Specialties: no indexable URL without real content; single list page; only ophthalmology dedicated
-- [ ] Centralize key figures as single-source {À CONFIRMER} variables
-- [ ] Logo strip: "Compatible avec" option for actually-connected software only
-- [ ] Sitemap: per-language URLs + hreflang xhtml:link
+## SEO step 2 — languages, tags, structure (done 2026-10-30)
+- [x] URL-based i18n: all 18 locales as /fr/ /en/ /nl/ ... subdirectories, root redirect by Accept-Language, hreflang + x-default, lang/dir attributes
+- [x] 301 redirects from old URLs to /fr/ equivalents
+- [x] Per-page tags: single H1, 50-60 char titles, 140-155 char descriptions (fr/en tuned), per-language canonical, OG/Twitter with dedicated 1200x630 images
+- [x] Specialties: single list page; only ophthalmology dedicated
+- [x] Centralized key figures (src/config/figures.ts); unconfirmed figures hidden
+- [x] Logo strip: unconfirmed "100+" masked; connected-only mode ready
+- [x] Sitemap: 324 URLs (18 pages × 18 locales) + hreflang xhtml:link
+- [ ] {À CONFIRMER}: GTM ID, GSC/Bing verification codes, DNS careline.doctor, figure validation
