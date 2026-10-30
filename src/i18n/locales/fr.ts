@@ -95,10 +95,10 @@ export const fr: PartialDictionary = {
         "Découvrez comment Careline aide les patients à accéder à des professionnels de santé de confiance dans le monde, avec un accompagnement humain.",
     },
     careers: {
-      title: "Carrières : rejoindre une équipe santé | Careline",
+      title: "Carrières : rejoignez une équipe santé | Careline",
       description:
         "Rejoignez l'équipe internationale de Careline et aidez les patients à accéder à des rendez-vous médicaux dans le monde. Découvrez nos postes ouverts.",
-      ogTitle: "Carrières : rejoindre une équipe santé | Careline",
+      ogTitle: "Carrières : rejoignez une équipe santé | Careline",
       ogDescription:
         "Rejoignez l'équipe internationale de Careline et aidez les patients à accéder à des rendez-vous médicaux dans le monde. Découvrez nos postes ouverts.",
     },
@@ -143,10 +143,10 @@ export const fr: PartialDictionary = {
         "Quels cookies Careline utilise, comment votre consentement est recueilli et comment modifier vos préférences à tout moment. Lisez notre politique.",
     },
     notice: {
-      title: "Mentions légales : éditeur et identité | Careline",
+      title: "Mentions légales : éditeur et identité légale | Careline",
       description:
         "Éditeur, contact et statut du site Careline : l'identité légale de la société derrière le service de rendez-vous médicaux. Lisez les mentions légales.",
-      ogTitle: "Mentions légales : éditeur et identité | Careline",
+      ogTitle: "Mentions légales : éditeur et identité légale | Careline",
       ogDescription:
         "Éditeur, contact et statut du site Careline : l'identité légale de la société derrière le service de rendez-vous médicaux. Lisez les mentions légales.",
     },

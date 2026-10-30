@@ -84,10 +84,10 @@ export const en = {
         "Careline coordinates your medical appointments with trusted doctors and clinics worldwide. Send your request in minutes — our team books for you.",
     },
     about: {
-      title: "About Our Medical Coordination Mission | Careline",
+      title: "About: Our Medical Coordination Mission | Careline",
       description:
         "Discover how Careline helps patients reach trusted healthcare professionals worldwide, with human support at every step. Learn more about us.",
-      ogTitle: "About Our Medical Coordination Mission | Careline",
+      ogTitle: "About: Our Medical Coordination Mission | Careline",
       ogDescription:
         "Discover how Careline helps patients reach trusted healthcare professionals worldwide, with human support at every step. Learn more about us.",
     },

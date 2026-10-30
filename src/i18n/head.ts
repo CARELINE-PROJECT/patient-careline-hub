@@ -33,8 +33,9 @@ export const headKeyByPath: Record<string, HeadKey> = {
 export function staticRouteMeta(key: HeadKey, locale: string = "en") {
   const head = en.head[key];
   const dict = dictionaries[safeLocale(locale)];
+  const admin = locale === "fr" || locale === "en" ? safeLocale(locale) : null;
   const value = (field: keyof typeof head) =>
-    administrativeTranslation(safeLocale(locale), `head.${key}.${field}`) ??
+    (admin ? administrativeTranslation(admin, `head.${key}.${field}`) : undefined) ??
     lookup(dict, ["head", key, field]) ??
     head[field];
 

@@ -17,3 +17,9 @@
 - Load third-party patient videos only after an explicit play action through YouTube's privacy-enhanced embed; no third-party requests before the patient chooses to play.
 - Keep global locations in a shared typed catalog with separate validation, representation and service-activation fields, the registered office sourced from siteConfig and no provider/website field for domiciliation services; render the Contact section independently using a local public-domain Natural Earth map, so unconfirmed proposals cannot drift into active-office claims or name a third-party office provider.
 - Draw country flags as inline SVG from the shared Flag component keyed by ISO 3166-1 alpha-2 code; never use emoji flags, because systems without a flag font show bare two-letter codes instead of a flag.
+
+## URL-based i18n (SEO step 2)
+- Every public page lives under `src/routes/$locale/`; the locale comes from the URL, never from localStorage alone. `src/routes/index.tsx` 301-redirects `/` to the Accept-Language locale (default fr); `src/routes/$.tsx` and the `$locale` layout 301 legacy unprefixed URLs to `/fr/...`.
+- Internal navigation uses `LocalizedLink` (locale-free `to`) or `useLocalePath()`; never raw `<Link to="/...">` for in-site links.
+- Page head metadata comes from `staticRouteHead(key, path, locale)` / `specialtyPageHead(kind, locale)` — they emit the per-language canonical, og:locale, og:image and the 18 hreflang + x-default links. Never hardcode a canonical.
+- Key figures live in `src/config/figures.ts`; a figure with `confirmed: false` is hidden everywhere (pages, meta, llms.txt) until the owner validates it.
