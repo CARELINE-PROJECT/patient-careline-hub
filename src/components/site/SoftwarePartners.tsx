@@ -1,14 +1,24 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { softwareBrands } from "@/config/software";
+import { softwareBrands, softwareDisplay } from "@/config/software";
+import { isFigureConfirmed } from "@/config/figures";
 import { useI18n } from "@/i18n";
-import { softwareCopy } from "@/i18n/software";
+import { softwareCompatibleLabel, softwareCopy, softwarePlainTitle } from "@/i18n/software";
 import { Section } from "./primitives";
 
 export function SoftwarePartners() {
   const { locale } = useI18n();
   const copy = softwareCopy[locale];
+  // "Compatible avec" mode: only confirmed connections. Numbered title only once the figure is validated.
+  const brands = softwareDisplay.onlyConnected
+    ? softwareBrands.filter((b) => softwareDisplay.connectedIds.includes(b.id))
+    : softwareBrands;
+  const title = softwareDisplay.onlyConnected
+    ? softwareCompatibleLabel[locale]
+    : isFigureConfirmed("softwarePartners")
+      ? copy.title
+      : softwarePlainTitle[locale];
   const viewport = useRef<HTMLDivElement>(null);
   const [paused, setPaused] = useState(false);
   const [hovered, setHovered] = useState(false);
@@ -49,7 +59,7 @@ export function SoftwarePartners() {
   return (
     <Section id="software-partners" tone="muted" className="border-y border-border/60 py-8 md:py-10">
       <div className="flex flex-wrap items-center justify-between gap-4">
-        <h2 className="font-display text-2xl leading-tight text-branddeep sm:text-3xl">{copy.title}</h2>
+        <h2 className="font-display text-2xl leading-tight text-branddeep sm:text-3xl">{title}</h2>
         <div className="flex items-center gap-2" dir="ltr">
           <Button variant="outline" size="icon" onClick={() => move(-1)} aria-label={copy.previous} title={copy.previous}><ChevronLeft /></Button>
           <Button variant="outline" size="icon" onClick={() => setPaused((value) => !value)} aria-label={paused ? copy.play : copy.pause} title={paused ? copy.play : copy.pause}>{paused ? <Play /> : <Pause />}</Button>
@@ -63,7 +73,7 @@ export function SoftwarePartners() {
         <div className="flex w-max">
           {[0, 1].map((group) => (
             <ul key={group} className="flex shrink-0 gap-4 pe-4" aria-hidden={group === 1 ? true : undefined}>
-              {softwareBrands.map((brand) => (
+              {brands.map((brand) => (
                 <li key={brand.name} className="w-44 shrink-0">
                   <a href={brand.website} target="_blank" rel="noopener noreferrer" tabIndex={group === 1 ? -1 : undefined}
                     className="flex h-28 flex-col items-center justify-center gap-3 rounded-lg border border-border bg-card px-4 transition-colors hover:border-brand/50">
