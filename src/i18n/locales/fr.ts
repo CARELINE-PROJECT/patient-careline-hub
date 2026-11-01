@@ -27,7 +27,7 @@ export const fr: PartialDictionary = {
       countries: "52",
       specialties: "25+",
       languages: "18",
-                  appointments: "24 Md+",
+      appointments: "24 Md+",
       availability: "24/7",
     },
   },
