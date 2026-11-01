@@ -3,6 +3,7 @@ import {
   ArrowRight,
   Building2,
   CalendarCheck,
+  Clock3,
   Ear,
   Globe2,
   HeartHandshake,
@@ -51,10 +52,10 @@ function Home() {
   const { t } = useI18n();
   const confirmedStats = (
     [
-      { key: "professionals", value: t("site.stats.professionals"), label: t("stats.professionals") },
-      { key: "countries", value: t("site.stats.countries"), label: t("stats.countries") },
-      { key: "specialties", value: t("site.stats.specialties"), label: t("stats.specialties") },
-      { key: "languages", value: t("site.stats.languages"), label: t("stats.languages") },
+      { key: "countries", value: t("site.stats.countries"), label: t("stats.countries"), icon: Globe2 },
+      { key: "professionals", value: t("site.stats.professionals"), label: t("stats.professionals"), icon: Stethoscope },
+      { key: "appointments", value: t("site.stats.appointments"), label: t("stats.appointments"), icon: CalendarCheck },
+      { key: "availability", value: t("site.stats.availability"), label: t("stats.availability"), icon: Clock3 },
     ] as const
   ).filter((s) => isFigureConfirmed(s.key));
 
