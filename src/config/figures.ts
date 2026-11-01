@@ -6,13 +6,13 @@
  * validates it — never invent or display an unverified number.
  */
 export const figures = {
-  professionals: { value: "10M+", confirmed: true },
+  professionals: { value: "10 Millions", confirmed: true },
   countries: { value: "52", confirmed: true },
   specialties: { value: "25+", confirmed: false },
   /** Verifiable from the code: the site ships 18 locale dictionaries. */
   languages: { value: "18", confirmed: true },
   /** Appointments organized each year across the partner software tools. */
-  appointments: { value: "24B+", confirmed: true },
+  appointments: { value: "24 Milliards", confirmed: true },
   /** Round-the-clock service availability. */
   availability: { value: "24/7", confirmed: true },
   softwarePartners: { value: "50", confirmed: true },
