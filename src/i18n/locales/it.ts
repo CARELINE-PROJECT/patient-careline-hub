@@ -24,9 +24,13 @@ export const it: PartialDictionary = {
       "Recapiti provvisori - sostituite email, indirizzo e orari con le vostre informazioni verificate.",
     stats: {
       professionals: "10 M+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+      appointments: "Appuntamenti organizzati ogni anno",
+      availability: "Disponibilità del servizio",
+      appointments: "24 Mld+",
+      availability: "24/7",
     },
   },
   error: {

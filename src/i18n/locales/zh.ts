@@ -23,9 +23,13 @@ export const zh: PartialDictionary = {
     contactDetailsPlaceholder: "临时联系方式 - 请将电子邮件、地址和营业时间替换为您已验证的信息。",
     stats: {
       professionals: "1000万+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+      appointments: "每年组织的预约",
+      availability: "服务可用性",
+      appointments: "240亿+",
+      availability: "24/7",
     },
   },
   error: {

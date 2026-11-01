@@ -24,9 +24,13 @@ export const pt: PartialDictionary = {
       "Dados de contacto provisórios - substitua o email, o endereço e o horário pelas suas informações verificadas.",
     stats: {
       professionals: "10 M+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+      appointments: "Consultas organizadas todos os anos",
+      availability: "Disponibilidade do serviço",
+      appointments: "24 mil M+",
+      availability: "24/7",
     },
   },
   error: {

@@ -24,9 +24,13 @@ export const ar: PartialDictionary = {
       "بيانات اتصال مؤقتة - استبدلوا البريد الإلكتروني والعنوان وساعات العمل بمعلوماتكم الموثّقة.",
     stats: {
       professionals: "+10 ملايين",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+      appointments: "مواعيد تُنظَّم كل عام",
+      availability: "توافر الخدمة",
+      appointments: "+24 مليار",
+      availability: "24/7",
     },
   },
   error: {

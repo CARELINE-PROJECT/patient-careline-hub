@@ -24,9 +24,13 @@ export const fr: PartialDictionary = {
       "Coordonnées provisoires - remplacez l'email, l'adresse et les horaires par vos informations vérifiées.",
     stats: {
       professionals: "10 M+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+      appointments: "Rendez-vous organisés chaque année",
+      availability: "Disponibilité du service",
+      appointments: "24 Md+",
+      availability: "24/7",
     },
   },
   error: {

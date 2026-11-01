@@ -24,9 +24,13 @@ export const nl: PartialDictionary = {
       "Tijdelijke contactgegevens - vervang e-mail, adres en openingstijden door uw geverifieerde informatie.",
     stats: {
       professionals: "10 mln+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+      appointments: "Jaarlijks georganiseerde afspraken",
+      availability: "Beschikbaarheid van de dienst",
+      appointments: "24 mld+",
+      availability: "24/7",
     },
   },
   error: {
