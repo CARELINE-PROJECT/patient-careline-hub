@@ -23,11 +23,11 @@ export const it: PartialDictionary = {
     contactDetailsPlaceholder:
       "Recapiti provvisori - sostituite email, indirizzo e orari con le vostre informazioni verificate.",
     stats: {
-      professionals: "10 M+",
+      professionals: "10 Milioni",
       countries: "52",
       specialties: "25+",
       languages: "18",
-                  appointments: "24 Mld+",
+                  appointments: "24 Miliardi",
       availability: "24/7",
     },
   },

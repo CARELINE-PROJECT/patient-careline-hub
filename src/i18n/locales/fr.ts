@@ -23,11 +23,11 @@ export const fr: PartialDictionary = {
     contactDetailsPlaceholder:
       "Coordonnées provisoires - remplacez l'email, l'adresse et les horaires par vos informations vérifiées.",
     stats: {
-      professionals: "10 M+",
+      professionals: "10 Millions",
       countries: "52",
       specialties: "25+",
       languages: "18",
-      appointments: "24 Md+",
+      appointments: "24 Milliards",
       availability: "24/7",
     },
   },
@@ -250,7 +250,7 @@ export const fr: PartialDictionary = {
     countries: "Pays couverts",
     specialties: "Spécialités médicales",
     languages: "Langues disponibles",
-    appointments: "Rendez-vous organisés chaque année",
+    appointments: "RDV synchronisés par an",
     availability: "Disponibilité du service",
   },
   how: {

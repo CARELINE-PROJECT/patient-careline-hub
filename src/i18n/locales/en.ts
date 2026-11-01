@@ -21,11 +21,11 @@ export const en = {
     contactDetailsPlaceholder:
       "Placeholder contact details - replace the email, address and hours with your verified information.",
     stats: {
-      professionals: "10M+",
+      professionals: "10 Million",
       countries: "52",
       specialties: "25+",
       languages: "18",
-                  appointments: "24B+",
+                  appointments: "24 Billion",
       availability: "24/7",
     },
   },

@@ -21,11 +21,11 @@ export const es: PartialDictionary = {
     contactDetailsPlaceholder:
       "Datos de contacto provisionales: sustituya el email, la dirección y los horarios por información verificada.",
     stats: {
-      professionals: "10 M+",
+      professionals: "10 Millones",
       countries: "52",
       specialties: "25+",
       languages: "18",
-                  appointments: "24 000 M+",
+                  appointments: "24 Mil Millones",
       availability: "24/7",
     },
   },
