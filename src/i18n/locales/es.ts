@@ -22,9 +22,11 @@ export const es: PartialDictionary = {
       "Datos de contacto provisionales: sustituya el email, la dirección y los horarios por información verificada.",
     stats: {
       professionals: "10 M+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+                  appointments: "24 000 M+",
+      availability: "24/7",
     },
   },
   error: {
@@ -238,6 +240,8 @@ export const es: PartialDictionary = {
     countries: "Países cubiertos",
     specialties: "Especialidades médicas",
     languages: "Idiomas disponibles",
+    appointments: "Citas organizadas cada año",
+    availability: "Disponibilidad del servicio",
   },
   how: {
     eyebrow: "Cómo funciona",

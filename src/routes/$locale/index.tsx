@@ -3,6 +3,7 @@ import {
   ArrowRight,
   Building2,
   CalendarCheck,
+  Clock3,
   Ear,
   Globe2,
   HeartHandshake,
@@ -51,10 +52,10 @@ function Home() {
   const { t } = useI18n();
   const confirmedStats = (
     [
-      { key: "professionals", value: t("site.stats.professionals"), label: t("stats.professionals") },
-      { key: "countries", value: t("site.stats.countries"), label: t("stats.countries") },
-      { key: "specialties", value: t("site.stats.specialties"), label: t("stats.specialties") },
-      { key: "languages", value: t("site.stats.languages"), label: t("stats.languages") },
+      { key: "countries", value: t("site.stats.countries"), label: t("stats.countries"), icon: Globe2 },
+      { key: "professionals", value: t("site.stats.professionals"), label: t("stats.professionals"), icon: Stethoscope },
+      { key: "appointments", value: t("site.stats.appointments"), label: t("stats.appointments"), icon: CalendarCheck },
+      { key: "availability", value: t("site.stats.availability"), label: t("stats.availability"), icon: Clock3 },
     ] as const
   ).filter((s) => isFigureConfirmed(s.key));
 
@@ -155,15 +156,20 @@ function Home() {
         </div>
       </section>
 
-      {/* Stats — only figures confirmed in src/config/figures.ts are shown */}
+      {/* Key figures — only figures confirmed in src/config/figures.ts are shown */}
       {confirmedStats.length > 0 && (
         <Section className="py-10 md:py-12">
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {confirmedStats.map((s) => (
-              <Glass key={s.label} className="p-6 text-center">
-                <p className="font-display text-4xl tracking-tight text-brand">{s.value}</p>
-                <p className="mt-2 text-sm text-muted-foreground">{s.label}</p>
-              </Glass>
+          <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
+            {confirmedStats.map((s, i) => (
+              <Reveal key={s.key} delay={i * 90}>
+                <Glass className="flex h-full flex-col items-center p-6 text-center">
+                  <span className="flex size-11 items-center justify-center rounded-2xl bg-secondary text-brand">
+                    <s.icon className="size-5" aria-hidden="true" />
+                  </span>
+                  <p className="mt-4 font-display text-3xl tracking-tight text-brand sm:text-4xl">{s.value}</p>
+                  <p className="mt-2 text-sm leading-snug text-muted-foreground">{s.label}</p>
+                </Glass>
+              </Reveal>
             ))}
           </div>
         </Section>

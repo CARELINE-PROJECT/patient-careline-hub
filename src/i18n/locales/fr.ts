@@ -24,9 +24,11 @@ export const fr: PartialDictionary = {
       "Coordonnées provisoires - remplacez l'email, l'adresse et les horaires par vos informations vérifiées.",
     stats: {
       professionals: "10 M+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+      appointments: "24 Md+",
+      availability: "24/7",
     },
   },
   error: {
@@ -248,6 +250,8 @@ export const fr: PartialDictionary = {
     countries: "Pays couverts",
     specialties: "Spécialités médicales",
     languages: "Langues disponibles",
+    appointments: "Rendez-vous organisés chaque année",
+    availability: "Disponibilité du service",
   },
   how: {
     eyebrow: "Comment ça marche",

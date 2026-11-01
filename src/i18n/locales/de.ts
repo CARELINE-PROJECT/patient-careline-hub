@@ -24,9 +24,11 @@ export const de: PartialDictionary = {
       "Vorläufige Kontaktdaten - ersetzen Sie E-Mail, Adresse und Zeiten durch Ihre geprüften Angaben.",
     stats: {
       professionals: "10 Mio.+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+                  appointments: "24 Mrd.+",
+      availability: "24/7",
     },
   },
   error: {
@@ -241,6 +243,8 @@ export const de: PartialDictionary = {
     countries: "Abgedeckte Länder",
     specialties: "Medizinische Fachgebiete",
     languages: "Verfügbare Sprachen",
+    appointments: "Jährlich organisierte Termine",
+    availability: "Verfügbarkeit des Dienstes",
   },
   how: {
     eyebrow: "So funktioniert es",

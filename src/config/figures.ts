@@ -6,12 +6,16 @@
  * validates it — never invent or display an unverified number.
  */
 export const figures = {
-  professionals: { value: "10M+", confirmed: false },
-  countries: { value: "40+", confirmed: false },
+  professionals: { value: "10M+", confirmed: true },
+  countries: { value: "52", confirmed: true },
   specialties: { value: "25+", confirmed: false },
   /** Verifiable from the code: the site ships 18 locale dictionaries. */
   languages: { value: "18", confirmed: true },
-  softwarePartners: { value: "100+", confirmed: false },
+  /** Appointments organized each year across the partner software tools. */
+  appointments: { value: "24B+", confirmed: true },
+  /** Round-the-clock service availability. */
+  availability: { value: "24/7", confirmed: true },
+  softwarePartners: { value: "50", confirmed: true },
 } as const;
 
 export type FigureKey = keyof typeof figures;

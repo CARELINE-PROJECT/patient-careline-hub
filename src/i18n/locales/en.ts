@@ -22,9 +22,11 @@ export const en = {
       "Placeholder contact details - replace the email, address and hours with your verified information.",
     stats: {
       professionals: "10M+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+                  appointments: "24B+",
+      availability: "24/7",
     },
   },
   error: {
@@ -245,6 +247,8 @@ export const en = {
     countries: "Countries covered",
     specialties: "Medical specialties",
     languages: "Languages supported",
+    appointments: "Appointments organized every year",
+    availability: "Service availability",
   },
   how: {
     eyebrow: "How it works",

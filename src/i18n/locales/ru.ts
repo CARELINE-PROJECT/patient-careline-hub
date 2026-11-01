@@ -24,9 +24,11 @@ export const ru: PartialDictionary = {
       "Временные контактные данные — замените email, адрес и часы работы на проверенную информацию.",
     stats: {
       professionals: "10 млн+",
-      countries: "40+",
+      countries: "52",
       specialties: "25+",
       languages: "18",
+                  appointments: "24 млрд+",
+      availability: "24/7",
     },
   },
   error: {
@@ -239,6 +241,8 @@ export const ru: PartialDictionary = {
     countries: "Охваченные страны",
     specialties: "Медицинские специальности",
     languages: "Доступные языки",
+    appointments: "Записей организуется каждый год",
+    availability: "Доступность сервиса",
   },
   how: {
     eyebrow: "Как это работает",
