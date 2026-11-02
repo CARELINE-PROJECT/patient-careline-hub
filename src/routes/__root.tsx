@@ -17,6 +17,7 @@ import { I18nProvider, localeFromPath, locales, stripLocalePrefix, useI18n } fro
 import { staticRouteMeta } from "@/i18n/head";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
+import { OrganizationDirectory } from "@/components/site/OrganizationDirectory";
 import { CookieBanner } from "@/components/site/CookieBanner";
 import { DocumentMetadata } from "@/components/site/DocumentMetadata";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
@@ -180,6 +181,7 @@ function RootComponent() {
             {/* Required: nested routes render here. */}
             <Outlet />
           </main>
+          <OrganizationDirectory compact />
           <Footer />
           <CookieBanner />
           <DocumentMetadata />
