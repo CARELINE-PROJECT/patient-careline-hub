@@ -7,6 +7,7 @@ import { Glass, DemoNote } from "@/components/site/primitives";
 import { ConsentField, SubmitBar, SubmitButton, TextAreaField, TextField } from "./fields";
 import { SpecialtyField } from "./SpecialtyField";
 import { SuccessPanel } from "./SuccessPanel";
+import { CountryField } from "./CountryField";
 
 const initial = {
   practiceName: "",
@@ -92,7 +93,7 @@ export function PartnerForm() {
           <TextField id="professionalEmail" type="email" label={t("form.professionalEmail")} required autoComplete="email" value={values.professionalEmail} onChange={set("professionalEmail")} error={errors.professionalEmail} />
           <TextField id="phone" type="tel" label={t("form.phone")} hint={t("form.optional")} value={values.phone} onChange={set("phone")} error={errors.phone} />
           <TextField id="city" label={t("form.city")} required value={values.city} onChange={set("city")} error={errors.city} />
-          <TextField id="country" label={t("form.country")} required value={values.country} onChange={set("country")} error={errors.country} className="sm:col-span-2" />
+          <CountryField id="country" label={t("form.country")} required value={values.country} onChange={set("country")} error={errors.country} className="sm:col-span-2" />
         </div>
 
         <TextAreaField id="message" label={t("form.message")} rows={4} value={values.message} onChange={set("message")} error={errors.message} />

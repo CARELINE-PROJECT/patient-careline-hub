@@ -14,6 +14,7 @@ import {
   TextField,
 } from "./fields";
 import { SuccessPanel } from "./SuccessPanel";
+import { CountryField } from "./CountryField";
 
 const initial = {
   firstName: "",
@@ -137,7 +138,7 @@ export function AppointmentForm() {
           <TextField id="email" type="email" label={t("form.email")} required autoComplete="email" value={values.email} onChange={set("email")} error={errors.email} />
           <TextField id="phone" type="tel" label={t("form.phone")} hint={t("form.optional")} autoComplete="tel" value={values.phone} onChange={set("phone")} error={errors.phone} />
           <TextField id="city" label={t("form.city")} required autoComplete="address-level2" value={values.city} onChange={set("city")} error={errors.city} />
-          <TextField id="country" label={t("form.country")} required autoComplete="country-name" value={values.country} onChange={set("country")} error={errors.country} />
+          <CountryField id="country" label={t("form.country")} required value={values.country} onChange={set("country")} error={errors.country} />
           <SelectField id="practitionerType" label={t("form.practitionerType")} required placeholder={t("form.select")} options={practitionerOptions} value={values.practitionerType} onChange={set("practitionerType")} error={errors.practitionerType} />
           <SelectField id="preference" label={t("form.preference")} required placeholder={t("form.select")} options={preferenceOptions} value={values.preference} onChange={set("preference")} error={errors.preference} />
           <TextField id="period" label={t("form.period")} hint={t("form.optional")} value={values.period} onChange={set("period")} error={errors.period} className="sm:col-span-2" />
