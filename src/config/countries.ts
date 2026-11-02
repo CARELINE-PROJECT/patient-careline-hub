@@ -1,7 +1,7 @@
 import { getAlpha2Codes } from "i18n-iso-countries";
 
 export function normalizeCountrySearch(value: string) {
-  return value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase().trim();
+  return value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 }
 
 export function countryOptions(locale: string) {
