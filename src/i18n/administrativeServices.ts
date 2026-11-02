@@ -2,9 +2,9 @@ import type { LocaleCode } from "./types";
 
 const fr = {
   eyebrow: "Nos services administratifs",
-  title: "Votre secrétariat administratif, sans contrainte",
-  lead: "Careline gère la prise de rendez-vous, les confirmations et le suivi administratif de vos patients, avec des équipes formées et des outils traçables. Vous gardez la maîtrise de votre agenda et de votre pratique.",
-  metaServicesTitle: "Votre secrétariat administratif, sans contrainte | Careline",
+  title: "Service administratif et logiciel, des professionnels de santé",
+  lead: "Careline gère la prise de rendez-vous, les confirmations et le suivi administratif de vos patients, avec des équipes formées et des outils traçables. Vous gardez le contrôle de votre agenda et continuez à utiliser vos outils habituels de gestion des rendez-vous, en toute simplicité.",
+  metaServicesTitle: "Service administratif et logiciel pour les professionnels de santé | Careline",
   metaServicesDescription: "Careline gère la prise de rendez-vous, les confirmations et le suivi administratif de vos patients, avec des équipes formées et des outils traçables.",
   metaProfessionalsTitle: "Secrétariat administratif pour cabinets | Careline",
   metaProfessionalsDescription: "Careline gère les rendez-vous, confirmations et suivis de vos patients. Inscription gratuite, sans abonnement ni droit d'entrée. Devenez partenaire.",
@@ -114,9 +114,9 @@ const fr = {
 
 const en: typeof fr = {
   eyebrow: "Administrative services",
-  title: "Your administrative secretariat, without constraints",
-  lead: "Careline manages appointment booking, confirmations and administrative follow-up for your patients, with trained teams and traceable tools. You retain control of your schedule and your practice.",
-  metaServicesTitle: "Medical Appointment Secretarial Services | Careline",
+  title: "Administrative and software services for healthcare professionals",
+  lead: "Careline manages appointment booking, confirmations and administrative follow-up for your patients, with trained teams and traceable tools. You keep control of your schedule and continue using your usual appointment management tools, with complete simplicity.",
+  metaServicesTitle: "Administrative and Software Services for Healthcare Professionals | Careline",
   metaServicesDescription: "Careline manages appointment booking, confirmations and administrative follow-up for your patients, with trained teams and traceable tools.",
   metaProfessionalsTitle: "Administrative Support for Your Practice | Careline",
   metaProfessionalsDescription: "Careline handles your appointment bookings, confirmations and patient follow-up. Free registration, no subscription, no entry fee. Join us today.",
