@@ -1,5 +1,5 @@
 # Tasks
-- [ ] All forms: all countries with a search box above the list; verify selection and filtering.
+- [x] All forms: all countries with a search box above the list; selection and filtering verified on Request, Professionals and Services, tests pass.
 - [x] Google city/postcode suggestions deferred: user chose to keep free-text city entry and public forms; no Google requests implemented.
 - [x] Specialties directory: verify every specialty title and guide link opens its dedicated page.
 - [x] Homepage French: replace “Trouver un praticien” with “Recherchez un praticien” and “3 praticiens proposés” with “Plusieurs praticiens proposés”.
