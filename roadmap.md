@@ -1,6 +1,6 @@
 # Tasks
 - [ ] All forms: all countries with a search box above the list; verify selection and filtering.
-- [ ] Google city/postcode suggestions: connection linked; awaiting decision about login protection for public forms.
+- [x] Google city/postcode suggestions deferred: user chose to keep free-text city entry and public forms; no Google requests implemented.
 - [x] Specialties directory: verify every specialty title and guide link opens its dedicated page.
 - [x] Homepage French: replace “Trouver un praticien” with “Recherchez un praticien” and “3 praticiens proposés” with “Plusieurs praticiens proposés”.
 - [x] Language menu: replace all two-letter codes (GB, FR...) with drawn flags plus the language name.
