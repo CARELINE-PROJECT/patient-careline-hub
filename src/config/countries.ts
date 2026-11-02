@@ -1,4 +1,4 @@
-import { getAlpha2Codes } from "i18n-iso-countries";
+import codes from "i18n-iso-countries/codes.json";
 
 export function normalizeCountrySearch(value: string) {
   return value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
@@ -8,7 +8,7 @@ export function countryOptions(locale: string) {
   const names = new Intl.DisplayNames([locale], { type: "region" });
   const english = new Intl.DisplayNames(["en"], { type: "region" });
   const french = new Intl.DisplayNames(["fr"], { type: "region" });
-  return Object.keys(getAlpha2Codes()).map((code) => ({
+  return codes.map(([code]) => String(code)).map((code) => ({
     code,
     label: names.of(code) ?? english.of(code) ?? code,
     aliases: [english.of(code) ?? code, french.of(code) ?? code],
