@@ -447,6 +447,9 @@ const specialtyAlts = Object.fromEntries(specialtyIds.map((id) => [
 ]));
 
 export const photoAlts = {
+  "humanitaire-sante-communautaire-madagascar": { fr: "Illustration d’une médecin accueillant une mère et son enfant devant un centre de santé malgache", en: "Illustration of a doctor welcoming a mother and child outside a Malagasy health centre" },
+  "humanitaire-equipe-solidaire": { fr: "Illustration de bénévoles préparant des trousses de soins et coordonnant leur travail sur une tablette", en: "Illustration of volunteers preparing first aid kits and coordinating their work on a tablet" },
+  "humanitaire-nutrition-prevention": { fr: "Illustration d’une éducatrice en santé échangeant avec une famille autour de fruits et légumes frais", en: "Illustration of a health educator talking with a family beside fresh fruit and vegetables" },
   ...handAlts,
   ...specialtyAlts,
   "services-equipe-joyeuse": { fr: "Équipe de coordination souriante travaillant ensemble autour d'un ordinateur dans un bureau lumineux", en: "Smiling coordination team working together around a laptop in a bright office" },

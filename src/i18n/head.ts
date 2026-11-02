@@ -8,8 +8,9 @@ function safeLocale(locale: string): LocaleCode {
 }
 import { siteConfig } from "@/config/site";
 import { ogImageFor } from "@/config/ogImages";
+import { humanitarianCopy } from "./humanitarian";
 
-export type HeadKey = keyof typeof en.head;
+export type HeadKey = keyof typeof en.head | "humanitarian";
 
 export const headKeyByPath: Record<string, HeadKey> = {
   "/": "home",
@@ -28,9 +29,21 @@ export const headKeyByPath: Record<string, HeadKey> = {
   "/request": "request",
   "/security": "security",
   "/services": "services",
+  "/humanitaire": "humanitarian",
 };
 
 export function staticRouteMeta(key: HeadKey, locale: string = "en") {
+  if (key === "humanitarian") {
+    const copy = humanitarianCopy(locale);
+    return [
+      { title: `${copy.title} | Careline` },
+      { name: "description", content: copy.description },
+      { property: "og:title", content: `${copy.title} | Careline` },
+      { property: "og:description", content: copy.description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ];
+  }
   const head = en.head[key];
   const dict = dictionaries[safeLocale(locale)];
   const admin = locale === "fr" || locale === "en" ? safeLocale(locale) : null;
@@ -73,7 +86,7 @@ export function hreflangLinks(path: string) {
 export function staticRouteHead(key: HeadKey, path: string, locale: string) {
   const url = localizedUrl(safeLocale(locale), path);
   const ogLocale = locales.find((l) => l.code === safeLocale(locale))?.ogLocale ?? "fr_FR";
-  const image = ogImageFor(key);
+  const image = key === "humanitarian" ? undefined : ogImageFor(key);
   return {
     meta: [
       ...staticRouteMeta(key, locale),
