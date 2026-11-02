@@ -1,0 +1,43 @@
+import type { LocaleCode } from "./types";
+
+export const organizationTitles: Record<LocaleCode, string> = {
+  fr: "Associations et organisations de santé",
+  en: "Health associations and organizations",
+  nl: "Gezondheidsverenigingen en organisaties",
+  de: "Gesundheitsverbände und Organisationen",
+  es: "Asociaciones y organizaciones de salud",
+  it: "Associazioni e organizzazioni sanitarie",
+  pt: "Associações e organizações de saúde",
+  ar: "الجمعيات والمنظمات الصحية",
+  zh: "卫生协会与组织",
+  ru: "Медицинские ассоциации и организации",
+  ja: "医療関連の協会・団体",
+  ko: "보건 협회 및 단체",
+  hi: "स्वास्थ्य संघ और संगठन",
+  tr: "Sağlık dernekleri ve kuruluşları",
+  pl: "Stowarzyszenia i organizacje zdrowotne",
+  sv: "Hälsoföreningar och organisationer",
+  uk: "Медичні асоціації та організації",
+  id: "Asosiasi dan organisasi kesehatan",
+};
+
+export const organizationNotes: Record<LocaleCode, string> = {
+  fr: "Annuaire informatif. La présence d’une organisation ne signifie pas un partenariat ou un soutien à Careline.",
+  en: "Informational directory. Listing an organization does not imply a partnership with or endorsement of Careline.",
+  nl: "Informatieve lijst. Vermelding betekent geen partnerschap met of steun aan Careline.",
+  de: "Informationsverzeichnis. Eine Nennung bedeutet keine Partnerschaft mit oder Unterstützung von Careline.",
+  es: "Directorio informativo. La presencia no implica colaboración ni respaldo a Careline.",
+  it: "Elenco informativo. La presenza non implica una partnership o un sostegno a Careline.",
+  pt: "Diretório informativo. A presença não implica parceria ou apoio à Careline.",
+  ar: "دليل معلوماتي. إدراج منظمة لا يعني شراكة مع Careline أو تأييدها.",
+  zh: "信息目录。列出某个组织并不意味着其与 Careline 合作或为其背书。",
+  ru: "Информационный справочник. Упоминание не означает партнёрство с Careline или её поддержку.",
+  ja: "情報提供用の一覧です。掲載は Careline との提携や推奨を意味しません。",
+  ko: "정보 제공용 목록입니다. 게재는 Careline과의 제휴나 지지를 의미하지 않습니다.",
+  hi: "सूचनात्मक निर्देशिका। किसी संगठन का नाम होना Careline के साथ साझेदारी या समर्थन का संकेत नहीं है।",
+  tr: "Bilgilendirme dizini. Listelenmek, Careline ile ortaklık veya Careline'a destek anlamına gelmez.",
+  pl: "Katalog informacyjny. Obecność nie oznacza partnerstwa z Careline ani jej poparcia.",
+  sv: "Informationskatalog. Listningen innebär inte partnerskap med eller stöd för Careline.",
+  uk: "Інформаційний довідник. Згадка не означає партнерства з Careline або її підтримки.",
+  id: "Direktori informasi. Pencantuman tidak berarti kemitraan atau dukungan terhadap Careline.",
+};
