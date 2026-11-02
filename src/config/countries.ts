@@ -1,4 +1,5 @@
-import codes from "i18n-iso-countries/codes.json";
+// ISO 3166 catalog from i18n-iso-countries 7.14.0 (MIT), including Kosovo.
+import codes from "./countryCodes.json";
 
 export function normalizeCountrySearch(value: string) {
   return value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
