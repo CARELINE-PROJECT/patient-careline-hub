@@ -15,6 +15,7 @@ import {
 } from "./fields";
 import { SuccessPanel } from "./SuccessPanel";
 import { CountryField } from "./CountryField";
+import { SpecialtyField } from "./SpecialtyField";
 
 const initial = {
   firstName: "",
@@ -61,19 +62,6 @@ export function AppointmentForm() {
 
   const set = (key: FieldKey) => (v: string) => setValues((prev) => ({ ...prev, [key]: v }));
   const setBool = (key: FieldKey) => (v: boolean) => setValues((prev) => ({ ...prev, [key]: v }));
-
-  const practitionerOptions = [
-    "gp",
-    "specialist",
-    "dentist",
-    "dermatologist",
-    "cardiologist",
-    "gynecologist",
-    "pediatrician",
-    "ophthalmologist",
-    "psychologist",
-    "other",
-  ].map((k) => ({ value: k, label: t(`practitioners.${k}`) }));
 
   const preferenceOptions = ["clinic", "remote", "any"].map((k) => ({
     value: k,
@@ -139,7 +127,7 @@ export function AppointmentForm() {
           <TextField id="phone" type="tel" label={t("form.phone")} hint={t("form.optional")} autoComplete="tel" value={values.phone} onChange={set("phone")} error={errors.phone} />
           <TextField id="city" label={t("form.city")} required autoComplete="address-level2" value={values.city} onChange={set("city")} error={errors.city} />
           <CountryField id="country" label={t("form.country")} required value={values.country} onChange={set("country")} error={errors.country} />
-          <SelectField id="practitionerType" label={t("form.practitionerType")} required placeholder={t("form.select")} options={practitionerOptions} value={values.practitionerType} onChange={set("practitionerType")} error={errors.practitionerType} />
+          <SpecialtyField id="practitionerType" label={t("form.specialty")} required value={values.practitionerType} onChange={set("practitionerType")} error={errors.practitionerType} />
           <SelectField id="preference" label={t("form.preference")} required placeholder={t("form.select")} options={preferenceOptions} value={values.preference} onChange={set("preference")} error={errors.preference} />
           <TextField id="period" label={t("form.period")} hint={t("form.optional")} value={values.period} onChange={set("period")} error={errors.period} className="sm:col-span-2" />
         </div>

@@ -1,4 +1,6 @@
 # Tasks
+- [ ] All forms: display the complete canonical specialty catalog with search, especially /fr/request; verify all sibling forms.
+- [ ] Replace Security in header with Humanitarian; create localized page with title “La santé pour tous, sans frontières”, colorful photos and full organization directory; retain Security in footer, avoid claims of unconfirmed existing partnerships.
 - [ ] Add a colored-logo organization banner on all public pages immediately above the human-assistance section; confirm neutral directory versus established partnerships because the uploaded document lists prospects.
 - [x] All forms: all countries with a search box above the list; selection and filtering verified on Request, Professionals and Services, tests pass.
 - [x] Google city/postcode suggestions deferred: user chose to keep free-text city entry and public forms; no Google requests implemented.

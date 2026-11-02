@@ -21,6 +21,7 @@ import { Route as LocaleCompaniesRouteImport } from './routes/$locale/companies'
 import { Route as LocaleContactRouteImport } from './routes/$locale/contact'
 import { Route as LocaleFaqRouteImport } from './routes/$locale/faq'
 import { Route as LocaleHowItWorksRouteImport } from './routes/$locale/how-it-works'
+import { Route as LocaleHumanitaireRouteImport } from './routes/$locale/humanitaire'
 import { Route as LocalePrivacyPreferencesRouteImport } from './routes/$locale/privacy-preferences'
 import { Route as LocaleProfessionalsRouteImport } from './routes/$locale/professionals'
 import { Route as LocaleRequestRouteImport } from './routes/$locale/request'
@@ -93,6 +94,11 @@ const LocaleFaqRoute = LocaleFaqRouteImport.update({
 const LocaleHowItWorksRoute = LocaleHowItWorksRouteImport.update({
   id: '/how-it-works',
   path: '/how-it-works',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleHumanitaireRoute = LocaleHumanitaireRouteImport.update({
+  id: '/humanitaire',
+  path: '/humanitaire',
   getParentRoute: () => LocaleRoute,
 } as any)
 const LocalePrivacyPreferencesRoute =
@@ -171,6 +177,7 @@ export interface FileRoutesByFullPath {
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/faq': typeof LocaleFaqRoute
   '/$locale/how-it-works': typeof LocaleHowItWorksRoute
+  '/$locale/humanitaire': typeof LocaleHumanitaireRoute
   '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
   '/$locale/professionals': typeof LocaleProfessionalsRoute
   '/$locale/request': typeof LocaleRequestRoute
@@ -196,6 +203,7 @@ export interface FileRoutesByTo {
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/faq': typeof LocaleFaqRoute
   '/$locale/how-it-works': typeof LocaleHowItWorksRoute
+  '/$locale/humanitaire': typeof LocaleHumanitaireRoute
   '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
   '/$locale/professionals': typeof LocaleProfessionalsRoute
   '/$locale/request': typeof LocaleRequestRoute
@@ -223,6 +231,7 @@ export interface FileRoutesById {
   '/$locale/contact': typeof LocaleContactRoute
   '/$locale/faq': typeof LocaleFaqRoute
   '/$locale/how-it-works': typeof LocaleHowItWorksRoute
+  '/$locale/humanitaire': typeof LocaleHumanitaireRoute
   '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
   '/$locale/professionals': typeof LocaleProfessionalsRoute
   '/$locale/request': typeof LocaleRequestRoute
@@ -251,6 +260,7 @@ export interface FileRouteTypes {
     | '/$locale/contact'
     | '/$locale/faq'
     | '/$locale/how-it-works'
+    | '/$locale/humanitaire'
     | '/$locale/privacy-preferences'
     | '/$locale/professionals'
     | '/$locale/request'
@@ -276,6 +286,7 @@ export interface FileRouteTypes {
     | '/$locale/contact'
     | '/$locale/faq'
     | '/$locale/how-it-works'
+    | '/$locale/humanitaire'
     | '/$locale/privacy-preferences'
     | '/$locale/professionals'
     | '/$locale/request'
@@ -302,6 +313,7 @@ export interface FileRouteTypes {
     | '/$locale/contact'
     | '/$locale/faq'
     | '/$locale/how-it-works'
+    | '/$locale/humanitaire'
     | '/$locale/privacy-preferences'
     | '/$locale/professionals'
     | '/$locale/request'
@@ -410,6 +422,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleHowItWorksRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/humanitaire': {
+      id: '/$locale/humanitaire'
+      path: '/humanitaire'
+      fullPath: '/$locale/humanitaire'
+      preLoaderRoute: typeof LocaleHumanitaireRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/privacy-preferences': {
       id: '/$locale/privacy-preferences'
       path: '/privacy-preferences'
@@ -505,6 +524,7 @@ interface LocaleRouteChildren {
   LocaleContactRoute: typeof LocaleContactRoute
   LocaleFaqRoute: typeof LocaleFaqRoute
   LocaleHowItWorksRoute: typeof LocaleHowItWorksRoute
+  LocaleHumanitaireRoute: typeof LocaleHumanitaireRoute
   LocalePrivacyPreferencesRoute: typeof LocalePrivacyPreferencesRoute
   LocaleProfessionalsRoute: typeof LocaleProfessionalsRoute
   LocaleRequestRoute: typeof LocaleRequestRoute
@@ -528,6 +548,7 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleContactRoute: LocaleContactRoute,
   LocaleFaqRoute: LocaleFaqRoute,
   LocaleHowItWorksRoute: LocaleHowItWorksRoute,
+  LocaleHumanitaireRoute: LocaleHumanitaireRoute,
   LocalePrivacyPreferencesRoute: LocalePrivacyPreferencesRoute,
   LocaleProfessionalsRoute: LocaleProfessionalsRoute,
   LocaleRequestRoute: LocaleRequestRoute,

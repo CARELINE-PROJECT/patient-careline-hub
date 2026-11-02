@@ -1,5 +1,8 @@
 // Generated catalog: descriptive French file names, natural size of the 1600 px variant.
 export const photoDims = {
+  "humanitaire-sante-communautaire-madagascar": [1600, 1008],
+  "humanitaire-equipe-solidaire": [1600, 1008],
+  "humanitaire-nutrition-prevention": [1600, 1008],
   "coordinatrice-careline-rendez-vous-ophtalmologiste": [1600, 1200],
   "chirurgie-laser-yeux-ophtalmologiste": [1408, 896],
   "ophtalmologiste-accueil-patient-consultation": [1408, 1008],
