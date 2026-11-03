@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { organizations } from "@/config/organizations";
-import { organizationNotes, organizationTitles } from "@/i18n/organizations";
+import { organizationTitles } from "@/i18n/organizations";
 import { useI18n } from "@/i18n";
 
 function OrganizationIdentity({ organization }: { organization: (typeof organizations)[number] }) {
@@ -30,7 +30,6 @@ export function OrganizationDirectory({ compact = false }: { compact?: boolean }
           {organization.website ? <a href={organization.website} target="_blank" rel="noopener noreferrer" className="relative flex h-full min-h-36 flex-col justify-center rounded-lg border border-border bg-card px-4 py-5 transition-colors hover:border-brand focus-visible:outline-2 focus-visible:outline-brand"><OrganizationIdentity organization={organization} /><ArrowUpRight className="absolute right-2 top-2 size-3 text-muted-foreground" aria-hidden="true" /></a> : <div className="flex h-full min-h-36 flex-col justify-center rounded-lg border border-border bg-card px-4 py-5"><OrganizationIdentity organization={organization} /></div>}
         </li>)}
       </ul>
-      <p className="mt-4 text-xs leading-relaxed text-muted-foreground">{organizationNotes[locale]}</p>
     </div>
   </section>;
 }
