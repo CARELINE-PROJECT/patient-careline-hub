@@ -7,6 +7,7 @@ import { headKeyByPath } from "@/i18n/head";
 import { specialtyPageCopy } from "@/i18n/specialtyPages";
 import { specialtyFromSlug } from "@/content/specialtyDetail";
 import { specialtyLabels } from "@/i18n/specialties";
+import { humanitarianLabels } from "@/i18n/humanitarian";
 
 /** Short navigation labels where they exist; otherwise the cleaned page title. */
 const navLabelByPath: Record<string, string> = {
@@ -50,6 +51,8 @@ export function Breadcrumbs({ pathname }: { pathname: string }) {
     } else {
       crumbs.push({ label: copy.title });
     }
+  } else if (pathname === "/humanitaire") {
+    crumbs.push({ label: humanitarianLabels[locale] });
   } else {
     const navKey = navLabelByPath[pathname];
     const headKey = headKeyByPath[pathname];

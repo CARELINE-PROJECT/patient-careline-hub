@@ -10,8 +10,8 @@ import { humanitarianLabels } from "@/i18n/humanitarian";
 
 const navItems = [
   { to: "/how-it-works", key: "nav.howItWorks" },
-  { to: "/services", key: "nav.services" },
   { to: "/specialties", key: "hero.specialties" },
+  { to: "/services", key: "nav.services" },
   { to: "/companies", key: "nav.corporations" },
   { to: "/humanitaire", key: "nav.security" },
   { to: "/contact", key: "nav.contact" },
