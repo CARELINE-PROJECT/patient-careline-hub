@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-import { Menu, X, HeartPulse } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logoAsset from "@/assets/careline-logo.png.asset.json";
 import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -30,13 +31,8 @@ export function Header() {
         {t("nav.discover")}
       </a>
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-3 sm:px-8">
-        <LocalizedLink to="/" className="flex items-center gap-2.5" aria-label={siteConfig.name}>
-          <span className="flex size-9 items-center justify-center rounded-2xl bg-brand text-primary-foreground">
-            <HeartPulse className="size-5" aria-hidden="true" />
-          </span>
-          <span className="font-display text-xl tracking-tight text-branddeep">
-            {siteConfig.name}
-          </span>
+        <LocalizedLink to="/" className="flex shrink-0 items-center" aria-label={siteConfig.name}>
+          <img src={logoAsset.url} alt={`${siteConfig.name} — Global Health Solutions`} width={811} height={200} className="h-9 w-auto sm:h-11" />
         </LocalizedLink>
 
         <nav aria-label={t("ui.mainNavigation")} className="hidden items-center gap-1 lg:flex">
