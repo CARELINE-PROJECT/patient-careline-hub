@@ -1,3 +1,4 @@
+import { Honeypot } from "./Honeypot";
 import { useState } from "react";
 import { z } from "zod";
 import { useI18n } from "@/i18n";
@@ -79,6 +80,7 @@ export function ContactForm() {
   return (
     <Glass className="px-6 pb-6 pt-4 sm:px-8 sm:pb-8 sm:pt-5">
       <form onFocusCapture={onFocusCapture} onSubmit={onSubmit} noValidate className="space-y-5">
+        <Honeypot />
         <div className="grid gap-5 sm:grid-cols-2">
           <TextField id="firstName" label={t("form.firstName")} required autoComplete="given-name" value={values.firstName} onChange={set("firstName")} error={errors.firstName} />
           <TextField id="lastName" label={t("form.lastName")} required autoComplete="family-name" value={values.lastName} onChange={set("lastName")} error={errors.lastName} />

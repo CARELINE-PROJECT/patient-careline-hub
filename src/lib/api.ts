@@ -26,6 +26,9 @@ export async function submitForm(
   const reference = generateReference(prefix);
   const { sendFormSubmission } = await import("@/lib/forms.functions");
   const data = Object.fromEntries(Object.entries(payload).filter(([, v]) => typeof v === "string" || typeof v === "boolean")) as Record<string, string | boolean>;
-  const r = await sendFormSubmission({ data: { kind, reference, data, page: typeof window !== "undefined" ? window.location.pathname : undefined } });
+  const hp = typeof document !== "undefined"
+    ? Array.from(document.querySelectorAll<HTMLInputElement>('input[name="cl_website"]')).map((i) => i.value).join("")
+    : "";
+  const r = await sendFormSubmission({ data: { kind, reference, data, hp: hp.slice(0, 200), page: typeof window !== "undefined" ? window.location.pathname : undefined } });
   return { ok: r.sent, reference, demo: false };
 }

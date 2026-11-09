@@ -13,6 +13,7 @@ const input = z.object({
   kind: z.enum(["contact", "appointment", "partner"]),
   reference: z.string().regex(/^[A-Z]{2}-[A-Z0-9-]{4,20}$/),
   page: z.string().max(200).optional(),
+  hp: z.string().max(200).optional(),
   data: z.record(z.string(), z.union([z.string().max(5000), z.boolean()])).refine((d) => Object.keys(d).length <= 30),
 });
 
@@ -20,6 +21,8 @@ const input = z.object({
 export const sendFormSubmission = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => input.parse(d))
   .handler(async ({ data }) => {
+    // Honeypot filled → silently accept without sending (bots get no signal).
+    if (data.hp && data.hp.trim() !== "") return { sent: true };
     const { sendTemplateEmail } = await import("@/lib/email-templates/send-email");
     const fields = Object.entries(data.data)
       .filter(([k, v]) => k !== "consent" && typeof v === "string")

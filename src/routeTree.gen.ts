@@ -28,6 +28,7 @@ import { Route as LocaleRequestRouteImport } from './routes/$locale/request'
 import { Route as LocaleSecurityRouteImport } from './routes/$locale/security'
 import { Route as LocaleServicesRouteImport } from './routes/$locale/services'
 import { Route as LocaleSpecialtiesRouteImport } from './routes/$locale/specialties'
+import { Route as ApiHealthRouteImport } from './routes/api/health'
 import { Route as LocaleChirurgieLaserYeuxGuideRouteImport } from './routes/$locale/chirurgie-laser-yeux_.$guide'
 import { Route as LocaleLegalCookiesRouteImport } from './routes/$locale/legal.cookies'
 import { Route as LocaleLegalNoticeRouteImport } from './routes/$locale/legal.notice'
@@ -134,6 +135,11 @@ const LocaleSpecialtiesRoute = LocaleSpecialtiesRouteImport.update({
   path: '/specialties',
   getParentRoute: () => LocaleRoute,
 } as any)
+const ApiHealthRoute = ApiHealthRouteImport.update({
+  id: '/api/health',
+  path: '/api/health',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LocaleChirurgieLaserYeuxGuideRoute =
   LocaleChirurgieLaserYeuxGuideRouteImport.update({
     id: '/chirurgie-laser-yeux_/$guide',
@@ -198,6 +204,7 @@ export interface FileRoutesByFullPath {
   '/$locale/security': typeof LocaleSecurityRoute
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/api/health': typeof ApiHealthRoute
   '/$locale/': typeof LocaleIndexRoute
   '/$locale/chirurgie-laser-yeux/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
@@ -226,6 +233,7 @@ export interface FileRoutesByTo {
   '/$locale/security': typeof LocaleSecurityRoute
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/api/health': typeof ApiHealthRoute
   '/$locale': typeof LocaleIndexRoute
   '/$locale/chirurgie-laser-yeux/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
@@ -256,6 +264,7 @@ export interface FileRoutesById {
   '/$locale/security': typeof LocaleSecurityRoute
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/api/health': typeof ApiHealthRoute
   '/$locale/': typeof LocaleIndexRoute
   '/$locale/chirurgie-laser-yeux_/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
@@ -287,6 +296,7 @@ export interface FileRouteTypes {
     | '/$locale/security'
     | '/$locale/services'
     | '/$locale/specialties'
+    | '/api/health'
     | '/$locale/'
     | '/$locale/chirurgie-laser-yeux/$guide'
     | '/$locale/legal/cookies'
@@ -315,6 +325,7 @@ export interface FileRouteTypes {
     | '/$locale/security'
     | '/$locale/services'
     | '/$locale/specialties'
+    | '/api/health'
     | '/$locale'
     | '/$locale/chirurgie-laser-yeux/$guide'
     | '/$locale/legal/cookies'
@@ -344,6 +355,7 @@ export interface FileRouteTypes {
     | '/$locale/security'
     | '/$locale/services'
     | '/$locale/specialties'
+    | '/api/health'
     | '/$locale/'
     | '/$locale/chirurgie-laser-yeux_/$guide'
     | '/$locale/legal/cookies'
@@ -360,6 +372,7 @@ export interface RootRouteChildren {
   SplatRoute: typeof SplatRoute
   LocaleRoute: typeof LocaleRouteWithChildren
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  ApiHealthRoute: typeof ApiHealthRoute
   LovableEmailTransactionalPreviewRoute: typeof LovableEmailTransactionalPreviewRoute
 }
 
@@ -498,6 +511,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleSpecialtiesRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/api/health': {
+      id: '/api/health'
+      path: '/api/health'
+      fullPath: '/api/health'
+      preLoaderRoute: typeof ApiHealthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$locale/chirurgie-laser-yeux_/$guide': {
       id: '/$locale/chirurgie-laser-yeux_/$guide'
       path: '/chirurgie-laser-yeux/$guide'
@@ -615,6 +635,7 @@ const rootRouteChildren: RootRouteChildren = {
   SplatRoute: SplatRoute,
   LocaleRoute: LocaleRouteWithChildren,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  ApiHealthRoute: ApiHealthRoute,
   LovableEmailTransactionalPreviewRoute: LovableEmailTransactionalPreviewRoute,
 }
 export const routeTree = rootRouteImport

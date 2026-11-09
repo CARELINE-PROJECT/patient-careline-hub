@@ -1,3 +1,4 @@
+import { Honeypot } from "./Honeypot";
 import { useState } from "react";
 import { z } from "zod";
 import { AlertTriangle } from "lucide-react";
@@ -115,6 +116,7 @@ export function AppointmentForm() {
   return (
     <Glass className="px-5 pb-5 pt-3 sm:px-6 sm:pb-6 sm:pt-4">
       <form onFocusCapture={onFocusCapture} onSubmit={onSubmit} noValidate className="space-y-3">
+        <Honeypot />
         <div className="flex items-start gap-3 rounded-2xl border border-accent/40 bg-accent/10 p-3">
           <AlertTriangle className="mt-0.5 size-4 shrink-0 text-accent-foreground" aria-hidden="true" />
           <p className="text-xs leading-relaxed text-accent-foreground">{t("form.warning")}</p>
