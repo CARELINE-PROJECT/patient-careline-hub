@@ -8,6 +8,8 @@ import { specialtyPageCopy } from "@/i18n/specialtyPages";
 import { specialtyFromSlug } from "@/content/specialtyDetail";
 import { specialtyLabels } from "@/i18n/specialties";
 import { humanitarianLabels } from "@/i18n/humanitarian";
+import { laserGuideBySlug } from "@/content/laserGuides";
+import hebrewMedical from "@/content/hebrewMedical.json";
 
 /** Short navigation labels where they exist; otherwise the cleaned page title. */
 const navLabelByPath: Record<string, string> = {
@@ -51,6 +53,10 @@ export function Breadcrumbs({ pathname }: { pathname: string }) {
     } else {
       crumbs.push({ label: copy.title });
     }
+  } else if (pathname.startsWith("/chirurgie-laser-yeux/")) {
+    const slug = pathname.split("/")[2] ?? "";
+    const guide = locale === "he" ? hebrewMedical.guides.find(g => g.slug === slug) : laserGuideBySlug(slug);
+    crumbs.push({ label: specialtyPageCopy(locale).eyeTitle, to: "/chirurgie-laser-yeux" }, { label: guide?.label ?? slug });
   } else if (pathname === "/humanitaire") {
     crumbs.push({ label: humanitarianLabels[locale] });
   } else {
@@ -72,7 +78,7 @@ export function Breadcrumbs({ pathname }: { pathname: string }) {
   };
 
   return (
-    <nav aria-label="Breadcrumb" className="border-b border-border/60 bg-background">
+    <nav aria-label={t("ui.breadcrumb")} className="border-b border-border/60 bg-background">
       <ol className="mx-auto flex max-w-6xl flex-wrap items-center gap-1.5 px-5 py-2.5 text-xs text-muted-foreground sm:px-8">
         {crumbs.map((crumb, index) => (
           <li key={`${crumb.label}-${index}`} className="flex items-center gap-1.5">

@@ -21,8 +21,8 @@ export function OrganizationDirectory({ compact = false }: { compact?: boolean }
       <div className="flex items-center justify-between gap-4">
         <h2 id={compact ? "organization-banner-title" : "organizations-title"} className="font-display text-2xl leading-tight text-branddeep sm:text-3xl">{organizationTitles[locale]}</h2>
         {compact && <div className="flex shrink-0 gap-2" dir="ltr">
-          <Button variant="outline" size="icon" title={t("ui.previous")} aria-label={locale === "fr" ? "Organisations précédentes" : "Previous organizations"} onClick={() => viewport.current?.scrollBy({ left: -500, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" })}><ChevronLeft /></Button>
-          <Button variant="outline" size="icon" title={locale === "fr" ? "Organisations suivantes" : "Next organizations"} aria-label={locale === "fr" ? "Organisations suivantes" : "Next organizations"} onClick={() => viewport.current?.scrollBy({ left: 500, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" })}><ChevronRight /></Button>
+          <Button variant="outline" size="icon" title={t("ui.previous")} aria-label={t("ui.previous")} onClick={() => viewport.current?.scrollBy({ left: -500, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" })}><ChevronLeft /></Button>
+          <Button variant="outline" size="icon" title={t("ui.next")} aria-label={t("ui.next")} onClick={() => viewport.current?.scrollBy({ left: 500, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" })}><ChevronRight /></Button>
         </div>}
       </div>
       <ul ref={viewport} dir="ltr" className={compact ? "software-scroll mt-6 flex gap-4 overflow-x-auto pb-3" : "mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5"}>

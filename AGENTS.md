@@ -24,8 +24,10 @@
 ## URL-based i18n (SEO step 2)
 - Every public page lives under `src/routes/$locale/`; the locale comes from the URL, never from localStorage alone. `src/routes/index.tsx` 301-redirects `/` to the Accept-Language locale (default fr); `src/routes/$.tsx` and the `$locale` layout 301 legacy unprefixed URLs to `/fr/...`.
 - Internal navigation uses `LocalizedLink` (locale-free `to`) or `useLocalePath()`; never raw `<Link to="/...">` for in-site links.
-- Page head metadata comes from `staticRouteHead(key, path, locale)` / `specialtyPageHead(kind, locale)` — they emit the per-language canonical, og:locale, og:image and the 18 hreflang + x-default links. Never hardcode a canonical.
+- Page head metadata comes from `staticRouteHead(key, path, locale)` / `specialtyPageHead(kind, locale)` — they emit the per-language canonical, og:locale, og:image and all supported hreflang + x-default links. Never hardcode a canonical.
 - Key figures live in `src/config/figures.ts`; a figure with `confirmed: false` is hidden everywhere (pages, meta, llms.txt) until the owner validates it.
 - Photos live in src/assets/photos as <descriptive-french-name>-{480,960,1600}.{webp,jpg} and render only through ResponsivePhoto with localized alts from src/i18n/imageAlts.ts; one catalog keeps file names, sizes, alt text and sitemap images consistent.
 - Render About information through a shared AboutContent component on About and How it works, so localized company and operations content stays identical without importing route modules.
 - Keep specialty detail descriptions, clinical scopes, exams, care options and verified resource provenance in a shared catalog keyed by canonical SpecialtyId; use one unnested detail route and enumerate its valid slugs in the sitemap and prerender list to avoid empty or duplicate pages.
+
+- Keep Hebrew translations in dedicated static language catalogs with shared specialty IDs and laser slugs; medical source URLs and video IDs remain unchanged across translations.

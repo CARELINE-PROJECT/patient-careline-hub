@@ -1,6 +1,6 @@
 # Tasks
-- [ ] Add Hebrew to every public page with Israel flag, RTL, localized metadata and searchable country menu; verify all Hebrew pages.
-- [ ] Add all requested Arabic-speaking countries to the country-language menu, preserving existing languages and verifying Arabic destinations.
+- [x] Add Hebrew to all 108 public pages with Israel flag, RTL, localized metadata and searchable country menu; verified pages, mobile layout and Hebrew sitemap.
+- [x] Add all 26 requested Arabic-speaking countries to the country-language menu, preserving existing languages; tested Qatar → Arabic and all country mappings.
 - [x] All forms: display the complete canonical specialty catalog with search, especially /fr/request; verify all sibling forms.
 - [x] Replace Security in header with Humanitarian; localized page “La santé pour tous, sans frontières” with colorful photos and organization directory; Security retained in footer; breadcrumb fixed.
 - [x] Colored-logo organization banner on all public pages immediately above the human-assistance section; neutral directory wording, no partnership claims.

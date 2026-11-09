@@ -52,3 +52,11 @@ test("every requested Arabic destination preserves the current page in Arabic", 
     expect(countryLanguagePath(choice?.language ?? "fr", "/contact")).toBe("/ar/contact");
   }
 });
+
+test("Israel opens Hebrew and Hebrew is a right-to-left locale", () => {
+  const choice = languageCountryOptions("fr").find(entry => entry.id === "IL");
+  expect(choice?.flag).toBe("IL");
+  expect(choice?.language).toBe("he");
+  expect(countryLanguagePath(choice?.language ?? "fr", "/request")).toBe("/he/request");
+  expect(locales.find(locale => locale.code === "he")?.dir).toBe("rtl");
+});
