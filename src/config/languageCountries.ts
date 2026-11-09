@@ -53,5 +53,6 @@ export function countryLanguagePath(language: LocaleCode, basePath: string) {
 export function selectedLanguageCountry(locale: LocaleCode, countryId: string | null) {
   const options = languageCountryOptions(locale);
   return options.find(entry => entry.id === countryId && entry.language === locale)
+    ?? options.find(entry => entry.country === countryId && entry.language === locale)
     ?? options.find(entry => entry.language === locale);
 }

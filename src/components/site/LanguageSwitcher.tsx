@@ -7,6 +7,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Command, CommandInput, CommandList, CommandItem, CommandEmpty } from "@/components/ui/command";
 import { countryLanguagePath, languageCountryOptions, selectedLanguageCountry } from "@/config/languageCountries";
 import { Flag } from "@/components/site/Flag";
+import { getVisitorCountry } from "@/lib/visitorCountry.functions";
 
 const countryPreferenceKey = "careline.language-country";
 
@@ -16,7 +17,12 @@ export function LanguageSwitcher({ className }: { className?: string }) {
   const [query, setQuery] = useState("");
   const [countryId, setCountryId] = useState<string | null>(null);
   useEffect(() => {
-    try { setCountryId(window.localStorage.getItem(countryPreferenceKey)); } catch { /* Storage may be disabled. */ }
+    let stored: string | null = null;
+    try { stored = window.localStorage.getItem(countryPreferenceKey); } catch { /* Storage may be disabled. */ }
+    if (stored) { setCountryId(stored); return; }
+    const fromBrowser = (navigator.languages ?? [navigator.language]).map(tag => tag.split("-")[1]?.toUpperCase()).find(c => c && /^[A-Z]{2}$/.test(c)) ?? null;
+    if (fromBrowser) setCountryId(fromBrowser);
+    getVisitorCountry().then(({ country }) => { if (country) setCountryId(country); }).catch(() => { /* Keep browser guess. */ });
   }, []);
   const selected = selectedLanguageCountry(locale, countryId);
   const pathname = useRouterState({ select: (state) => state.location.pathname });
