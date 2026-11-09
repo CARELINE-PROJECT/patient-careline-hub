@@ -1,3 +1,4 @@
+import { hebrewAdministrative } from "./hebrewShared";
 import type { LocaleCode } from "./types";
 
 const fr = {
@@ -164,7 +165,7 @@ const en: typeof fr = {
 };
 
 export function administrativeServicesCopy(locale: LocaleCode) {
-  return locale === "fr" ? fr : en;
+  return locale === "he" ? hebrewAdministrative : locale === "fr" ? fr : en;
 }
 
 /** Shared overrides keep homepage summaries and practitioner pages aligned. */

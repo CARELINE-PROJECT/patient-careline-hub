@@ -1,4 +1,6 @@
 import guides from "./specialtyGuides.json";
+import hebrewMedical from "./hebrewMedical.json";
+import { hebrewSpecialtyCopy } from "@/i18n/hebrewSpecialtyCopy";
 import { specialtyIds, type SpecialtyId } from "@/config/specialties";
 import { specialtyLabels } from "@/i18n/specialties";
 import { hreflangLinks, localizedUrl } from "@/i18n/head";
@@ -16,6 +18,7 @@ export const specialtyPhoto = (id: SpecialtyId) => `specialite-${specialtySlug(i
 const safe = (l: string): LocaleCode => (locales.some((x) => x.code === l) ? (l as LocaleCode) : "fr");
 
 export function specialtyDetailCopy(locale: LocaleCode) {
+  if (locale === "he") return hebrewSpecialtyCopy;
   const fr = locale === "fr";
   return fr ? {
     eyebrow: "Spécialité médicale", role: "Le rôle du spécialiste", when: "Quand consulter ?",
@@ -48,7 +51,7 @@ export function specialtyDetailHead(slug: string, locale: string) {
   const name = specialtyLabels[l][id];
   const g = specialtyGuides[id];
   const title = c.title(name);
-  const description = c.desc(name, l === "fr" ? g.fr : g.en);
+  const description = c.desc(name, l === "he" ? hebrewMedical.specialties[id].intro : l === "fr" ? g.fr : g.en);
   const path = specialtyPath(id);
   const url = localizedUrl(l, path);
   const jsonLd = { "@context": "https://schema.org", "@type": "MedicalWebPage", name: title, url, inLanguage: l, description, audience: { "@type": "MedicalAudience", audienceType: "Patient" }, about: { "@type": "Thing", name }, citation: g.source.url };

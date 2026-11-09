@@ -1,3 +1,4 @@
+import { hebrewFooter } from "./hebrewShared";
 import type { LocaleCode } from "./types";
 
 export interface FooterGlobalCopy {
@@ -89,6 +90,7 @@ const baseFooterGlobalCopy = {
 // Newer locales fall back to English until fully translated.
 export const footerGlobalCopy: Record<LocaleCode, FooterGlobalCopy> = {
   ...baseFooterGlobalCopy,
+  he: hebrewFooter,
   ja: baseFooterGlobalCopy.en,
   ko: baseFooterGlobalCopy.en,
   hi: baseFooterGlobalCopy.en,

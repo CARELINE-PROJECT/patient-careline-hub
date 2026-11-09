@@ -19,6 +19,7 @@ export type LocaleCode =
   | "it"
   | "pt"
   | "ar"
+  | "he"
   | "zh"
   | "ru"
   | "ja"
@@ -41,6 +42,7 @@ export interface LocaleMeta {
 }
 
 export const locales: LocaleMeta[] = [
+  { code: "he", short: "HE", dir: "rtl", htmlLang: "he", ogLocale: "he_IL", flag: "IL", name: "עברית" },
   { code: "en", short: "EN", dir: "ltr", htmlLang: "en", ogLocale: "en_US", flag: "🇬🇧", name: "English" },
   { code: "fr", short: "FR", dir: "ltr", htmlLang: "fr", ogLocale: "fr_FR", flag: "🇫🇷", name: "Français" },
   { code: "nl", short: "NL", dir: "ltr", htmlLang: "nl", ogLocale: "nl_NL", flag: "🇳🇱", name: "Nederlands" },

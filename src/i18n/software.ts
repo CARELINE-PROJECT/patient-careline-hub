@@ -1,3 +1,4 @@
+import { hebrewSoftware } from "./hebrewShared";
 import type { LocaleCode } from "./types";
 
 const baseSoftwareCopy = {
@@ -16,6 +17,7 @@ const baseSoftwareCopy = {
 // Newer locales fall back to English until fully translated.
 export const softwareCopy: Record<LocaleCode, { title: string; note: string; pause: string; play: string; previous: string; next: string }> = {
   ...baseSoftwareCopy,
+  he: hebrewSoftware,
   ja: baseSoftwareCopy.en,
   ko: baseSoftwareCopy.en,
   hi: baseSoftwareCopy.en,
@@ -28,6 +30,7 @@ export const softwareCopy: Record<LocaleCode, { title: string; note: string; pau
 
 /** Strip title without any unconfirmed figure (used while softwarePartners is unconfirmed). */
 export const softwarePlainTitle: Record<LocaleCode, string> = {
+  he: "שותפים וממשקי תכנות לתוכנה, ברחבי העולם",
   fr: "Partenaires et API logiciels, dans le monde",
   en: "Partners and software APIs, worldwide",
   nl: "Partners en software-API's, wereldwijd",
@@ -50,6 +53,7 @@ export const softwarePlainTitle: Record<LocaleCode, string> = {
 
 /** Label when the strip shows only actually-connected software. */
 export const softwareCompatibleLabel: Record<LocaleCode, string> = {
+  he: "תואם ל־",
   fr: "Compatible avec",
   en: "Compatible with",
   nl: "Compatibel met",

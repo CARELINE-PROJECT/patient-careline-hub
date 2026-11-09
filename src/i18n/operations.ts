@@ -1,3 +1,4 @@
+import { hebrewOperations } from "./hebrewShared";
 import type { LocaleCode } from "./types";
 
 export type OperationsCopy = {
@@ -158,6 +159,7 @@ const baseOperationsCopy = {
 // Newer locales fall back to English until fully translated.
 export const operationsCopy: Record<LocaleCode, OperationsCopy> = {
   ...baseOperationsCopy,
+  he: hebrewOperations,
   ja: baseOperationsCopy.en,
   ko: baseOperationsCopy.en,
   hi: baseOperationsCopy.en,

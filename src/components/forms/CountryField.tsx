@@ -18,6 +18,7 @@ interface CountryFieldProps {
 }
 
 const copy: Record<string, [string, string]> = {
+  he: ["חיפוש מדינה…", "לא נמצאה מדינה."],
   fr: ["Rechercher un pays…", "Aucun pays trouvé."],
   en: ["Search countries…", "No countries found."],
   nl: ["Zoek een land…", "Geen landen gevonden."],

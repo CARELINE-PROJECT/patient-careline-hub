@@ -21,6 +21,7 @@ const baseLabels: Record<BaseLocale, [string, string, string, string, string]> =
 // Newer locales fall back to English until fully translated.
 const labels: Record<LocaleCode, [string, string, string, string, string]> = {
   ...baseLabels,
+  he: ["התמחויות", "מצאו את ההתמחות המתאימה לכם", "לייזר לעיניים · רופא עיניים", "הכירו את השיטות והיערכו לתהליך עם רופא עיניים.", "עיינו במדריך"],
   ja: baseLabels.en,
   ko: baseLabels.en,
   hi: baseLabels.en,

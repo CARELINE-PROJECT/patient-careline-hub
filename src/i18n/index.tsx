@@ -56,7 +56,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const pathname = useRouterState({ select: (state) => state.location.pathname });
   const locale = localeFromPath(pathname) ?? defaultLocale;
   const meta = useMemo<LocaleMeta>(
-    () => locales.find((l) => l.code === locale) ?? locales.find((l) => l.code === defaultLocale)!,
+    () => locales.find((l) => l.code === locale) ?? locales[0] ?? { code: defaultLocale, name: "Français", short: "FR", flag: "FR", dir: "ltr", htmlLang: "fr", ogLocale: "fr_FR" },
     [locale],
   );
 

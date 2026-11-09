@@ -1,6 +1,7 @@
 import type { LocaleCode } from "./types";
 
 export const organizationTitles: Record<LocaleCode, string> = {
+  he: "עמותות וארגוני בריאות",
   fr: "Associations et organisations de santé",
   en: "Health associations and organizations",
   nl: "Gezondheidsverenigingen en organisaties",

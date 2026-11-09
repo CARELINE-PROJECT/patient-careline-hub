@@ -1,3 +1,4 @@
+import { hebrewPhotoAlts } from "./hebrewShared";
 import type { PhotoId } from "@/config/photoDims";
 import type { LocaleCode } from "@/i18n/types";
 import { useI18n } from "@/i18n";
@@ -458,6 +459,11 @@ export const photoAlts = {
 } as Record<PhotoId, Alts>;
 
 export function photoAlt(id: PhotoId, locale: LocaleCode): string {
+  if (locale === "he") {
+    const specialty = specialtyIds.find(s => id === `specialite-${s.replace(/_/g, "-")}-consultation`);
+    if (specialty) return `איש מקצוע בתחום הבריאות עם מטופל בייעוץ בתחום ${specialtyLabels.he[specialty]}`;
+    return hebrewPhotoAlts[id] ?? "צוות Careline ומטופלים";
+  }
   const entry = photoAlts[id];
   return entry[locale] ?? entry.en;
 }

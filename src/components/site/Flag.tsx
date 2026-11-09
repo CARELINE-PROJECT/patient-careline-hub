@@ -8,6 +8,22 @@ const horizontal = (a: string, b: string, c: string) => <><rect width="30" heigh
 const vertical = (a: string, b: string, c: string) => <><rect width="30" height="20" fill={a} /><rect x="10" width="10" height="20" fill={b} /><rect x="20" width="10" height="20" fill={c} /></>;
 const star = (x = 15, y = 10, color = "#ffde00", size = 3) => <path d="M0-1 .224-.309 .951-.309 .363.118 .588.809 0 .382 -.588.809 -.363.118 -.951-.309 -.224-.309Z" fill={color} transform={`translate(${x} ${y}) scale(${size})`} />;
 const flags: Record<string, ReactNode> = {
+  LY: <><rect width="30" height="20" fill="#239E46" /><rect width="30" height="5" fill="#E70013" /><rect y="5" width="30" height="10" fill="#000" /><circle cx="15" cy="10" r="3" fill="#fff" /><circle cx="16" cy="9.5" r="2.6" fill="#000" />{star(19,10,"#fff",1.6)}</>,
+  EG: <>{horizontal("#CE1126", "#fff", "#000")}<path d="M13 8h4v5l-2-1-2 1Z" fill="#C09300" /></>,
+  SD: <>{horizontal("#D21034", "#fff", "#000")}<path d="M0 0 10 10 0 20Z" fill="#007229" /></>,
+  SY: <>{horizontal("#007A3D", "#fff", "#000")}{[10,15,20].map(x=>star(x,10,"#CE1126",2))}</>,
+  JO: <>{horizontal("#000", "#fff", "#007A3D")}<path d="M0 0 12 10 0 20Z" fill="#CE1126" />{star(4,10,"#fff",2)}</>,
+  PS: <>{horizontal("#000", "#fff", "#007A3D")}<path d="M0 0 10 10 0 20Z" fill="#CE1126" /></>,
+  IQ: <>{horizontal("#CE1126", "#fff", "#000")}<path d="M10 9v2h3V9m2 0v2h5V9m-7 1h2m3-2v3" fill="none" stroke="#007A3D" strokeWidth="1" /></>,
+  QA: <><rect width="30" height="20" fill="#8A1538" /><path d="M0 0h8l4 1.1-4 1.1 4 1.1-4 1.1 4 1.2-4 1.1 4 1.1-4 1.1 4 1.1-4 1.1 4 1.1-4 1.1 4 1.2-4 1.1 4 1.1-4 1.1 4 1.1-4 1.1H0Z" fill="#fff" /></>,
+  BH: <><rect width="30" height="20" fill="#CE1126" /><path d="M0 0h8l4 2-4 2 4 2-4 2 4 2-4 2 4 2-4 2 4 2-4 2H0Z" fill="#fff" /></>,
+  KW: <>{horizontal("#007A3D", "#fff", "#CE1126")}<path d="M0 0 9 6.67v6.66L0 20Z" fill="#000" /></>,
+  OM: <>{horizontal("#fff", "#DB161B", "#008000")}<rect width="8" height="20" fill="#DB161B" /><path d="m2 3 4 4m0-4-4 4M4 2v6" stroke="#fff" strokeWidth=".8" /></>,
+  YE: horizontal("#CE1126", "#fff", "#000"),
+  SO: <><rect width="30" height="20" fill="#4189DD" />{star(15,10,"#fff",5)}</>,
+  ER: <><rect width="30" height="10" fill="#12AD2B" /><rect y="10" width="30" height="10" fill="#4189DD" /><path d="M0 0 30 10 0 20Z" fill="#EA0437" /><path d="M6 5q-5 5 0 10 5-5 0-10m0 0v10" fill="none" stroke="#FFC726" strokeWidth="1" /></>,
+  IR: <>{horizontal("#239F40", "#fff", "#DA0000")}<path d="M13 8q-2 4 2 5 4-1 2-5m-2-1v6m-2-5 2 1 2-1" fill="none" stroke="#DA0000" strokeWidth=".8" /></>,
+  IL: <><rect width="30" height="20" fill="#fff" /><rect y="3" width="30" height="2.5" fill="#0038B8" /><rect y="14.5" width="30" height="2.5" fill="#0038B8" /><path d="m15 6 4 6h-8Zm0 8-4-6h8Z" fill="none" stroke="#0038B8" strokeWidth=".8" /></>,
   BR: <><rect width="30" height="20" fill="#009739" /><path d="m15 2 12 8-12 8L3 10Z" fill="#FFDF00" /><circle cx="15" cy="10" r="5" fill="#012169" /><path d="M10.2 8.5q5-.3 9.6 3" fill="none" stroke="#fff" strokeWidth="1" />{[[13,12],[16,13],[18,10],[12,10]].map(([x,y]) => star(x,y,"#fff",.4))}</>,
   AO: <><rect width="30" height="10" fill="#CE1126" /><rect y="10" width="30" height="10" fill="#000" /><path d="M13 5a5 5 0 1 1-3 9m1-7 9 7" fill="none" stroke="#FFCB00" strokeWidth="1.4" />{star(15,9,"#FFCB00",2)}</>,
   MZ: <><rect width="30" height="20" fill="#FCE100" /><rect width="30" height="6" fill="#007168" /><rect y="6" width="30" height="1" fill="#fff" /><rect y="7" width="30" height="6" fill="#000" /><rect y="13" width="30" height="1" fill="#fff" /><path d="M0 0 12 10 0 20Z" fill="#D21034" />{star(4.5,10,"#FCE100",3)}<path d="m3 8 3 4m0-4-3 4" stroke="#000" strokeWidth=".8" /></>,

@@ -5,6 +5,7 @@ import { de } from "./locales/de";
 import { es } from "./locales/es";
 import { it } from "./locales/it";
 import { pt } from "./locales/pt";
+import { he } from "./locales/he";
 import { ar } from "./locales/ar";
 import { zh } from "./locales/zh";
 import { ru } from "./locales/ru";
@@ -27,6 +28,7 @@ export const dictionaries: Record<LocaleCode, PartialDictionary> = {
   it,
   pt,
   ar,
+  he,
   zh,
   ru,
   ja,

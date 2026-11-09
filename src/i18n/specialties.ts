@@ -1,3 +1,4 @@
+import { hebrewSpecialtyLabels, hebrewSpecialtyUi } from "./hebrewShared";
 import type { SpecialtyId } from "@/config/specialties";
 import type { LocaleCode } from "./types";
 
@@ -107,6 +108,7 @@ const baseSpecialtyUi = {
 // Newer locales fall back to English until fully translated.
 export const specialtyUi: Record<LocaleCode, SpecialtyUi> = {
   ...baseSpecialtyUi,
+  he: hebrewSpecialtyUi,
   ja: baseSpecialtyUi.en,
   ko: baseSpecialtyUi.en,
   hi: baseSpecialtyUi.en,
@@ -865,6 +867,7 @@ const baseSpecialtyLabels = {
 // Newer locales fall back to English until fully translated.
 export const specialtyLabels: Record<LocaleCode, Labels> = {
   ...baseSpecialtyLabels,
+  he: hebrewSpecialtyLabels,
   ja: baseSpecialtyLabels.en,
   ko: baseSpecialtyLabels.en,
   hi: baseSpecialtyLabels.en,

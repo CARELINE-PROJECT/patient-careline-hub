@@ -6,6 +6,8 @@ import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
 import { Button } from "@/components/ui/button";
 import { specialtyLabels } from "@/i18n/specialties";
+import hebrewMedical from "@/content/hebrewMedical.json";
+import { hebrewSpecialtySections as hs } from "@/i18n/hebrewSpecialtyCopy";
 import { specialtyImage, directorySpecialties } from "@/config/specialtyDirectory";
 import { specialtyDetailCopy, specialtyDetailHead, specialtyFromSlug, specialtyGuides, specialtyPath, specialtyPhoto } from "@/content/specialtyDetail";
 
@@ -24,6 +26,7 @@ function SpecialtyPage() {
   if (!id) throw notFound();
   const c = specialtyDetailCopy(locale);
   const g = specialtyGuides[id];
+  const hg = hebrewMedical.specialties[id];
   const name = specialtyLabels[locale][id];
   const related = directorySpecialties.filter((x) => x !== id && specialtyImage(x) === specialtyImage(id)).slice(0, 4);
   const list = (items: string[]) => <ul className="mt-4 space-y-2.5 text-sm leading-relaxed text-muted-foreground">{items.map((i) => <li key={i} className="flex gap-2.5"><Check className="mt-1 size-3.5 shrink-0 text-brand" aria-hidden="true" />{i}</li>)}</ul>;
@@ -34,7 +37,7 @@ function SpecialtyPage() {
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand">{c.eyebrow}</p>
           <h1 className="mt-2 font-display text-3xl leading-tight text-branddeep sm:text-4xl">{name}</h1>
-          <p className="mt-4 text-base leading-relaxed text-muted-foreground">{locale === "fr" ? g.fr : g.en}</p>
+          <p className="mt-4 text-base leading-relaxed text-muted-foreground">{locale === "he" ? hg.intro : locale === "fr" ? g.fr : g.en}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild size="lg"><LocalizedLink to="/request"><CalendarCheck aria-hidden="true" />{c.cta}</LocalizedLink></Button>
             <Button asChild size="lg" variant="outline"><LocalizedLink to="/specialties">{c.all}</LocalizedLink></Button>
@@ -44,6 +47,14 @@ function SpecialtyPage() {
       </div>
     </section>
     <section className="px-5 py-10 sm:px-8">
+      {locale === "he" && <div className="mx-auto mb-9 grid max-w-6xl gap-8 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
+        <div className="space-y-7">
+          <div><h2 className="font-display text-2xl text-branddeep">{hs.topicsTitle}</h2><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{hs.topicsBefore}{hg.topics}{hs.topicsAfter}</p></div>
+          <div><h2 className="font-display text-2xl text-branddeep">{hs.examsTitle}</h2><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{hs.examsBefore}{hg.exams}{hs.examsAfter}</p><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{hs.prepare}</p></div>
+          <div><h2 className="font-display text-2xl text-branddeep">{hs.careTitle}</h2><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{hs.careBefore}{hg.care}{hs.careAfter}</p><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{hs.followup}</p></div>
+        </div>
+        <aside className="border-s border-border ps-6"><h2 className="font-display text-xl text-branddeep">{hs.questionsTitle}</h2>{list(hs.questions)}<h2 className="mt-7 font-display text-xl text-branddeep">{hs.pathwayTitle}</h2><p className="mt-3 text-sm leading-relaxed text-muted-foreground">{hs.pathway}</p><p className="mt-4 text-sm leading-relaxed text-muted-foreground">{hs.access}</p>{id === "ophthalmology" && <Button asChild variant="outline" className="mt-5 h-auto whitespace-normal"><LocalizedLink to="/chirurgie-laser-yeux">{hs.laser}<ArrowRight aria-hidden="true" /></LocalizedLink></Button>}</aside>
+      </div>}
       {locale === "fr" && <div className="mx-auto mb-9 max-w-6xl">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
           <div className="space-y-7">

@@ -1,3 +1,4 @@
+import { hebrewSecurity } from "./hebrewShared";
 import type { LocaleCode } from "./types";
 
 export type SecurityFocusCopy = {
@@ -157,6 +158,7 @@ const baseSecurityFocusCopy = {
 // Newer locales fall back to English until fully translated.
 export const securityFocusCopy: Record<LocaleCode, SecurityFocusCopy> = {
   ...baseSecurityFocusCopy,
+  he: hebrewSecurity,
   ja: baseSecurityFocusCopy.en,
   ko: baseSecurityFocusCopy.en,
   hi: baseSecurityFocusCopy.en,

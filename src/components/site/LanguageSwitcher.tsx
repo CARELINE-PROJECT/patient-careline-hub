@@ -8,7 +8,7 @@ import { Command, CommandInput, CommandList, CommandItem, CommandEmpty } from "@
 import { countryLanguagePath, languageCountryOptions } from "@/config/languageCountries";
 import { Flag } from "@/components/site/Flag";
 
-const localeFlag: Record<string, string> = { en: "GB", fr: "FR", nl: "NL", de: "DE", es: "ES", it: "IT", pt: "PT", ar: "SA", zh: "CN", ru: "RU", ja: "JP", ko: "KR", hi: "IN", tr: "TR", pl: "PL", sv: "SE", uk: "UA", id: "ID" };
+const localeFlag: Record<string, string> = { he: "IL", en: "GB", fr: "FR", nl: "NL", de: "DE", es: "ES", it: "IT", pt: "PT", ar: "SA", zh: "CN", ru: "RU", ja: "JP", ko: "KR", hi: "IN", tr: "TR", pl: "PL", sv: "SE", uk: "UA", id: "ID" };
 
 export function LanguageSwitcher({ className }: { className?: string }) {
   const { locale, t, meta } = useI18n();
@@ -32,9 +32,9 @@ export function LanguageSwitcher({ className }: { className?: string }) {
       </Button></PopoverTrigger>
       <PopoverContent align="end" className="w-80 max-w-[calc(100vw-2rem)] p-0">
         <Command shouldFilter={false}>
-          <CommandInput value={query} onValueChange={setQuery} aria-label={t("nav.language")} placeholder={locale === "fr" ? "Rechercher un pays ou une langue…" : "Search countries or languages…"} />
+          <CommandInput value={query} onValueChange={setQuery} aria-label={t("nav.language")} placeholder={locale === "he" ? "חיפוש מדינה או שפה…" : locale === "ar" ? "البحث عن بلد أو لغة…" : locale === "fr" ? "Rechercher un pays ou une langue…" : "Search countries or languages…"} />
           <CommandList className="max-h-[min(360px,60dvh)]" aria-label={t("nav.language")}>
-            <CommandEmpty>{locale === "fr" ? "Aucun résultat." : "No results."}</CommandEmpty>
+            <CommandEmpty>{locale === "he" ? "לא נמצאו תוצאות." : locale === "ar" ? "لا توجد نتائج." : locale === "fr" ? "Aucun résultat." : "No results."}</CommandEmpty>
             {languageCountryOptions(locale, query).map(entry => (
               <CommandItem key={`${entry.id}-${entry.language}`} value={`${entry.id}-${entry.language}`}
                 onSelect={() => { window.location.assign(countryLanguagePath(entry.language, basePath)); }}

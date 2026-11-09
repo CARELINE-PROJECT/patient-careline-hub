@@ -1,6 +1,8 @@
+import { hebrewHumanitarian } from "./hebrewShared";
 import type { LocaleCode } from "./types";
 
 export const humanitarianLabels: Record<LocaleCode, string> = {
+  he: "סיוע הומניטרי",
   fr: "Humanitaire", en: "Humanitarian", nl: "Humanitair", de: "Humanitäre Hilfe",
   es: "Ayuda humanitaria", it: "Solidarietà", pt: "Humanitário", ar: "العمل الإنساني",
   zh: "人道援助", ru: "Гуманитарная помощь", ja: "人道支援", ko: "인도적 지원",
@@ -52,5 +54,5 @@ const en = {
 };
 
 export function humanitarianCopy(locale: string) {
-  return locale === "fr" ? fr : en;
+  return locale === "he" ? hebrewHumanitarian : locale === "fr" ? fr : en;
 }

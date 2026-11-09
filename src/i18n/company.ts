@@ -20,6 +20,7 @@ const baseLabels: Record<BaseLocale, readonly [string, string, string, string]> 
 // Newer locales fall back to English until fully translated.
 const labels: Record<LocaleCode, readonly [string, string, string, string]> = {
   ...baseLabels,
+  he: ["חברה בערבון מוגבל (SARL) לפי דיני מדגסקר", "משרד רשום", "אחראי הפרסום ואיש הקשר", "בתפקיד המנהל הכללי"],
   ja: baseLabels.en,
   ko: baseLabels.en,
   hi: baseLabels.en,

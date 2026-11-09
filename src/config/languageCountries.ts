@@ -13,20 +13,24 @@ const frenchCountries = ["FR", "BE", "CH", "LU", "MC", "CA", "HT", "SN", "CI", "
 const frenchTerritories = ["GP", "MQ", "GF", "RE", "YT", "NC", "PF", "PM", "WF", "MF", "BL"];
 const spanishCountries = ["MX", "GT", "HN", "SV", "NI", "CR", "PA", "CU", "DO", "PR", "CO", "VE", "EC", "PE", "BO", "CL", "AR", "UY", "PY", "US", "GI", "BZ", "EH", "PH"];
 const portugueseCountries = ["BR", "AO", "MZ", "CV", "GW", "ST", "TL", "MO", "ZA"];
+const arabicCountries = ["LY", "EG", "SD", "SY", "JO", "PS", "IQ", "AE", "QA", "BH", "KW", "OM", "YE", "SO", "ER", "IR"];
 const originalCountries: [string, LocaleCode][] = [["GB", "en"], ["NL", "nl"], ["DE", "de"], ["ES", "es"], ["IT", "it"], ["PT", "pt"], ["SA", "ar"], ["CN", "zh"], ["RU", "ru"], ["JP", "ja"], ["KR", "ko"], ["IN", "hi"], ["TR", "tr"], ["PL", "pl"], ["SE", "sv"], ["UA", "uk"], ["ID", "id"]];
 
 /** Language choices are site destinations, not claims of official-language status. */
 export const languageCountries: LanguageCountry[] = [
+  { id: "IL", country: "IL", flag: "IL", languages: ["he"] as LocaleCode[] },
   ...frenchCountries.map(country => ({ id: country, country, flag: country, languages: ["fr"] as LocaleCode[] })),
   ...frenchTerritories.map(country => ({ id: country, country, flag: "FR", languages: ["fr"] as LocaleCode[] })),
   ...spanishCountries.map(country => ({ id: country, country, flag: country, languages: ["es"] as LocaleCode[] })),
   ...portugueseCountries.map(country => ({ id: country, country, flag: country, languages: ["pt"] as LocaleCode[] })),
+  ...arabicCountries.map(country => ({ id: country, country, flag: country, languages: ["ar"] as LocaleCode[] })),
   { id: "US-LA", country: "US", flag: "US", region: "Louisiane · Louisiana", languages: ["fr", "en"] as LocaleCode[] },
   { id: "IT-23", country: "IT", flag: "IT", region: "Vallée d’Aoste · Valle d’Aosta", languages: ["fr", "it"] as LocaleCode[] },
   ...originalCountries.map(([country, language]) => ({ id: country, country, flag: country, languages: [language] })),
 ].map(entry => {
   const extra: Record<string, LocaleCode[]> = { BE: ["nl", "de"], FR: ["pt"], CH: ["de", "it", "pt"], LU: ["de", "pt"], CA: ["en"], GQ: ["es", "pt"], AD: ["es"], US: ["en", "pt"], VE: ["pt"], PY: ["pt"], UY: ["pt"], IN: ["pt"], MO: ["zh"], ZA: ["en"], GI: ["en"], BZ: ["en"], PH: ["en"], RW: ["en"], SC: ["en"], CM: ["en"], VU: ["en"], MA: ["ar"], DZ: ["ar"], TN: ["ar"], MR: ["ar"], LB: ["ar"], DJ: ["ar"], KM: ["ar"] };
-  return { ...entry, languages: [...entry.languages, ...(extra[entry.id] ?? [])] };
+  const arabicExtra: Record<string, LocaleCode[]> = { TD: ["ar"], TR: ["ar"] };
+  return { ...entry, languages: [...entry.languages, ...(extra[entry.id] ?? []), ...(arabicExtra[entry.id] ?? [])] };
 });
 
 export function languageCountryOptions(locale: LocaleCode, query = "") {

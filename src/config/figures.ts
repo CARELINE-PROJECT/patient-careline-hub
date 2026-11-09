@@ -9,8 +9,8 @@ export const figures = {
   professionals: { value: "10 Millions", confirmed: true },
   countries: { value: "52", confirmed: true },
   specialties: { value: "25+", confirmed: false },
-  /** Verifiable from the code: the site ships 18 locale dictionaries. */
-  languages: { value: "18", confirmed: true },
+  /** Verifiable from the code: the site ships 19 locale dictionaries. */
+  languages: { value: "19", confirmed: true },
   /** Appointments organized each year across the partner software tools. */
   appointments: { value: "24 Milliards", confirmed: true },
   /** Round-the-clock service availability. */

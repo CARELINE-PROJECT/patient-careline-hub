@@ -1,3 +1,4 @@
+import { hebrewOffices } from "./hebrewShared";
 import type { LocaleCode } from "./types";
 
 const en = {
@@ -20,7 +21,7 @@ const fr: typeof en = {
 };
 
 export function globalOfficeCopy(locale: LocaleCode) {
-  return locale === "fr" ? fr : en;
+  return locale === "he" ? hebrewOffices : locale === "fr" ? fr : en;
 }
 export function officeLabel(labels: Record<string, string>, id: string, fallback: string) {
   return labels[id] ?? fallback;
