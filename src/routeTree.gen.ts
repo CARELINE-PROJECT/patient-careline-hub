@@ -22,6 +22,7 @@ import { Route as LocaleContactRouteImport } from './routes/$locale/contact'
 import { Route as LocaleFaqRouteImport } from './routes/$locale/faq'
 import { Route as LocaleHowItWorksRouteImport } from './routes/$locale/how-it-works'
 import { Route as LocaleHumanitaireRouteImport } from './routes/$locale/humanitaire'
+import { Route as LocalePressRouteImport } from './routes/$locale/press'
 import { Route as LocalePrivacyPreferencesRouteImport } from './routes/$locale/privacy-preferences'
 import { Route as LocaleProfessionalsRouteImport } from './routes/$locale/professionals'
 import { Route as LocaleRequestRouteImport } from './routes/$locale/request'
@@ -33,6 +34,7 @@ import { Route as LocaleChirurgieLaserYeuxGuideRouteImport } from './routes/$loc
 import { Route as LocaleLegalCookiesRouteImport } from './routes/$locale/legal.cookies'
 import { Route as LocaleLegalNoticeRouteImport } from './routes/$locale/legal.notice'
 import { Route as LocaleLegalPrivacyRouteImport } from './routes/$locale/legal.privacy'
+import { Route as LocaleLegalSubprocessorsRouteImport } from './routes/$locale/legal.subprocessors'
 import { Route as LocaleLegalTermsRouteImport } from './routes/$locale/legal.terms'
 import { Route as LocaleSpecialtiesSpecialtyRouteImport } from './routes/$locale/specialties_.$specialty'
 import { Route as LocaleSpecialtiesLaserDesYeuxRouteImport } from './routes/$locale/specialties_.laser-des-yeux'
@@ -104,6 +106,11 @@ const LocaleHumanitaireRoute = LocaleHumanitaireRouteImport.update({
   path: '/humanitaire',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocalePressRoute = LocalePressRouteImport.update({
+  id: '/press',
+  path: '/press',
+  getParentRoute: () => LocaleRoute,
+} as any)
 const LocalePrivacyPreferencesRoute =
   LocalePrivacyPreferencesRouteImport.update({
     id: '/privacy-preferences',
@@ -161,6 +168,12 @@ const LocaleLegalPrivacyRoute = LocaleLegalPrivacyRouteImport.update({
   path: '/legal/privacy',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleLegalSubprocessorsRoute =
+  LocaleLegalSubprocessorsRouteImport.update({
+    id: '/legal/subprocessors',
+    path: '/legal/subprocessors',
+    getParentRoute: () => LocaleRoute,
+  } as any)
 const LocaleLegalTermsRoute = LocaleLegalTermsRouteImport.update({
   id: '/legal/terms',
   path: '/legal/terms',
@@ -198,6 +211,7 @@ export interface FileRoutesByFullPath {
   '/$locale/faq': typeof LocaleFaqRoute
   '/$locale/how-it-works': typeof LocaleHowItWorksRoute
   '/$locale/humanitaire': typeof LocaleHumanitaireRoute
+  '/$locale/press': typeof LocalePressRoute
   '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
   '/$locale/professionals': typeof LocaleProfessionalsRoute
   '/$locale/request': typeof LocaleRequestRoute
@@ -210,6 +224,7 @@ export interface FileRoutesByFullPath {
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
+  '/$locale/legal/subprocessors': typeof LocaleLegalSubprocessorsRoute
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
   '/$locale/specialties/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
@@ -227,6 +242,7 @@ export interface FileRoutesByTo {
   '/$locale/faq': typeof LocaleFaqRoute
   '/$locale/how-it-works': typeof LocaleHowItWorksRoute
   '/$locale/humanitaire': typeof LocaleHumanitaireRoute
+  '/$locale/press': typeof LocalePressRoute
   '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
   '/$locale/professionals': typeof LocaleProfessionalsRoute
   '/$locale/request': typeof LocaleRequestRoute
@@ -239,6 +255,7 @@ export interface FileRoutesByTo {
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
+  '/$locale/legal/subprocessors': typeof LocaleLegalSubprocessorsRoute
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
   '/$locale/specialties/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
@@ -258,6 +275,7 @@ export interface FileRoutesById {
   '/$locale/faq': typeof LocaleFaqRoute
   '/$locale/how-it-works': typeof LocaleHowItWorksRoute
   '/$locale/humanitaire': typeof LocaleHumanitaireRoute
+  '/$locale/press': typeof LocalePressRoute
   '/$locale/privacy-preferences': typeof LocalePrivacyPreferencesRoute
   '/$locale/professionals': typeof LocaleProfessionalsRoute
   '/$locale/request': typeof LocaleRequestRoute
@@ -270,6 +288,7 @@ export interface FileRoutesById {
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
+  '/$locale/legal/subprocessors': typeof LocaleLegalSubprocessorsRoute
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
   '/$locale/specialties_/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties_/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
@@ -290,6 +309,7 @@ export interface FileRouteTypes {
     | '/$locale/faq'
     | '/$locale/how-it-works'
     | '/$locale/humanitaire'
+    | '/$locale/press'
     | '/$locale/privacy-preferences'
     | '/$locale/professionals'
     | '/$locale/request'
@@ -302,6 +322,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/cookies'
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
+    | '/$locale/legal/subprocessors'
     | '/$locale/legal/terms'
     | '/$locale/specialties/$specialty'
     | '/$locale/specialties/laser-des-yeux'
@@ -319,6 +340,7 @@ export interface FileRouteTypes {
     | '/$locale/faq'
     | '/$locale/how-it-works'
     | '/$locale/humanitaire'
+    | '/$locale/press'
     | '/$locale/privacy-preferences'
     | '/$locale/professionals'
     | '/$locale/request'
@@ -331,6 +353,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/cookies'
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
+    | '/$locale/legal/subprocessors'
     | '/$locale/legal/terms'
     | '/$locale/specialties/$specialty'
     | '/$locale/specialties/laser-des-yeux'
@@ -349,6 +372,7 @@ export interface FileRouteTypes {
     | '/$locale/faq'
     | '/$locale/how-it-works'
     | '/$locale/humanitaire'
+    | '/$locale/press'
     | '/$locale/privacy-preferences'
     | '/$locale/professionals'
     | '/$locale/request'
@@ -361,6 +385,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/cookies'
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
+    | '/$locale/legal/subprocessors'
     | '/$locale/legal/terms'
     | '/$locale/specialties_/$specialty'
     | '/$locale/specialties_/laser-des-yeux'
@@ -469,6 +494,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleHumanitaireRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/press': {
+      id: '/$locale/press'
+      path: '/press'
+      fullPath: '/$locale/press'
+      preLoaderRoute: typeof LocalePressRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/privacy-preferences': {
       id: '/$locale/privacy-preferences'
       path: '/privacy-preferences'
@@ -546,6 +578,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleLegalPrivacyRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/legal/subprocessors': {
+      id: '/$locale/legal/subprocessors'
+      path: '/legal/subprocessors'
+      fullPath: '/$locale/legal/subprocessors'
+      preLoaderRoute: typeof LocaleLegalSubprocessorsRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/legal/terms': {
       id: '/$locale/legal/terms'
       path: '/legal/terms'
@@ -586,6 +625,7 @@ interface LocaleRouteChildren {
   LocaleFaqRoute: typeof LocaleFaqRoute
   LocaleHowItWorksRoute: typeof LocaleHowItWorksRoute
   LocaleHumanitaireRoute: typeof LocaleHumanitaireRoute
+  LocalePressRoute: typeof LocalePressRoute
   LocalePrivacyPreferencesRoute: typeof LocalePrivacyPreferencesRoute
   LocaleProfessionalsRoute: typeof LocaleProfessionalsRoute
   LocaleRequestRoute: typeof LocaleRequestRoute
@@ -597,6 +637,7 @@ interface LocaleRouteChildren {
   LocaleLegalCookiesRoute: typeof LocaleLegalCookiesRoute
   LocaleLegalNoticeRoute: typeof LocaleLegalNoticeRoute
   LocaleLegalPrivacyRoute: typeof LocaleLegalPrivacyRoute
+  LocaleLegalSubprocessorsRoute: typeof LocaleLegalSubprocessorsRoute
   LocaleLegalTermsRoute: typeof LocaleLegalTermsRoute
   LocaleSpecialtiesSpecialtyRoute: typeof LocaleSpecialtiesSpecialtyRoute
   LocaleSpecialtiesLaserDesYeuxRoute: typeof LocaleSpecialtiesLaserDesYeuxRoute
@@ -611,6 +652,7 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleFaqRoute: LocaleFaqRoute,
   LocaleHowItWorksRoute: LocaleHowItWorksRoute,
   LocaleHumanitaireRoute: LocaleHumanitaireRoute,
+  LocalePressRoute: LocalePressRoute,
   LocalePrivacyPreferencesRoute: LocalePrivacyPreferencesRoute,
   LocaleProfessionalsRoute: LocaleProfessionalsRoute,
   LocaleRequestRoute: LocaleRequestRoute,
@@ -622,6 +664,7 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleLegalCookiesRoute: LocaleLegalCookiesRoute,
   LocaleLegalNoticeRoute: LocaleLegalNoticeRoute,
   LocaleLegalPrivacyRoute: LocaleLegalPrivacyRoute,
+  LocaleLegalSubprocessorsRoute: LocaleLegalSubprocessorsRoute,
   LocaleLegalTermsRoute: LocaleLegalTermsRoute,
   LocaleSpecialtiesSpecialtyRoute: LocaleSpecialtiesSpecialtyRoute,
   LocaleSpecialtiesLaserDesYeuxRoute: LocaleSpecialtiesLaserDesYeuxRoute,

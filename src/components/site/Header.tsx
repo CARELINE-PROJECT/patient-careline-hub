@@ -1,7 +1,8 @@
 import { useState } from "react";
 
 import { Menu, X } from "lucide-react";
-import logoUrl from "@/assets/careline-logo.webp";
+import logoAsset from "@/assets/careline-logo-officiel.webp.asset.json";
+import { publicAssetUrl } from "@/lib/assets";
 import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -30,9 +31,9 @@ export function Header() {
       >
         {t("nav.discover")}
       </a>
-      <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-3 sm:px-8">
+      <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-2 px-5 py-3 sm:px-8">
         <LocalizedLink to="/" className="flex shrink-0 items-center" aria-label={siteConfig.name}>
-          <img src={logoUrl} alt={`${siteConfig.name} — Global Health Solutions`} width={811} height={200} className="h-9 w-auto sm:h-11" />
+          <img src={publicAssetUrl(logoAsset)} alt={`${siteConfig.name} — Global Health Solutions`} width={1080} height={280} className="h-auto w-28 rounded-md sm:w-40 xl:w-44" />
         </LocalizedLink>
 
         <nav aria-label={t("ui.mainNavigation")} className="hidden items-center gap-1 lg:flex">
@@ -48,11 +49,11 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex min-w-0 items-center justify-end gap-2">
           <LanguageSwitcher />
           <LocalizedLink
             to="/request"
-            className="hidden rounded-full bg-brand px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-branddeep sm:inline-flex"
+            className="hidden shrink-0 whitespace-nowrap rounded-full bg-brand px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-branddeep sm:inline-flex"
           >
             {t("nav.requestShort")}
           </LocalizedLink>
@@ -61,7 +62,7 @@ export function Header() {
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
             aria-label={open ? t("nav.close") : t("nav.menu")}
-            className="inline-flex size-10 items-center justify-center rounded-full border border-border text-branddeep lg:hidden"
+            className="inline-flex size-10 shrink-0 items-center justify-center rounded-full border border-border text-branddeep lg:hidden"
           >
             {open ? <X className="size-5" /> : <Menu className="size-5" />}
           </button>

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useRouterState } from "@tanstack/react-router";
 import { stripLocalePrefix, useI18n } from "@/i18n";
-import { headKeyByPath, type HeadKey } from "@/i18n/head";
+import { headKeyByPath, staticRouteMeta, type HeadKey } from "@/i18n/head";
 import { specialtyPageCopy } from "@/i18n/specialtyPages";
 
 function upsertMeta(selector: string, attrs: Record<string, string>, content: string) {
@@ -35,6 +35,14 @@ export function DocumentMetadata() {
       return;
     }
     const headKey: HeadKey = headKeyByPath[path] ?? "root";
+    if (headKey === "press" || headKey === "subprocessors") {
+      for (const tag of staticRouteMeta(headKey, locale)) {
+        if ("title" in tag && tag.title) document.title = tag.title;
+        else if ("name" in tag && tag.name && tag.content) upsertMeta(`meta[name="${tag.name}"]`, { name: tag.name }, tag.content);
+        else if ("property" in tag && tag.property && tag.content) upsertMeta(`meta[property="${tag.property}"]`, { property: tag.property }, tag.content);
+      }
+      return;
+    }
     const base = `head.${headKey}`;
 
     document.title = t(`${base}.title`);

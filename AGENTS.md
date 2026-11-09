@@ -32,3 +32,5 @@
 - Keep specialty detail descriptions, clinical scopes, exams, care options and verified resource provenance in a shared catalog keyed by canonical SpecialtyId; use one unnested detail route and enumerate its valid slugs in the sitemap and prerender list to avoid empty or duplicate pages.
 
 - Keep Hebrew translations in dedicated static language catalogs with shared specialty IDs and laser slugs; medical source URLs and video IDs remain unchanged across translations.
+- Source press figures from the confirmed figure catalog and keep technical-service observations separate from contractual processor claims; contracts cannot be inferred from integrations.
+- Reuse the uploaded official logo asset through publicAssetUrl across public layouts and derive the local favicon from that same image to prevent brand drift.

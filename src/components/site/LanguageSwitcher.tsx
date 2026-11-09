@@ -33,12 +33,12 @@ export function LanguageSwitcher({ className }: { className?: string }) {
       <PopoverTrigger asChild><Button variant="outline"
         aria-label={t("nav.language")}
         className={
-          "inline-flex h-auto min-h-11 shrink-0 items-center gap-2 rounded-full border border-border bg-card/70 ps-2 pe-3 py-1.5 text-sm font-medium text-branddeep transition-colors hover:bg-secondary " +
+          "inline-flex h-auto min-h-11 min-w-0 max-w-full items-center gap-2 rounded-full border border-border bg-card/70 ps-2 pe-3 py-1.5 text-sm font-medium text-branddeep transition-colors hover:bg-secondary " +
           (className ?? "")
         }
       >
         <Flag code={selected?.flag ?? "FR"} className="h-6 w-9 shrink-0" />
-        <span className="min-w-0 max-w-[9.5rem] text-start sm:max-w-[13rem]" title={`${selected?.label ?? ""} · ${meta.name}`}>
+        <span className="min-w-0 max-w-[9.5rem] flex-1 text-start sm:max-w-[13rem]" title={`${selected?.label ?? ""} · ${meta.name}`}>
           <span className="block truncate text-sm leading-tight">{selected?.label}</span>
           <span dir={meta.dir} className="block truncate text-xs leading-tight text-muted-foreground">{meta.name}</span>
         </span>

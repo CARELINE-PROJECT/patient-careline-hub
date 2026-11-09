@@ -1,5 +1,21 @@
 # Careline Connect
 
+## Démarches hors site — suivi propriétaire
+
+Cette liste décrit des démarches à effectuer ; elle ne confirme pas qu’elles sont réalisées.
+
+- **Domaine** : terminer la connexion DNS de careline.doctor et www.careline.doctor, puis vérifier HTTPS et les redirections avant d’annoncer le domaine comme actif.
+- **Emails** : vérifier les enregistrements demandés pour notify.careline.doctor et tester un envoi réel vers secretariat@careline.doctor. Ne jamais remplacer des enregistrements SPF existants sans consolider tous les expéditeurs autorisés.
+- **DMARC** : inventorier les expéditeurs légitimes, activer une adresse de rapports réellement surveillée, puis publier une politique de surveillance avant de passer progressivement à quarantine/reject après contrôle de l’alignement SPF/DKIM. Aucun enregistrement DNS ni adresse de rapports n’a été créé par cette documentation.
+- **Google Business Profile** : confirmer l’éligibilité et la réception physique des clients avant de créer une fiche ; ne pas utiliser une adresse virtuelle ni un bureau non confirmé. Respecter le contact public par email uniquement.
+- **Annuaires** : choisir des annuaires pertinents, conserver l’identité officielle centralisée et distinguer une simple inscription d’un partenariat ; ne pas créer de fiches pour des bureaux non confirmés.
+- **Presse** : utiliser /fr/press comme présentation, valider la portée et les preuves de chaque chiffre avant diffusion externe, préparer les éléments de presse et contacter les rédactions sans promettre des résultats médicaux ou commerciaux.
+- **Prestataires** : compléter /fr/legal/subprocessors à partir des contrats réels : entités, finalités, lieux, transferts et garanties, durées, éventuels sous-traitants ultérieurs. Le registre technique actuel ne remplace pas ces contrats.
+- **Mesure et indexation** : fournir les identifiants GTM et codes de vérification Google Search Console/Bing ; ne pas publier les marqueurs de remplacement comme preuve de propriété. Tester le consentement avant activation des balises.
+- **Relecture** : faire relire les mentions légales, la confidentialité, les cookies et les traductions avant une diffusion large.
+
+Les nouvelles pages sont rédigées en français, anglais et hébreu ; les autres langues affichent la version anglaise avec son attribut de langue, en attendant une traduction dédiée.
+
 Création du site internet professionnel de CARELINE
 
 Crée un site internet moderne, premium, rassurant et international pour Careline, une société spécialisée dans la prise de rendez-vous médicaux et la mise en relation entre patients, médecins, praticiens, cabinets et établissements de santé.

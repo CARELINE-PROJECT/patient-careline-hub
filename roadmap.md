@@ -1,4 +1,8 @@
 # Tasks
+- [x] Integrate supplied replacement logo in header/footer and derive favicon; verify desktop/mobile and asset loading.
+- [x] Add press page with centrally confirmed figures and email contact.
+- [x] Add transparent service-provider register without inventing contracts, processing locations or retention periods.
+- [x] Document off-site Google Business, DMARC, directories and press tasks in README (actual execution needs owner accounts, DNS access and contracts).
 - [x] Add Hebrew to all 108 public pages with Israel flag, RTL, localized metadata and searchable country menu; verified pages, mobile layout and Hebrew sitemap.
 - [x] Add all 26 requested Arabic-speaking countries to the country-language menu, preserving existing languages; tested Qatar → Arabic and all country mappings.
 - [x] All forms: display the complete canonical specialty catalog with search, especially /fr/request; verify all sibling forms.

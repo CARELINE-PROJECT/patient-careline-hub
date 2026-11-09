@@ -9,8 +9,9 @@ function safeLocale(locale: string): LocaleCode {
 import { siteConfig } from "@/config/site";
 import { ogImageFor } from "@/config/ogImages";
 import { humanitarianCopy } from "./humanitarian";
+import { transparencyCopy } from "./transparency";
 
-export type HeadKey = keyof typeof en.head | "humanitarian";
+export type HeadKey = keyof typeof en.head | "humanitarian" | "press" | "subprocessors";
 
 export const headKeyByPath: Record<string, HeadKey> = {
   "/": "home",
@@ -30,9 +31,17 @@ export const headKeyByPath: Record<string, HeadKey> = {
   "/security": "security",
   "/services": "services",
   "/humanitaire": "humanitarian",
+  "/press": "press",
+  "/legal/subprocessors": "subprocessors",
 };
 
 export function staticRouteMeta(key: HeadKey, locale: string = "en") {
+  if (key === "press" || key === "subprocessors") {
+    const copy = transparencyCopy(locale);
+    const title = `${key === "press" ? copy.press : copy.providers} | Careline`;
+    const description = key === "press" ? copy.pressDescription : copy.providersDescription;
+    return [{ title }, { name: "description", content: description }, { property: "og:title", content: title }, { property: "og:description", content: description }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }];
+  }
   if (key === "humanitarian") {
     const copy = humanitarianCopy(locale);
     return [

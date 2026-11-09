@@ -1,6 +1,8 @@
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { Mail } from "lucide-react";
-import logoUrl from "@/assets/careline-logo.webp";
+import logoAsset from "@/assets/careline-logo-officiel.webp.asset.json";
+import { publicAssetUrl } from "@/lib/assets";
+import { transparencyCopy } from "@/i18n/transparency";
 import { useI18n } from "@/i18n";
 import { siteConfig } from "@/config/site";
 import { openConsentSettings } from "@/lib/consent";
@@ -12,6 +14,7 @@ export function Footer() {
   const { t, locale } = useI18n();
   const year = new Date().getFullYear();
   const copy = footerGlobalCopy[locale] ?? footerGlobalCopy.en;
+  const transparency = transparencyCopy(locale);
 
   const columns = [
     {
@@ -21,6 +24,7 @@ export function Footer() {
         { to: "/services", label: t("footer.services") },
         { to: "/careers", label: t("footer.careers") },
         { to: "/contact", label: t("footer.contact") },
+        { to: "/press", label: transparency.press },
       ],
     },
     {
@@ -48,6 +52,7 @@ export function Footer() {
         { to: "/legal/cookies", label: t("footer.cookies") },
         { to: "/legal/terms", label: t("footer.terms") },
         { to: "/legal/notice", label: t("footer.notice") },
+        { to: "/legal/subprocessors", label: transparency.providers },
       ],
     },
   ] as const;
@@ -78,8 +83,8 @@ export function Footer() {
         </div>
         <div className="mt-12 grid gap-12 md:grid-cols-[1.4fr_repeat(4,1fr)]">
           <div>
-            <div className="inline-flex rounded-2xl bg-card px-4 py-2.5">
-              <img src={logoUrl} alt={`${siteConfig.name} — Global Health Solutions`} width={811} height={200} loading="lazy" className="h-10 w-auto" />
+            <div className="inline-flex max-w-full">
+              <img src={publicAssetUrl(logoAsset)} alt={`${siteConfig.name} — Global Health Solutions`} width={1080} height={280} loading="lazy" className="h-auto w-52 max-w-full rounded-md" />
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-primary-foreground/70">
               {t("footer.about")}
