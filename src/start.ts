@@ -25,6 +25,20 @@ const csrfMiddleware = createCsrfMiddleware({
   filter: (ctx) => ctx.handlerType === "serverFn",
 });
 
+// Security headers compatible with SSR hydration and the editor preview iframe.
+const securityHeadersMiddleware = createMiddleware().server(async ({ next }) => {
+  const result = await next();
+  const h = result.response?.headers;
+  if (h) {
+    h.set("Strict-Transport-Security", "max-age=63072000; includeSubDomains; preload");
+    h.set("X-Content-Type-Options", "nosniff");
+    h.set("Referrer-Policy", "strict-origin-when-cross-origin");
+    h.set("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
+    h.set("Cross-Origin-Opener-Policy", "same-origin");
+  }
+  return result;
+});
+
 export const startInstance = createStart(() => ({
-  requestMiddleware: [errorMiddleware, csrfMiddleware],
+  requestMiddleware: [securityHeadersMiddleware, errorMiddleware, csrfMiddleware],
 }));
