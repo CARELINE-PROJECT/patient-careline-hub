@@ -2,6 +2,7 @@
 - [x] All forms: display the complete canonical specialty catalog with search, especially /fr/request; verify all sibling forms.
 - [x] Replace Security in header with Humanitarian; localized page “La santé pour tous, sans frontières” with colorful photos and organization directory; Security retained in footer; breadcrumb fixed.
 - [x] Colored-logo organization banner on all public pages immediately above the human-assistance section; neutral directory wording, no partnership claims.
+- [x] Official logos retrieved for 7 more organizations (ACF, Chaîne de l'Espoir, Douleurs Sans Frontières, Helen Keller, IRC, MSF, Rotary); 5 without findable official logo render as name tiles (PIH, SALFA, ASOS, AMC-MAD, Ordre des Médecins).
 - [x] Header order: Spécialités before services; services label renamed “Service Doc” (French).
 - [x] All forms: all countries with a search box above the list; selection and filtering verified on Request, Professionals and Services, tests pass.
 - [x] Google city/postcode suggestions deferred: user chose to keep free-text city entry and public forms; no Google requests implemented.
