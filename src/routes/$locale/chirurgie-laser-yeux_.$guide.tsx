@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight, Check, ShieldCheck } from "lucide-react";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { Button } from "@/components/ui/button";
 import { laserGuideBySlug, laserGuides } from "@/content/laserGuides";
-import { laserPillarFr as P } from "@/content/laserPillar";
+import { laserPillarFr } from "@/content/laserPillar";
 import { siteConfig } from "@/config/site";
 import hebrewMedical from "@/content/hebrewMedical.json";
 

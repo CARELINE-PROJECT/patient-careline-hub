@@ -67,7 +67,10 @@ export const Route = createFileRoute("/sitemap.xml")({
           for (const locale of locales) entries.push({ path: `/${locale.code}${basePath}`, alternates, images: [`${BASE_URL}${photoUrl(specialtyPhoto(id))}`] });
         }
 
-        for (const g of laserGuides) entries.push({ path: `/fr/chirurgie-laser-yeux/${g.slug}`, alternates: [], images: [] });
+        for (const g of laserGuides) {
+          const alternates = ["fr", "he"].map(l => ({ hrefLang: l, href: `${BASE_URL}/${l}/chirurgie-laser-yeux/${g.slug}` }));
+          for (const l of ["fr", "he"]) entries.push({ path: `/${l}/chirurgie-laser-yeux/${g.slug}`, alternates, images: [] });
+        }
 
         // No lastmod: there is no authoritative per-page modification date, and invented dates hurt SEO.
         if (entries.length === 0) {
