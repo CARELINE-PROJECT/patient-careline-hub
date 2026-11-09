@@ -14,6 +14,14 @@ test("all existing translations remain reachable without duplicate country-langu
   expect(new Set(options.map(entry => `${entry.id}-${entry.language}`)).size).toBe(options.length);
 });
 
+test("every requested Spanish-speaking destination opens the Spanish version of the current page", () => {
+  for (const id of ["ES", "MX", "GT", "HN", "SV", "NI", "CR", "PA", "CU", "DO", "PR", "CO", "VE", "EC", "PE", "BO", "CL", "AR", "UY", "PY", "GQ", "US", "AD", "GI", "BZ", "EH", "PH"]) {
+    const choice = languageCountryOptions("fr").find(entry => entry.id === id && entry.language === "es");
+    expect(choice?.language).toBe("es");
+    expect(countryLanguagePath(choice?.language ?? "fr", "/contact")).toBe("/es/contact");
+  }
+});
+
 test("Swiss Canadian and Belgian French choices preserve the current page", () => {
   for (const country of ["CH", "CA", "BE"]) {
     const choice = languageCountryOptions("fr").find(entry => entry.id === country && entry.language === "fr");
