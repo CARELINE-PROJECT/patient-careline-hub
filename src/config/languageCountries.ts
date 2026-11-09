@@ -54,5 +54,6 @@ export function selectedLanguageCountry(locale: LocaleCode, countryId: string | 
   const options = languageCountryOptions(locale);
   return options.find(entry => entry.id === countryId && entry.language === locale)
     ?? options.find(entry => entry.country === countryId && entry.language === locale)
+    ?? options.find(entry => entry.language === locale && entry.languages[0] === locale && entry.id === (locale === "en" ? "GB" : locale === "he" ? "IL" : locale === "ar" ? "SA" : locale.toUpperCase()))
     ?? options.find(entry => entry.language === locale);
 }
