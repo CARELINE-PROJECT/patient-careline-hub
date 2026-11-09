@@ -19,6 +19,7 @@
 - Keep global locations in a shared typed catalog with separate validation, representation and service-activation fields, the registered office sourced from siteConfig and no provider/website field for domiciliation services; render the Contact section independently using a local public-domain Natural Earth map, so unconfirmed proposals cannot drift into active-office claims or name a third-party office provider.
 - Draw country flags as inline SVG from the shared Flag component keyed by ISO 3166-1 alpha-2 code; never use emoji flags, because systems without a flag font show bare two-letter codes instead of a flag.
 - Keep country-to-language navigation in a shared catalog, separate from translation locales; multiple countries reuse the same localized URL without creating duplicate pages.
+- Remember the country selector's presentation choice in browser storage, validate it against the URL locale after hydration, and never use it to determine page language; this preserves country identity without duplicate localized URLs.
 - Use the shared CountryField and ISO country catalog for all form country inputs, localized with Intl.DisplayNames; preserve country-name payloads and keep city free-text until authenticated geographic suggestions are explicitly enabled.
 
 ## URL-based i18n (SEO step 2)

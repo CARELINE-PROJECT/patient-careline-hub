@@ -1,19 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Globe } from "lucide-react";
 import { useRouterState } from "@tanstack/react-router";
 import { useI18n, stripLocalePrefix } from "@/i18n";
 import { Button } from "@/components/ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Command, CommandInput, CommandList, CommandItem, CommandEmpty } from "@/components/ui/command";
-import { countryLanguagePath, languageCountryOptions } from "@/config/languageCountries";
+import { countryLanguagePath, languageCountryOptions, selectedLanguageCountry } from "@/config/languageCountries";
 import { Flag } from "@/components/site/Flag";
 
-const localeFlag: Record<string, string> = { he: "IL", en: "GB", fr: "FR", nl: "NL", de: "DE", es: "ES", it: "IT", pt: "PT", ar: "SA", zh: "CN", ru: "RU", ja: "JP", ko: "KR", hi: "IN", tr: "TR", pl: "PL", sv: "SE", uk: "UA", id: "ID" };
+const countryPreferenceKey = "careline.language-country";
 
 export function LanguageSwitcher({ className }: { className?: string }) {
   const { locale, t, meta } = useI18n();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [countryId, setCountryId] = useState<string | null>(null);
+  useEffect(() => {
+    try { setCountryId(window.localStorage.getItem(countryPreferenceKey)); } catch { /* Storage may be disabled. */ }
+  }, []);
+  const selected = selectedLanguageCountry(locale, countryId);
   const pathname = useRouterState({ select: (state) => state.location.pathname });
   const basePath = stripLocalePrefix(pathname);
 
@@ -22,13 +27,16 @@ export function LanguageSwitcher({ className }: { className?: string }) {
       <PopoverTrigger asChild><Button variant="outline"
         aria-label={t("nav.language")}
         className={
-          "inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-3 py-2 text-sm font-medium text-branddeep transition-colors hover:bg-secondary " +
+          "inline-flex h-auto min-h-11 min-w-0 items-center gap-2 rounded-full border border-border bg-card/70 px-3 py-2 text-sm font-medium text-branddeep transition-colors hover:bg-secondary " +
           (className ?? "")
         }
       >
-        <Globe className="size-4" aria-hidden="true" />
-        <Flag code={localeFlag[locale] ?? "GB"} className="h-3.5 w-5" />
-        <span>{meta.name}</span>
+        <Globe className="hidden size-4 shrink-0 xl:block" aria-hidden="true" />
+        <Flag code={selected?.flag ?? "FR"} className="h-4 w-6 shrink-0" />
+        <span className="min-w-0 max-w-24 text-start sm:max-w-32" title={`${selected?.label ?? ""} · ${meta.name}`}>
+          <span className="block truncate text-sm leading-tight">{selected?.label}</span>
+          <span dir={meta.dir} className="block truncate text-xs leading-tight text-muted-foreground">{meta.name}</span>
+        </span>
       </Button></PopoverTrigger>
       <PopoverContent align="end" className="w-80 max-w-[calc(100vw-2rem)] p-0">
         <Command shouldFilter={false}>
@@ -37,7 +45,12 @@ export function LanguageSwitcher({ className }: { className?: string }) {
             <CommandEmpty>{locale === "he" ? "לא נמצאו תוצאות." : locale === "ar" ? "لا توجد نتائج." : locale === "fr" ? "Aucun résultat." : "No results."}</CommandEmpty>
             {languageCountryOptions(locale, query).map(entry => (
               <CommandItem key={`${entry.id}-${entry.language}`} value={`${entry.id}-${entry.language}`}
-                onSelect={() => { window.location.assign(countryLanguagePath(entry.language, basePath)); }}
+                onSelect={() => {
+                  setCountryId(entry.id);
+                  try { window.localStorage.setItem(countryPreferenceKey, entry.id); } catch { /* Selection still works without storage. */ }
+                  setOpen(false);
+                  window.location.assign(countryLanguagePath(entry.language, basePath));
+                }}
                 className="px-3 py-2.5">
                 <Flag code={entry.flag} className="h-4 w-6 shrink-0" />
                 <span className="min-w-0 flex-1 whitespace-normal text-start">

@@ -1,6 +1,27 @@
 import { expect, test } from "bun:test";
-import { languageCountries, languageCountryOptions, countryLanguagePath } from "./languageCountries.ts";
+import { languageCountries, languageCountryOptions, countryLanguagePath, selectedLanguageCountry } from "./languageCountries.ts";
 import { locales } from "../i18n/types.ts";
+
+test("Morocco French keeps Morocco's flag and country instead of France", () => {
+  const selected = selectedLanguageCountry("fr", "MA");
+  expect(selected?.flag).toBe("MA");
+  expect(selected?.label).toBe("Maroc");
+  expect(selected?.language).toBe("fr");
+});
+
+test("every offered country-language pair retains its selected country", () => {
+  for (const entry of languageCountryOptions("fr")) {
+    const selected = selectedLanguageCountry(entry.language, entry.id);
+    expect(selected?.id).toBe(entry.id);
+    expect(selected?.flag).toBe(entry.flag);
+    expect(selected?.language).toBe(entry.language);
+  }
+});
+
+test("an incompatible or invalid stored country never overrides the URL language", () => {
+  expect(selectedLanguageCountry("he", "MA")?.language).toBe("he");
+  expect(selectedLanguageCountry("fr", "invalid")?.language).toBe("fr");
+});
 
 test("every requested francophone country and territory offers French", () => {
   for (const id of ["FR", "BE", "CH", "LU", "MC", "CA", "HT", "SN", "CI", "GN", "BJ", "TG", "CD", "CG", "CM", "GA", "TD", "CF", "GQ", "MG", "KM", "DJ", "SC", "RW", "BI", "VU", "ML", "BF", "NE", "MA", "DZ", "TN", "MR", "LB", "AD", "US-LA", "IT-23", "GP", "MQ", "GF", "RE", "YT", "NC", "PF", "PM", "WF", "MF", "BL"]) {
