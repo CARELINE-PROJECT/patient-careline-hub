@@ -210,8 +210,8 @@ export const fr: PartialDictionary = {
     },
   },
   nav: {
-    howItWorks: "Comment ça marche",
-    services: "Service Doc",
+    howItWorks: "Étapes",
+    services: "Services",
     professionals: "Professionnels",
     corporations: "Entreprises",
     about: "À propos",
