@@ -92,3 +92,5 @@
 - [x] Laser sub-pages (17, French)
 - [ ] Quiz, guides hub, /fr/a-propos (+301 from /about), méthode éditoriale, choix chirurgien
 - [ ] 79 specialty pages with distinct images
+- [x] Logo affiché partout (header/footer)
+- [x] Bouton langue : sans globe, drapeau plus grand, nom pays visible

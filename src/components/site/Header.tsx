@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { Menu, X } from "lucide-react";
-import logoAsset from "@/assets/careline-logo.png.asset.json";
+import logoUrl from "@/assets/careline-logo.webp";
 import { useI18n } from "@/i18n";
 import { LocalizedLink } from "@/components/site/LocalizedLink";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -32,7 +32,7 @@ export function Header() {
       </a>
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-3 sm:px-8">
         <LocalizedLink to="/" className="flex shrink-0 items-center" aria-label={siteConfig.name}>
-          <img src={logoAsset.url} alt={`${siteConfig.name} — Global Health Solutions`} width={811} height={200} className="h-9 w-auto sm:h-11" />
+          <img src={logoUrl} alt={`${siteConfig.name} — Global Health Solutions`} width={811} height={200} className="h-9 w-auto sm:h-11" />
         </LocalizedLink>
 
         <nav aria-label={t("ui.mainNavigation")} className="hidden items-center gap-1 lg:flex">

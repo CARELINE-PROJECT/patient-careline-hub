@@ -173,7 +173,7 @@ export function Flag({ code, className }: { code: string; className?: string }) 
   if (!art) return null;
   return (
     <span aria-hidden="true" className={cn("inline-block overflow-hidden rounded-[2px]", className)}>
-      <svg viewBox="0 0 30 20" className="block h-full w-full" focusable="false">
+      <svg viewBox="0 0 30 20" className="block !h-full !w-full" focusable="false">
         {art}
       </svg>
     </span>
