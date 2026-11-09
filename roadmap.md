@@ -87,5 +87,6 @@
 - [x] Laser pillar page /fr/chirurgie-laser-yeux with 301 from old guide
 - [x] Contact: remove "envisagées" wording
 - [x] Contact map: show each office regional action radius
-- [ ] Laser sub-pages (17), quiz, guides hub, /fr/a-propos (+301 from /about), méthode éditoriale, choix chirurgien
+- [x] Laser sub-pages (17, French)
+- [ ] Quiz, guides hub, /fr/a-propos (+301 from /about), méthode éditoriale, choix chirurgien
 - [ ] 79 specialty pages with distinct images

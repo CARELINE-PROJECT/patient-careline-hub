@@ -28,6 +28,7 @@ import { Route as LocaleRequestRouteImport } from './routes/$locale/request'
 import { Route as LocaleSecurityRouteImport } from './routes/$locale/security'
 import { Route as LocaleServicesRouteImport } from './routes/$locale/services'
 import { Route as LocaleSpecialtiesRouteImport } from './routes/$locale/specialties'
+import { Route as LocaleChirurgieLaserYeuxGuideRouteImport } from './routes/$locale/chirurgie-laser-yeux_.$guide'
 import { Route as LocaleLegalCookiesRouteImport } from './routes/$locale/legal.cookies'
 import { Route as LocaleLegalNoticeRouteImport } from './routes/$locale/legal.notice'
 import { Route as LocaleLegalPrivacyRouteImport } from './routes/$locale/legal.privacy'
@@ -132,6 +133,12 @@ const LocaleSpecialtiesRoute = LocaleSpecialtiesRouteImport.update({
   path: '/specialties',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleChirurgieLaserYeuxGuideRoute =
+  LocaleChirurgieLaserYeuxGuideRouteImport.update({
+    id: '/chirurgie-laser-yeux_/$guide',
+    path: '/chirurgie-laser-yeux/$guide',
+    getParentRoute: () => LocaleRoute,
+  } as any)
 const LocaleLegalCookiesRoute = LocaleLegalCookiesRouteImport.update({
   id: '/legal/cookies',
   path: '/legal/cookies',
@@ -185,6 +192,7 @@ export interface FileRoutesByFullPath {
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
   '/$locale/': typeof LocaleIndexRoute
+  '/$locale/chirurgie-laser-yeux/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
@@ -211,6 +219,7 @@ export interface FileRoutesByTo {
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
   '/$locale': typeof LocaleIndexRoute
+  '/$locale/chirurgie-laser-yeux/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
@@ -239,6 +248,7 @@ export interface FileRoutesById {
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
   '/$locale/': typeof LocaleIndexRoute
+  '/$locale/chirurgie-laser-yeux_/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
   '/$locale/legal/cookies': typeof LocaleLegalCookiesRoute
   '/$locale/legal/notice': typeof LocaleLegalNoticeRoute
   '/$locale/legal/privacy': typeof LocaleLegalPrivacyRoute
@@ -268,6 +278,7 @@ export interface FileRouteTypes {
     | '/$locale/services'
     | '/$locale/specialties'
     | '/$locale/'
+    | '/$locale/chirurgie-laser-yeux/$guide'
     | '/$locale/legal/cookies'
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
@@ -294,6 +305,7 @@ export interface FileRouteTypes {
     | '/$locale/services'
     | '/$locale/specialties'
     | '/$locale'
+    | '/$locale/chirurgie-laser-yeux/$guide'
     | '/$locale/legal/cookies'
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
@@ -321,6 +333,7 @@ export interface FileRouteTypes {
     | '/$locale/services'
     | '/$locale/specialties'
     | '/$locale/'
+    | '/$locale/chirurgie-laser-yeux_/$guide'
     | '/$locale/legal/cookies'
     | '/$locale/legal/notice'
     | '/$locale/legal/privacy'
@@ -471,6 +484,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleSpecialtiesRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/chirurgie-laser-yeux_/$guide': {
+      id: '/$locale/chirurgie-laser-yeux_/$guide'
+      path: '/chirurgie-laser-yeux/$guide'
+      fullPath: '/$locale/chirurgie-laser-yeux/$guide'
+      preLoaderRoute: typeof LocaleChirurgieLaserYeuxGuideRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/$locale/legal/cookies': {
       id: '/$locale/legal/cookies'
       path: '/legal/cookies'
@@ -532,6 +552,7 @@ interface LocaleRouteChildren {
   LocaleServicesRoute: typeof LocaleServicesRoute
   LocaleSpecialtiesRoute: typeof LocaleSpecialtiesRoute
   LocaleIndexRoute: typeof LocaleIndexRoute
+  LocaleChirurgieLaserYeuxGuideRoute: typeof LocaleChirurgieLaserYeuxGuideRoute
   LocaleLegalCookiesRoute: typeof LocaleLegalCookiesRoute
   LocaleLegalNoticeRoute: typeof LocaleLegalNoticeRoute
   LocaleLegalPrivacyRoute: typeof LocaleLegalPrivacyRoute
@@ -556,6 +577,7 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleServicesRoute: LocaleServicesRoute,
   LocaleSpecialtiesRoute: LocaleSpecialtiesRoute,
   LocaleIndexRoute: LocaleIndexRoute,
+  LocaleChirurgieLaserYeuxGuideRoute: LocaleChirurgieLaserYeuxGuideRoute,
   LocaleLegalCookiesRoute: LocaleLegalCookiesRoute,
   LocaleLegalNoticeRoute: LocaleLegalNoticeRoute,
   LocaleLegalPrivacyRoute: LocaleLegalPrivacyRoute,

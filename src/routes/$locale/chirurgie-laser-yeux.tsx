@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
 import { laserPillarFr as P, laserPillarUpdated } from "@/content/laserPillar";
 import { siteConfig } from "@/config/site";
+import { laserGuides } from "@/content/laserGuides";
 
 export const Route = createFileRoute("/$locale/chirurgie-laser-yeux")({ staticData: { sitemap: true }, head: ({ params }) => { const h = specialtyPageHead("eye", params.locale); return params.locale !== "fr" ? h : { ...h, scripts: [{ type: "application/ld+json", children: JSON.stringify({ "@context": "https://schema.org", "@graph": [{ "@type": "MedicalWebPage", name: P.h1, inLanguage: "fr", dateModified: laserPillarUpdated, url: `${siteConfig.url}/fr/chirurgie-laser-yeux`, publisher: { "@type": "Organization", name: "Careline" } }, { "@type": "FAQPage", mainEntity: P.faq.map((x) => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })) }] }) }] }; }, component: EyeLaser });
 
@@ -75,7 +76,7 @@ function EyeLaser() {
           <div className="mt-5 grid gap-4 sm:grid-cols-2">{eyeLaserVideos.map((video) => <PatientVideo key={video.id} video={video} play={f.play} external={f.external} privacy={f.privacy} real={f.real} />)}</div>
         </section>
         {locale === "fr" && <><section id="faq" className="scroll-mt-28 border-t border-border py-7"><h2 className="font-display text-2xl text-branddeep">{P.faqTitle}</h2>{P.faq.map((x) => <div key={x.q} className="mt-4"><h3 className="font-display text-lg text-branddeep">{x.q}</h3><p className="mt-1 text-sm leading-7 text-muted-foreground">{x.a}</p></div>)}</section>
-          <section className="border-t border-border py-7"><h2 className="font-display text-2xl text-branddeep">{P.upcomingTitle}</h2><ul className="mt-3 flex flex-wrap gap-2">{P.upcoming.map((u) => <li key={u} className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground">{u}</li>)}</ul><p className="mt-3 text-xs text-muted-foreground">{P.upcomingNote}</p></section></>}
+          <section className="border-t border-border py-7"><h2 className="font-display text-2xl text-branddeep">{P.upcomingTitle}</h2><ul className="mt-3 flex flex-wrap gap-2">{laserGuides.map((u) => <li key={u.slug}><LocalizedLink to={`/chirurgie-laser-yeux/${u.slug}`} className="block rounded-md border border-border px-3 py-1.5 text-sm text-branddeep hover:bg-secondary">{u.label}</LocalizedLink></li>)}</ul></section></>}
         <section className="border-t border-border py-6">
           <h2 className="font-display text-lg text-branddeep">{f.sources}</h2>
           <ul className="mt-3 space-y-2 text-xs text-brand">{[...eyeLaserSources, ...(locale === "fr" ? P.extraSources : [])].map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">{source.title}</a></li>)}</ul>

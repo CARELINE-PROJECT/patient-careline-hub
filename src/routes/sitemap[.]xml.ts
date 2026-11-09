@@ -14,6 +14,7 @@ import { photoUrl, type PhotoId } from "@/lib/photos";
 import { directorySpecialties } from "@/config/specialtyDirectory";
 import { specialtyPath, specialtyPhoto } from "@/content/specialtyDetail";
 import { specialtyIds } from "@/config/specialties";
+import { laserGuides } from "@/content/laserGuides";
 
 /** Photos visible on each page (locale-free path); kept in sync with the page components. */
 const pagePhotos: Record<string, PhotoId[]> = {
@@ -40,7 +41,7 @@ export const Route = createFileRoute("/sitemap.xml")({
         const router = await getRouterInstance();
         // Localized page templates: included routes living under /$locale/.
         const templates = (Object.values(router.routesById) as AnyRoute[]).filter(
-          (route) => isSitemapRouteIncluded(route) && route.fullPath.includes("$locale") && !route.fullPath.includes("$specialty"),
+          (route) => isSitemapRouteIncluded(route) && route.fullPath.includes("$locale") && !route.fullPath.includes("$specialty") && !route.fullPath.includes("$guide"),
         );
 
         const entries: SitemapEntry[] = [];
@@ -65,6 +66,8 @@ export const Route = createFileRoute("/sitemap.xml")({
           const alternates = [...locales.map((l) => ({ hrefLang: l.htmlLang, href: localizedUrl(l.code, basePath) })), { hrefLang: "x-default", href: localizedUrl(defaultLocale, basePath) }];
           for (const locale of locales) entries.push({ path: `/${locale.code}${basePath}`, alternates, images: [`${BASE_URL}${photoUrl(specialtyPhoto(id))}`] });
         }
+
+        for (const g of laserGuides) entries.push({ path: `/fr/chirurgie-laser-yeux/${g.slug}`, alternates: [], images: [] });
 
         // No lastmod: there is no authoritative per-page modification date, and invented dates hurt SEO.
         if (entries.length === 0) {
