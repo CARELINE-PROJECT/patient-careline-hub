@@ -4,7 +4,43 @@ import { cn } from "@/lib/utils";
 // Inline SVG flags. Emoji flags are deliberately not used: on systems without a
 // flag font (Windows, and some Linux/Android setups) the regional-indicator
 // pairs render as bare letters such as "MG", "US", "AE", "GB", "SG", "HK".
+const horizontal = (a: string, b: string, c: string) => <><rect width="30" height="20" fill={a} /><rect y="6.667" width="30" height="6.667" fill={b} /><rect y="13.333" width="30" height="6.667" fill={c} /></>;
+const vertical = (a: string, b: string, c: string) => <><rect width="30" height="20" fill={a} /><rect x="10" width="10" height="20" fill={b} /><rect x="20" width="10" height="20" fill={c} /></>;
+const star = (x = 15, y = 10, color = "#ffde00", size = 3) => <path d="M0-1 .224-.309 .951-.309 .363.118 .588.809 0 .382 -.588.809 -.363.118 -.951-.309 -.224-.309Z" fill={color} transform={`translate(${x} ${y}) scale(${size})`} />;
 const flags: Record<string, ReactNode> = {
+  BE: vertical("#000", "#FDDA24", "#EF3340"),
+  CH: <><rect width="30" height="20" fill="#DA291C" /><path d="M13 4h4v4h4v4h-4v4h-4v-4H9V8h4Z" fill="#fff" /></>,
+  CA: <><rect width="30" height="20" fill="#fff" /><rect width="6" height="20" fill="#D80621" /><rect x="24" width="6" height="20" fill="#D80621" /><path d="m15 3 1.2 3 1.8-1-.4 4 2-2 .7 1.7 2-.4-1 3 1.3.8-5.6 3 .4 1.5-2.1-.3v2h-.6v-2l-2.1.3.4-1.5-5.6-3 1.3-.8-1-3 2 .4.7-1.7 2 2-.4-4 1.8 1Z" fill="#D80621" /></>,
+  LU: horizontal("#EF3340", "#fff", "#00A3E0"),
+  MC: <><rect width="30" height="20" fill="#fff" /><rect width="30" height="10" fill="#CE1126" /></>,
+  HT: <><rect width="30" height="20" fill="#D21034" /><rect width="30" height="10" fill="#00209F" /><rect x="11" y="7" width="8" height="6" fill="#fff" /><path d="M15 8v4m-3-2 3-2 3 2m-6 3h6" stroke="#016A16" strokeWidth="1" /></>,
+  SN: <>{vertical("#00853F", "#FDEF42", "#E31B23")}{star(15, 10, "#00853F")}</>,
+  CI: vertical("#F77F00", "#fff", "#009E60"),
+  GN: vertical("#CE1126", "#FCD116", "#009460"),
+  BJ: <><rect width="30" height="10" fill="#FCD116" /><rect y="10" width="30" height="10" fill="#E8112D" /><rect width="12" height="20" fill="#008751" /></>,
+  TG: <><rect width="30" height="20" fill="#006A4E" /><rect y="4" width="30" height="4" fill="#FFCE00" /><rect y="12" width="30" height="4" fill="#FFCE00" /><rect width="12" height="12" fill="#D21034" />{star(6, 6, "#fff", 4)}</>,
+  CD: <><rect width="30" height="20" fill="#007FFF" /><path d="m-3 21 36-24" stroke="#F7D618" strokeWidth="7" /><path d="m-3 21 36-24" stroke="#CE1021" strokeWidth="4.5" />{star(5, 5, "#F7D618", 3.5)}</>,
+  CG: <><rect width="30" height="20" fill="#FBDE4A" /><path d="M0 0h24L0 16Z" fill="#009543" /><path d="M30 20H6L30 4Z" fill="#DC241F" /></>,
+  CM: <>{vertical("#007A5E", "#CE1126", "#FCD116")}{star()}</>,
+  GA: horizontal("#009E60", "#FCD116", "#3A75C4"),
+  TD: vertical("#002664", "#FECB00", "#C60C30"),
+  CF: <><rect width="30" height="20" fill="#289728" /><rect width="30" height="5" fill="#003082" /><rect y="5" width="30" height="5" fill="#fff" /><rect y="15" width="30" height="5" fill="#FFCE00" /><rect x="13" width="4" height="20" fill="#D21034" />{star(5, 2.5, "#FFCE00", 2)}</>,
+  GQ: <>{horizontal("#3E9A00", "#fff", "#E32118")}<path d="M0 0 9 10 0 20Z" fill="#0073CE" /><path d="M15 9v3m-2 0h4" stroke="#734A22" /><ellipse cx="15" cy="8" rx="2" ry="1.5" fill="#3E9A00" /></>,
+  KM: <><rect width="30" height="20" fill="#3A75C4" /><rect width="30" height="5" fill="#FFD100" /><rect y="5" width="30" height="5" fill="#fff" /><rect y="10" width="30" height="5" fill="#EF3340" /><path d="M0 0 15 10 0 20Z" fill="#009639" /><circle cx="5" cy="10" r="3" fill="#fff" /><circle cx="6" cy="10" r="2.6" fill="#009639" />{[7, 9, 11, 13].map(y => star(7, y, "#fff", .7))}</>,
+  DJ: <><rect width="30" height="10" fill="#6AB2E7" /><rect y="10" width="30" height="10" fill="#12AD2B" /><path d="M0 0 15 10 0 20Z" fill="#fff" />{star(5, 10, "#D7141A")}</>,
+  SC: <><rect width="30" height="20" fill="#007A3D" /><path d="M0 20V0h30v15Z" fill="#fff" /><path d="M0 20V0h30v8Z" fill="#D62828" /><path d="M0 20V0h20Z" fill="#FCD856" /><path d="M0 20V0h10Z" fill="#003F87" /></>,
+  RW: <><rect width="30" height="20" fill="#00A1DE" /><rect y="10" width="30" height="5" fill="#FAD201" /><rect y="15" width="30" height="5" fill="#20603D" /><circle cx="24" cy="5" r="2.3" fill="#E5BE01" /></>,
+  BI: <><rect width="30" height="20" fill="#CE1126" /><path d="M0 0 15 10 0 20m30-20L15 10l15 10" fill="#1EB53A" /><path d="m0 0 30 20M30 0 0 20" stroke="#fff" strokeWidth="3" /><circle cx="15" cy="10" r="5" fill="#fff" />{star(15, 7, "#CE1126", 1.5)}{star(12.5, 12, "#CE1126", 1.5)}{star(17.5, 12, "#CE1126", 1.5)}</>,
+  VU: <><rect width="30" height="10" fill="#D21034" /><rect y="10" width="30" height="10" fill="#009543" /><path d="M0 0 15 10 0 20Z" fill="#000" /><path d="m0 0 15 10h15M0 20l15-10" fill="none" stroke="#000" strokeWidth="5" /><path d="m0 0 15 10h15M0 20l15-10" fill="none" stroke="#FDCE12" strokeWidth="2" /><circle cx="5" cy="10" r="2" fill="none" stroke="#FDCE12" /></>,
+  ML: vertical("#14B53A", "#FCD116", "#CE1126"),
+  BF: <><rect width="30" height="10" fill="#EF2B2D" /><rect y="10" width="30" height="10" fill="#009E49" />{star(15, 10, "#FCD116", 3.5)}</>,
+  NE: <>{horizontal("#E05206", "#fff", "#0DB02B")}<circle cx="15" cy="10" r="2.4" fill="#E05206" /></>,
+  MA: <><rect width="30" height="20" fill="#C1272D" /><path d="m15 5 3 10-8-6h10l-8 6Z" fill="none" stroke="#006233" strokeWidth="1" /></>,
+  DZ: <><rect width="30" height="20" fill="#fff" /><rect width="15" height="20" fill="#006233" /><circle cx="16" cy="10" r="5" fill="#D21034" /><circle cx="17.6" cy="9" r="4.2" fill="#fff" />{star(18, 10, "#D21034", 2.5)}</>,
+  TN: <><rect width="30" height="20" fill="#E70013" /><circle cx="15" cy="10" r="6" fill="#fff" /><circle cx="15" cy="10" r="4" fill="#E70013" /><circle cx="16.4" cy="9.5" r="3.4" fill="#fff" />{star(17, 10, "#E70013", 2)}</>,
+  MR: <><rect width="30" height="20" fill="#006233" /><rect width="30" height="3" fill="#D01C1F" /><rect y="17" width="30" height="3" fill="#D01C1F" /><path d="M9 9a6 6 0 0 0 12 0 6.1 6.1 0 0 1-12 0" fill="#FFC400" />{star(15, 7, "#FFC400", 2.5)}</>,
+  LB: <><rect width="30" height="20" fill="#ED1C24" /><rect y="5" width="30" height="10" fill="#fff" /><path d="m15 6-4 3h2l-4 3h5v2h2v-2h5l-4-3h2Z" fill="#00A651" /></>,
+  AD: <>{vertical("#10069F", "#FEDD00", "#D50032")}<path d="M12 7h6v5l-3 2-3-2Z" fill="#C6A158" /><path d="M13 8h4v4h-4Z" fill="#D50032" /></>,
   FR: <><rect width="10" height="20" fill="#0055A4" /><rect x="10" width="10" height="20" fill="#fff" /><rect x="20" width="10" height="20" fill="#EF4135" /></>,
   IT: <><rect width="10" height="20" fill="#009246" /><rect x="10" width="10" height="20" fill="#fff" /><rect x="20" width="10" height="20" fill="#CE2B37" /></>,
   NL: <><rect width="30" height="7" fill="#AE1C28" /><rect y="7" width="30" height="6" fill="#fff" /><rect y="13" width="30" height="7" fill="#21468B" /></>,
