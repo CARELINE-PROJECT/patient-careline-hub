@@ -6,6 +6,7 @@ import ogRequest from "@/assets/og/partage-careline-demande-rendez-vous.jpg";
 import ogContact from "@/assets/og/partage-careline-contact.jpg";
 import ogSpecialties from "@/assets/og/partage-careline-specialites.jpg";
 import ogLaser from "@/assets/og/partage-careline-laser-yeux.jpg";
+import ogHumanitaire from "@/assets/og/partage-careline-humanitaire.jpg";
 
 import { siteConfig } from "@/config/site";
 import type { HeadKey } from "@/i18n/head";
@@ -19,6 +20,7 @@ const ogImageByKey: Partial<Record<HeadKey, string>> = {
   companies: ogCompanies,
   request: ogRequest,
   contact: ogContact,
+  humanitarian: ogHumanitaire,
 };
 
 export const ogSpecialtiesImage = ogSpecialties;

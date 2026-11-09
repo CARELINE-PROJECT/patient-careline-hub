@@ -52,15 +52,16 @@
 - [x] Replace the Contact page emoji flags with drawn SVG flags so no two-letter country codes (MG, US, AE, GB, SG, HK) appear.
 
 ## SEO technical foundations (approved plan 2026-10-29)
-- [ ] Static prerender of all 18 public routes (vite.config.ts) + view-source verification
-- [ ] Canonicals and og:url → https://www.careline.doctor on all routes
-- [ ] robots.txt rewrite (AI crawlers allowed, /request params + confirmation blocked, sitemap reference)
-- [ ] Dynamic sitemap.xml (router-derived helper, no lastmod)
-- [ ] public/llms.txt + public/llms-full.txt
+- [x] Static prerender of all 18 public routes (vite.config.ts) + view-source verification
+- [x] Canonicals and og:url → https://www.careline.doctor on all routes (verified in src/i18n/head.ts + siteConfig.url)
+- [x] robots.txt rewrite (AI crawlers allowed, /request params + confirmation blocked, sitemap reference)
+- [x] Dynamic sitemap.xml (router-derived helper, no lastmod)
+- [x] public/llms.txt + public/llms-full.txt
 - [ ] Performance: LCP image preload, lazy-load non-hero images, font swap (already), route code-splitting (native)
-- [ ] Breadcrumbs component + JSON-LD on internal pages; verify 404 page
+- [x] Breadcrumbs component + JSON-LD on internal pages; verify 404 page
 - [ ] GTM + Consent Mode v2 wired to cookie banner; form_start/form_submit events; GSC/Bing meta {À CONFIRMER}
-- [ ] IndexNow key file + notification function
+- [x] IndexNow key file + notification function
+- [x] OG share image for the Humanitaire page (1200×630)
 
 ## SEO step 2 — languages, tags, structure (done 2026-10-30)
 - [x] URL-based i18n: all 18 locales as /fr/ /en/ /nl/ ... subdirectories, root redirect by Accept-Language, hreflang + x-default, lang/dir attributes

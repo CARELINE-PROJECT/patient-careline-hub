@@ -86,7 +86,7 @@ export function hreflangLinks(path: string) {
 export function staticRouteHead(key: HeadKey, path: string, locale: string) {
   const url = localizedUrl(safeLocale(locale), path);
   const ogLocale = locales.find((l) => l.code === safeLocale(locale))?.ogLocale ?? "fr_FR";
-  const image = key === "humanitarian" ? undefined : ogImageFor(key);
+  const image = ogImageFor(key);
   return {
     meta: [
       ...staticRouteMeta(key, locale),
