@@ -31,6 +31,14 @@ test("Swiss Canadian and Belgian French choices preserve the current page", () =
   expect(countryLanguagePath("fr", "/")).toBe("/fr");
 });
 
+test("all requested Portuguese destinations retain a Portuguese link to the current page", () => {
+  for (const id of ["PT", "BR", "AO", "MZ", "CV", "GW", "ST", "GQ", "TL", "MO", "FR", "LU", "CH", "US", "VE", "PY", "UY", "ZA", "IN"]) {
+    const choice = languageCountryOptions("fr").find(entry => entry.id === id && entry.language === "pt");
+    expect(choice?.language).toBe("pt");
+    expect(countryLanguagePath(choice?.language ?? "fr", "/contact")).toBe("/pt/contact");
+  }
+});
+
 test("country search accepts accents and multilingual names", () => {
   expect(languageCountryOptions("fr", "haiti").map(entry => entry.id)).toContain("HT");
   expect(languageCountryOptions("fr", "Switzerland").map(entry => entry.id)).toContain("CH");
