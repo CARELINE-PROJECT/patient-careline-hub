@@ -172,7 +172,7 @@ export function Flag({ code, className }: { code: string; className?: string }) 
   const art = flags[code.toUpperCase()];
   if (!art) return null;
   return (
-    <span aria-hidden="true" className={cn("inline-block overflow-hidden rounded-[3px] ring-1 ring-black/10", className)}>
+    <span aria-hidden="true" className={cn("inline-block overflow-hidden rounded-[2px]", className)}>
       <svg viewBox="0 0 30 20" className="block h-full w-full" focusable="false">
         {art}
       </svg>

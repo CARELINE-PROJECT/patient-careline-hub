@@ -38,7 +38,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         }
       >
         <Globe className="hidden size-4 shrink-0 xl:block" aria-hidden="true" />
-        <Flag code={selected?.flag ?? "FR"} className="h-4 w-6 shrink-0" />
+        <Flag code={selected?.flag ?? "FR"} className="h-6 w-9 shrink-0" />
         <span className="min-w-0 max-w-24 text-start sm:max-w-32" title={`${selected?.label ?? ""} · ${meta.name}`}>
           <span className="block truncate text-sm leading-tight">{selected?.label}</span>
           <span dir={meta.dir} className="block truncate text-xs leading-tight text-muted-foreground">{meta.name}</span>
@@ -58,7 +58,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
                   window.location.assign(countryLanguagePath(entry.language, basePath));
                 }}
                 className="px-3 py-2.5">
-                <Flag code={entry.flag} className="h-4 w-6 shrink-0" />
+                <Flag code={entry.flag} className="h-6 w-9 shrink-0" />
                 <span className="min-w-0 flex-1 whitespace-normal text-start">
                   <span className="block font-medium">{entry.label}</span>
                   <span dir={entry.dir} className="block text-xs text-muted-foreground">{entry.languageName}</span>
