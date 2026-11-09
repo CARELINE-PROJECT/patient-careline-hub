@@ -6,7 +6,7 @@ import { transparencyCopy } from "@/i18n/transparency";
 import { pressFigures } from "@/content/transparency";
 import { siteConfig } from "@/config/site";
 import { Section } from "@/components/site/primitives";
-import logoAsset from "@/assets/careline-logo-officiel.webp.asset.json";
+import logoAsset from "@/assets/careline-logo-final.webp.asset.json";
 import { publicAssetUrl } from "@/lib/assets";
 
 export const Route = createFileRoute("/$locale/press")({
@@ -21,7 +21,7 @@ function PressPage() {
   return <article lang={c.language}>
     <Section>
       <h1 className="font-display text-3xl text-branddeep sm:text-4xl">{c.press}</h1>
-      <img src={publicAssetUrl(logoAsset)} width={1057} height={239} alt="Careline — Global Health Solutions" className="mt-6 h-auto w-full max-w-sm rounded-lg" />
+      <img src={publicAssetUrl(logoAsset)} width={639} height={211} alt="Careline — Global Health Solutions" className="mt-6 h-auto w-full max-w-sm rounded-lg" />
       <h2 className="mt-8 font-display text-2xl text-branddeep">{c.about}</h2>
       <p className="mt-3 max-w-3xl leading-relaxed text-muted-foreground">{c.aboutBody}</p>
     </Section>
