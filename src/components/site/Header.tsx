@@ -33,7 +33,7 @@ export function Header() {
       </a>
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-2 px-5 py-3 sm:px-8">
         <LocalizedLink to="/" className="flex shrink-0 items-center" aria-label={siteConfig.name}>
-          <img src={publicAssetUrl(logoAsset)} alt={`${siteConfig.name} — Global Health Solutions`} width={1080} height={280} className="h-auto w-28 rounded-md sm:w-40 xl:w-44" />
+          <img src={publicAssetUrl(logoAsset)} alt={`${siteConfig.name} — Global Health Solutions`} width={1057} height={239} className="h-auto w-28 rounded-md sm:w-40 xl:w-44" />
         </LocalizedLink>
 
         <nav aria-label={t("ui.mainNavigation")} className="hidden items-center gap-1 lg:flex">

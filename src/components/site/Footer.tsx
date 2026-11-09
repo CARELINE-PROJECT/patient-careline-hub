@@ -84,7 +84,7 @@ export function Footer() {
         <div className="mt-12 grid gap-12 md:grid-cols-[1.4fr_repeat(4,1fr)]">
           <div>
             <div className="inline-flex max-w-full">
-              <img src={publicAssetUrl(logoAsset)} alt={`${siteConfig.name} — Global Health Solutions`} width={1080} height={280} loading="lazy" className="h-auto w-52 max-w-full rounded-md" />
+              <img src={publicAssetUrl(logoAsset)} alt={`${siteConfig.name} — Global Health Solutions`} width={1057} height={239} loading="lazy" className="h-auto w-52 max-w-full rounded-md bg-white p-2.5" />
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-primary-foreground/70">
               {t("footer.about")}
