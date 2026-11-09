@@ -1,10 +1,7 @@
 /**
  * API-ready submission layer.
  *
- * DEMONSTRATION MODE: no backend is connected yet, so submissions are simulated
- * locally and never stored or transmitted. To go live, replace the body of
- * `submitForm` with a call to a server function / API endpoint — the rest of the
- * application does not need to change.
+ * Submissions are emailed to the Careline secretariat through a server function.
  */
 
 export type FormKind = "appointment" | "contact" | "partner";
@@ -23,9 +20,12 @@ export function generateReference(prefix = "CL"): string {
 
 export async function submitForm(
   kind: FormKind,
-  _payload: Record<string, unknown>,
+  payload: Record<string, unknown>,
 ): Promise<SubmitResult> {
-  await new Promise((resolve) => setTimeout(resolve, 700));
   const prefix = kind === "appointment" ? "CL" : kind === "partner" ? "CP" : "CM";
-  return { ok: true, reference: generateReference(prefix), demo: true };
+  const reference = generateReference(prefix);
+  const { sendFormSubmission } = await import("@/lib/forms.functions");
+  const data = Object.fromEntries(Object.entries(payload).filter(([, v]) => typeof v === "string" || typeof v === "boolean")) as Record<string, string | boolean>;
+  const r = await sendFormSubmission({ data: { kind, reference, data, page: typeof window !== "undefined" ? window.location.pathname : undefined } });
+  return { ok: r.sent, reference, demo: false };
 }

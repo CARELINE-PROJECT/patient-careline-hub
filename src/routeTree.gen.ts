@@ -35,6 +35,7 @@ import { Route as LocaleLegalPrivacyRouteImport } from './routes/$locale/legal.p
 import { Route as LocaleLegalTermsRouteImport } from './routes/$locale/legal.terms'
 import { Route as LocaleSpecialtiesSpecialtyRouteImport } from './routes/$locale/specialties_.$specialty'
 import { Route as LocaleSpecialtiesLaserDesYeuxRouteImport } from './routes/$locale/specialties_.laser-des-yeux'
+import { Route as LovableEmailTransactionalPreviewRouteImport } from './routes/lovable/email/transactional/preview'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -171,6 +172,12 @@ const LocaleSpecialtiesLaserDesYeuxRoute =
     path: '/specialties/laser-des-yeux',
     getParentRoute: () => LocaleRoute,
   } as any)
+const LovableEmailTransactionalPreviewRoute =
+  LovableEmailTransactionalPreviewRouteImport.update({
+    id: '/lovable/email/transactional/preview',
+    path: '/lovable/email/transactional/preview',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -199,6 +206,7 @@ export interface FileRoutesByFullPath {
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
   '/$locale/specialties/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -226,6 +234,7 @@ export interface FileRoutesByTo {
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
   '/$locale/specialties/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -255,6 +264,7 @@ export interface FileRoutesById {
   '/$locale/legal/terms': typeof LocaleLegalTermsRoute
   '/$locale/specialties_/$specialty': typeof LocaleSpecialtiesSpecialtyRoute
   '/$locale/specialties_/laser-des-yeux': typeof LocaleSpecialtiesLaserDesYeuxRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -285,6 +295,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/terms'
     | '/$locale/specialties/$specialty'
     | '/$locale/specialties/laser-des-yeux'
+    | '/lovable/email/transactional/preview'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -312,6 +323,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/terms'
     | '/$locale/specialties/$specialty'
     | '/$locale/specialties/laser-des-yeux'
+    | '/lovable/email/transactional/preview'
   id:
     | '__root__'
     | '/'
@@ -340,6 +352,7 @@ export interface FileRouteTypes {
     | '/$locale/legal/terms'
     | '/$locale/specialties_/$specialty'
     | '/$locale/specialties_/laser-des-yeux'
+    | '/lovable/email/transactional/preview'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -347,6 +360,7 @@ export interface RootRouteChildren {
   SplatRoute: typeof SplatRoute
   LocaleRoute: typeof LocaleRouteWithChildren
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  LovableEmailTransactionalPreviewRoute: typeof LovableEmailTransactionalPreviewRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -533,6 +547,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleSpecialtiesLaserDesYeuxRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/lovable/email/transactional/preview': {
+      id: '/lovable/email/transactional/preview'
+      path: '/lovable/email/transactional/preview'
+      fullPath: '/lovable/email/transactional/preview'
+      preLoaderRoute: typeof LovableEmailTransactionalPreviewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -594,6 +615,7 @@ const rootRouteChildren: RootRouteChildren = {
   SplatRoute: SplatRoute,
   LocaleRoute: LocaleRouteWithChildren,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  LovableEmailTransactionalPreviewRoute: LovableEmailTransactionalPreviewRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

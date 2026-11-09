@@ -7,6 +7,7 @@ import { createFileRoute, redirect } from "@tanstack/react-router";
 export const Route = createFileRoute("/$")({
   staticData: { sitemap: false },
   beforeLoad: ({ location }) => {
+    if (location.pathname.startsWith("/lovable/")) return;
     throw redirect({ href: `/fr${location.pathname}`, statusCode: 301 });
   },
 });
