@@ -127,7 +127,6 @@ export function Footer() {
           <div className="mt-4 flex flex-col gap-3 text-xs text-primary-foreground/60 sm:flex-row sm:items-center sm:justify-between">
             <p>
               © {year} {siteConfig.legalName}. {t("footer.rights")}
-              <span className="mt-2 block">NIF : {siteConfig.company.nif} — STAT : {siteConfig.company.stat}</span>
             </p>
             <button
               type="button"
