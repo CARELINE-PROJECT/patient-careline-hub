@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Flag } from "./Flag";
 import { LocalizedLink } from "./LocalizedLink";
 import { StartupsBanner } from "./StartupsBanner";
+import { SearchableFilter } from "./SearchableFilter";
 import { Section } from "./primitives";
 
 export function StartupsPage({ filters, descriptions }: { filters: StartupFilters; descriptions: Record<string, string> }) {
@@ -41,7 +42,7 @@ export function StartupsPage({ filters, descriptions }: { filters: StartupFilter
     <Section className="py-8 md:py-10">
       <div className="grid gap-4 border-b border-border pb-6 sm:grid-cols-2 lg:grid-cols-4">
         <label className="grid gap-2 text-sm font-medium text-branddeep">{c.search}<span className="relative"><Search className="absolute start-3 top-3 size-4 text-muted-foreground" aria-hidden="true" /><Input type="search" value={filters.q ?? ""} onChange={e => update({ q: e.target.value })} className="h-10 ps-9" placeholder={c.search} /></span></label>
-        {([{ key: "continent", title: c.continent, options: startupTaxonomy.continents.map(d => ({ value: d.key, text: label("continents", d.key) })) }, { key: "pays", title: c.country, options: countries.map(code => ({ value: code, text: startupCountry(code, locale) })) }, { key: "domaine", title: c.domain, options: startupTaxonomy.domains.map(d => ({ value: d.key, text: label("domains", d.key) })) }] as const).map(f => <label key={f.key} className="grid gap-2 text-sm font-medium text-branddeep">{f.title}<select className="h-10 min-w-0 w-full rounded-md border border-input bg-background px-3 text-sm font-normal text-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring" value={filters[f.key] ?? ""} onChange={e => update({ [f.key]: e.target.value })}><option value="">{c.all}</option>{f.options.map(o => <option key={o.value} value={o.value}>{o.text}</option>)}</select></label>)}
+        {([{ key: "continent", title: c.continent, options: startupTaxonomy.continents.map(d => ({ value: d.key, text: label("continents", d.key) })) }, { key: "pays", title: c.country, options: countries.map(code => ({ value: code, text: startupCountry(code, locale), flag: code })) }, { key: "domaine", title: c.domain, options: startupTaxonomy.domains.map(d => ({ value: d.key, text: label("domains", d.key) })) }] as const).map(f => <SearchableFilter key={f.key} label={f.title} allText={c.all} value={filters[f.key] ?? ""} options={f.options} onChange={v => update({ [f.key]: v })} searchText={locale === "fr" ? "Rechercher…" : "Search…"} />)}
       </div>
       <div className="my-5 flex flex-wrap items-center justify-between gap-3"><p className="text-sm text-muted-foreground" aria-live="polite">{count} {c.results}</p>{Object.values(filters).some(Boolean) && <Button variant="ghost" size="sm" onClick={() => update({ q: "", pays: "", continent: "", domaine: "" })}><X />{c.reset}</Button>}</div>
       {count === 0 && <p className="py-8 text-muted-foreground">{c.empty}</p>}

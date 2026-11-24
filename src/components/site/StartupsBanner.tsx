@@ -3,6 +3,8 @@ import { useI18n } from "@/i18n";
 import { startupCopy, startupPath } from "@/i18n/startups";
 import { startupBannerItems, startupLogos } from "@/config/startups";
 import { LocalizedLink } from "./LocalizedLink";
+import { Flag } from "./Flag";
+import { startupCountry } from "@/i18n/startups";
 import "./StartupsBanner.css";
 
 export function StartupsBanner({ heading = true }: { heading?: boolean }) {
@@ -18,8 +20,10 @@ export function StartupsBanner({ heading = true }: { heading?: boolean }) {
     <div className="startup-marquee" dir="ltr">
       <div className="startup-marquee-track">
         {[false, true].map(duplicate => <div key={String(duplicate)} className="startup-marquee-group" aria-hidden={duplicate || undefined}>
-          {items.map(s => <LocalizedLink key={s.slug} to={startupPath(locale)} hash={s.slug} tabIndex={duplicate ? -1 : 0} className="group flex h-12 w-36 shrink-0 items-center justify-center text-center" title={s.name}>
-            {startupLogos[s.slug] ? <img src={startupLogos[s.slug]?.src} alt={s.name} loading="lazy" className="max-h-8 max-w-full object-contain grayscale transition-[filter] group-hover:grayscale-0 sm:max-h-10" /> : <span className="font-display text-lg text-branddeep">{s.name}</span>}
+          {items.map(s => <LocalizedLink key={s.slug} to={startupPath(locale)} hash={s.slug} tabIndex={duplicate ? -1 : 0} className="group flex w-44 shrink-0 flex-col items-center justify-center gap-1.5 text-center" title={s.name}>
+            <span className="flex h-10 w-full items-center justify-center">{startupLogos[s.slug] ? <img src={startupLogos[s.slug]?.src} alt="" loading="lazy" className="max-h-10 max-w-full object-contain" /> : <span className="font-display text-lg text-branddeep">{s.name.slice(0, 2)}</span>}</span>
+            <span className="flex max-w-full items-center gap-1.5 text-xs font-medium text-branddeep"><Flag code={s.country.code} className="h-3.5 w-5 shrink-0" /><span className="truncate">{s.name}</span></span>
+            <span className="sr-only">{startupCountry(s.country.code, locale)}</span>
           </LocalizedLink>)}
         </div>)}
       </div>
