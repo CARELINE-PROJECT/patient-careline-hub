@@ -6,6 +6,8 @@ Careline met en relation des patients avec des médecins, praticiens, cabinets e
 
 ## Pages
 
+- [Start-up santé](/fr/start-up): Annuaire international des start-up et jeunes entreprises de la santé, descriptions localisées, filtres par pays et domaine et liens vers les sites officiels. Cette sélection ne constitue pas un partenariat commercial.
+
 - [Accueil](/fr/fr): Présentation du service de coordination de rendez-vous médicaux.
 - [Nos services](/fr/services): Secrétariat administratif des praticiens : rendez-vous, confirmations, suivi, traçabilité.
 - [Professionnels de santé](/fr/professionals): Inscription gratuite des praticiens, sans abonnement ni droit d'entrée.

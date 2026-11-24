@@ -1,0 +1,34 @@
+name: Récupérer les logos des start-up
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Tout retélécharger (sinon, seulement les logos manquants)"
+        type: boolean
+        default: false
+  schedule:
+    # Le 1er de chaque mois : nouveaux logos + vérification que les sites répondent toujours
+    - cron: "17 4 1 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  logos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Télécharger les logos et vérifier les sites
+        run: node scripts/fetch-logos.mjs ${{ inputs.force && '--force' || '' }}
+      - name: Enregistrer dans le dépôt
+        run: |
+          git config user.name "careline-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/logos src/data/logos.json src/data/site-status.json
+          git diff --cached --quiet || git commit -m "Start-up : logos et statut des sites mis à jour"
+          git push

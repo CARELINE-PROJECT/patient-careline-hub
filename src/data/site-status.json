@@ -1,0 +1,1254 @@
+{
+  "1doc3": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "5c-network": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "abionic": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "abridge": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "accurx": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "activ-surgical": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ada-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ai-medical-service": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "aidoc": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "aillis": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "alan": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "alice": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "allm": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "altibbi": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "altos-labs": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ambience-healthcare": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "andaman7": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "annalise-ai": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "aqemia": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "atomwise": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "avelios": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "avi-medical": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "avicenna-ai": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "awell": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "azmed": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "belkin-vision": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "benchsci": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "bicycle-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "big-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "biobeat": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "bioptimus": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "bioserenity": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "birdie": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "blackrock-neurotech": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "brainomix": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "brightline": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "cadence": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "calmedica": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cardiawave": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "caresyntax": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "carrot-fertility": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "carrum-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "castor": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cera": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cerebral": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cerebriu": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "chai-discovery": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "chefaa": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cityblock-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cleerly": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "clivi": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cloudphysician": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "clue": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cmr-surgical": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "color-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "commure": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "conexa-saude": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "coreline-soft": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "corneat-vision": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "corti": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cortical-labs": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cureapp": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "curebay": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cureety": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cydar-medical": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "cytoreason": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "dabadoc": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "damae-medical": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "datos-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "deep-genomics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "deepscribe": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "delfi-diagnostics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "delft-imaging": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "dental-monitoring": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "devoted-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "diabeloop": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "diagnostic-robotics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "digital-diagnostics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "dignio": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "dispatchhealth": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "distalmotion": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "docplanner": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "doctolib": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "doctoroncall": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "doktor-se": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "dozee": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "dr-consulta": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "dxy": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "eka-care": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "eko-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "envision": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "evolutionaryscale": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "exo": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "eyedaptic": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "eyenuk": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "eyestem": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "feebris": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "felix-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "flo-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "flow-neuroscience": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "floy": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "formation-bio": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "forsight-robotics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "function-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "garner-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "generate-biomedicines": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "glass-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "gleamer": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "grow-therapy": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "harbinger-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "harrison-ai": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "headway": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "healthians": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "healthifyme": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "healthy-io": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "healx": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "heidi-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "helium-health": {
+    "status": "unreachable",
+    "checkedAt": "2026-11-24"
+  },
+  "hello-doctor": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "hello-heart": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "hellobetter": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "heru": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "hilab": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "hippocratic-ai": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "holmusk": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "homage": {
+    "status": "unreachable",
+    "checkedAt": "2026-11-24"
+  },
+  "hoppen": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "horizon-surgical-systems": {
+    "status": "unreachable",
+    "checkedAt": "2026-11-24"
+  },
+  "hublo": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "huinno": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "huma": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "iambic-therapeutics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ibex-medical-analytics": {
+    "status": "unreachable",
+    "checkedAt": "2026-11-24"
+  },
+  "icometrix": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "iktos": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ilara-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "implicity": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "inato": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "incepto": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "infermedica": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "infervision": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "infinitus": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "inheart": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "innovaccer": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "insilico-medicine": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "insitro": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "inveox": {
+    "status": "http_503",
+    "checkedAt": "2026-11-24"
+  },
+  "isomorphic-labs": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "jio-health": {
+    "status": "unreachable",
+    "checkedAt": "2026-11-24"
+  },
+  "kheiron-medical": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "kindbody": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "kiplin": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "knok": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "komodo-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "kry-livi": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "league": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "libheros": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lifebank": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lifen": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lifeq": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lifesum": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "limbic": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lindus-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lpixel": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lucence": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lucine": {
+    "status": "unreachable",
+    "checkedAt": "2026-11-24"
+  },
+  "lumithera": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lunit": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "luscii": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lyra-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "lyrebird-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mammoth-biosciences": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "maple": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "maven-clinic": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "medadom": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "medikabazaar": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "medisafe": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mediwhale": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "memed": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mendi": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mesh-bio": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "micin": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "midi-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "milvue": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mindmaze": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mirxes": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mmi-medical-microinstruments": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "moka-care": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "momo-medical": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "monsenso": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "moon-surgical": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mpharma": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "mydawa": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "nabla": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "nanodropper": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "nanoflex-robotics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "natural-cycles": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "navina": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "neko-health": {
+    "status": "http_429",
+    "checkedAt": "2026-11-24"
+  },
+  "neocis": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "neuralink": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "newlimit": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "niramai": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "noom": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "notable": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "notal-vision": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "numan": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "okadoc": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "oladoc": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "olleyes": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ooca": {
+    "status": "http_520",
+    "checkedAt": "2026-11-24"
+  },
+  "openevidence": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "ophelia": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "optain-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "optellum": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "oura": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "oviva": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "owkin": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "pacmed": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "papa": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "paradromics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "particle-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "patchwork-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "pathai": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "peek-vision": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "penda-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "peppy": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "pharmeasy": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "pixacare": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "pixyl": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "pockethealth": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "portal-telemedicina": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "praava-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "precise-bio": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "precision-neuroscience": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "prenuvo": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "pristyn-care": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "profluent": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "proprio": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "qare": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "quantum-surgical": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "quibim": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "qure-ai": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "qventus": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "rad-ai": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "radiobotics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "recare": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "redcliffe-labs": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "redox": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "reliance-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "remidio": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "resilience": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "retro-biosciences": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ro": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "robeaute": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "rula": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "sami": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "savana": {
+    "status": "unreachable",
+    "checkedAt": "2026-11-24"
+  },
+  "science-corporation": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "sehat-kahani": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "sight-diagnostics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "skin-analytics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "sofia": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "speedoc": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "spring-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "strive-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "sugar-fit": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "suki": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "summer-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "superpower": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "sword-health": {
+    "status": "http_429",
+    "checkedAt": "2026-11-24"
+  },
+  "synapse-medicine": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "synchron": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "talkiatry": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "temedica": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "theator": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "therapixel": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "thirona": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "thirty-madison": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "thriva": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "tilak-healthcare": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "toku-eyes": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "tortus": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "transcarent": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "tricog": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "tucuvi": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "tyto-care": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ubie": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ultrahuman": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "ultromics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "valo-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "vara": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "vaxxas": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "vezeeta": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "virta-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "vivira": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "viz-ai": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "volta-medical": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "vula-mobile": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "vuno": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "werlabs": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "wheel": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "whitelab-genomics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "whoop": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "withings": {
+    "status": "http_403",
+    "checkedAt": "2026-11-24"
+  },
+  "wysa": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "xaira-therapeutics": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "xeltis": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "yodawy": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "zenklub": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "zipline": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "zoe": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  },
+  "zus-health": {
+    "status": "ok",
+    "checkedAt": "2026-11-24"
+  }
+}

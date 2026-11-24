@@ -34,3 +34,4 @@
 - Keep Hebrew translations in dedicated static language catalogs with shared specialty IDs and laser slugs; medical source URLs and video IDs remain unchanged across translations.
 - Source press figures from the confirmed figure catalog and keep technical-service observations separate from contractual processor claims; contracts cannot be inferred from integrations.
 - Reuse the uploaded official logo asset through publicAssetUrl across public layouts and derive the local favicon from that same image to prevent brand drift.
+- Keep the startup directory in static JSON catalogs, with route-loaded description translations separate from original records and logo provenance separate from commercial relationships; derive URLs, filters, banner and structured data from that catalog.

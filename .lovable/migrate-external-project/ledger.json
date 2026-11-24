@@ -1,0 +1,75 @@
+{
+  "source": "careline-startups.zip",
+  "capabilities": [
+    {
+      "capability": "code",
+      "source": "JSON catalogs and logo fetch script",
+      "outcome": "integrate",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "records",
+      "source": "313 bundled static startup entries",
+      "outcome": "integrate",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "schema and auth identities",
+      "source": "none; static catalog",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "authorization and secrets",
+      "source": "none",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "uploaded file bytes",
+      "source": "logos catalog initially empty",
+      "outcome": "integrate",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "external providers and public endpoints",
+      "source": "official company website links",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "callbacks and webhooks",
+      "source": "none",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "schedules",
+      "source": "monthly GitHub Actions logo workflow",
+      "outcome": "preserve",
+      "status": "pending",
+      "next_action": "Monthly workflow runs if GitHub Actions is enabled in the connected repository"
+    },
+    {
+      "capability": "cutover",
+      "source": "new public localized pages",
+      "outcome": "integrate",
+      "status": "pending",
+      "next_action": "Publish to make the pages live"
+    },
+    {
+      "capability": "verification",
+      "source": "guide requirements",
+      "outcome": "verify",
+      "status": "verified",
+      "next_action": null
+    }
+  ]
+}

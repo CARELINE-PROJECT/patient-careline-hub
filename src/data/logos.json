@@ -1,0 +1,4418 @@
+{
+  "1doc3": {
+    "src": "/logos/1doc3.png",
+    "source": "https://cdn.1doc3.com/img/logo-monocromatico-azul.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "e0ad92b7-2fbc-4727-9e77-a148390ad6ec",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e0ad92b7-2fbc-4727-9e77-a148390ad6ec/1doc3.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e0ad92b7-2fbc-4727-9e77-a148390ad6ec/1doc3.png",
+      "original_filename": "1doc3.png",
+      "size": 13587,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:15Z"
+    }
+  },
+  "5c-network": {
+    "src": "/logos/5c-network.png",
+    "source": "https://www.5cnetwork.com/logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "49228ce5-e8f6-4f1a-bfb6-f79089ffc20e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/49228ce5-e8f6-4f1a-bfb6-f79089ffc20e/5c-network.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/49228ce5-e8f6-4f1a-bfb6-f79089ffc20e/5c-network.png",
+      "original_filename": "5c-network.png",
+      "size": 124199,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:16Z"
+    }
+  },
+  "abionic": {
+    "src": "/logos/abionic.ico",
+    "source": "https://abionic.com/sites/default/files/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "b34dbb33-aae6-429e-9751-7b565f5003df",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/b34dbb33-aae6-429e-9751-7b565f5003df/abionic.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/b34dbb33-aae6-429e-9751-7b565f5003df/abionic.ico",
+      "original_filename": "abionic.ico",
+      "size": 119337,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:07:16Z"
+    }
+  },
+  "abridge": {
+    "src": "/logos/abridge.png",
+    "source": "https://www.abridge.com/icon.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "f7652fd0-2337-44f8-b7f4-96ee0580dd63",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/f7652fd0-2337-44f8-b7f4-96ee0580dd63/abridge.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/f7652fd0-2337-44f8-b7f4-96ee0580dd63/abridge.png",
+      "original_filename": "abridge.png",
+      "size": 701,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:16Z"
+    }
+  },
+  "accurx": {
+    "src": "/logos/accurx.png",
+    "source": "https://cdn.prod.website-files.com/5f6986b75721064d3306c76a/62a1f6025acdf674c7138ee9_webclip_brandmark.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ab1d5d10-5002-4574-9d91-15dab8705232",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ab1d5d10-5002-4574-9d91-15dab8705232/accurx.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ab1d5d10-5002-4574-9d91-15dab8705232/accurx.png",
+      "original_filename": "accurx.png",
+      "size": 6314,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:16Z"
+    }
+  },
+  "activ-surgical": {
+    "src": "/logos/activ-surgical.webp",
+    "source": "https://www.activsurgical.com/wp-content/uploads/2026/10/activ-surgical-favicon-300x300.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "f42ceb18-285e-4334-9638-eaed0e15dc6c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/f42ceb18-285e-4334-9638-eaed0e15dc6c/activ-surgical.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/f42ceb18-285e-4334-9638-eaed0e15dc6c/activ-surgical.webp",
+      "original_filename": "activ-surgical.webp",
+      "size": 16008,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:07:16Z"
+    }
+  },
+  "ada-health": {
+    "src": "/logos/ada-health.png",
+    "source": "https://ada.com/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "7937cd8a-3247-4720-9a07-bb12c7747b4c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7937cd8a-3247-4720-9a07-bb12c7747b4c/ada-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7937cd8a-3247-4720-9a07-bb12c7747b4c/ada-health.png",
+      "original_filename": "ada-health.png",
+      "size": 1081,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:16Z"
+    }
+  },
+  "ai-medical-service": {
+    "src": "/logos/ai-medical-service.svg",
+    "source": "https://www.ai-ms.com/logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "1d0b3247-694c-41b3-a8c2-3dabfe669713",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1d0b3247-694c-41b3-a8c2-3dabfe669713/ai-medical-service.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1d0b3247-694c-41b3-a8c2-3dabfe669713/ai-medical-service.svg",
+      "original_filename": "ai-medical-service.svg",
+      "size": 617,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:07:16Z"
+    }
+  },
+  "aidoc": {
+    "src": "/logos/aidoc.png",
+    "source": "https://www.aidoc.com/wp-content/uploads/Aidoc-Logo-2.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "698bece5-e473-41f9-bc22-a0cdfaaaa963",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/698bece5-e473-41f9-bc22-a0cdfaaaa963/aidoc.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/698bece5-e473-41f9-bc22-a0cdfaaaa963/aidoc.png",
+      "original_filename": "aidoc.png",
+      "size": 262604,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:29Z"
+    }
+  },
+  "aillis": {
+    "src": "/logos/aillis.png",
+    "source": "https://storage.googleapis.com/production-os-assets/assets/d59ed860-8688-427e-a510-6a02ada1d11a",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "f1cad17f-fa2e-477e-aeee-3f06bc8728f3",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/f1cad17f-fa2e-477e-aeee-3f06bc8728f3/aillis.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/f1cad17f-fa2e-477e-aeee-3f06bc8728f3/aillis.png",
+      "original_filename": "aillis.png",
+      "size": 615,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:29Z"
+    }
+  },
+  "alan": {
+    "src": "/logos/alan.png",
+    "source": "https://alan.com/website-assets/favicon/apple-icon-180x180.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "22ae2cc4-b890-43dd-b80b-6a1f6ef82103",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/22ae2cc4-b890-43dd-b80b-6a1f6ef82103/alan.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/22ae2cc4-b890-43dd-b80b-6a1f6ef82103/alan.png",
+      "original_filename": "alan.png",
+      "size": 48619,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:29Z"
+    }
+  },
+  "alice": {
+    "src": "/logos/alice.svg",
+    "source": "https://cdn.prod.website-files.com/5fd0f5e4883524ed0fc88323/69c6cc6dc235f0ed9c51c7e3_Logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "9f781039-bb0f-4026-b2dc-4346ffd017f9",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/9f781039-bb0f-4026-b2dc-4346ffd017f9/alice.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/9f781039-bb0f-4026-b2dc-4346ffd017f9/alice.svg",
+      "original_filename": "alice.svg",
+      "size": 4094,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:07:29Z"
+    }
+  },
+  "allm": {
+    "src": "/logos/allm.png",
+    "source": "https://www.allm.net/favicon@512.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "9dc023f2-a3d1-43c8-8fd0-e16272a8345a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/9dc023f2-a3d1-43c8-8fd0-e16272a8345a/allm.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/9dc023f2-a3d1-43c8-8fd0-e16272a8345a/allm.png",
+      "original_filename": "allm.png",
+      "size": 5675,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:29Z"
+    }
+  },
+  "altibbi": {
+    "src": "/logos/altibbi.svg",
+    "source": "https://altibbi.com/theme/altibbi/icons/tbi-brand.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "7884f12a-a99e-4dc9-b744-5336fce45c83",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7884f12a-a99e-4dc9-b744-5336fce45c83/altibbi.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7884f12a-a99e-4dc9-b744-5336fce45c83/altibbi.svg",
+      "original_filename": "altibbi.svg",
+      "size": 21412,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:07:29Z"
+    }
+  },
+  "altos-labs": {
+    "src": "/logos/altos-labs.jpg",
+    "source": "https://a-us.storyblok.com/f/1016638/141x32/87a590b0fe/logo.jpg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "1afcfc15-9eda-4bb4-a531-17d2aba4d294",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1afcfc15-9eda-4bb4-a531-17d2aba4d294/altos-labs.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1afcfc15-9eda-4bb4-a531-17d2aba4d294/altos-labs.jpg",
+      "original_filename": "altos-labs.jpg",
+      "size": 6773,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:07:29Z"
+    }
+  },
+  "ambience-healthcare": {
+    "src": "/logos/ambience-healthcare.avif",
+    "source": "https://framerusercontent.com/images/haTpZpBVtJGknDoyx7DSCLavQ.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "5d34cc30-a2a3-48e6-8994-7960b3ef5b4e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/5d34cc30-a2a3-48e6-8994-7960b3ef5b4e/ambience-healthcare.avif",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/5d34cc30-a2a3-48e6-8994-7960b3ef5b4e/ambience-healthcare.avif",
+      "original_filename": "ambience-healthcare.avif",
+      "size": 2900,
+      "content_type": "image/avif",
+      "created_at": "2026-11-24T01:07:29Z"
+    }
+  },
+  "andaman7": {
+    "src": "/logos/andaman7.png",
+    "source": "https://www.andaman7.com/themes/andaman7/assets/img/logo-andaman7.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "0ca13f9f-c846-432b-8333-d721be03308f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/0ca13f9f-c846-432b-8333-d721be03308f/andaman7.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/0ca13f9f-c846-432b-8333-d721be03308f/andaman7.png",
+      "original_filename": "andaman7.png",
+      "size": 10190,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:49Z"
+    }
+  },
+  "aqemia": {
+    "src": "/logos/aqemia.ico",
+    "source": "https://aqemia.com/favicon.ico?favicon.8caa2264.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "05bcb949-5a65-4363-b17d-f9b97b65bda3",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/05bcb949-5a65-4363-b17d-f9b97b65bda3/aqemia.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/05bcb949-5a65-4363-b17d-f9b97b65bda3/aqemia.ico",
+      "original_filename": "aqemia.ico",
+      "size": 15406,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:07:49Z"
+    }
+  },
+  "atomwise": {
+    "src": "/logos/atomwise.png",
+    "source": "https://numerionlabs.ai/wp-content/uploads/2025/11/google-logo-800x800-1.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "db8b714d-1448-4f08-88b8-d26e20c50af7",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/db8b714d-1448-4f08-88b8-d26e20c50af7/atomwise.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/db8b714d-1448-4f08-88b8-d26e20c50af7/atomwise.png",
+      "original_filename": "atomwise.png",
+      "size": 8590,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:49Z"
+    }
+  },
+  "avelios": {
+    "src": "/logos/avelios.svg",
+    "source": "https://www.avelios.com/images/logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "72bcd309-d4d1-4ab6-98b7-88022355cf8c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/72bcd309-d4d1-4ab6-98b7-88022355cf8c/avelios.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/72bcd309-d4d1-4ab6-98b7-88022355cf8c/avelios.svg",
+      "original_filename": "avelios.svg",
+      "size": 3728,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:07:48Z"
+    }
+  },
+  "avi-medical": {
+    "src": "/logos/avi-medical.ico",
+    "source": "https://www.avimedical.com/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "06de885d-c118-49ca-b613-be6ae5bfc2d4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/06de885d-c118-49ca-b613-be6ae5bfc2d4/avi-medical.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/06de885d-c118-49ca-b613-be6ae5bfc2d4/avi-medical.ico",
+      "original_filename": "avi-medical.ico",
+      "size": 20373,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:07:48Z"
+    }
+  },
+  "avicenna-ai": {
+    "src": "/logos/avicenna-ai.png",
+    "source": "https://avicenna.ai/wp-content/uploads/2020/04/Avicenna-logo-white.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "ad83d40d-4901-41b2-b4fc-865f4132275c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ad83d40d-4901-41b2-b4fc-865f4132275c/avicenna-ai.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ad83d40d-4901-41b2-b4fc-865f4132275c/avicenna-ai.png",
+      "original_filename": "avicenna-ai.png",
+      "size": 15172,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:49Z"
+    }
+  },
+  "awell": {
+    "src": "/logos/awell.avif",
+    "source": "https://framerusercontent.com/images/YqrP28hLKGUfQBPySkF3jGiD4.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "c45497d6-766f-4c32-b658-30e0e33970ee",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c45497d6-766f-4c32-b658-30e0e33970ee/awell.avif",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c45497d6-766f-4c32-b658-30e0e33970ee/awell.avif",
+      "original_filename": "awell.avif",
+      "size": 1891,
+      "content_type": "image/avif",
+      "created_at": "2026-11-24T01:07:49Z"
+    }
+  },
+  "azmed": {
+    "src": "/logos/azmed.png",
+    "source": "https://www.azmed.co/images/azmed-logo-header.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "066d7ac7-9d0c-4a47-bdb8-3e3768e195c5",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/066d7ac7-9d0c-4a47-bdb8-3e3768e195c5/azmed.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/066d7ac7-9d0c-4a47-bdb8-3e3768e195c5/azmed.png",
+      "original_filename": "azmed.png",
+      "size": 10618,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:07:48Z"
+    }
+  },
+  "belkin-vision": {
+    "src": "/logos/belkin-vision.ico",
+    "source": "https://www.myalcon.com/international/sites/g/files/rbvwei2661/files/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "d23f18cf-e0c7-4592-ae27-b79d9b63c067",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d23f18cf-e0c7-4592-ae27-b79d9b63c067/belkin-vision.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d23f18cf-e0c7-4592-ae27-b79d9b63c067/belkin-vision.ico",
+      "original_filename": "belkin-vision.ico",
+      "size": 15086,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:08:04Z"
+    }
+  },
+  "benchsci": {
+    "src": "/logos/benchsci.svg",
+    "source": "https://www.benchsci.com/images/nav-logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "a11ce69c-fcb1-4177-9e60-dcc2e2462b2b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a11ce69c-fcb1-4177-9e60-dcc2e2462b2b/benchsci.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a11ce69c-fcb1-4177-9e60-dcc2e2462b2b/benchsci.svg",
+      "original_filename": "benchsci.svg",
+      "size": 2888,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:08:03Z"
+    }
+  },
+  "bicycle-health": {
+    "src": "/logos/bicycle-health.png",
+    "source": "https://cdn.prod.website-files.com/61f7c8145fe6f608faa84b36/6a87ae129ce5f3876df695cd_favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "8dd5dd18-b26d-463d-9820-227fc8d3ecc2",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/8dd5dd18-b26d-463d-9820-227fc8d3ecc2/bicycle-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/8dd5dd18-b26d-463d-9820-227fc8d3ecc2/bicycle-health.png",
+      "original_filename": "bicycle-health.png",
+      "size": 114284,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:03Z"
+    }
+  },
+  "big-health": {
+    "src": "/logos/big-health.png",
+    "source": "https://cdn.prod.website-files.com/659879cae2df32d85f9472e1/65b53e15145d5b167f74c0ae_image%203.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "483bc073-2729-4fdf-87b8-696d14fc1ffb",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/483bc073-2729-4fdf-87b8-696d14fc1ffb/big-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/483bc073-2729-4fdf-87b8-696d14fc1ffb/big-health.png",
+      "original_filename": "big-health.png",
+      "size": 17991,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:03Z"
+    }
+  },
+  "biobeat": {
+    "src": "/logos/biobeat.svg",
+    "source": "https://www.bio-beat.com/wp-content/uploads/2024/09/Biobeat-logo-2020-1.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "a116da31-dab4-419f-a392-79a754e4ea62",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a116da31-dab4-419f-a392-79a754e4ea62/biobeat.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a116da31-dab4-419f-a392-79a754e4ea62/biobeat.svg",
+      "original_filename": "biobeat.svg",
+      "size": 28189,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:08:03Z"
+    }
+  },
+  "bioptimus": {
+    "src": "/logos/bioptimus.png",
+    "source": "https://cdn.prod.website-files.com/65524b90a592a6c95fb2efbb/656f1214a99791562e7c17da_bioptimus-icon-256x256.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "2922579f-fc07-4f5d-a1b0-7e1360ce0cbe",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2922579f-fc07-4f5d-a1b0-7e1360ce0cbe/bioptimus.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2922579f-fc07-4f5d-a1b0-7e1360ce0cbe/bioptimus.png",
+      "original_filename": "bioptimus.png",
+      "size": 7101,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:03Z"
+    }
+  },
+  "birdie": {
+    "src": "/logos/birdie.svg",
+    "source": "https://cdn.prod.website-files.com/5d80c03f1edd7bd68fcdb623/633ead0f172e7255f4ce0395_logo-white.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "b2eee53c-8c3c-4e15-af29-1c29a02e12b0",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/b2eee53c-8c3c-4e15-af29-1c29a02e12b0/birdie.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/b2eee53c-8c3c-4e15-af29-1c29a02e12b0/birdie.svg",
+      "original_filename": "birdie.svg",
+      "size": 2683,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:08:04Z"
+    }
+  },
+  "blackrock-neurotech": {
+    "src": "/logos/blackrock-neurotech.jpg",
+    "source": "https://blackrockneurotech.com/wp-content/uploads/2023/06/Blackrock-Neurotech.jpg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "6adb22ab-836f-4112-868a-ee2ec5d8dd6a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6adb22ab-836f-4112-868a-ee2ec5d8dd6a/blackrock-neurotech.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6adb22ab-836f-4112-868a-ee2ec5d8dd6a/blackrock-neurotech.jpg",
+      "original_filename": "blackrock-neurotech.jpg",
+      "size": 3553,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:08:04Z"
+    }
+  },
+  "brainomix": {
+    "src": "/logos/brainomix.png",
+    "source": "https://cdn.prod.website-files.com/69e0a08b3efbcfa15c020ad8/6a5e2bfa7ee240fb13dabde3_Icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "bc3fc63d-9311-47bc-8cdc-f7b9d03d3def",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/bc3fc63d-9311-47bc-8cdc-f7b9d03d3def/brainomix.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/bc3fc63d-9311-47bc-8cdc-f7b9d03d3def/brainomix.png",
+      "original_filename": "brainomix.png",
+      "size": 14805,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:31Z"
+    }
+  },
+  "cadence": {
+    "src": "/logos/cadence.png",
+    "source": "https://assets.cadence.care/images/research/cadence-mark.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "3f0c0abd-83af-4011-b209-8785328eea5e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/3f0c0abd-83af-4011-b209-8785328eea5e/cadence.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/3f0c0abd-83af-4011-b209-8785328eea5e/cadence.png",
+      "original_filename": "cadence.png",
+      "size": 2700,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:26Z"
+    }
+  },
+  "calmedica": {
+    "src": "/logos/calmedica.png",
+    "source": "https://cdn.prod.website-files.com/69d91d1114984c155906a85b/69fb62549b33be02a8e434b8_favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "9261b9a0-7afe-439e-8999-83ce702dbd15",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/9261b9a0-7afe-439e-8999-83ce702dbd15/calmedica.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/9261b9a0-7afe-439e-8999-83ce702dbd15/calmedica.png",
+      "original_filename": "calmedica.png",
+      "size": 27398,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:26Z"
+    }
+  },
+  "cardiawave": {
+    "src": "/logos/cardiawave.jpg",
+    "source": "https://cardiawave.com/wp-content/uploads/2021/11/cropped-favicon-cardiawave-180x180.jpg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "27660ffc-aa4f-4103-87df-15dd207a5c33",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/27660ffc-aa4f-4103-87df-15dd207a5c33/cardiawave.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/27660ffc-aa4f-4103-87df-15dd207a5c33/cardiawave.jpg",
+      "original_filename": "cardiawave.jpg",
+      "size": 4927,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:08:26Z"
+    }
+  },
+  "carrot-fertility": {
+    "src": "/logos/carrot-fertility.webp",
+    "source": "https://cdn.prod.website-files.com/6650c95fdb98b33f3843d2ce/6650c95fdb98b33f3843d3b6_Logo-Light.webp",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "9fb01e9a-f8c0-42ab-a869-1c265b70e421",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/9fb01e9a-f8c0-42ab-a869-1c265b70e421/carrot-fertility.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/9fb01e9a-f8c0-42ab-a869-1c265b70e421/carrot-fertility.webp",
+      "original_filename": "carrot-fertility.webp",
+      "size": 928,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:08:26Z"
+    }
+  },
+  "carrum-health": {
+    "src": "/logos/carrum-health.jpg",
+    "source": "https://carrumhealth.com/wp-content/uploads/2021/11/Share-Image-Default.jpg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "531ebd7c-6328-47ae-8474-7cd2a0a02021",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/531ebd7c-6328-47ae-8474-7cd2a0a02021/carrum-health.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/531ebd7c-6328-47ae-8474-7cd2a0a02021/carrum-health.jpg",
+      "original_filename": "carrum-health.jpg",
+      "size": 26004,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:08:26Z"
+    }
+  },
+  "castor": {
+    "src": "/logos/castor.png",
+    "source": "https://www.castoredc.com/wp-content/uploads/2020/08/castor-edc-logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "a9e9a762-c816-4050-8559-7e6e608c371b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a9e9a762-c816-4050-8559-7e6e608c371b/castor.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a9e9a762-c816-4050-8559-7e6e608c371b/castor.png",
+      "original_filename": "castor.png",
+      "size": 1573,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:26Z"
+    }
+  },
+  "cera": {
+    "src": "/logos/cera.ico",
+    "source": "https://homehealthcareconnected.co.uk/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "7acd3bda-c15c-41e8-8184-75070bcfecf9",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7acd3bda-c15c-41e8-8184-75070bcfecf9/cera.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7acd3bda-c15c-41e8-8184-75070bcfecf9/cera.ico",
+      "original_filename": "cera.ico",
+      "size": 5430,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:08:26Z"
+    }
+  },
+  "cerebral": {
+    "src": "/logos/cerebral.svg",
+    "source": "https://cerebral.com/_next/static/media/favicon.7f6e19c0.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "69dbb988-a031-4367-a960-73071c20e68c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/69dbb988-a031-4367-a960-73071c20e68c/cerebral.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/69dbb988-a031-4367-a960-73071c20e68c/cerebral.svg",
+      "original_filename": "cerebral.svg",
+      "size": 550,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:08:51Z"
+    }
+  },
+  "cerebriu": {
+    "src": "/logos/cerebriu.png",
+    "source": "https://www.cerebriu.com/wp-content/uploads/2024/07/logo-cerebriu-2.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "f95240e9-79df-46b0-b5f0-be6464a73b3a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/f95240e9-79df-46b0-b5f0-be6464a73b3a/cerebriu.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/f95240e9-79df-46b0-b5f0-be6464a73b3a/cerebriu.png",
+      "original_filename": "cerebriu.png",
+      "size": 17360,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:51Z"
+    }
+  },
+  "chai-discovery": {
+    "src": "/logos/chai-discovery.avif",
+    "source": "https://framerusercontent.com/images/GJGIRhiMoAIv0hl9KDGSIa5FCEw.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a1d39a7e-92ce-4ab9-a28a-6be697af897d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a1d39a7e-92ce-4ab9-a28a-6be697af897d/chai-discovery.avif",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a1d39a7e-92ce-4ab9-a28a-6be697af897d/chai-discovery.avif",
+      "original_filename": "chai-discovery.avif",
+      "size": 6451,
+      "content_type": "image/avif",
+      "created_at": "2026-11-24T01:08:51Z"
+    }
+  },
+  "chefaa": {
+    "src": "/logos/chefaa.ico",
+    "source": "https://chefaa.com/assets/app/images/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "aaa19e07-3b1b-4df0-8095-90cdffa5cbe0",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/aaa19e07-3b1b-4df0-8095-90cdffa5cbe0/chefaa.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/aaa19e07-3b1b-4df0-8095-90cdffa5cbe0/chefaa.ico",
+      "original_filename": "chefaa.ico",
+      "size": 15086,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:08:51Z"
+    }
+  },
+  "cityblock-health": {
+    "src": "/logos/cityblock-health.png",
+    "source": "https://www.cityblock.com/static/favicon-32x32.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "1a360126-c9f5-4e7d-9946-acce99782297",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1a360126-c9f5-4e7d-9946-acce99782297/cityblock-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1a360126-c9f5-4e7d-9946-acce99782297/cityblock-health.png",
+      "original_filename": "cityblock-health.png",
+      "size": 285,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:08:52Z"
+    }
+  },
+  "cleerly": {
+    "src": "/logos/cleerly.webp",
+    "source": "https://cleerly.com/hubfs/cleerly-ico-gradient.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "33a3027b-a4ce-4019-b5ee-8cacbf7df224",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/33a3027b-a4ce-4019-b5ee-8cacbf7df224/cleerly.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/33a3027b-a4ce-4019-b5ee-8cacbf7df224/cleerly.webp",
+      "original_filename": "cleerly.webp",
+      "size": 910,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:08:51Z"
+    }
+  },
+  "clivi": {
+    "src": "/logos/clivi.webp",
+    "source": "https://www.clivi.com.mx/logo_clivi.webp",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "d79b87c7-2293-444c-b16d-1e94fc6fba4c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d79b87c7-2293-444c-b16d-1e94fc6fba4c/clivi.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d79b87c7-2293-444c-b16d-1e94fc6fba4c/clivi.webp",
+      "original_filename": "clivi.webp",
+      "size": 3394,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:08:51Z"
+    }
+  },
+  "cloudphysician": {
+    "src": "/logos/cloudphysician.svg",
+    "source": "https://cdn.prod.website-files.com/68777cdbe500f135a1d11a0b/687a835a7ac69ca8ac1ba3b6_logo-color.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "59107b84-ceb7-49dd-a2ec-174e467c8935",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/59107b84-ceb7-49dd-a2ec-174e467c8935/cloudphysician.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/59107b84-ceb7-49dd-a2ec-174e467c8935/cloudphysician.svg",
+      "original_filename": "cloudphysician.svg",
+      "size": 14798,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:08:52Z"
+    }
+  },
+  "clue": {
+    "src": "/logos/clue.svg",
+    "source": "https://cdn.prod.website-files.com/667d7280286568f4037f6aed/6994c473474f5c7c9402af57_Clue%20logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "cc897d52-4fbe-482b-93b5-b0c1a4892a5e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/cc897d52-4fbe-482b-93b5-b0c1a4892a5e/clue.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/cc897d52-4fbe-482b-93b5-b0c1a4892a5e/clue.svg",
+      "original_filename": "clue.svg",
+      "size": 8909,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:09:08Z"
+    }
+  },
+  "cmr-surgical": {
+    "src": "/logos/cmr-surgical.png",
+    "source": "https://cmrsurgical.com/wp-content/uploads/2022/04/cropped-cmr-surgical-favicon.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "59ce2ccc-f67b-40be-969f-d87b1c739181",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/59ce2ccc-f67b-40be-969f-d87b1c739181/cmr-surgical.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/59ce2ccc-f67b-40be-969f-d87b1c739181/cmr-surgical.png",
+      "original_filename": "cmr-surgical.png",
+      "size": 8532,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:08Z"
+    }
+  },
+  "color-health": {
+    "src": "/logos/color-health.svg",
+    "source": "https://color.com/_astro/favicon.w2b7Z6vc_Z1ibTvo.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "3dee55c3-c6bc-4b3d-ba99-972e59c0be84",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/3dee55c3-c6bc-4b3d-ba99-972e59c0be84/color-health.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/3dee55c3-c6bc-4b3d-ba99-972e59c0be84/color-health.svg",
+      "original_filename": "color-health.svg",
+      "size": 1784,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:09:08Z"
+    }
+  },
+  "commure": {
+    "src": "/logos/commure.webp",
+    "source": "https://cdn.prod.website-files.com/66fb0f1ec709d05e0d47be37/66fb0f1ec709d05e0d47be59_commure-logo-light-2x.webp",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "d19480f9-aab7-49ea-af39-df89c835678e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d19480f9-aab7-49ea-af39-df89c835678e/commure.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d19480f9-aab7-49ea-af39-df89c835678e/commure.webp",
+      "original_filename": "commure.webp",
+      "size": 3332,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:09:08Z"
+    }
+  },
+  "conexa-saude": {
+    "src": "/logos/conexa-saude.avif",
+    "source": "https://framerusercontent.com/images/oAmsBIP40Z5WIYiaMoD5RbKCelQ.webp",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "5424c4da-6460-426f-827d-520d1a0e363e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/5424c4da-6460-426f-827d-520d1a0e363e/conexa-saude.avif",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/5424c4da-6460-426f-827d-520d1a0e363e/conexa-saude.avif",
+      "original_filename": "conexa-saude.avif",
+      "size": 60541,
+      "content_type": "image/avif",
+      "created_at": "2026-11-24T01:09:08Z"
+    }
+  },
+  "coreline-soft": {
+    "src": "/logos/coreline-soft.svg",
+    "source": "https://csoft.epartssl.net/wp-content/uploads/2026/06/logo-coreline.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "7ff4cbb4-7751-4c14-9cf6-87910feceb70",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7ff4cbb4-7751-4c14-9cf6-87910feceb70/coreline-soft.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7ff4cbb4-7751-4c14-9cf6-87910feceb70/coreline-soft.svg",
+      "original_filename": "coreline-soft.svg",
+      "size": 4079,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:09:08Z"
+    }
+  },
+  "corneat-vision": {
+    "src": "/logos/corneat-vision.png",
+    "source": "https://static.wixstatic.com/media/cd910f_9a9801ed103249d1863729b290de7bdf%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/cd910f_9a9801ed103249d1863729b290de7bdf%7Emv2.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "fa909c6a-76c9-4357-9cbe-e42af2b87461",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/fa909c6a-76c9-4357-9cbe-e42af2b87461/corneat-vision.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/fa909c6a-76c9-4357-9cbe-e42af2b87461/corneat-vision.png",
+      "original_filename": "corneat-vision.png",
+      "size": 16051,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:08Z"
+    }
+  },
+  "corti": {
+    "src": "/logos/corti.svg",
+    "source": "https://corti.ai/corti-logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "a8c929a6-e1cd-4ab8-9a3a-0dfbc8f0a0f7",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a8c929a6-e1cd-4ab8-9a3a-0dfbc8f0a0f7/corti.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a8c929a6-e1cd-4ab8-9a3a-0dfbc8f0a0f7/corti.svg",
+      "original_filename": "corti.svg",
+      "size": 3155,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:09:08Z"
+    }
+  },
+  "cortical-labs": {
+    "src": "/logos/cortical-labs.png",
+    "source": "https://corticallabs.com/images/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "dacdd275-9b66-45ec-a335-1ded10b5042d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/dacdd275-9b66-45ec-a335-1ded10b5042d/cortical-labs.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/dacdd275-9b66-45ec-a335-1ded10b5042d/cortical-labs.png",
+      "original_filename": "cortical-labs.png",
+      "size": 444,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:23Z"
+    }
+  },
+  "cureapp": {
+    "src": "/logos/cureapp.png",
+    "source": "https://cureapp.co.jp/img/company-logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "928540e6-7b6f-4246-b09d-bf27cb5205cb",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/928540e6-7b6f-4246-b09d-bf27cb5205cb/cureapp.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/928540e6-7b6f-4246-b09d-bf27cb5205cb/cureapp.png",
+      "original_filename": "cureapp.png",
+      "size": 9858,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:23Z"
+    }
+  },
+  "curebay": {
+    "src": "/logos/curebay.png",
+    "source": "https://storage.googleapis.com/curebay-nonprod-application-data/b2c-web/Assets/NewHome/favicon.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "ea8ab471-b093-4617-93b0-0710ad8b4f0c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ea8ab471-b093-4617-93b0-0710ad8b4f0c/curebay.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ea8ab471-b093-4617-93b0-0710ad8b4f0c/curebay.png",
+      "original_filename": "curebay.png",
+      "size": 12943,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:23Z"
+    }
+  },
+  "cureety": {
+    "src": "/logos/cureety.png",
+    "source": "https://cdn.prod.website-files.com/69f8852cdd8d39e5e5e816b6/69fca1c5eb85725373520003_favicon-dark.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "c06c083a-ee2b-48cc-a1b8-b225577e66c5",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c06c083a-ee2b-48cc-a1b8-b225577e66c5/cureety.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c06c083a-ee2b-48cc-a1b8-b225577e66c5/cureety.png",
+      "original_filename": "cureety.png",
+      "size": 195745,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:23Z"
+    }
+  },
+  "cydar-medical": {
+    "src": "/logos/cydar-medical.webp",
+    "source": "https://cydarmedical.com/wp-content/uploads/2024/08/cydar-medical-logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "7a43212e-bd8b-4417-8370-9d85b641ad89",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7a43212e-bd8b-4417-8370-9d85b641ad89/cydar-medical.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7a43212e-bd8b-4417-8370-9d85b641ad89/cydar-medical.webp",
+      "original_filename": "cydar-medical.webp",
+      "size": 29344,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:09:23Z"
+    }
+  },
+  "cytoreason": {
+    "src": "/logos/cytoreason.png",
+    "source": "https://www.cytoreason.com/assets/apple-touch-icon.png?v=3",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "0ff98169-3166-4ba8-bd0a-baa590d2a146",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/0ff98169-3166-4ba8-bd0a-baa590d2a146/cytoreason.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/0ff98169-3166-4ba8-bd0a-baa590d2a146/cytoreason.png",
+      "original_filename": "cytoreason.png",
+      "size": 23013,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:23Z"
+    }
+  },
+  "dabadoc": {
+    "src": "/logos/dabadoc.png",
+    "source": "https://www.dabadoc.com/icons/ios-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "8de3ef05-2da5-440f-a32c-20034adf6a85",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/8de3ef05-2da5-440f-a32c-20034adf6a85/dabadoc.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/8de3ef05-2da5-440f-a32c-20034adf6a85/dabadoc.png",
+      "original_filename": "dabadoc.png",
+      "size": 1564,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:23Z"
+    }
+  },
+  "damae-medical": {
+    "src": "/logos/damae-medical.ico",
+    "source": "https://www.damae-medical.com/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "2e03ee7b-e127-4f3b-abaa-b39c3649488b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2e03ee7b-e127-4f3b-abaa-b39c3649488b/damae-medical.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2e03ee7b-e127-4f3b-abaa-b39c3649488b/damae-medical.ico",
+      "original_filename": "damae-medical.ico",
+      "size": 110553,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:09:23Z"
+    }
+  },
+  "datos-health": {
+    "src": "/logos/datos-health.webp",
+    "source": "https://www.datos-health.com/wp-content/uploads/2026/10/Datos-og-1.jpg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "e3e5d9ca-88a9-4746-8888-6efe7424e9b3",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e3e5d9ca-88a9-4746-8888-6efe7424e9b3/datos-health.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e3e5d9ca-88a9-4746-8888-6efe7424e9b3/datos-health.webp",
+      "original_filename": "datos-health.webp",
+      "size": 14254,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:09:44Z"
+    }
+  },
+  "deep-genomics": {
+    "src": "/logos/deep-genomics.png",
+    "source": "https://cdn.prod.website-files.com/6a5fb6d9b3255dab3ed1c348/6aeb58e5237615990a752151_dp_colored%20(2)%20copy.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ecc48f1b-dc46-43ba-bc0c-fa1ef8bc3034",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ecc48f1b-dc46-43ba-bc0c-fa1ef8bc3034/deep-genomics.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ecc48f1b-dc46-43ba-bc0c-fa1ef8bc3034/deep-genomics.png",
+      "original_filename": "deep-genomics.png",
+      "size": 84139,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:44Z"
+    }
+  },
+  "deepscribe": {
+    "src": "/logos/deepscribe.png",
+    "source": "https://cdn.prod.website-files.com/68529e1f6436d005a0ac2c80/6a0e2ca202b500d8fa7ca46a_favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "78540d2b-2251-499b-a326-11b9c4cf3654",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/78540d2b-2251-499b-a326-11b9c4cf3654/deepscribe.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/78540d2b-2251-499b-a326-11b9c4cf3654/deepscribe.png",
+      "original_filename": "deepscribe.png",
+      "size": 176188,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:44Z"
+    }
+  },
+  "delfi-diagnostics": {
+    "src": "/logos/delfi-diagnostics.png",
+    "source": "https://delfidiagnostics.com/wp-content/uploads/2025/04/DELFI_LogoRGB_Horiz_Grad@4x-4.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "f74f2b66-f7ab-43a3-9d24-f37eb571e3a1",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/f74f2b66-f7ab-43a3-9d24-f37eb571e3a1/delfi-diagnostics.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/f74f2b66-f7ab-43a3-9d24-f37eb571e3a1/delfi-diagnostics.png",
+      "original_filename": "delfi-diagnostics.png",
+      "size": 37670,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:45Z"
+    }
+  },
+  "delft-imaging": {
+    "src": "/logos/delft-imaging.webp",
+    "source": "https://delftimaging.com/app/uploads/2025/12/delft_fav.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "7a6e2c23-485b-4268-814a-9d8f75864cab",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7a6e2c23-485b-4268-814a-9d8f75864cab/delft-imaging.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7a6e2c23-485b-4268-814a-9d8f75864cab/delft-imaging.webp",
+      "original_filename": "delft-imaging.webp",
+      "size": 730,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:09:44Z"
+    }
+  },
+  "dental-monitoring": {
+    "src": "/logos/dental-monitoring.png",
+    "source": "https://dentalmonitoring.com/wp-content/uploads/2022/07/AD_MON_VS_DentalMonitoring-LOGO-CMYK_012_02_rd_A_MF_en.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "718dc44a-e951-4fd9-b051-41a760ca9360",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/718dc44a-e951-4fd9-b051-41a760ca9360/dental-monitoring.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/718dc44a-e951-4fd9-b051-41a760ca9360/dental-monitoring.png",
+      "original_filename": "dental-monitoring.png",
+      "size": 24712,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:44Z"
+    }
+  },
+  "devoted-health": {
+    "src": "/logos/devoted-health.png",
+    "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OURGNkFCN0Q2Q0IxMTFFOEJBMzJDMDA1NjdBNkEzMDUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OURGNkFCN0U2Q0IxMTFFOEJBMzJDMDA1NjdBNkEzMDUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5REY2QUI3QjZDQjExMUU4QkEzMkMwMDU2N0E2QTMwNSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5REY2QUI3QzZDQjExMUU4QkEzMkMwMDU2N0E2QTMwNSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmFVYUIAAAcGSURBVHja7N1pbBRlHIDxf+92W9pSKgUEpREQSKE1CEq4o8GkiuAZIYB+QYwkImrkEmNqFCJNVCLBkJhIKSDEWEBEAcVypGAJUNrSC2gp9JYeu9t2u7ez8YMagbDvQnd3+vzS8Ananfd9OvPOzuwQ4na7BVAVyhCAgEBAICAQEEBAICAQEAgIICAQEAgIBAQQEAgIBAQCAggIBAQCAgGBgAACAgGBgEBAAAGBgEBAICCAgEBAICAQEEBAICAQEAgIBASoCmcIfOVySvV5qSmS6+VSXykNVWJqlc62f/5CdJwkDpSUVBk6RoaMktR0GfWYRETpY+tDeNC4ovZGOZUnF45I6THpbPfu30bGyJgpkv6kTH7OkxQB9SFOh/yxTw5vlaJfxe26C99wxKMye4nMWODZURGQnjlscmir7M2Wltq7/83j+kvmMpn3rsQmEpDuaEN0bIdsXyM3rt/bH2RIkBdXy9wVEh5JQHpRVyGbl0jZyd77iUNGyrKtkjaTgIJ/x3Ngk2xbKXarH376M2/Ja58F/skaAd1Ct0k+XySF+/35GlIzZE2eDBxOQMGmqVqyMj1v6vhdXJKs3SdjpxJQ8KgtkXVPiPHPQHk92lHs/T0y6dnAHC0uZfzXpUJZNTWA6tFoK7D1z8vxXQQU+PueUsl62rP6CTQup3zxqpw5wCEsgLU3yXuT7vk7Pb6IjJENJ+ShCeyBAo/DJp/MDeh6NDaLfDzHEzoBBZxv3vGsfoJgN9ko2fM9RzQCCiBnD8rBzUHzakvzJW8ja6CAoS2Z3xzt+c0OIuGR8mWR5+4i9kD+t31NkNXz94pt81IJjN/8vh3QtYvyy9dB+crLTkjB9wTkb7lrA2pB6p2c1Z672wjIb2qKPPcWBq+mK3J8JwH5T142m0BAqsytcnJP0G9FbYlnMURAfnBitzjtetiQ/FwC8su4b9fJhmj7Ub/cMNmnA2qukcrTOtmWrg45f4iAelfxb7ranPOHCah3leTranNK8wmoD4343Xftoh9voex7AbU3Smu93jaq+hwB9Zb6Kh1uVF0FAfWWBj0G1HCJgPQ/1vdQIwH1mn8/+kk3zG0E1FssnTrcqJ5OAtL/WOvyt4KA9BGQmYAQlAgIBAQCAgGhL9LPk+pbra7qLof2Z4/TbbS7b/WJ25bmqePru6JcVl3NYnTUNALyVnOP82iz9fdma5nJXm50tNnu6LHf0wtSCsuf0NluwBBhI6A7ddFo/67WsrfOUmq0CziE3SGHW/Zc6/6qqvPUDRvT9r+lbBgB3S6dnJqurFJTbZeTVG4uOpaAbu5IU8/ys8ZyE0crDmHen1UtP9ex42o3k0RAXtNOrxadamuwcMwiIC+5RTaWm1dfMLp4eiwBecvmci890/FtdRcTQ0Bes7rcL51s/bG+h1khIJV9z5xjrdo5F1MSXALiYqq23Jlf0EY9BKRoZZHxh+sWJoOAVOys7c6uMDMTBKSiyux4vbCdaSAgFQ63LCxo63Lwhg8BKdlUaT7TxqV1AlLSYHF+WGJiAghI0QfFJg5eBKTostmRU8P1CgJS9WmZ2cneh4DUNPU4c7nLh4CU5dR027lXg4CUcZMhAakr7rBrX4w7ASnioikB+eRos5VBJyBF3U736VauXRCQqtM3bJx/EZC6EpbPBOSLS2YHI05A6ir4hDIB+eIqT0cgIF+YHS5GnIDUcQMQAREQ/BcQCMgnhrAQRpyA1MVFEBAB+aBfOEdMAvLBg7FhjDgBqRsdH8GIE5C6Uf3CGXECUpeWyB6IgHwwOTkyIpQTMQJSZQgLmTSAnRAB+WDWwGgGnYDUvTAshkEnIHUZ/SPSEjiKEZAPFg43MO4EpG5xqoFzMQJSNzgm7JUHWAkRkA9Wje3HLoiA1I1NiGAlREA+WZ+RwP1lBKTu/piwj8bFMwEEpG7F6H4TkiKZAwJSFB4iuZOTOJARkLrR8eFbJvZnGghI3eJUw9sPxzETBKQu+5HEeUN5a5GAVGmroN1TkmalRDEfBKQoMjTkwIzkpwZztxABqdJOx/ZPH8A71ATk034oZ3JS1rh4rtYTkCKtnHVp8T/PTB4UzacQCUjV7EHRxZkpL3PXBwEpuy8qdPeUAT/NSB7JxxEJSFnmkOjSzJQtE/sPM3BEIyDVlfUbI2Ivzxm07fGkiVx8DTBBc3TQMlqcatC+LnTYd9V276uzVJh46jQBeS89MSI9MWFDekJdt/NoszW/xVraYa80O0x2HgHrj7Nmt1snD75stDivdjlbrS6j3XWb/5Gj5fiV8U5blL7uIQmPDJu2IIOAwCIaBAQQEAgIBAQCAggIBAQCAgEBBAQCAgGBgAACAgGBgEBAICCAgEBAICAQEEBAICAQEAgIICAQEAgIBAQQEAgIBAQCQp/1lwADAGkMTfu4EhxiAAAAAElFTkSuQmCC",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "6c16d5c5-77e1-4d82-a36f-d4d51113a773",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6c16d5c5-77e1-4d82-a36f-d4d51113a773/devoted-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6c16d5c5-77e1-4d82-a36f-d4d51113a773/devoted-health.png",
+      "original_filename": "devoted-health.png",
+      "size": 2712,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:44Z"
+    }
+  },
+  "diabeloop": {
+    "src": "/logos/diabeloop.png",
+    "source": "https://www.diabeloop.com/wp-content/themes/diabeloop-corporate/resources/assets/images/favicon/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "b3347f9d-ebe3-42d2-bc27-4fb8e0cb23d4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/b3347f9d-ebe3-42d2-bc27-4fb8e0cb23d4/diabeloop.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/b3347f9d-ebe3-42d2-bc27-4fb8e0cb23d4/diabeloop.png",
+      "original_filename": "diabeloop.png",
+      "size": 9195,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:44Z"
+    }
+  },
+  "diagnostic-robotics": {
+    "src": "/logos/diagnostic-robotics.jpg",
+    "source": "https://diagnosticrobotics.com/__l5e/assets-v1/d2c54da1-af5e-4b8a-a8a9-8082728fdfb9/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ca66de37-d061-4682-a154-1ff40fbef1ae",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ca66de37-d061-4682-a154-1ff40fbef1ae/diagnostic-robotics.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ca66de37-d061-4682-a154-1ff40fbef1ae/diagnostic-robotics.jpg",
+      "original_filename": "diagnostic-robotics.jpg",
+      "size": 10232,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:09:59Z"
+    }
+  },
+  "digital-diagnostics": {
+    "src": "/logos/digital-diagnostics.webp",
+    "source": "https://www.digitaldiagnostics.com/wp-content/uploads/2020/07/DigitalDiagnostics-Logo-3.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "29b1a3e0-f0ad-49d4-8b96-cfcea19ad4f9",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/29b1a3e0-f0ad-49d4-8b96-cfcea19ad4f9/digital-diagnostics.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/29b1a3e0-f0ad-49d4-8b96-cfcea19ad4f9/digital-diagnostics.webp",
+      "original_filename": "digital-diagnostics.webp",
+      "size": 1714,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:09:59Z"
+    }
+  },
+  "dignio": {
+    "src": "/logos/dignio.png",
+    "source": "https://dignio.com/icons/icon-512x512.png?v=4d68d59bfd8f5b5b3f2a7e77b4ccdf2a",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "81abc546-5a5f-4930-8e5a-bc0544bb2cde",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/81abc546-5a5f-4930-8e5a-bc0544bb2cde/dignio.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/81abc546-5a5f-4930-8e5a-bc0544bb2cde/dignio.png",
+      "original_filename": "dignio.png",
+      "size": 33359,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:59Z"
+    }
+  },
+  "dispatchhealth": {
+    "src": "/logos/dispatchhealth.svg",
+    "source": "https://www.dispatchhealth.com/wp-content/themes/dh-build-10-28-2026_14-34/library/files/svg/dispatchhealth-logo-schema.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "aa0d3b5f-e044-4715-8c48-7b7bdfdbf82c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/aa0d3b5f-e044-4715-8c48-7b7bdfdbf82c/dispatchhealth.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/aa0d3b5f-e044-4715-8c48-7b7bdfdbf82c/dispatchhealth.svg",
+      "original_filename": "dispatchhealth.svg",
+      "size": 6735,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:09:59Z"
+    }
+  },
+  "distalmotion": {
+    "src": "/logos/distalmotion.png",
+    "source": "https://www.distalmotion.com/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "843ed7cd-dcf4-4f87-8563-f43d8df913d4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/843ed7cd-dcf4-4f87-8563-f43d8df913d4/distalmotion.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/843ed7cd-dcf4-4f87-8563-f43d8df913d4/distalmotion.png",
+      "original_filename": "distalmotion.png",
+      "size": 1929,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:59Z"
+    }
+  },
+  "docplanner": {
+    "src": "/logos/docplanner.png",
+    "source": "https://www.docplanner.com/favicon/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "842c2df9-e4f1-4459-818a-a9f054d3b19e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/842c2df9-e4f1-4459-818a-a9f054d3b19e/docplanner.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/842c2df9-e4f1-4459-818a-a9f054d3b19e/docplanner.png",
+      "original_filename": "docplanner.png",
+      "size": 12596,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:59Z"
+    }
+  },
+  "doctolib": {
+    "src": "/logos/doctolib.png",
+    "source": "https://www.doctolib.fr/icon_patient/180x180.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "88530d68-7393-4bfb-8d36-7349447aca5d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/88530d68-7393-4bfb-8d36-7349447aca5d/doctolib.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/88530d68-7393-4bfb-8d36-7349447aca5d/doctolib.png",
+      "original_filename": "doctolib.png",
+      "size": 1941,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:00Z"
+    }
+  },
+  "doktor-se": {
+    "src": "/logos/doktor-se.png",
+    "source": "https://doktor.se/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "e7106ef6-38ed-423f-bc6d-9b364de45895",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e7106ef6-38ed-423f-bc6d-9b364de45895/doktor-se.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e7106ef6-38ed-423f-bc6d-9b364de45895/doktor-se.png",
+      "original_filename": "doktor-se.png",
+      "size": 1341,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:09:59Z"
+    }
+  },
+  "dozee": {
+    "src": "/logos/dozee.png",
+    "source": "https://static.wixstatic.com/media/bb6c7f_fef607c5f199425d904f6b908e66ff2b~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/bb6c7f_fef607c5f199425d904f6b908e66ff2b~mv2.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "e18a9acc-6a1c-4122-b261-b204f08d1afd",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e18a9acc-6a1c-4122-b261-b204f08d1afd/dozee.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e18a9acc-6a1c-4122-b261-b204f08d1afd/dozee.png",
+      "original_filename": "dozee.png",
+      "size": 1550,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:13Z"
+    }
+  },
+  "dxy": {
+    "src": "/logos/dxy.png",
+    "source": "https://img1.dxycdn.com/2019/0815/117/3362630565823635438-2.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "4b4e5b60-616d-4d16-8d76-2f88878b0dc4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/4b4e5b60-616d-4d16-8d76-2f88878b0dc4/dxy.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/4b4e5b60-616d-4d16-8d76-2f88878b0dc4/dxy.png",
+      "original_filename": "dxy.png",
+      "size": 6417,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:12Z"
+    }
+  },
+  "eka-care": {
+    "src": "/logos/eka-care.png",
+    "source": "https://cdn.prod.website-files.com/69aa8f05c1aa540cd7c00500/69b000b9e8e45cfe462261c6_favicon-256.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a5f89510-22e0-4944-a93c-8a52059cd87b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a5f89510-22e0-4944-a93c-8a52059cd87b/eka-care.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a5f89510-22e0-4944-a93c-8a52059cd87b/eka-care.png",
+      "original_filename": "eka-care.png",
+      "size": 8197,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:12Z"
+    }
+  },
+  "eko-health": {
+    "src": "/logos/eko-health.svg",
+    "source": "https://www.ekohealth.com/cdn/shop/files/eko-logo_1.svg?v=1743130101\\u0026width=500",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "fac36a6e-5775-402e-afbe-9264ea83ba8a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/fac36a6e-5775-402e-afbe-9264ea83ba8a/eko-health.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/fac36a6e-5775-402e-afbe-9264ea83ba8a/eko-health.svg",
+      "original_filename": "eko-health.svg",
+      "size": 3191,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:10:12Z"
+    }
+  },
+  "envision": {
+    "src": "/logos/envision.png",
+    "source": "https://cdn.prod.website-files.com/5ac150ab7e9bbe927474fbde/62a1d4675f8f7940cfeacaec_envision-wordmark-PP.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "2df83d80-4c20-4328-a597-b3fc9902d60f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2df83d80-4c20-4328-a597-b3fc9902d60f/envision.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2df83d80-4c20-4328-a597-b3fc9902d60f/envision.png",
+      "original_filename": "envision.png",
+      "size": 3857,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:12Z"
+    }
+  },
+  "evolutionaryscale": {
+    "src": "/logos/evolutionaryscale.png",
+    "source": "https://cdn.prod.website-files.com/6606dc3fd5f6645318003df4/667d95bb050c188eb58e0680_image.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "cec920f0-5392-4c24-a736-f17b97238399",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/cec920f0-5392-4c24-a736-f17b97238399/evolutionaryscale.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/cec920f0-5392-4c24-a736-f17b97238399/evolutionaryscale.png",
+      "original_filename": "evolutionaryscale.png",
+      "size": 15434,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:12Z"
+    }
+  },
+  "exo": {
+    "src": "/logos/exo.png",
+    "source": "https://www.exo.inc/apple-icon.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "c983797a-147c-4096-a318-c72a7eb15faa",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c983797a-147c-4096-a318-c72a7eb15faa/exo.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c983797a-147c-4096-a318-c72a7eb15faa/exo.png",
+      "original_filename": "exo.png",
+      "size": 4136,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:12Z"
+    }
+  },
+  "eyedaptic": {
+    "src": "/logos/eyedaptic.png",
+    "source": "https://eyedaptic.com/wp-content/uploads/2019/10/eyedaptic-logo-19.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "201c715d-64a8-4228-992a-eb3e3ef31a00",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/201c715d-64a8-4228-992a-eb3e3ef31a00/eyedaptic.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/201c715d-64a8-4228-992a-eb3e3ef31a00/eyedaptic.png",
+      "original_filename": "eyedaptic.png",
+      "size": 9020,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:13Z"
+    }
+  },
+  "eyenuk": {
+    "src": "/logos/eyenuk.png",
+    "source": "https://cdn.prod.website-files.com/6a02c716eb50ae20f5747164/6a6248096ad70a2c9f97be34_Eyenuk_Webflow_Favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "46a133ff-f415-4619-a474-a0c9c6947483",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/46a133ff-f415-4619-a474-a0c9c6947483/eyenuk.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/46a133ff-f415-4619-a474-a0c9c6947483/eyenuk.png",
+      "original_filename": "eyenuk.png",
+      "size": 22309,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:25Z"
+    }
+  },
+  "eyestem": {
+    "src": "/logos/eyestem.png",
+    "source": "https://eyestem.com/wp-content/uploads/2019/02/logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "13340a15-6b7e-48e3-980d-ada2bb7b44a2",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/13340a15-6b7e-48e3-980d-ada2bb7b44a2/eyestem.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/13340a15-6b7e-48e3-980d-ada2bb7b44a2/eyestem.png",
+      "original_filename": "eyestem.png",
+      "size": 9106,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:26Z"
+    }
+  },
+  "feebris": {
+    "src": "/logos/feebris.png",
+    "source": "https://static.wixstatic.com/media/9e679a_03a8d1f9bacd4a0580967dcc554ae956%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/9e679a_03a8d1f9bacd4a0580967dcc554ae956%7Emv2.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "778c41bf-b584-4573-a922-e951290f44c7",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/778c41bf-b584-4573-a922-e951290f44c7/feebris.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/778c41bf-b584-4573-a922-e951290f44c7/feebris.png",
+      "original_filename": "feebris.png",
+      "size": 10788,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:25Z"
+    }
+  },
+  "felix-health": {
+    "src": "/logos/felix-health.svg",
+    "source": "https://cdn.prod.website-files.com/6517f6cdafa18ec4281f8b18/65590110de12de54c5d6ae83_felix%20logo-svg.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "ee8e8bc4-77e7-4410-8e2a-14bec4a5d067",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ee8e8bc4-77e7-4410-8e2a-14bec4a5d067/felix-health.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ee8e8bc4-77e7-4410-8e2a-14bec4a5d067/felix-health.svg",
+      "original_filename": "felix-health.svg",
+      "size": 2240,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:10:26Z"
+    }
+  },
+  "flo-health": {
+    "src": "/logos/flo-health.png",
+    "source": "https://flo.health/images/icons/icon-512x512.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "b13242df-65c1-4d0b-ad66-0b32056d7719",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/b13242df-65c1-4d0b-ad66-0b32056d7719/flo-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/b13242df-65c1-4d0b-ad66-0b32056d7719/flo-health.png",
+      "original_filename": "flo-health.png",
+      "size": 36301,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:25Z"
+    }
+  },
+  "flow-neuroscience": {
+    "src": "/logos/flow-neuroscience.png",
+    "source": "https://www.flowneuroscience.com/static/images/flow-logo-192.2643f66908eb.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "db5cacc6-bf08-4833-a013-67e88926d1d1",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/db5cacc6-bf08-4833-a013-67e88926d1d1/flow-neuroscience.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/db5cacc6-bf08-4833-a013-67e88926d1d1/flow-neuroscience.png",
+      "original_filename": "flow-neuroscience.png",
+      "size": 4060,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:26Z"
+    }
+  },
+  "floy": {
+    "src": "/logos/floy.png",
+    "source": "https://cdn.prod.website-files.com/66f7b48c0855a2b7dbf4f206/66fbe6a37795ba1fa35b3a59_Floy_Webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ffe53324-ec15-47e7-b896-3e9efbe06ba9",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ffe53324-ec15-47e7-b896-3e9efbe06ba9/floy.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ffe53324-ec15-47e7-b896-3e9efbe06ba9/floy.png",
+      "original_filename": "floy.png",
+      "size": 3096,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:26Z"
+    }
+  },
+  "formation-bio": {
+    "src": "/logos/formation-bio.png",
+    "source": "https://www.formation.bio/touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "6ffbef4a-11f8-4c5f-821b-76d5981e6c24",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6ffbef4a-11f8-4c5f-821b-76d5981e6c24/formation-bio.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6ffbef4a-11f8-4c5f-821b-76d5981e6c24/formation-bio.png",
+      "original_filename": "formation-bio.png",
+      "size": 1232,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:26Z"
+    }
+  },
+  "forsight-robotics": {
+    "src": "/logos/forsight-robotics.svg",
+    "source": "https://cdn.prod.website-files.com/68960b35b5c3ae2ee39e6625/68973d0780f51af6ea5758ae_white-logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "416f9eae-eb5b-464a-bdcd-83721ca0cc8b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/416f9eae-eb5b-464a-bdcd-83721ca0cc8b/forsight-robotics.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/416f9eae-eb5b-464a-bdcd-83721ca0cc8b/forsight-robotics.svg",
+      "original_filename": "forsight-robotics.svg",
+      "size": 9277,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:10:38Z"
+    }
+  },
+  "function-health": {
+    "src": "/logos/function-health.png",
+    "source": "https://www.functionhealth.com/_sanity/images/bmk2ab2m/production/0507877706a9faa844c1456cad6c16229fa565a0-256x256.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "4395f893-37ab-4d3f-8c6d-52d825432380",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/4395f893-37ab-4d3f-8c6d-52d825432380/function-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/4395f893-37ab-4d3f-8c6d-52d825432380/function-health.png",
+      "original_filename": "function-health.png",
+      "size": 4831,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:38Z"
+    }
+  },
+  "garner-health": {
+    "src": "/logos/garner-health.webp",
+    "source": "https://cdn.prod.website-files.com/6994c8f92ae6b0d756f5e541/69b1632501c39c64dedeed60_Logo_Mist-256x256.webp",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "509b7224-0ea9-4cc3-a6b7-6de92b408459",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/509b7224-0ea9-4cc3-a6b7-6de92b408459/garner-health.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/509b7224-0ea9-4cc3-a6b7-6de92b408459/garner-health.webp",
+      "original_filename": "garner-health.webp",
+      "size": 5036,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:10:38Z"
+    }
+  },
+  "glass-health": {
+    "src": "/logos/glass-health.png",
+    "source": "https://storage.googleapis.com/glass-production-dropfiles/logo-path-hill-mark@2x.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "a7de059b-22fe-4656-98a0-a8b1931a2154",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a7de059b-22fe-4656-98a0-a8b1931a2154/glass-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a7de059b-22fe-4656-98a0-a8b1931a2154/glass-health.png",
+      "original_filename": "glass-health.png",
+      "size": 14670,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:38Z"
+    }
+  },
+  "gleamer": {
+    "src": "/logos/gleamer.png",
+    "source": "https://cdn.prod.website-files.com/68f5f322342cf2fd4bc86b99/68f64a0f45cd7f64e0fec005_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ab9212c4-e28b-4282-a71b-4b2e0e91c059",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ab9212c4-e28b-4282-a71b-4b2e0e91c059/gleamer.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ab9212c4-e28b-4282-a71b-4b2e0e91c059/gleamer.png",
+      "original_filename": "gleamer.png",
+      "size": 15744,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:38Z"
+    }
+  },
+  "grow-therapy": {
+    "src": "/logos/grow-therapy.png",
+    "source": "https://growtherapy.com/next-public-assets/favicon-arc.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ef3612e8-169a-4579-bc40-d9eff7f81df1",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ef3612e8-169a-4579-bc40-d9eff7f81df1/grow-therapy.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ef3612e8-169a-4579-bc40-d9eff7f81df1/grow-therapy.png",
+      "original_filename": "grow-therapy.png",
+      "size": 303,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:38Z"
+    }
+  },
+  "harbinger-health": {
+    "src": "/logos/harbinger-health.svg",
+    "source": "https://harbinger-health.com/wp-content/uploads/2026/03/harbinger-logo-blue.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "80167ad9-352c-4d43-8e91-8a98fd68b782",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/80167ad9-352c-4d43-8e91-8a98fd68b782/harbinger-health.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/80167ad9-352c-4d43-8e91-8a98fd68b782/harbinger-health.svg",
+      "original_filename": "harbinger-health.svg",
+      "size": 8744,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:10:38Z"
+    }
+  },
+  "healthy-io": {
+    "src": "/logos/healthy-io.svg",
+    "source": "https://www.datocms-assets.com/38808/1613488016-modality.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "dcdea34c-293a-4c1e-87a2-c5879a4f3853",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/dcdea34c-293a-4c1e-87a2-c5879a4f3853/healthy-io.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/dcdea34c-293a-4c1e-87a2-c5879a4f3853/healthy-io.svg",
+      "original_filename": "healthy-io.svg",
+      "size": 31315,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:10:38Z"
+    }
+  },
+  "healx": {
+    "src": "/logos/healx.webp",
+    "source": "https://healx.io/wp-content/uploads/2018/11/Healxiologo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "b6faa77a-7bfb-4c55-9384-4cfab3e6bdfc",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/b6faa77a-7bfb-4c55-9384-4cfab3e6bdfc/healx.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/b6faa77a-7bfb-4c55-9384-4cfab3e6bdfc/healx.webp",
+      "original_filename": "healx.webp",
+      "size": 2804,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:10:49Z"
+    }
+  },
+  "heidi-health": {
+    "src": "/logos/heidi-health.png",
+    "source": "https://www.heidihealth.com/images/heidi-logo-sunlight.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "8bcdd083-7b42-4101-a32a-402a67ea56ba",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/8bcdd083-7b42-4101-a32a-402a67ea56ba/heidi-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/8bcdd083-7b42-4101-a32a-402a67ea56ba/heidi-health.png",
+      "original_filename": "heidi-health.png",
+      "size": 3639,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:49Z"
+    }
+  },
+  "hello-doctor": {
+    "src": "/logos/hello-doctor.png",
+    "source": "https://www.hellodoctor.co.za/static-assets/images/HD-Fav-Icon-Blog-2022.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "e9dc0f69-f05b-4fb6-832e-7f676b433d93",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e9dc0f69-f05b-4fb6-832e-7f676b433d93/hello-doctor.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e9dc0f69-f05b-4fb6-832e-7f676b433d93/hello-doctor.png",
+      "original_filename": "hello-doctor.png",
+      "size": 5863,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:48Z"
+    }
+  },
+  "hello-heart": {
+    "src": "/logos/hello-heart.png",
+    "source": "https://cdn.prod.website-files.com/64cad0eb87ec6044a0027bf1/65c518db03b5cb5358f0883d_HH-HeartSymbol-red-webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "db88b572-1cfe-404b-a103-2a346e1fab58",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/db88b572-1cfe-404b-a103-2a346e1fab58/hello-heart.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/db88b572-1cfe-404b-a103-2a346e1fab58/hello-heart.png",
+      "original_filename": "hello-heart.png",
+      "size": 6553,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:49Z"
+    }
+  },
+  "heru": {
+    "src": "/logos/heru.png",
+    "source": "https://www.seeheru.com/wp-content/uploads/2021/07/cropped-heru_vt_rgb.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "d691855a-8c46-44dd-a859-06b914b53e78",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d691855a-8c46-44dd-a859-06b914b53e78/heru.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d691855a-8c46-44dd-a859-06b914b53e78/heru.png",
+      "original_filename": "heru.png",
+      "size": 41097,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:48Z"
+    }
+  },
+  "hilab": {
+    "src": "/logos/hilab.png",
+    "source": "https://hilab.com.br/wp-content/uploads/logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "21ea8252-c97f-4b9f-94e7-4d4222bd660b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/21ea8252-c97f-4b9f-94e7-4d4222bd660b/hilab.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/21ea8252-c97f-4b9f-94e7-4d4222bd660b/hilab.png",
+      "original_filename": "hilab.png",
+      "size": 3543,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:49Z"
+    }
+  },
+  "hippocratic-ai": {
+    "src": "/logos/hippocratic-ai.webp",
+    "source": "https://hippocraticai.com/wp-content/uploads/2025/09/logo-5.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "630f8dd4-216c-499f-ab9a-4dae84caa857",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/630f8dd4-216c-499f-ab9a-4dae84caa857/hippocratic-ai.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/630f8dd4-216c-499f-ab9a-4dae84caa857/hippocratic-ai.webp",
+      "original_filename": "hippocratic-ai.webp",
+      "size": 56624,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:10:49Z"
+    }
+  },
+  "holmusk": {
+    "src": "/logos/holmusk.svg",
+    "source": "https://cdn.prod.website-files.com/6078f42d748b85659b713f70/607950e3293570d1a0a53b03_Navbar%3ALogo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "ea2f87fe-fb96-4dcf-8b99-af7034944b79",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ea2f87fe-fb96-4dcf-8b99-af7034944b79/holmusk.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ea2f87fe-fb96-4dcf-8b99-af7034944b79/holmusk.svg",
+      "original_filename": "holmusk.svg",
+      "size": 5765,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:10:49Z"
+    }
+  },
+  "hoppen": {
+    "src": "/logos/hoppen.png",
+    "source": "https://www.hoppen.care/wp-content/uploads/2024/10/logo-hoppen-baseline-violet-1-1.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "08ca2bce-144b-4723-b555-eddb74082aab",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/08ca2bce-144b-4723-b555-eddb74082aab/hoppen.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/08ca2bce-144b-4723-b555-eddb74082aab/hoppen.png",
+      "original_filename": "hoppen.png",
+      "size": 29450,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:59Z"
+    }
+  },
+  "hublo": {
+    "src": "/logos/hublo.png",
+    "source": "https://cdn.prod.website-files.com/69933f007a95b7401930dbf1/6997168b4fcc2ef197372f3a_hublo-webclip.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "dbb31d7f-e8a4-4250-86cd-6cb0ebb1485d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/dbb31d7f-e8a4-4250-86cd-6cb0ebb1485d/hublo.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/dbb31d7f-e8a4-4250-86cd-6cb0ebb1485d/hublo.png",
+      "original_filename": "hublo.png",
+      "size": 54157,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:59Z"
+    }
+  },
+  "huinno": {
+    "src": "/logos/huinno.png",
+    "source": "https://huinno.com/wp-content/themes/memo/favicons/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "42a78d89-b3de-4bc4-8996-b4a6dbe26f0d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/42a78d89-b3de-4bc4-8996-b4a6dbe26f0d/huinno.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/42a78d89-b3de-4bc4-8996-b4a6dbe26f0d/huinno.png",
+      "original_filename": "huinno.png",
+      "size": 1732,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:59Z"
+    }
+  },
+  "huma": {
+    "src": "/logos/huma.svg",
+    "source": "https://framerusercontent.com/images/x47KajvcSbL78yxgSXtag0ItUQ.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "323e89fd-2314-4074-be46-74e1f009d925",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/323e89fd-2314-4074-be46-74e1f009d925/huma.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/323e89fd-2314-4074-be46-74e1f009d925/huma.svg",
+      "original_filename": "huma.svg",
+      "size": 793,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:10:59Z"
+    }
+  },
+  "iambic-therapeutics": {
+    "src": "/logos/iambic-therapeutics.png",
+    "source": "https://cdn.prod.website-files.com/64c03f218d60985b40eeeae5/6aa94a57f760789bf33afdf2_miniiambic.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "3cc12e5e-40d4-4692-958b-dca0e3bc13b8",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/3cc12e5e-40d4-4692-958b-dca0e3bc13b8/iambic-therapeutics.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/3cc12e5e-40d4-4692-958b-dca0e3bc13b8/iambic-therapeutics.png",
+      "original_filename": "iambic-therapeutics.png",
+      "size": 101710,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:59Z"
+    }
+  },
+  "icometrix": {
+    "src": "/logos/icometrix.png",
+    "source": "https://static.wixstatic.com/media/14c71e_eb02dde7dee345b0b383e1b779fc6f19%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/14c71e_eb02dde7dee345b0b383e1b779fc6f19%7Emv2.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "5319de77-b88e-4800-8c9b-2f861ee4b23a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/5319de77-b88e-4800-8c9b-2f861ee4b23a/icometrix.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/5319de77-b88e-4800-8c9b-2f861ee4b23a/icometrix.png",
+      "original_filename": "icometrix.png",
+      "size": 29331,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:59Z"
+    }
+  },
+  "iktos": {
+    "src": "/logos/iktos.svg",
+    "source": "https://iktos.ai/favicon.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "6986d45b-95a4-40a9-926b-e15c5e9ca750",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6986d45b-95a4-40a9-926b-e15c5e9ca750/iktos.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6986d45b-95a4-40a9-926b-e15c5e9ca750/iktos.svg",
+      "original_filename": "iktos.svg",
+      "size": 4636,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:10:59Z"
+    }
+  },
+  "ilara-health": {
+    "src": "/logos/ilara-health.png",
+    "source": "https://www.ilarahealth.com/icon?a5c3c6684949b78a",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ff390715-e5f6-4942-bf07-37bf748ab919",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ff390715-e5f6-4942-bf07-37bf748ab919/ilara-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ff390715-e5f6-4942-bf07-37bf748ab919/ilara-health.png",
+      "original_filename": "ilara-health.png",
+      "size": 857,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:10:59Z"
+    }
+  },
+  "inato": {
+    "src": "/logos/inato.png",
+    "source": "https://cdn.prod.website-files.com/68c165ec9c8a75268ff69a2d/68c165ec9c8a75268ff69bd6_Vector-256.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "862aca56-15ad-4341-85d7-106daef83f2c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/862aca56-15ad-4341-85d7-106daef83f2c/inato.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/862aca56-15ad-4341-85d7-106daef83f2c/inato.png",
+      "original_filename": "inato.png",
+      "size": 32040,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:10Z"
+    }
+  },
+  "incepto": {
+    "src": "/logos/incepto.png",
+    "source": "https://incepto-medical.com/wp-content/uploads/2020/12/incepto-medical-ai-radiologie-radiology-imagerie-medicale-medical-imaging-flux-de-travail-folio-partenaire-logo-color.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "0da5ae74-7efb-485b-a857-57b3d1f86a71",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/0da5ae74-7efb-485b-a857-57b3d1f86a71/incepto.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/0da5ae74-7efb-485b-a857-57b3d1f86a71/incepto.png",
+      "original_filename": "incepto.png",
+      "size": 8934,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:10Z"
+    }
+  },
+  "infermedica": {
+    "src": "/logos/infermedica.ico",
+    "source": "https://infermedica.com/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "af44ee53-2f44-4f88-a6e8-6d4e34afb1a5",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/af44ee53-2f44-4f88-a6e8-6d4e34afb1a5/infermedica.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/af44ee53-2f44-4f88-a6e8-6d4e34afb1a5/infermedica.ico",
+      "original_filename": "infermedica.ico",
+      "size": 15086,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:11:10Z"
+    }
+  },
+  "infervision": {
+    "src": "/logos/infervision.ico",
+    "source": "https://www.infervision.com/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "6941c0f8-17ad-430b-9d63-874d479e665f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6941c0f8-17ad-430b-9d63-874d479e665f/infervision.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6941c0f8-17ad-430b-9d63-874d479e665f/infervision.ico",
+      "original_filename": "infervision.ico",
+      "size": 1150,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:11:10Z"
+    }
+  },
+  "infinitus": {
+    "src": "/logos/infinitus.svg",
+    "source": "https://www.infinitus.ai/wp-content/uploads/2023/10/icon-only.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "b60c7985-ca63-421b-a7c3-f34c8f197699",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/b60c7985-ca63-421b-a7c3-f34c8f197699/infinitus.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/b60c7985-ca63-421b-a7c3-f34c8f197699/infinitus.svg",
+      "original_filename": "infinitus.svg",
+      "size": 619,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:10Z"
+    }
+  },
+  "inheart": {
+    "src": "/logos/inheart.png",
+    "source": "https://cdn.prod.website-files.com/62476d823929bd5283d9e15a/62601346ff3c1f91eaa86d96_Favicon-05.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "4944222d-6c33-4fc3-bb0b-4d4b4ee71214",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/4944222d-6c33-4fc3-bb0b-4d4b4ee71214/inheart.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/4944222d-6c33-4fc3-bb0b-4d4b4ee71214/inheart.png",
+      "original_filename": "inheart.png",
+      "size": 11027,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:10Z"
+    }
+  },
+  "innovaccer": {
+    "src": "/logos/innovaccer.png",
+    "source": "https://cdn.prod.website-files.com/670e4ade75003c7364a3944d/67150551bcb5aebdb15770f6_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "df70f46d-d66e-4987-8be7-c2dc3cc4f212",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/df70f46d-d66e-4987-8be7-c2dc3cc4f212/innovaccer.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/df70f46d-d66e-4987-8be7-c2dc3cc4f212/innovaccer.png",
+      "original_filename": "innovaccer.png",
+      "size": 4683,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:10Z"
+    }
+  },
+  "insilico-medicine": {
+    "src": "/logos/insilico-medicine.png",
+    "source": "https://insilico.com/images/tild3632-3636-4465-a664-613633633330__logo_badge-18.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "c75f702d-074a-4153-a5b1-cfd457816066",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c75f702d-074a-4153-a5b1-cfd457816066/insilico-medicine.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c75f702d-074a-4153-a5b1-cfd457816066/insilico-medicine.png",
+      "original_filename": "insilico-medicine.png",
+      "size": 19667,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:10Z"
+    }
+  },
+  "insitro": {
+    "src": "/logos/insitro.webp",
+    "source": "https://www.insitro.com/wp-content/uploads/2023/10/logo-insitro.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "86ec613c-47e6-4064-a929-9574ad5819e5",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/86ec613c-47e6-4064-a929-9574ad5819e5/insitro.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/86ec613c-47e6-4064-a929-9574ad5819e5/insitro.webp",
+      "original_filename": "insitro.webp",
+      "size": 2006,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:11:21Z"
+    }
+  },
+  "isomorphic-labs": {
+    "src": "/logos/isomorphic-labs.png",
+    "source": "https://cdn.prod.website-files.com/683d9417ea8f9b604314bfb1/6943e611af86b1bb63e2dbb4_63a1ea62b9dd95563ab9266f_ISO%20-%20Webclip%20Image.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "63260956-5fe4-498f-adb6-1fde9fb57590",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/63260956-5fe4-498f-adb6-1fde9fb57590/isomorphic-labs.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/63260956-5fe4-498f-adb6-1fde9fb57590/isomorphic-labs.png",
+      "original_filename": "isomorphic-labs.png",
+      "size": 41427,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:21Z"
+    }
+  },
+  "kindbody": {
+    "src": "/logos/kindbody.webp",
+    "source": "https://kindbody.com/wp-content/uploads/2020/01/logo.jpg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "9c032a96-44dc-4464-b936-cd0500fab918",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/9c032a96-44dc-4464-b936-cd0500fab918/kindbody.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/9c032a96-44dc-4464-b936-cd0500fab918/kindbody.webp",
+      "original_filename": "kindbody.webp",
+      "size": 14698,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:11:21Z"
+    }
+  },
+  "kiplin": {
+    "src": "/logos/kiplin.png",
+    "source": "https://www.kiplin.com/wp-content/uploads/2022/04/KIPLIN-FAVICON.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "30f64b1e-86aa-45e3-95de-2f2e1e16b1f9",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/30f64b1e-86aa-45e3-95de-2f2e1e16b1f9/kiplin.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/30f64b1e-86aa-45e3-95de-2f2e1e16b1f9/kiplin.png",
+      "original_filename": "kiplin.png",
+      "size": 605,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:21Z"
+    }
+  },
+  "knok": {
+    "src": "/logos/knok.png",
+    "source": "https://knokcare.com/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "32c33adc-868a-401d-bacc-0d5cd011cf13",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/32c33adc-868a-401d-bacc-0d5cd011cf13/knok.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/32c33adc-868a-401d-bacc-0d5cd011cf13/knok.png",
+      "original_filename": "knok.png",
+      "size": 1603,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:21Z"
+    }
+  },
+  "komodo-health": {
+    "src": "/logos/komodo-health.webp",
+    "source": "https://www.komodohealth.com/wp-content/uploads/2026/04/cropped-Favicon-2-180x180.webp",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "d8c2faff-459d-4e79-ab17-4c5f26c34e10",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d8c2faff-459d-4e79-ab17-4c5f26c34e10/komodo-health.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d8c2faff-459d-4e79-ab17-4c5f26c34e10/komodo-health.webp",
+      "original_filename": "komodo-health.webp",
+      "size": 6900,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:11:21Z"
+    }
+  },
+  "kry-livi": {
+    "src": "/logos/kry-livi.svg",
+    "source": "https://www.kry.se/logos/kry-logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "d25e8545-623a-4a45-8c22-37dfa553acaa",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d25e8545-623a-4a45-8c22-37dfa553acaa/kry-livi.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d25e8545-623a-4a45-8c22-37dfa553acaa/kry-livi.svg",
+      "original_filename": "kry-livi.svg",
+      "size": 2006,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:21Z"
+    }
+  },
+  "libheros": {
+    "src": "/logos/libheros.svg",
+    "source": "https://www.libheros.fr/libheros-logo-primary.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "3703c771-7724-44a0-9598-ca44e578e9ff",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/3703c771-7724-44a0-9598-ca44e578e9ff/libheros.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/3703c771-7724-44a0-9598-ca44e578e9ff/libheros.svg",
+      "original_filename": "libheros.svg",
+      "size": 2784,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:21Z"
+    }
+  },
+  "lifebank": {
+    "src": "/logos/lifebank.png",
+    "source": "https://lifebankcares.com/assets/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "7d6d6a8d-57e0-4e92-853f-915b448136ee",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7d6d6a8d-57e0-4e92-853f-915b448136ee/lifebank.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7d6d6a8d-57e0-4e92-853f-915b448136ee/lifebank.png",
+      "original_filename": "lifebank.png",
+      "size": 7385,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:35Z"
+    }
+  },
+  "lifen": {
+    "src": "/logos/lifen.svg",
+    "source": "https://cdn.prod.website-files.com/66473ce8664c48d3e42fec71/66473ce8664c48d3e42fecfd_lifen-logo-light.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "7464f8c8-5268-4043-914e-2459022422e2",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7464f8c8-5268-4043-914e-2459022422e2/lifen.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7464f8c8-5268-4043-914e-2459022422e2/lifen.svg",
+      "original_filename": "lifen.svg",
+      "size": 2529,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:36Z"
+    }
+  },
+  "lifeq": {
+    "src": "/logos/lifeq.png",
+    "source": "https://cdn.prod.website-files.com/602d9ed123c5f4fdedf53a44/6183e53a20678b6c17252a76_LifeQ_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a5faaf8f-de11-43e3-aa6f-bb7dfc58a569",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a5faaf8f-de11-43e3-aa6f-bb7dfc58a569/lifeq.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a5faaf8f-de11-43e3-aa6f-bb7dfc58a569/lifeq.png",
+      "original_filename": "lifeq.png",
+      "size": 6622,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:36Z"
+    }
+  },
+  "lifesum": {
+    "src": "/logos/lifesum.svg",
+    "source": "https://lifesum.com/public/icon.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a6048450-546d-4cee-a4e9-ab1b6888b18e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a6048450-546d-4cee-a4e9-ab1b6888b18e/lifesum.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a6048450-546d-4cee-a4e9-ab1b6888b18e/lifesum.svg",
+      "original_filename": "lifesum.svg",
+      "size": 1230,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:36Z"
+    }
+  },
+  "lindus-health": {
+    "src": "/logos/lindus-health.jpg",
+    "source": "https://lindustx.com/assets/img/og-default.jpg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "6c2cf89a-a0cf-41b1-bb4e-2d8d6722e7b8",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6c2cf89a-a0cf-41b1-bb4e-2d8d6722e7b8/lindus-health.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6c2cf89a-a0cf-41b1-bb4e-2d8d6722e7b8/lindus-health.jpg",
+      "original_filename": "lindus-health.jpg",
+      "size": 103667,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:11:35Z"
+    }
+  },
+  "lpixel": {
+    "src": "/logos/lpixel.png",
+    "source": "https://lpixel.net/wp-content/uploads/2025/02/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "70d3b971-3db4-4aa1-a803-4ebbbbe6c760",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/70d3b971-3db4-4aa1-a803-4ebbbbe6c760/lpixel.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/70d3b971-3db4-4aa1-a803-4ebbbbe6c760/lpixel.png",
+      "original_filename": "lpixel.png",
+      "size": 7783,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:35Z"
+    }
+  },
+  "lucence": {
+    "src": "/logos/lucence.png",
+    "source": "https://static.wixstatic.com/media/a87692_4cd083a23d7644e88889a7a48a9b9a0d%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/a87692_4cd083a23d7644e88889a7a48a9b9a0d%7Emv2.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "b9f3fd12-61c4-403a-bb80-3708bb54ed3e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/b9f3fd12-61c4-403a-bb80-3708bb54ed3e/lucence.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/b9f3fd12-61c4-403a-bb80-3708bb54ed3e/lucence.png",
+      "original_filename": "lucence.png",
+      "size": 6271,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:36Z"
+    }
+  },
+  "lumithera": {
+    "src": "/logos/lumithera.ico",
+    "source": "https://www.myalcon.com/sites/g/files/rbvwei2521/files/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "48b3d7c1-1501-42ea-b96f-05a583fb08c3",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/48b3d7c1-1501-42ea-b96f-05a583fb08c3/lumithera.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/48b3d7c1-1501-42ea-b96f-05a583fb08c3/lumithera.ico",
+      "original_filename": "lumithera.ico",
+      "size": 15086,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:11:35Z"
+    }
+  },
+  "lunit": {
+    "src": "/logos/lunit.svg",
+    "source": "https://www.lunit.io/en/wp-content/uploads/2025/10/Logo-black.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "d3254434-6dba-4271-9e24-7eefa310d1ad",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d3254434-6dba-4271-9e24-7eefa310d1ad/lunit.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d3254434-6dba-4271-9e24-7eefa310d1ad/lunit.svg",
+      "original_filename": "lunit.svg",
+      "size": 4437,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:49Z"
+    }
+  },
+  "luscii": {
+    "src": "/logos/luscii.webp",
+    "source": "https://luscii.com/hubfs/luscii-logo2024-1-2.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "b3b490aa-f450-46a2-99b0-6b8d68bdd51c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/b3b490aa-f450-46a2-99b0-6b8d68bdd51c/luscii.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/b3b490aa-f450-46a2-99b0-6b8d68bdd51c/luscii.webp",
+      "original_filename": "luscii.webp",
+      "size": 34544,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:11:49Z"
+    }
+  },
+  "lyra-health": {
+    "src": "/logos/lyra-health.webp",
+    "source": "https://www.lyrahealth.com/wp-content/uploads/2026/02/cropped-Favicon.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "47f86872-8712-4220-859f-ce3b9a32776c",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/47f86872-8712-4220-859f-ce3b9a32776c/lyra-health.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/47f86872-8712-4220-859f-ce3b9a32776c/lyra-health.webp",
+      "original_filename": "lyra-health.webp",
+      "size": 1428,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:11:48Z"
+    }
+  },
+  "lyrebird-health": {
+    "src": "/logos/lyrebird-health.svg",
+    "source": "https://cdn.prod.website-files.com/65bc2f3a6904e30369f2209a/697ac01dad7bd3431943b9e6_logo-main-1.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "83133385-7646-4ee4-b116-bb4c640baea9",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/83133385-7646-4ee4-b116-bb4c640baea9/lyrebird-health.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/83133385-7646-4ee4-b116-bb4c640baea9/lyrebird-health.svg",
+      "original_filename": "lyrebird-health.svg",
+      "size": 6688,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:49Z"
+    }
+  },
+  "mammoth-biosciences": {
+    "src": "/logos/mammoth-biosciences.png",
+    "source": "https://mammoth.bio/wp-content/uploads/2020/01/stacked_logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "de11d229-7ab0-4af4-a7f7-aaf250cca7c4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/de11d229-7ab0-4af4-a7f7-aaf250cca7c4/mammoth-biosciences.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/de11d229-7ab0-4af4-a7f7-aaf250cca7c4/mammoth-biosciences.png",
+      "original_filename": "mammoth-biosciences.png",
+      "size": 56201,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:49Z"
+    }
+  },
+  "maple": {
+    "src": "/logos/maple.png",
+    "source": "https://www.getmaple.ca/assets/favicon/favicon-512x512.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "2cebe096-2d95-4f28-85c6-e7791b64b8f6",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2cebe096-2d95-4f28-85c6-e7791b64b8f6/maple.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2cebe096-2d95-4f28-85c6-e7791b64b8f6/maple.png",
+      "original_filename": "maple.png",
+      "size": 131802,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:49Z"
+    }
+  },
+  "maven-clinic": {
+    "src": "/logos/maven-clinic.svg",
+    "source": "https://assets-global.website-files.com/5fb2b678e994739660d95086/648055216e52ed7cac96c443_Maven%20logo-lg.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "1b02bc44-64d0-4cf7-9433-e8737fd0563d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1b02bc44-64d0-4cf7-9433-e8737fd0563d/maven-clinic.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1b02bc44-64d0-4cf7-9433-e8737fd0563d/maven-clinic.svg",
+      "original_filename": "maven-clinic.svg",
+      "size": 8433,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:49Z"
+    }
+  },
+  "medadom": {
+    "src": "/logos/medadom.webp",
+    "source": "https://www.medadom.com/hubfs/new%20LOGO_MEDADOM_gimmick-2.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "e0a0b0b3-513b-4de9-bfe5-71f393f0969e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e0a0b0b3-513b-4de9-bfe5-71f393f0969e/medadom.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e0a0b0b3-513b-4de9-bfe5-71f393f0969e/medadom.webp",
+      "original_filename": "medadom.webp",
+      "size": 34264,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:11:49Z"
+    }
+  },
+  "medisafe": {
+    "src": "/logos/medisafe.svg",
+    "source": "https://cdn.prod.website-files.com/69dd01d11155d4fd598b7d08/69dd4b147e200212a8b863cf_Favicon-Light.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "1e4be768-ec49-4bec-b93b-5b2d2b578c7b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1e4be768-ec49-4bec-b93b-5b2d2b578c7b/medisafe.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1e4be768-ec49-4bec-b93b-5b2d2b578c7b/medisafe.svg",
+      "original_filename": "medisafe.svg",
+      "size": 1423,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:59Z"
+    }
+  },
+  "mediwhale": {
+    "src": "/logos/mediwhale.png",
+    "source": "https://mediwhale.com/wp-content/uploads/2025/06/favicon.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "04a58622-b91d-4646-a35c-4cb88e73638a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/04a58622-b91d-4646-a35c-4cb88e73638a/mediwhale.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/04a58622-b91d-4646-a35c-4cb88e73638a/mediwhale.png",
+      "original_filename": "mediwhale.png",
+      "size": 12643,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:59Z"
+    }
+  },
+  "memed": {
+    "src": "/logos/memed.svg",
+    "source": "https://memed.com.br/img/monograma-b.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "398aae3a-2158-47ea-9744-d91ea3295cf6",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/398aae3a-2158-47ea-9744-d91ea3295cf6/memed.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/398aae3a-2158-47ea-9744-d91ea3295cf6/memed.svg",
+      "original_filename": "memed.svg",
+      "size": 30070,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:11:59Z"
+    }
+  },
+  "mendi": {
+    "src": "/logos/mendi.webp",
+    "source": "https://www.mendi.io/cdn/shop/files/Link.png?v=1775151386\\u0026width=500",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "6f03a808-9682-4eb3-9800-c9bd767e811a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6f03a808-9682-4eb3-9800-c9bd767e811a/mendi.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6f03a808-9682-4eb3-9800-c9bd767e811a/mendi.webp",
+      "original_filename": "mendi.webp",
+      "size": 2680,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:12:00Z"
+    }
+  },
+  "mesh-bio": {
+    "src": "/logos/mesh-bio.png",
+    "source": "https://cdn.prod.website-files.com/6914152a8c637a57f7e72629/6914152a8c637a57f7e7296e_Mesh%20Bio%20Logo%20Horizontal%20(4).png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "c67a21b8-9b3c-497f-9a09-dc78dd9a3203",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c67a21b8-9b3c-497f-9a09-dc78dd9a3203/mesh-bio.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c67a21b8-9b3c-497f-9a09-dc78dd9a3203/mesh-bio.png",
+      "original_filename": "mesh-bio.png",
+      "size": 158921,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:59Z"
+    }
+  },
+  "micin": {
+    "src": "/logos/micin.ico",
+    "source": "https://micin.jp/wp-content/themes/micin/assets/img/common/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ea864bfa-c09d-49f1-b3f7-930ee12ce063",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ea864bfa-c09d-49f1-b3f7-930ee12ce063/micin.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ea864bfa-c09d-49f1-b3f7-930ee12ce063/micin.ico",
+      "original_filename": "micin.ico",
+      "size": 480,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:59Z"
+    }
+  },
+  "midi-health": {
+    "src": "/logos/midi-health.png",
+    "source": "https://www.joinmidi.com/midi-logo-152x152-2.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "790c3e03-57bd-46e6-8bec-45e2d673d7f8",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/790c3e03-57bd-46e6-8bec-45e2d673d7f8/midi-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/790c3e03-57bd-46e6-8bec-45e2d673d7f8/midi-health.png",
+      "original_filename": "midi-health.png",
+      "size": 1594,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:11:59Z"
+    }
+  },
+  "milvue": {
+    "src": "/logos/milvue.png",
+    "source": "https://www.milvue.com/_mv/img/milvue-logo-green.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "544b0234-58bc-48f6-a322-b704f48910e9",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/544b0234-58bc-48f6-a322-b704f48910e9/milvue.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/544b0234-58bc-48f6-a322-b704f48910e9/milvue.png",
+      "original_filename": "milvue.png",
+      "size": 53377,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:00Z"
+    }
+  },
+  "mindmaze": {
+    "src": "/logos/mindmaze.png",
+    "source": "https://mindmazetherapeutics.com/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "987a265c-d20f-4d29-804b-f8194d1b942a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/987a265c-d20f-4d29-804b-f8194d1b942a/mindmaze.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/987a265c-d20f-4d29-804b-f8194d1b942a/mindmaze.png",
+      "original_filename": "mindmaze.png",
+      "size": 27148,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:12Z"
+    }
+  },
+  "mirxes": {
+    "src": "/logos/mirxes.svg",
+    "source": "https://www.mirxes.com/wp-content/uploads/2025/10/MiRXES-Dark-Logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "39a7f3c2-b2fc-468e-b363-26d57f466f2b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/39a7f3c2-b2fc-468e-b363-26d57f466f2b/mirxes.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/39a7f3c2-b2fc-468e-b363-26d57f466f2b/mirxes.svg",
+      "original_filename": "mirxes.svg",
+      "size": 4331,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:12:12Z"
+    }
+  },
+  "mmi-medical-microinstruments": {
+    "src": "/logos/mmi-medical-microinstruments.jpg",
+    "source": "https://www.mmimicro.com/wp-content/uploads/2023/09/cropped-mmifavicon-180x180.jpg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ee89082c-ded0-4464-8725-3c72bf75eec8",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ee89082c-ded0-4464-8725-3c72bf75eec8/mmi-medical-microinstruments.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ee89082c-ded0-4464-8725-3c72bf75eec8/mmi-medical-microinstruments.jpg",
+      "original_filename": "mmi-medical-microinstruments.jpg",
+      "size": 4284,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:12:12Z"
+    }
+  },
+  "moka-care": {
+    "src": "/logos/moka-care.svg",
+    "source": "https://cdn.prod.website-files.com/610ba9a67e59cdca21d7ce0c/61322a3453c37fd40d3bf0f9_logo%20moka%20svg%20dark.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "67bcd1af-7d61-4fd4-b422-e6caaf85bd48",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/67bcd1af-7d61-4fd4-b422-e6caaf85bd48/moka-care.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/67bcd1af-7d61-4fd4-b422-e6caaf85bd48/moka-care.svg",
+      "original_filename": "moka-care.svg",
+      "size": 2994,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:12:12Z"
+    }
+  },
+  "momo-medical": {
+    "src": "/logos/momo-medical.jpg",
+    "source": "https://pleasant-authority-2ff9630a39.media.strapiapp.com/thumbnail_image_114_9dc4b468d5.jpg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "2492b7c8-6e83-43dc-877d-8caa771e0357",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2492b7c8-6e83-43dc-877d-8caa771e0357/momo-medical.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2492b7c8-6e83-43dc-877d-8caa771e0357/momo-medical.jpg",
+      "original_filename": "momo-medical.jpg",
+      "size": 4733,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:12:12Z"
+    }
+  },
+  "monsenso": {
+    "src": "/logos/monsenso.png",
+    "source": "https://www.monsenso.com/wp-content/uploads/2022/01/Monsenso-Logo_Blue.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "27983485-0f72-4de9-b74f-3899b86f03a2",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/27983485-0f72-4de9-b74f-3899b86f03a2/monsenso.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/27983485-0f72-4de9-b74f-3899b86f03a2/monsenso.png",
+      "original_filename": "monsenso.png",
+      "size": 7680,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:12Z"
+    }
+  },
+  "moon-surgical": {
+    "src": "/logos/moon-surgical.png",
+    "source": "https://moonsurgical.com/assets/images/favicon/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "5b28c150-2ef8-4f1a-8966-e90f9d955a65",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/5b28c150-2ef8-4f1a-8966-e90f9d955a65/moon-surgical.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/5b28c150-2ef8-4f1a-8966-e90f9d955a65/moon-surgical.png",
+      "original_filename": "moon-surgical.png",
+      "size": 3372,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:12Z"
+    }
+  },
+  "mpharma": {
+    "src": "/logos/mpharma.png",
+    "source": "https://mpharma.com/wp-content/uploads/2019/03/cropped-mpharma_icon-180x180.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a4e4ee7c-9209-43c6-9d93-d22fee952e41",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a4e4ee7c-9209-43c6-9d93-d22fee952e41/mpharma.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a4e4ee7c-9209-43c6-9d93-d22fee952e41/mpharma.png",
+      "original_filename": "mpharma.png",
+      "size": 20284,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:12Z"
+    }
+  },
+  "mydawa": {
+    "src": "/logos/mydawa.ico",
+    "source": "https://mydawa.com/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "4128adea-8847-4532-a0e4-c90d5cda9518",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/4128adea-8847-4532-a0e4-c90d5cda9518/mydawa.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/4128adea-8847-4532-a0e4-c90d5cda9518/mydawa.ico",
+      "original_filename": "mydawa.ico",
+      "size": 26201,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:12:23Z"
+    }
+  },
+  "nabla": {
+    "src": "/logos/nabla.png",
+    "source": "https://cdn.prod.website-files.com/67c6ddc58c9e7b3f7d095cb3/69e8ed278ce22f3e664e7f87_Webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "aa033172-18d4-443d-ad6a-ac6d1231901b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/aa033172-18d4-443d-ad6a-ac6d1231901b/nabla.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/aa033172-18d4-443d-ad6a-ac6d1231901b/nabla.png",
+      "original_filename": "nabla.png",
+      "size": 1743,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:23Z"
+    }
+  },
+  "nanodropper": {
+    "src": "/logos/nanodropper.png",
+    "source": "https://nanodropper.com/wp-content/uploads/2026/06/Logo-Blue-PNG-2-scaled.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "13c6f158-b7c7-49b4-aa07-4a30f5806219",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/13c6f158-b7c7-49b4-aa07-4a30f5806219/nanodropper.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/13c6f158-b7c7-49b4-aa07-4a30f5806219/nanodropper.png",
+      "original_filename": "nanodropper.png",
+      "size": 65992,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:24Z"
+    }
+  },
+  "nanoflex-robotics": {
+    "src": "/logos/nanoflex-robotics.jpg",
+    "source": "https://nanoflexrobotics.com/wp-content/uploads/2023/02/Nanoflex_PP_logo_large_fill_green-1.jpg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "83961c82-ec47-4f2d-812e-4968d89c1a35",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/83961c82-ec47-4f2d-812e-4968d89c1a35/nanoflex-robotics.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/83961c82-ec47-4f2d-812e-4968d89c1a35/nanoflex-robotics.jpg",
+      "original_filename": "nanoflex-robotics.jpg",
+      "size": 47688,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:12:23Z"
+    }
+  },
+  "natural-cycles": {
+    "src": "/logos/natural-cycles.png",
+    "source": "https://www.naturalcycles.com/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "f5c2b0e0-e07f-4c45-9a85-970ce23d9c2b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/f5c2b0e0-e07f-4c45-9a85-970ce23d9c2b/natural-cycles.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/f5c2b0e0-e07f-4c45-9a85-970ce23d9c2b/natural-cycles.png",
+      "original_filename": "natural-cycles.png",
+      "size": 673,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:23Z"
+    }
+  },
+  "navina": {
+    "src": "/logos/navina.svg",
+    "source": "https://cdn.prod.website-files.com/65df77bb47a7104730575520/65df7f8e8df285b3a176c746_navina_navbar_logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "aa4d3c0c-7f6f-4a0e-bc81-aea8ae4f39af",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/aa4d3c0c-7f6f-4a0e-bc81-aea8ae4f39af/navina.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/aa4d3c0c-7f6f-4a0e-bc81-aea8ae4f39af/navina.svg",
+      "original_filename": "navina.svg",
+      "size": 11093,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:12:23Z"
+    }
+  },
+  "neocis": {
+    "src": "/logos/neocis.png",
+    "source": "https://www.neocis.com/wp-content/uploads/2026/09/cropped-Crosshairs-orange-180x180.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "73b80175-93a6-4114-aec6-83de51f2c68d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/73b80175-93a6-4114-aec6-83de51f2c68d/neocis.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/73b80175-93a6-4114-aec6-83de51f2c68d/neocis.png",
+      "original_filename": "neocis.png",
+      "size": 2009,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:23Z"
+    }
+  },
+  "neuralink": {
+    "src": "/logos/neuralink.png",
+    "source": "https://neuralink.com/favicon.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "3d5b4d36-f333-42f7-89d3-9690888c88e4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/3d5b4d36-f333-42f7-89d3-9690888c88e4/neuralink.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/3d5b4d36-f333-42f7-89d3-9690888c88e4/neuralink.png",
+      "original_filename": "neuralink.png",
+      "size": 1065,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:23Z"
+    }
+  },
+  "newlimit": {
+    "src": "/logos/newlimit.png",
+    "source": "https://cdn.prod.website-files.com/61e68fe4e7bec7037d55d34e/626308424a12d7dfb1d371c1_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "9b429b4e-2a12-4b3c-9162-9451f0836245",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/9b429b4e-2a12-4b3c-9162-9451f0836245/newlimit.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/9b429b4e-2a12-4b3c-9162-9451f0836245/newlimit.png",
+      "original_filename": "newlimit.png",
+      "size": 5706,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:34Z"
+    }
+  },
+  "niramai": {
+    "src": "/logos/niramai.webp",
+    "source": "https://niramai.com/wp-content/uploads/2025/05/cropped-Logoonly-180x180.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "7aabeec7-9df3-4e27-a2c9-15243b89ac7e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7aabeec7-9df3-4e27-a2c9-15243b89ac7e/niramai.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7aabeec7-9df3-4e27-a2c9-15243b89ac7e/niramai.webp",
+      "original_filename": "niramai.webp",
+      "size": 10264,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:12:34Z"
+    }
+  },
+  "notable": {
+    "src": "/logos/notable.png",
+    "source": "https://cdn.prod.website-files.com/628b58b14c93b9187d929a89/65dcab4b0b8dbefc57284695_Web%20App1x.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "ec93f058-000f-48c8-ab77-e2f495e87a67",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ec93f058-000f-48c8-ab77-e2f495e87a67/notable.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ec93f058-000f-48c8-ab77-e2f495e87a67/notable.png",
+      "original_filename": "notable.png",
+      "size": 9102,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:34Z"
+    }
+  },
+  "numan": {
+    "src": "/logos/numan.png",
+    "source": "https://www.numan.com/apple-icon.png?3a30a5fc784fb5ea",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "1a5a1a7e-eb82-4e42-aff1-0c304f17526b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1a5a1a7e-eb82-4e42-aff1-0c304f17526b/numan.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1a5a1a7e-eb82-4e42-aff1-0c304f17526b/numan.png",
+      "original_filename": "numan.png",
+      "size": 69875,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:34Z"
+    }
+  },
+  "okadoc": {
+    "src": "/logos/okadoc.ico",
+    "source": "https://okadoc.com/static/logo/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a71f6900-f7e4-455f-a59f-81ac29c63139",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a71f6900-f7e4-455f-a59f-81ac29c63139/okadoc.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a71f6900-f7e4-455f-a59f-81ac29c63139/okadoc.ico",
+      "original_filename": "okadoc.ico",
+      "size": 1150,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:12:34Z"
+    }
+  },
+  "oladoc": {
+    "src": "/logos/oladoc.png",
+    "source": "https://oladoc.com/dist/images/oladoc.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "2b06d50d-39bd-462a-acff-67afe254195f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2b06d50d-39bd-462a-acff-67afe254195f/oladoc.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2b06d50d-39bd-462a-acff-67afe254195f/oladoc.png",
+      "original_filename": "oladoc.png",
+      "size": 8084,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:34Z"
+    }
+  },
+  "olleyes": {
+    "src": "/logos/olleyes.webp",
+    "source": "https://olleyes.com/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "50dee809-aad9-47ee-a667-968c6d8184b6",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/50dee809-aad9-47ee-a667-968c6d8184b6/olleyes.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/50dee809-aad9-47ee-a667-968c6d8184b6/olleyes.webp",
+      "original_filename": "olleyes.webp",
+      "size": 636,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:12:34Z"
+    }
+  },
+  "openevidence": {
+    "src": "/logos/openevidence.png",
+    "source": "https://www.openevidence.com/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "caf0f2f7-ff20-4f1a-9ed2-593f03fed650",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/caf0f2f7-ff20-4f1a-9ed2-593f03fed650/openevidence.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/caf0f2f7-ff20-4f1a-9ed2-593f03fed650/openevidence.png",
+      "original_filename": "openevidence.png",
+      "size": 27432,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:34Z"
+    }
+  },
+  "ophelia": {
+    "src": "/logos/ophelia.svg",
+    "source": "https://cdn.prod.website-files.com/63235599a30434033ca3d1c3/6361416bffeb1d6903b12813_ophelia-o-logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "582a7e08-f28c-4017-823a-3a82a838dcbc",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/582a7e08-f28c-4017-823a-3a82a838dcbc/ophelia.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/582a7e08-f28c-4017-823a-3a82a838dcbc/ophelia.svg",
+      "original_filename": "ophelia.svg",
+      "size": 486,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:12:44Z"
+    }
+  },
+  "optain-health": {
+    "src": "/logos/optain-health.png",
+    "source": "https://www.optainhealth.com/wp-content/uploads/2024/01/optain-favicon-270.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "d64d576f-077f-448a-a9d6-980c57b2fb29",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d64d576f-077f-448a-a9d6-980c57b2fb29/optain-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d64d576f-077f-448a-a9d6-980c57b2fb29/optain-health.png",
+      "original_filename": "optain-health.png",
+      "size": 8604,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:44Z"
+    }
+  },
+  "optellum": {
+    "src": "/logos/optellum.png",
+    "source": "https://optellum.com/hubfs/raw_assets/public/optellum/images/logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "9d117360-3cf3-47f0-80fd-b5fc3337d4fd",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/9d117360-3cf3-47f0-80fd-b5fc3337d4fd/optellum.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/9d117360-3cf3-47f0-80fd-b5fc3337d4fd/optellum.png",
+      "original_filename": "optellum.png",
+      "size": 74643,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:44Z"
+    }
+  },
+  "oura": {
+    "src": "/logos/oura.jpg",
+    "source": "https://ouraring.com/blog/wp-content/uploads/2021/12/7B24ADCF-7925-4513-A32B-B81476285567_1_105_c.jpeg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "547b4c73-d7bf-4ab8-8c6b-13ad20e229cb",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/547b4c73-d7bf-4ab8-8c6b-13ad20e229cb/oura.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/547b4c73-d7bf-4ab8-8c6b-13ad20e229cb/oura.jpg",
+      "original_filename": "oura.jpg",
+      "size": 25881,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:12:44Z"
+    }
+  },
+  "oviva": {
+    "src": "/logos/oviva.webp",
+    "source": "https://d2nspiuqk4mwad.cloudfront.net/global/wp-content/uploads/fbrfg/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "f7dccd62-3819-4a5c-ad95-3823cf7f080b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/f7dccd62-3819-4a5c-ad95-3823cf7f080b/oviva.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/f7dccd62-3819-4a5c-ad95-3823cf7f080b/oviva.webp",
+      "original_filename": "oviva.webp",
+      "size": 1020,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:12:44Z"
+    }
+  },
+  "owkin": {
+    "src": "/logos/owkin.png",
+    "source": "https://cdn.prod.website-files.com/6391f9bc53c032303ab23fb0/6a69ff4d1f09696020b0b06d_Owkin_Symbol_Black.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a51663f0-96f6-4116-9508-3ae1c31d0c86",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a51663f0-96f6-4116-9508-3ae1c31d0c86/owkin.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a51663f0-96f6-4116-9508-3ae1c31d0c86/owkin.png",
+      "original_filename": "owkin.png",
+      "size": 43919,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:44Z"
+    }
+  },
+  "pacmed": {
+    "src": "/logos/pacmed.png",
+    "source": "https://cdn.prod.website-files.com/66cf50eb60e81959e3492eda/66d1c8ba39ffc0437e09f474_Webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a43cafe5-fae6-47d5-b372-491da2018cf6",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a43cafe5-fae6-47d5-b372-491da2018cf6/pacmed.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a43cafe5-fae6-47d5-b372-491da2018cf6/pacmed.png",
+      "original_filename": "pacmed.png",
+      "size": 4118,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:44Z"
+    }
+  },
+  "papa": {
+    "src": "/logos/papa.png",
+    "source": "https://www.papa.com/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "c6c8ac75-6a18-4633-965d-fb7470098907",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c6c8ac75-6a18-4633-965d-fb7470098907/papa.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c6c8ac75-6a18-4633-965d-fb7470098907/papa.png",
+      "original_filename": "papa.png",
+      "size": 8055,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:44Z"
+    }
+  },
+  "paradromics": {
+    "src": "/logos/paradromics.webp",
+    "source": "https://paradromics.com/wp-content/uploads/2026/06/Paradromics-Site-Icons-300x300.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "3b7fbb31-9673-4cb4-bb55-1da4f0836ca7",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/3b7fbb31-9673-4cb4-bb55-1da4f0836ca7/paradromics.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/3b7fbb31-9673-4cb4-bb55-1da4f0836ca7/paradromics.webp",
+      "original_filename": "paradromics.webp",
+      "size": 1986,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:12:55Z"
+    }
+  },
+  "particle-health": {
+    "src": "/logos/particle-health.png",
+    "source": "https://cdn.prod.website-files.com/60edb3647e17c5817b06c1fd/60ede9ca3f0c8b4591d6ef2d_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "537bffef-7247-49c8-a472-b6f8fb213be4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/537bffef-7247-49c8-a472-b6f8fb213be4/particle-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/537bffef-7247-49c8-a472-b6f8fb213be4/particle-health.png",
+      "original_filename": "particle-health.png",
+      "size": 6034,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:55Z"
+    }
+  },
+  "patchwork-health": {
+    "src": "/logos/patchwork-health.webp",
+    "source": "https://patchwork.health/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "46c4988b-86aa-4d0c-b51e-6650305802dd",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/46c4988b-86aa-4d0c-b51e-6650305802dd/patchwork-health.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/46c4988b-86aa-4d0c-b51e-6650305802dd/patchwork-health.webp",
+      "original_filename": "patchwork-health.webp",
+      "size": 65254,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:12:55Z"
+    }
+  },
+  "pathai": {
+    "src": "/logos/pathai.png",
+    "source": "https://pathai.com/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "8633db3a-bd7a-443c-aa6c-1883553b1728",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/8633db3a-bd7a-443c-aa6c-1883553b1728/pathai.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/8633db3a-bd7a-443c-aa6c-1883553b1728/pathai.png",
+      "original_filename": "pathai.png",
+      "size": 7195,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:55Z"
+    }
+  },
+  "peek-vision": {
+    "src": "/logos/peek-vision.svg",
+    "source": "https://peekvision.org/wp-content/uploads/2023/08/logo-dark.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "d0595c32-1eb0-4b02-8590-d1d9009b296e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d0595c32-1eb0-4b02-8590-d1d9009b296e/peek-vision.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d0595c32-1eb0-4b02-8590-d1d9009b296e/peek-vision.svg",
+      "original_filename": "peek-vision.svg",
+      "size": 4531,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:12:55Z"
+    }
+  },
+  "peppy": {
+    "src": "/logos/peppy.png",
+    "source": "https://8397591.fs1.hubspotusercontent-na1.net/hubfs/8397591/Untitled%20design%20(8)-1.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "1bf3d32c-9b9b-4680-8322-55ddfa2eb0ee",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1bf3d32c-9b9b-4680-8322-55ddfa2eb0ee/peppy.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1bf3d32c-9b9b-4680-8322-55ddfa2eb0ee/peppy.png",
+      "original_filename": "peppy.png",
+      "size": 11079,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:55Z"
+    }
+  },
+  "pharmeasy": {
+    "src": "/logos/pharmeasy.png",
+    "source": "https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "9dfa360a-5165-4fbd-928c-1be8e35adc16",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/9dfa360a-5165-4fbd-928c-1be8e35adc16/pharmeasy.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/9dfa360a-5165-4fbd-928c-1be8e35adc16/pharmeasy.png",
+      "original_filename": "pharmeasy.png",
+      "size": 2554,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:55Z"
+    }
+  },
+  "pixacare": {
+    "src": "/logos/pixacare.png",
+    "source": "https://cdn.prod.website-files.com/699c5bdbb0c35e2418a1393d/6a01f3d82619fb886172dba7_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "649d7d05-6e14-4fe1-83a1-ad83aba98d7f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/649d7d05-6e14-4fe1-83a1-ad83aba98d7f/pixacare.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/649d7d05-6e14-4fe1-83a1-ad83aba98d7f/pixacare.png",
+      "original_filename": "pixacare.png",
+      "size": 15123,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:12:55Z"
+    }
+  },
+  "pixyl": {
+    "src": "/logos/pixyl.png",
+    "source": "https://pixyl.ai/wp-content/uploads/2021/11/fichier_11pixyl_by_gleamer.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "6b10c911-8d77-4972-a126-5a435a64f423",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6b10c911-8d77-4972-a126-5a435a64f423/pixyl.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6b10c911-8d77-4972-a126-5a435a64f423/pixyl.png",
+      "original_filename": "pixyl.png",
+      "size": 46219,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:05Z"
+    }
+  },
+  "pockethealth": {
+    "src": "/logos/pockethealth.svg",
+    "source": "https://www.pockethealth.com/wp-content/themes/pockethealth2022/images/fulllogo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "a0e6bfe9-d22e-49ed-a70a-653da7390de8",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a0e6bfe9-d22e-49ed-a70a-653da7390de8/pockethealth.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a0e6bfe9-d22e-49ed-a70a-653da7390de8/pockethealth.svg",
+      "original_filename": "pockethealth.svg",
+      "size": 9584,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:05Z"
+    }
+  },
+  "portal-telemedicina": {
+    "src": "/logos/portal-telemedicina.png",
+    "source": "https://portaltelemedicina.com.br/wp-content/uploads/2019/12/logo-portal-telemedicina.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "93f43749-afe1-4e5e-b166-3656047ee0a4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/93f43749-afe1-4e5e-b166-3656047ee0a4/portal-telemedicina.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/93f43749-afe1-4e5e-b166-3656047ee0a4/portal-telemedicina.png",
+      "original_filename": "portal-telemedicina.png",
+      "size": 9649,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:05Z"
+    }
+  },
+  "praava-health": {
+    "src": "/logos/praava-health.png",
+    "source": "https://www.praavahealth.com/favicon/apple-icon-180x180.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "5707134b-aeb5-43d7-b5a3-9947a39b9368",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/5707134b-aeb5-43d7-b5a3-9947a39b9368/praava-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/5707134b-aeb5-43d7-b5a3-9947a39b9368/praava-health.png",
+      "original_filename": "praava-health.png",
+      "size": 9930,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:05Z"
+    }
+  },
+  "precise-bio": {
+    "src": "/logos/precise-bio.png",
+    "source": "https://www.precise-bio.com/wp-content/uploads/2019/01/cropped-precise-bio-icon-180x180.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "d2b00b48-7a9d-48f8-b4a2-82098e16464e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/d2b00b48-7a9d-48f8-b4a2-82098e16464e/precise-bio.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/d2b00b48-7a9d-48f8-b4a2-82098e16464e/precise-bio.png",
+      "original_filename": "precise-bio.png",
+      "size": 21947,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:04Z"
+    }
+  },
+  "precision-neuroscience": {
+    "src": "/logos/precision-neuroscience.png",
+    "source": "https://www.precisionneuro.io/images/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ebffa37b-c105-47fb-9809-8068111fe478",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ebffa37b-c105-47fb-9809-8068111fe478/precision-neuroscience.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ebffa37b-c105-47fb-9809-8068111fe478/precision-neuroscience.png",
+      "original_filename": "precision-neuroscience.png",
+      "size": 7489,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:05Z"
+    }
+  },
+  "prenuvo": {
+    "src": "/logos/prenuvo.png",
+    "source": "https://cdn.prod.website-files.com/653836f64e8770bb2190b74d/65429febfc26b093f842b22e_prenuvo-favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "36589ae6-0110-4480-a213-943a66433b3e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/36589ae6-0110-4480-a213-943a66433b3e/prenuvo.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/36589ae6-0110-4480-a213-943a66433b3e/prenuvo.png",
+      "original_filename": "prenuvo.png",
+      "size": 3678,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:04Z"
+    }
+  },
+  "pristyn-care": {
+    "src": "/logos/pristyn-care.png",
+    "source": "https://www.pristyncare.com/blog/wp-content/uploads/2021/01/pristyn-logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "93dfa0e8-5434-4156-852c-9e1e0829771b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/93dfa0e8-5434-4156-852c-9e1e0829771b/pristyn-care.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/93dfa0e8-5434-4156-852c-9e1e0829771b/pristyn-care.png",
+      "original_filename": "pristyn-care.png",
+      "size": 6691,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:05Z"
+    }
+  },
+  "profluent": {
+    "src": "/logos/profluent.jpg",
+    "source": "https://cdn.prod.website-files.com/6769c2fceb550649b2f37b30/6769c2fceb550649b2f37b84_WebClip.jpg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "ace1565d-d200-46c3-8e08-534b0da811d4",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ace1565d-d200-46c3-8e08-534b0da811d4/profluent.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ace1565d-d200-46c3-8e08-534b0da811d4/profluent.jpg",
+      "original_filename": "profluent.jpg",
+      "size": 11396,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:13:15Z"
+    }
+  },
+  "proprio": {
+    "src": "/logos/proprio.png",
+    "source": "https://cdn.prod.website-files.com/6296c202ecfe835c15f4e757/632396c4c23049461e29337e_5e1cad2a753a25f4913f90bb_5df3d90f3c094c6edaaf6b96_news_media_brand.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "c9f02dac-58e3-4b63-8e2f-dac9a2096648",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c9f02dac-58e3-4b63-8e2f-dac9a2096648/proprio.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c9f02dac-58e3-4b63-8e2f-dac9a2096648/proprio.png",
+      "original_filename": "proprio.png",
+      "size": 14926,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:15Z"
+    }
+  },
+  "qare": {
+    "src": "/logos/qare.png",
+    "source": "https://www.qare.fr/home-assets/qare-logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "c584d5eb-3ba2-427b-8bf5-3f5c7155689a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c584d5eb-3ba2-427b-8bf5-3f5c7155689a/qare.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c584d5eb-3ba2-427b-8bf5-3f5c7155689a/qare.png",
+      "original_filename": "qare.png",
+      "size": 22728,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:15Z"
+    }
+  },
+  "quantum-surgical": {
+    "src": "/logos/quantum-surgical.svg",
+    "source": "https://cdn.prod.website-files.com/678e22486326cdcf67145a2b/678e5f2bd679a4bb830db861_Favicon.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "f9ad70f4-173c-4c70-8437-81926a7f4056",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/f9ad70f4-173c-4c70-8437-81926a7f4056/quantum-surgical.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/f9ad70f4-173c-4c70-8437-81926a7f4056/quantum-surgical.svg",
+      "original_filename": "quantum-surgical.svg",
+      "size": 1409,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:15Z"
+    }
+  },
+  "quibim": {
+    "src": "/logos/quibim.png",
+    "source": "https://quibim.ai/wp-content/uploads/2024/02/cropped-favicon_quibim-180x180.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "71030db6-a867-4f26-917e-3aa012255335",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/71030db6-a867-4f26-917e-3aa012255335/quibim.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/71030db6-a867-4f26-917e-3aa012255335/quibim.png",
+      "original_filename": "quibim.png",
+      "size": 12730,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:15Z"
+    }
+  },
+  "qure-ai": {
+    "src": "/logos/qure-ai.ico",
+    "source": "https://www.qure.ai/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "dba8d6f2-df99-4cd2-8002-f2b5d6c81173",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/dba8d6f2-df99-4cd2-8002-f2b5d6c81173/qure-ai.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/dba8d6f2-df99-4cd2-8002-f2b5d6c81173/qure-ai.ico",
+      "original_filename": "qure-ai.ico",
+      "size": 34732,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:13:15Z"
+    }
+  },
+  "qventus": {
+    "src": "/logos/qventus.webp",
+    "source": "https://www.qventus.com/wp-content/uploads/2025/04/cropped-favicon.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "fdd976c8-15cf-44b6-8418-feabd295d296",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/fdd976c8-15cf-44b6-8418-feabd295d296/qventus.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/fdd976c8-15cf-44b6-8418-feabd295d296/qventus.webp",
+      "original_filename": "qventus.webp",
+      "size": 2990,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:13:15Z"
+    }
+  },
+  "rad-ai": {
+    "src": "/logos/rad-ai.png",
+    "source": "https://cdn.prod.website-files.com/6a27c9e3a1b1b4177dd8bca5/6a2fac04a5ef312b4b98e667_rad-ai-256.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "62715811-ef46-44a0-bd66-8041d72f70fc",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/62715811-ef46-44a0-bd66-8041d72f70fc/rad-ai.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/62715811-ef46-44a0-bd66-8041d72f70fc/rad-ai.png",
+      "original_filename": "rad-ai.png",
+      "size": 58044,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:15Z"
+    }
+  },
+  "radiobotics": {
+    "src": "/logos/radiobotics.png",
+    "source": "https://radiobotics.com/wp-content/uploads/2024/10/Radiobotics-logo-Horizontal-Light-background.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "586b471d-103f-4f82-bde1-1df9af46af77",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/586b471d-103f-4f82-bde1-1df9af46af77/radiobotics.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/586b471d-103f-4f82-bde1-1df9af46af77/radiobotics.png",
+      "original_filename": "radiobotics.png",
+      "size": 66730,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:22Z"
+    }
+  },
+  "recare": {
+    "src": "/logos/recare.svg",
+    "source": "https://cdn.prod.website-files.com/69aa9c0cb856298ca0aa965e/69aa9c0db856298ca0aa9700_f9434e48b14164f3277e293ec1176af4_Logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "3799cb24-5e6e-4941-9813-04344b282040",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/3799cb24-5e6e-4941-9813-04344b282040/recare.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/3799cb24-5e6e-4941-9813-04344b282040/recare.svg",
+      "original_filename": "recare.svg",
+      "size": 8849,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:22Z"
+    }
+  },
+  "redcliffe-labs": {
+    "src": "/logos/redcliffe-labs.svg",
+    "source": "https://staticcdn.redcliffelabs.com/media/gallary-file/None/a0f82e2b-5cee-4694-a972-2514e9bd3694.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "36bc6c5a-3625-4c9e-aaad-4e6c0941dd3e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/36bc6c5a-3625-4c9e-aaad-4e6c0941dd3e/redcliffe-labs.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/36bc6c5a-3625-4c9e-aaad-4e6c0941dd3e/redcliffe-labs.svg",
+      "original_filename": "redcliffe-labs.svg",
+      "size": 144529,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:23Z"
+    }
+  },
+  "redox": {
+    "src": "/logos/redox.webp",
+    "source": "https://redoxengine.com/wp-content/uploads/2025/05/Redox_OG.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "300d1918-eacd-44dd-99a6-944bd5483542",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/300d1918-eacd-44dd-99a6-944bd5483542/redox.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/300d1918-eacd-44dd-99a6-944bd5483542/redox.webp",
+      "original_filename": "redox.webp",
+      "size": 28482,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:13:23Z"
+    }
+  },
+  "remidio": {
+    "src": "/logos/remidio.webp",
+    "source": "https://cdn.prod.website-files.com/69706869defa1efb2ed0e3df/69706869defa1efb2ed0e472_remidio_logo.webp",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "74ce7623-6957-4dc8-8b31-a51b06baede5",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/74ce7623-6957-4dc8-8b31-a51b06baede5/remidio.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/74ce7623-6957-4dc8-8b31-a51b06baede5/remidio.webp",
+      "original_filename": "remidio.webp",
+      "size": 37276,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:13:23Z"
+    }
+  },
+  "resilience": {
+    "src": "/logos/resilience.webp",
+    "source": "https://cdn.prod.website-files.com/691d9ceceb6be9008f62d077/692dace591f2de8b8660f904_Logo%20Container.webp",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "5dfc018c-4c87-419d-9014-522029c23b1f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/5dfc018c-4c87-419d-9014-522029c23b1f/resilience.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/5dfc018c-4c87-419d-9014-522029c23b1f/resilience.webp",
+      "original_filename": "resilience.webp",
+      "size": 2326,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:13:23Z"
+    }
+  },
+  "retro-biosciences": {
+    "src": "/logos/retro-biosciences.svg",
+    "source": "https://www.retro.bio/icon.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "1b33dab2-9e7f-42a1-86b9-058af06b7506",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1b33dab2-9e7f-42a1-86b9-058af06b7506/retro-biosciences.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1b33dab2-9e7f-42a1-86b9-058af06b7506/retro-biosciences.svg",
+      "original_filename": "retro-biosciences.svg",
+      "size": 1446,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:23Z"
+    }
+  },
+  "robeaute": {
+    "src": "/logos/robeaute.png",
+    "source": "https://cdn.prod.website-files.com/69b2fa8e4cddd43cff3bb640/69c546c354886fa92e6dc450_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "8c607c5e-5d6c-43aa-92f3-b666e84a3c9e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/8c607c5e-5d6c-43aa-92f3-b666e84a3c9e/robeaute.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/8c607c5e-5d6c-43aa-92f3-b666e84a3c9e/robeaute.png",
+      "original_filename": "robeaute.png",
+      "size": 4240,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:22Z"
+    }
+  },
+  "rula": {
+    "src": "/logos/rula.svg",
+    "source": "https://a.storyblok.com/f/329013/x/cebcf3e9a0/rula-logo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "ed027dd2-ca54-4325-af46-68dc27c94354",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ed027dd2-ca54-4325-af46-68dc27c94354/rula.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ed027dd2-ca54-4325-af46-68dc27c94354/rula.svg",
+      "original_filename": "rula.svg",
+      "size": 5911,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:33Z"
+    }
+  },
+  "sami": {
+    "src": "/logos/sami.svg",
+    "source": "https://samisaude.com.br/wp-content/uploads/2026/02/sami-site.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "129ae08d-4997-4219-a3a9-0dc7cdd76ac1",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/129ae08d-4997-4219-a3a9-0dc7cdd76ac1/sami.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/129ae08d-4997-4219-a3a9-0dc7cdd76ac1/sami.svg",
+      "original_filename": "sami.svg",
+      "size": 4193,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:33Z"
+    }
+  },
+  "science-corporation": {
+    "src": "/logos/science-corporation.png",
+    "source": "https://science.xyz/images/meta/android-chrome-512x512.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "59ab7c11-d3ef-40e3-8778-acfcbb25c775",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/59ab7c11-d3ef-40e3-8778-acfcbb25c775/science-corporation.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/59ab7c11-d3ef-40e3-8778-acfcbb25c775/science-corporation.png",
+      "original_filename": "science-corporation.png",
+      "size": 12132,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:33Z"
+    }
+  },
+  "sehat-kahani": {
+    "src": "/logos/sehat-kahani.png",
+    "source": "https://sehatkahani.com/wp-content/themes/sehat-Kahani/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "8a9ec826-a23f-4e8b-ba58-8081db0cfc52",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/8a9ec826-a23f-4e8b-ba58-8081db0cfc52/sehat-kahani.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/8a9ec826-a23f-4e8b-ba58-8081db0cfc52/sehat-kahani.png",
+      "original_filename": "sehat-kahani.png",
+      "size": 1515,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:33Z"
+    }
+  },
+  "sight-diagnostics": {
+    "src": "/logos/sight-diagnostics.ico",
+    "source": "https://static.wixstatic.com/ficons/e4718d_f313802374744d3bb67c454603d40fe6%7Emv2.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "2ddfb725-82e3-4bf6-8b37-6cb952285d0e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2ddfb725-82e3-4bf6-8b37-6cb952285d0e/sight-diagnostics.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2ddfb725-82e3-4bf6-8b37-6cb952285d0e/sight-diagnostics.ico",
+      "original_filename": "sight-diagnostics.ico",
+      "size": 15406,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:13:33Z"
+    }
+  },
+  "skin-analytics": {
+    "src": "/logos/skin-analytics.svg",
+    "source": "https://skin-analytics.com/wp-content/uploads/2026/06/default-news-thumb.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "71fcf92a-6417-412b-ab1e-16da920975cd",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/71fcf92a-6417-412b-ab1e-16da920975cd/skin-analytics.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/71fcf92a-6417-412b-ab1e-16da920975cd/skin-analytics.svg",
+      "original_filename": "skin-analytics.svg",
+      "size": 4085,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:33Z"
+    }
+  },
+  "spring-health": {
+    "src": "/logos/spring-health.svg",
+    "source": "https://cdn.prod.website-files.com/64270b7f9c4339239e8735f4/67d9e20664bde3dc6e4beb26_SpringHealth_FullLogo.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "ef171734-e403-4cc8-ae84-3fdc8344f3a1",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ef171734-e403-4cc8-ae84-3fdc8344f3a1/spring-health.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ef171734-e403-4cc8-ae84-3fdc8344f3a1/spring-health.svg",
+      "original_filename": "spring-health.svg",
+      "size": 5898,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:33Z"
+    }
+  },
+  "strive-health": {
+    "src": "/logos/strive-health.jpg",
+    "source": "https://strivehealth.com/wp-content/uploads/2022/10/Strive_logo.jpeg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "58525da0-d2cd-4b67-b948-6dffe69c6e57",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/58525da0-d2cd-4b67-b948-6dffe69c6e57/strive-health.jpg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/58525da0-d2cd-4b67-b948-6dffe69c6e57/strive-health.jpg",
+      "original_filename": "strive-health.jpg",
+      "size": 15468,
+      "content_type": "image/jpeg",
+      "created_at": "2026-11-24T01:13:33Z"
+    }
+  },
+  "sugar-fit": {
+    "src": "/logos/sugar-fit.avif",
+    "source": "https://framerusercontent.com/images/VMxZvXyWE4IaCWiLhQVj6bJuNM.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "6ac529bd-b196-438c-95a7-3b8193cc5a4e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/6ac529bd-b196-438c-95a7-3b8193cc5a4e/sugar-fit.avif",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/6ac529bd-b196-438c-95a7-3b8193cc5a4e/sugar-fit.avif",
+      "original_filename": "sugar-fit.avif",
+      "size": 21516,
+      "content_type": "image/avif",
+      "created_at": "2026-11-24T01:13:45Z"
+    }
+  },
+  "suki": {
+    "src": "/logos/suki.svg",
+    "source": "https://www.suki.ai/icon.svg?suki=ai",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "13da426a-58d4-48da-bbf8-39cd1c4503ff",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/13da426a-58d4-48da-bbf8-39cd1c4503ff/suki.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/13da426a-58d4-48da-bbf8-39cd1c4503ff/suki.svg",
+      "original_filename": "suki.svg",
+      "size": 1761,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:46Z"
+    }
+  },
+  "summer-health": {
+    "src": "/logos/summer-health.svg",
+    "source": "https://www.doctronic.ai/favicon.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "fa0182cb-5b82-48c9-a454-9ba3d303b37f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/fa0182cb-5b82-48c9-a454-9ba3d303b37f/summer-health.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/fa0182cb-5b82-48c9-a454-9ba3d303b37f/summer-health.svg",
+      "original_filename": "summer-health.svg",
+      "size": 2618,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:46Z"
+    }
+  },
+  "superpower": {
+    "src": "/logos/superpower.png",
+    "source": "https://cdn.prod.website-files.com/63792ff4f3d6aa3d62071b61/655e22ddea1ce803df04bcae_sp-.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "1dcd8225-9d80-4973-820e-9afd3b9be06b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1dcd8225-9d80-4973-820e-9afd3b9be06b/superpower.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1dcd8225-9d80-4973-820e-9afd3b9be06b/superpower.png",
+      "original_filename": "superpower.png",
+      "size": 4886,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:46Z"
+    }
+  },
+  "synapse-medicine": {
+    "src": "/logos/synapse-medicine.png",
+    "source": "https://cdn.prod.website-files.com/6557391911618b28bc0bf8b4/67bc404992e27e81ab596f99_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "bef32c20-c436-4395-b41a-e33894b4b156",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/bef32c20-c436-4395-b41a-e33894b4b156/synapse-medicine.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/bef32c20-c436-4395-b41a-e33894b4b156/synapse-medicine.png",
+      "original_filename": "synapse-medicine.png",
+      "size": 4183,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:46Z"
+    }
+  },
+  "synchron": {
+    "src": "/logos/synchron.png",
+    "source": "https://synchron.com/synchron-mark.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "5d0cfbd6-93a8-4ae9-827d-982fd13c50d9",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/5d0cfbd6-93a8-4ae9-827d-982fd13c50d9/synchron.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/5d0cfbd6-93a8-4ae9-827d-982fd13c50d9/synchron.png",
+      "original_filename": "synchron.png",
+      "size": 29446,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:46Z"
+    }
+  },
+  "talkiatry": {
+    "src": "/logos/talkiatry.svg",
+    "source": "https://cdn.prod.website-files.com/62823f8f082a2cc34adb27ff/634c6477feb1d64e76926b4a_Talkiatry_logo_RGB_saffron.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "076f548f-f3ab-47b3-b355-98c1dfec4e5e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/076f548f-f3ab-47b3-b355-98c1dfec4e5e/talkiatry.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/076f548f-f3ab-47b3-b355-98c1dfec4e5e/talkiatry.svg",
+      "original_filename": "talkiatry.svg",
+      "size": 5226,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:45Z"
+    }
+  },
+  "temedica": {
+    "src": "/logos/temedica.png",
+    "source": "https://temedica.com/hubfs/favicon_jk.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "e177e7a6-81c1-4ec3-a5da-c4cca35a726b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e177e7a6-81c1-4ec3-a5da-c4cca35a726b/temedica.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e177e7a6-81c1-4ec3-a5da-c4cca35a726b/temedica.png",
+      "original_filename": "temedica.png",
+      "size": 41546,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:46Z"
+    }
+  },
+  "theator": {
+    "src": "/logos/theator.png",
+    "source": "https://media.base44.com/images/public/69a03d59d430a719d3574768/c697988c8_Theator-main.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "2d8365d7-a2f1-4921-a365-a14ec0ce3fcb",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2d8365d7-a2f1-4921-a365-a14ec0ce3fcb/theator.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2d8365d7-a2f1-4921-a365-a14ec0ce3fcb/theator.png",
+      "original_filename": "theator.png",
+      "size": 259659,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:57Z"
+    }
+  },
+  "therapixel": {
+    "src": "/logos/therapixel.png",
+    "source": "https://www.therapixel.com/wp-content/uploads/fbrfg/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "0e3c085c-e1ea-410e-8ee6-9d874618e805",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/0e3c085c-e1ea-410e-8ee6-9d874618e805/therapixel.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/0e3c085c-e1ea-410e-8ee6-9d874618e805/therapixel.png",
+      "original_filename": "therapixel.png",
+      "size": 2693,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:57Z"
+    }
+  },
+  "thirona": {
+    "src": "/logos/thirona.svg",
+    "source": "https://thirona.eu/wp-content/uploads/2025/12/thirona_logo-1.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "5f568b23-ce4a-4d8d-92b2-c437142c13c6",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/5f568b23-ce4a-4d8d-92b2-c437142c13c6/thirona.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/5f568b23-ce4a-4d8d-92b2-c437142c13c6/thirona.svg",
+      "original_filename": "thirona.svg",
+      "size": 204449,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:56Z"
+    }
+  },
+  "thirty-madison": {
+    "src": "/logos/thirty-madison.png",
+    "source": "https://thirtymadison.com/icons-ee3a1227213c61744dbdf4045ce0ce93/apple-touch-icon-1024x1024.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "0d405be5-e9aa-4f9c-8430-053ae61c43af",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/0d405be5-e9aa-4f9c-8430-053ae61c43af/thirty-madison.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/0d405be5-e9aa-4f9c-8430-053ae61c43af/thirty-madison.png",
+      "original_filename": "thirty-madison.png",
+      "size": 271512,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:56Z"
+    }
+  },
+  "thriva": {
+    "src": "/logos/thriva.png",
+    "source": "https://thriva.co/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "705da17a-833d-4e0e-8fde-c4e22bb566fb",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/705da17a-833d-4e0e-8fde-c4e22bb566fb/thriva.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/705da17a-833d-4e0e-8fde-c4e22bb566fb/thriva.png",
+      "original_filename": "thriva.png",
+      "size": 5341,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:57Z"
+    }
+  },
+  "tilak-healthcare": {
+    "src": "/logos/tilak-healthcare.svg",
+    "source": "https://tilakhealthcare.com/wp-content/uploads/2024/04/Layer_13.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "a8d3823e-868b-4022-849e-b92ed02ee8a5",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a8d3823e-868b-4022-849e-b92ed02ee8a5/tilak-healthcare.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a8d3823e-868b-4022-849e-b92ed02ee8a5/tilak-healthcare.svg",
+      "original_filename": "tilak-healthcare.svg",
+      "size": 1163,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:13:56Z"
+    }
+  },
+  "toku-eyes": {
+    "src": "/logos/toku-eyes.png",
+    "source": "https://tokueyes.com/eu/wp-content/uploads/sites/4/2023/04/Toku-USA-Logo-Stacked_blue-on-transp-bkg-e1681686253949.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "32d85549-5bc7-4b67-8785-2fb756dfa298",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/32d85549-5bc7-4b67-8785-2fb756dfa298/toku-eyes.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/32d85549-5bc7-4b67-8785-2fb756dfa298/toku-eyes.png",
+      "original_filename": "toku-eyes.png",
+      "size": 34823,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:57Z"
+    }
+  },
+  "tortus": {
+    "src": "/logos/tortus.png",
+    "source": "https://tortus.ai/__l5e/assets-v1/30f8e111-4836-46cf-a891-1afdcc6615be/favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "cb9801df-964f-41ac-85b8-935ad2225560",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/cb9801df-964f-41ac-85b8-935ad2225560/tortus.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/cb9801df-964f-41ac-85b8-935ad2225560/tortus.png",
+      "original_filename": "tortus.png",
+      "size": 1393,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:13:56Z"
+    }
+  },
+  "transcarent": {
+    "src": "/logos/transcarent.ico",
+    "source": "https://transcarent.com/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "c0aad1e1-ef60-44be-9194-5e9185cb3596",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/c0aad1e1-ef60-44be-9194-5e9185cb3596/transcarent.ico",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/c0aad1e1-ef60-44be-9194-5e9185cb3596/transcarent.ico",
+      "original_filename": "transcarent.ico",
+      "size": 15406,
+      "content_type": "image/x-icon",
+      "created_at": "2026-11-24T01:14:07Z"
+    }
+  },
+  "tricog": {
+    "src": "/logos/tricog.png",
+    "source": "https://tricog.com/wp-content/uploads/2023/02/triog-logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "46d3b0ca-08e3-499a-8621-3b4308d8f884",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/46d3b0ca-08e3-499a-8621-3b4308d8f884/tricog.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/46d3b0ca-08e3-499a-8621-3b4308d8f884/tricog.png",
+      "original_filename": "tricog.png",
+      "size": 149546,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:07Z"
+    }
+  },
+  "tucuvi": {
+    "src": "/logos/tucuvi.png",
+    "source": "https://cdn.prod.website-files.com/6ab626d786f15cabd815fede/6adb38eb818227f789318004_webclip-tucuvi.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "fbbf7123-286f-4acb-b57b-3cea5c445c05",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/fbbf7123-286f-4acb-b57b-3cea5c445c05/tucuvi.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/fbbf7123-286f-4acb-b57b-3cea5c445c05/tucuvi.png",
+      "original_filename": "tucuvi.png",
+      "size": 60021,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:07Z"
+    }
+  },
+  "tyto-care": {
+    "src": "/logos/tyto-care.svg",
+    "source": "https://static.tytocare.com/wp-content/uploads/2022/08/Vector.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "ce249714-43f4-4ee5-b7c1-f2c2aeb10f4f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/ce249714-43f4-4ee5-b7c1-f2c2aeb10f4f/tyto-care.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/ce249714-43f4-4ee5-b7c1-f2c2aeb10f4f/tyto-care.svg",
+      "original_filename": "tyto-care.svg",
+      "size": 6458,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:14:07Z"
+    }
+  },
+  "ubie": {
+    "src": "/logos/ubie.png",
+    "source": "https://ubie.life/icon.png?icon.14bje31msps22.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "0d76985b-5364-4a1d-8844-116f4bc1297e",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/0d76985b-5364-4a1d-8844-116f4bc1297e/ubie.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/0d76985b-5364-4a1d-8844-116f4bc1297e/ubie.png",
+      "original_filename": "ubie.png",
+      "size": 1731,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:07Z"
+    }
+  },
+  "ultrahuman": {
+    "src": "/logos/ultrahuman.png",
+    "source": "https://www.ultrahuman.com/logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "1341c276-ee03-4076-ab5c-ffa244f831b2",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/1341c276-ee03-4076-ab5c-ffa244f831b2/ultrahuman.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/1341c276-ee03-4076-ab5c-ffa244f831b2/ultrahuman.png",
+      "original_filename": "ultrahuman.png",
+      "size": 510,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:07Z"
+    }
+  },
+  "ultromics": {
+    "src": "/logos/ultromics.webp",
+    "source": "https://www.ultromics.com/hubfs/raw_assets/public/ultromics-2026/images/icons/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "fff096c9-f94e-43cc-9852-d0b7d56e50d6",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/fff096c9-f94e-43cc-9852-d0b7d56e50d6/ultromics.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/fff096c9-f94e-43cc-9852-d0b7d56e50d6/ultromics.webp",
+      "original_filename": "ultromics.webp",
+      "size": 2520,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:14:07Z"
+    }
+  },
+  "valo-health": {
+    "src": "/logos/valo-health.png",
+    "source": "https://valo-health.transforms.svdcdn.com/production/leadership/valo-lockup-rgb-black.png?w=600&h=600&q=82&fm=png&fit=clip&dm=1700231863&s=e85bda6fbb65262390d973f9088287b6",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "31a95fa6-37ad-4be7-bf6e-c4344974abbc",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/31a95fa6-37ad-4be7-bf6e-c4344974abbc/valo-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/31a95fa6-37ad-4be7-bf6e-c4344974abbc/valo-health.png",
+      "original_filename": "valo-health.png",
+      "size": 24405,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:07Z"
+    }
+  },
+  "vara": {
+    "src": "/logos/vara.svg",
+    "source": "https://framerusercontent.com/images/kE18YYHlVP50BIe5iQNAo3jSI.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "cd6ddd69-e28c-44da-a92f-e4b9de0bcf9b",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/cd6ddd69-e28c-44da-a92f-e4b9de0bcf9b/vara.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/cd6ddd69-e28c-44da-a92f-e4b9de0bcf9b/vara.svg",
+      "original_filename": "vara.svg",
+      "size": 725,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:14:18Z"
+    }
+  },
+  "vaxxas": {
+    "src": "/logos/vaxxas.png",
+    "source": "https://www.vaxxas.com/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "afabd4d3-0622-4e5b-bd61-084157d05cd6",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/afabd4d3-0622-4e5b-bd61-084157d05cd6/vaxxas.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/afabd4d3-0622-4e5b-bd61-084157d05cd6/vaxxas.png",
+      "original_filename": "vaxxas.png",
+      "size": 129928,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:18Z"
+    }
+  },
+  "vezeeta": {
+    "src": "/logos/vezeeta.webp",
+    "source": "https://cdn-react.vezeeta.com/vezeeta-web-reactjs/jenkins-111/images/apple-icon-57x57.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "a210057e-a53e-4607-b5d9-12c4cf9faf18",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/a210057e-a53e-4607-b5d9-12c4cf9faf18/vezeeta.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/a210057e-a53e-4607-b5d9-12c4cf9faf18/vezeeta.webp",
+      "original_filename": "vezeeta.webp",
+      "size": 898,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:14:18Z"
+    }
+  },
+  "virta-health": {
+    "src": "/logos/virta-health.png",
+    "source": "https://cdn.prod.website-files.com/63b87f2b736a4604d643dbd4/69a1f15078a769756552803a_avatar-circle.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "e13fcc2c-e149-49d3-9473-549304fcb4ad",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e13fcc2c-e149-49d3-9473-549304fcb4ad/virta-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e13fcc2c-e149-49d3-9473-549304fcb4ad/virta-health.png",
+      "original_filename": "virta-health.png",
+      "size": 8108,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:19Z"
+    }
+  },
+  "vivira": {
+    "src": "/logos/vivira.webp",
+    "source": "https://vivira.com/favicon.ico",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "fd371f61-786d-41d6-88f6-3bd95c044f8f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/fd371f61-786d-41d6-88f6-3bd95c044f8f/vivira.webp",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/fd371f61-786d-41d6-88f6-3bd95c044f8f/vivira.webp",
+      "original_filename": "vivira.webp",
+      "size": 2990,
+      "content_type": "image/webp",
+      "created_at": "2026-11-24T01:14:19Z"
+    }
+  },
+  "viz-ai": {
+    "src": "/logos/viz-ai.svg",
+    "source": "https://www.viz.ai/wp-content/uploads/2023/06/logo-VIZ-1.svg",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "7bfc5af9-707e-402e-b533-88fd949f759f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7bfc5af9-707e-402e-b533-88fd949f759f/viz-ai.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7bfc5af9-707e-402e-b533-88fd949f759f/viz-ai.svg",
+      "original_filename": "viz-ai.svg",
+      "size": 12454,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:14:18Z"
+    }
+  },
+  "volta-medical": {
+    "src": "/logos/volta-medical.png",
+    "source": "https://cdn.prod.website-files.com/64ac1fdc9d96672e8b3cc371/64b549687cabeaaa12f3c5c2_Logo-Volta-blue%20bayou%20-%20256x256.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "7ea5c236-9211-4f6a-8a41-306f77faa886",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/7ea5c236-9211-4f6a-8a41-306f77faa886/volta-medical.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/7ea5c236-9211-4f6a-8a41-306f77faa886/volta-medical.png",
+      "original_filename": "volta-medical.png",
+      "size": 14706,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:18Z"
+    }
+  },
+  "vula-mobile": {
+    "src": "/logos/vula-mobile.avif",
+    "source": "https://framerusercontent.com/images/0F96qK4SWRqVVm88Vk6ZW6maBNU.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "bf5652eb-21e6-4ec3-889a-0e2b985b22f0",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/bf5652eb-21e6-4ec3-889a-0e2b985b22f0/vula-mobile.avif",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/bf5652eb-21e6-4ec3-889a-0e2b985b22f0/vula-mobile.avif",
+      "original_filename": "vula-mobile.avif",
+      "size": 3618,
+      "content_type": "image/avif",
+      "created_at": "2026-11-24T01:14:19Z"
+    }
+  },
+  "vuno": {
+    "src": "/logos/vuno.png",
+    "source": "https://vuno.co/images/logo.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "e997c5c6-c918-441e-8cea-bcc36842077a",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e997c5c6-c918-441e-8cea-bcc36842077a/vuno.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e997c5c6-c918-441e-8cea-bcc36842077a/vuno.png",
+      "original_filename": "vuno.png",
+      "size": 7405,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:30Z"
+    }
+  },
+  "werlabs": {
+    "src": "/logos/werlabs.png",
+    "source": "https://werlabs.se/_next/static/media/werlabs-logo.b744e1fb.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "55f399e4-d5c4-4c95-a16a-1f664f5579ed",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/55f399e4-d5c4-4c95-a16a-1f664f5579ed/werlabs.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/55f399e4-d5c4-4c95-a16a-1f664f5579ed/werlabs.png",
+      "original_filename": "werlabs.png",
+      "size": 8444,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:29Z"
+    }
+  },
+  "wheel": {
+    "src": "/logos/wheel.svg",
+    "source": "https://www.wheel.com/icon.svg",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "fdec7961-45e6-4150-aff3-4d901c9d49d2",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/fdec7961-45e6-4150-aff3-4d901c9d49d2/wheel.svg",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/fdec7961-45e6-4150-aff3-4d901c9d49d2/wheel.svg",
+      "original_filename": "wheel.svg",
+      "size": 404,
+      "content_type": "image/svg+xml",
+      "created_at": "2026-11-24T01:14:30Z"
+    }
+  },
+  "whitelab-genomics": {
+    "src": "/logos/whitelab-genomics.png",
+    "source": "https://whitelabgx.com/favicons/apple-touch-icon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "08a1e93c-b95c-495f-b675-dada9e354890",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/08a1e93c-b95c-495f-b675-dada9e354890/whitelab-genomics.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/08a1e93c-b95c-495f-b675-dada9e354890/whitelab-genomics.png",
+      "original_filename": "whitelab-genomics.png",
+      "size": 6617,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:30Z"
+    }
+  },
+  "wysa": {
+    "src": "/logos/wysa.png",
+    "source": "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_64,w_64,q_auto/250253/Asset_22xxxhdpi_kw5dnj.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "590e2e12-14d1-4508-aa0f-efa8ac1e27a6",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/590e2e12-14d1-4508-aa0f-efa8ac1e27a6/wysa.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/590e2e12-14d1-4508-aa0f-efa8ac1e27a6/wysa.png",
+      "original_filename": "wysa.png",
+      "size": 1606,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:30Z"
+    }
+  },
+  "xaira-therapeutics": {
+    "src": "/logos/xaira-therapeutics.png",
+    "source": "https://cdn.prod.website-files.com/6a79b735e0b81ae1e04e6490/6a871b29cdf2b8e320f98c9d_Footer_Logo_01c%202.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "e4163488-e9a5-4409-bd7b-5a8473bcdc8f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/e4163488-e9a5-4409-bd7b-5a8473bcdc8f/xaira-therapeutics.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/e4163488-e9a5-4409-bd7b-5a8473bcdc8f/xaira-therapeutics.png",
+      "original_filename": "xaira-therapeutics.png",
+      "size": 105933,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:30Z"
+    }
+  },
+  "xeltis": {
+    "src": "/logos/xeltis.png",
+    "source": "https://xeltis.com/wp-content/uploads/2023/07/Xeltis_Logo_Dark.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "16b40f18-1f49-4c07-8068-c40925bde3ca",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/16b40f18-1f49-4c07-8068-c40925bde3ca/xeltis.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/16b40f18-1f49-4c07-8068-c40925bde3ca/xeltis.png",
+      "original_filename": "xeltis.png",
+      "size": 19269,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:30Z"
+    }
+  },
+  "yodawy": {
+    "src": "/logos/yodawy.png",
+    "source": "https://yodawy.com/images/Yodawy_Icon_favicon.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "2a772127-f6b5-4bec-af74-1eff513cd67d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/2a772127-f6b5-4bec-af74-1eff513cd67d/yodawy.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/2a772127-f6b5-4bec-af74-1eff513cd67d/yodawy.png",
+      "original_filename": "yodawy.png",
+      "size": 1200,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:30Z"
+    }
+  },
+  "zenklub": {
+    "src": "/logos/zenklub.png",
+    "source": "https://cdn.prod.website-files.com/613f7ca80295647d415b0d85/6247417bc933da5d600669c3_cap.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "90316610-5627-407d-8998-f6640b3052fd",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/90316610-5627-407d-8998-f6640b3052fd/zenklub.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/90316610-5627-407d-8998-f6640b3052fd/zenklub.png",
+      "original_filename": "zenklub.png",
+      "size": 5289,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:39Z"
+    }
+  },
+  "zipline": {
+    "src": "/logos/zipline.png",
+    "source": "https://www.zipline.com/android-chrome-512x512.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "4883521f-ee86-4e3e-bfff-45ee222d650f",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/4883521f-ee86-4e3e-bfff-45ee222d650f/zipline.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/4883521f-ee86-4e3e-bfff-45ee222d650f/zipline.png",
+      "original_filename": "zipline.png",
+      "size": 17948,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:39Z"
+    }
+  },
+  "zoe": {
+    "src": "/logos/zoe.png",
+    "source": "https://zoe.com/assets/img/ds/zoe-logo-brand.png",
+    "kind": "logo",
+    "asset": {
+      "version": 1,
+      "asset_id": "510161ca-59b9-41b5-a0cd-dbc68c2df11d",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/510161ca-59b9-41b5-a0cd-dbc68c2df11d/zoe.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/510161ca-59b9-41b5-a0cd-dbc68c2df11d/zoe.png",
+      "original_filename": "zoe.png",
+      "size": 9685,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:39Z"
+    }
+  },
+  "zus-health": {
+    "src": "/logos/zus-health.png",
+    "source": "https://cdn.prod.website-files.com/69ebb86c9c3cd78bac500783/69ebb9fe43f04599c70d6d34_webclip.png",
+    "kind": "icon",
+    "asset": {
+      "version": 1,
+      "asset_id": "0a0f1566-5918-45ba-a1f6-4fbdf2ed1037",
+      "project_id": "15b18a01-0a08-4939-8e2a-f79118b3e84d",
+      "url": "/__l5e/assets-v1/0a0f1566-5918-45ba-a1f6-4fbdf2ed1037/zus-health.png",
+      "r2_key": "a/v1/15b18a01-0a08-4939-8e2a-f79118b3e84d/0a0f1566-5918-45ba-a1f6-4fbdf2ed1037/zus-health.png",
+      "original_filename": "zus-health.png",
+      "size": 44556,
+      "content_type": "image/png",
+      "created_at": "2026-11-24T01:14:39Z"
+    }
+  }
+}

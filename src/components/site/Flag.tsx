@@ -7,7 +7,21 @@ import { cn } from "@/lib/utils";
 const horizontal = (a: string, b: string, c: string) => <><rect width="30" height="20" fill={a} /><rect y="6.667" width="30" height="6.667" fill={b} /><rect y="13.333" width="30" height="6.667" fill={c} /></>;
 const vertical = (a: string, b: string, c: string) => <><rect width="30" height="20" fill={a} /><rect x="10" width="10" height="20" fill={b} /><rect x="20" width="10" height="20" fill={c} /></>;
 const star = (x = 15, y = 10, color = "#ffde00", size = 3) => <path d="M0-1 .224-.309 .951-.309 .363.118 .588.809 0 .382 -.588.809 -.363.118 -.951-.309 -.224-.309Z" fill={color} transform={`translate(${x} ${y}) scale(${size})`} />;
+const unionCanton = <svg width="15" height="10" viewBox="0 0 30 20"><rect width="30" height="20" fill="#012169" /><path d="m0 0 30 20M30 0 0 20" stroke="#fff" strokeWidth="5" /><path d="m0 0 30 20M30 0 0 20" stroke="#C8102E" strokeWidth="2" /><path d="M15 0v20M0 10h30" stroke="#fff" strokeWidth="7" /><path d="M15 0v20M0 10h30" stroke="#C8102E" strokeWidth="4" /></svg>;
 const flags: Record<string, ReactNode> = {
+  AU: <><rect width="30" height="20" fill="#012169" />{unionCanton}{star(7,15,"#fff",2.2)}{star(22,5,"#fff",1.5)}{star(19,10,"#fff",1.5)}{star(26,10,"#fff",1.5)}{star(22,16,"#fff",1.5)}{star(24,12,"#fff",.7)}</>,
+  NZ: <><rect width="30" height="20" fill="#012169" />{unionCanton}<g stroke="#fff" strokeWidth=".25">{star(22,5,"#C8102E",1.7)}{star(18,10,"#C8102E",1.7)}{star(26,9,"#C8102E",1.7)}{star(22,16,"#C8102E",1.7)}</g></>,
+  BD: <><rect width="30" height="20" fill="#006A4E" /><circle cx="13.5" cy="10" r="6" fill="#F42A41" /></>,
+  DK: <><rect width="30" height="20" fill="#C8102E" /><rect x="9" width="3" height="20" fill="#fff" /><rect y="8.5" width="30" height="3" fill="#fff" /></>,
+  FI: <><rect width="30" height="20" fill="#fff" /><rect x="9" width="5" height="20" fill="#003580" /><rect y="7.5" width="30" height="5" fill="#003580" /></>,
+  NO: <><rect width="30" height="20" fill="#BA0C2F" /><rect x="8" width="5" height="20" fill="#fff" /><rect y="7.5" width="30" height="5" fill="#fff" /><rect x="9.5" width="2" height="20" fill="#00205B" /><rect y="9" width="30" height="2" fill="#00205B" /></>,
+  GH: <>{horizontal("#CE1126", "#FCD116", "#006B3F")}{star(15,10,"#000",3.2)}</>,
+  KE: <><rect width="30" height="20" fill="#fff" /><rect width="30" height="6" fill="#000" /><rect y="7" width="30" height="6" fill="#BB0000" /><rect y="14" width="30" height="6" fill="#006600" /><path d="m12 4 6 12m0-12-6 12" stroke="#fff" strokeWidth=".7" /><ellipse cx="15" cy="10" rx="2.8" ry="6" fill="#BB0000" /><path d="M15 4v12" stroke="#fff" strokeWidth=".7" /><path d="M12.5 7v6m5-6v6" stroke="#000" strokeWidth="1" /></>,
+  NG: vertical("#008751", "#fff", "#008751"),
+  MY: <><rect width="30" height="20" fill="#fff" />{Array.from({length:7},(_,i)=><rect key={i} y={i*20/7} width="30" height={20/14} fill="#CC0001" />)}<rect width="16" height="11.5" fill="#010066" /><circle cx="6" cy="5.75" r="3.5" fill="#FFCC00" /><circle cx="7.2" cy="5.75" r="3" fill="#010066" />{star(11.5,5.75,"#FFCC00",2.5)}</>,
+  PK: <><rect width="30" height="20" fill="#01411C" /><rect width="7.5" height="20" fill="#fff" /><circle cx="19" cy="10" r="6" fill="#fff" /><circle cx="20.8" cy="8.5" r="5.5" fill="#01411C" />{star(23,6,"#fff",2)}</>,
+  TH: <><rect width="30" height="20" fill="#A51931" /><rect y="3.333" width="30" height="13.334" fill="#fff" /><rect y="6.667" width="30" height="6.666" fill="#2D2A4A" /></>,
+  VN: <><rect width="30" height="20" fill="#DA251D" />{star(15,10,"#FFFF00",6)}</>,
   LY: <><rect width="30" height="20" fill="#239E46" /><rect width="30" height="5" fill="#E70013" /><rect y="5" width="30" height="10" fill="#000" /><circle cx="15" cy="10" r="3" fill="#fff" /><circle cx="16" cy="9.5" r="2.6" fill="#000" />{star(19,10,"#fff",1.6)}</>,
   EG: <>{horizontal("#CE1126", "#fff", "#000")}<path d="M13 8h4v5l-2-1-2 1Z" fill="#C09300" /></>,
   SD: <>{horizontal("#D21034", "#fff", "#000")}<path d="M0 0 10 10 0 20Z" fill="#007229" /></>,

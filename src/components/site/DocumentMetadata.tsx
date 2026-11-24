@@ -35,7 +35,7 @@ export function DocumentMetadata() {
       return;
     }
     const headKey: HeadKey = headKeyByPath[path] ?? "root";
-    if (headKey === "press" || headKey === "subprocessors") {
+    if (headKey === "press" || headKey === "subprocessors" || headKey === "startups") {
       for (const tag of staticRouteMeta(headKey, locale)) {
         if ("title" in tag && tag.title) document.title = tag.title;
         else if ("name" in tag && tag.name && tag.content) upsertMeta(`meta[name="${tag.name}"]`, { name: tag.name }, tag.content);

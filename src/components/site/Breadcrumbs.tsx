@@ -11,6 +11,7 @@ import { humanitarianLabels } from "@/i18n/humanitarian";
 import { laserGuideBySlug } from "@/content/laserGuides";
 import hebrewMedical from "@/content/hebrewMedical.json";
 import { transparencyCopy } from "@/i18n/transparency";
+import { startupCopy } from "@/i18n/startups";
 
 /** Short navigation labels where they exist; otherwise the cleaned page title. */
 const navLabelByPath: Record<string, string> = {
@@ -60,6 +61,8 @@ export function Breadcrumbs({ pathname }: { pathname: string }) {
     crumbs.push({ label: specialtyPageCopy(locale).eyeTitle, to: "/chirurgie-laser-yeux" }, { label: guide?.label ?? slug });
   } else if (pathname === "/humanitaire") {
     crumbs.push({ label: humanitarianLabels[locale] });
+  } else if (pathname === "/start-up" || pathname === "/startups") {
+    crumbs.push({ label: startupCopy(locale).ui.nav });
   } else if (pathname === "/press" || pathname === "/legal/subprocessors") {
     const copy = transparencyCopy(locale);
     crumbs.push({ label: pathname === "/press" ? copy.press : copy.providers });

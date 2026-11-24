@@ -1,4 +1,6 @@
 # Tasks
+- [x] Integrate supplied 313-startup catalog, translated in all 19 site languages, with localized page, searchable URL filters, distinct homepage banner, footer link, JSON-LD and sitemap; verify mobile and SSR.
+- [x] Retrieve 276 available official startup logos and preserve supplied monthly refresh workflow (runs only from GitHub Actions).
 - [x] Integrate supplied replacement logo in header/footer and derive favicon; verify desktop/mobile and asset loading.
 - [x] Add press page with centrally confirmed figures and email contact.
 - [x] Add transparent service-provider register without inventing contracts, processing locations or retention periods.

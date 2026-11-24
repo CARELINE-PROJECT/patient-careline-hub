@@ -1,0 +1,12 @@
+.startup-marquee { overflow: hidden; }
+.startup-marquee-track { display: flex; width: max-content; animation: startup-scroll 90s linear infinite; }
+.startup-marquee-group { display: flex; align-items: center; gap: 2rem; padding-inline-end: 2rem; }
+.startup-marquee:hover .startup-marquee-track,
+.startup-marquee:focus-within .startup-marquee-track { animation-play-state: paused; }
+@keyframes startup-scroll { to { transform: translateX(-50%); } }
+[dir="rtl"] .startup-marquee-track { animation-direction: reverse; }
+@media (prefers-reduced-motion: reduce) {
+  .startup-marquee { overflow-x: auto; }
+  .startup-marquee-track { animation: none; }
+  .startup-marquee-group[aria-hidden="true"] { display: none; }
+}

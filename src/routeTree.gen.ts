@@ -29,6 +29,8 @@ import { Route as LocaleRequestRouteImport } from './routes/$locale/request'
 import { Route as LocaleSecurityRouteImport } from './routes/$locale/security'
 import { Route as LocaleServicesRouteImport } from './routes/$locale/services'
 import { Route as LocaleSpecialtiesRouteImport } from './routes/$locale/specialties'
+import { Route as LocaleStartUpRouteImport } from './routes/$locale/start-up'
+import { Route as LocaleStartupsRouteImport } from './routes/$locale/startups'
 import { Route as ApiHealthRouteImport } from './routes/api/health'
 import { Route as LocaleChirurgieLaserYeuxGuideRouteImport } from './routes/$locale/chirurgie-laser-yeux_.$guide'
 import { Route as LocaleLegalCookiesRouteImport } from './routes/$locale/legal.cookies'
@@ -142,6 +144,16 @@ const LocaleSpecialtiesRoute = LocaleSpecialtiesRouteImport.update({
   path: '/specialties',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleStartUpRoute = LocaleStartUpRouteImport.update({
+  id: '/start-up',
+  path: '/start-up',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleStartupsRoute = LocaleStartupsRouteImport.update({
+  id: '/startups',
+  path: '/startups',
+  getParentRoute: () => LocaleRoute,
+} as any)
 const ApiHealthRoute = ApiHealthRouteImport.update({
   id: '/api/health',
   path: '/api/health',
@@ -218,6 +230,8 @@ export interface FileRoutesByFullPath {
   '/$locale/security': typeof LocaleSecurityRoute
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/$locale/start-up': typeof LocaleStartUpRoute
+  '/$locale/startups': typeof LocaleStartupsRoute
   '/api/health': typeof ApiHealthRoute
   '/$locale/': typeof LocaleIndexRoute
   '/$locale/chirurgie-laser-yeux/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
@@ -249,6 +263,8 @@ export interface FileRoutesByTo {
   '/$locale/security': typeof LocaleSecurityRoute
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/$locale/start-up': typeof LocaleStartUpRoute
+  '/$locale/startups': typeof LocaleStartupsRoute
   '/api/health': typeof ApiHealthRoute
   '/$locale': typeof LocaleIndexRoute
   '/$locale/chirurgie-laser-yeux/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
@@ -282,6 +298,8 @@ export interface FileRoutesById {
   '/$locale/security': typeof LocaleSecurityRoute
   '/$locale/services': typeof LocaleServicesRoute
   '/$locale/specialties': typeof LocaleSpecialtiesRoute
+  '/$locale/start-up': typeof LocaleStartUpRoute
+  '/$locale/startups': typeof LocaleStartupsRoute
   '/api/health': typeof ApiHealthRoute
   '/$locale/': typeof LocaleIndexRoute
   '/$locale/chirurgie-laser-yeux_/$guide': typeof LocaleChirurgieLaserYeuxGuideRoute
@@ -316,6 +334,8 @@ export interface FileRouteTypes {
     | '/$locale/security'
     | '/$locale/services'
     | '/$locale/specialties'
+    | '/$locale/start-up'
+    | '/$locale/startups'
     | '/api/health'
     | '/$locale/'
     | '/$locale/chirurgie-laser-yeux/$guide'
@@ -347,6 +367,8 @@ export interface FileRouteTypes {
     | '/$locale/security'
     | '/$locale/services'
     | '/$locale/specialties'
+    | '/$locale/start-up'
+    | '/$locale/startups'
     | '/api/health'
     | '/$locale'
     | '/$locale/chirurgie-laser-yeux/$guide'
@@ -379,6 +401,8 @@ export interface FileRouteTypes {
     | '/$locale/security'
     | '/$locale/services'
     | '/$locale/specialties'
+    | '/$locale/start-up'
+    | '/$locale/startups'
     | '/api/health'
     | '/$locale/'
     | '/$locale/chirurgie-laser-yeux_/$guide'
@@ -543,6 +567,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleSpecialtiesRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/start-up': {
+      id: '/$locale/start-up'
+      path: '/start-up'
+      fullPath: '/$locale/start-up'
+      preLoaderRoute: typeof LocaleStartUpRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/startups': {
+      id: '/$locale/startups'
+      path: '/startups'
+      fullPath: '/$locale/startups'
+      preLoaderRoute: typeof LocaleStartupsRouteImport
+      parentRoute: typeof LocaleRoute
+    }
     '/api/health': {
       id: '/api/health'
       path: '/api/health'
@@ -632,6 +670,8 @@ interface LocaleRouteChildren {
   LocaleSecurityRoute: typeof LocaleSecurityRoute
   LocaleServicesRoute: typeof LocaleServicesRoute
   LocaleSpecialtiesRoute: typeof LocaleSpecialtiesRoute
+  LocaleStartUpRoute: typeof LocaleStartUpRoute
+  LocaleStartupsRoute: typeof LocaleStartupsRoute
   LocaleIndexRoute: typeof LocaleIndexRoute
   LocaleChirurgieLaserYeuxGuideRoute: typeof LocaleChirurgieLaserYeuxGuideRoute
   LocaleLegalCookiesRoute: typeof LocaleLegalCookiesRoute
@@ -659,6 +699,8 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleSecurityRoute: LocaleSecurityRoute,
   LocaleServicesRoute: LocaleServicesRoute,
   LocaleSpecialtiesRoute: LocaleSpecialtiesRoute,
+  LocaleStartUpRoute: LocaleStartUpRoute,
+  LocaleStartupsRoute: LocaleStartupsRoute,
   LocaleIndexRoute: LocaleIndexRoute,
   LocaleChirurgieLaserYeuxGuideRoute: LocaleChirurgieLaserYeuxGuideRoute,
   LocaleLegalCookiesRoute: LocaleLegalCookiesRoute,

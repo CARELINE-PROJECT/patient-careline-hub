@@ -15,6 +15,7 @@ import { directorySpecialties } from "@/config/specialtyDirectory";
 import { specialtyPath, specialtyPhoto } from "@/content/specialtyDetail";
 import { specialtyIds } from "@/config/specialties";
 import { laserGuides } from "@/content/laserGuides";
+import { startupPath } from "@/i18n/startups";
 
 /** Photos visible on each page (locale-free path); kept in sync with the page components. */
 const pagePhotos: Record<string, PhotoId[]> = {
@@ -66,6 +67,9 @@ export const Route = createFileRoute("/sitemap.xml")({
           const alternates = [...locales.map((l) => ({ hrefLang: l.htmlLang, href: localizedUrl(l.code, basePath) })), { hrefLang: "x-default", href: localizedUrl(defaultLocale, basePath) }];
           for (const locale of locales) entries.push({ path: `/${locale.code}${basePath}`, alternates, images: [`${BASE_URL}${photoUrl(specialtyPhoto(id))}`] });
         }
+
+        const startupAlternates = [...locales.map(l => ({ hrefLang: l.htmlLang, href: localizedUrl(l.code, startupPath(l.code)) })), { hrefLang: "x-default", href: localizedUrl(defaultLocale, startupPath(defaultLocale)) }];
+        for (const locale of locales) entries.push({ path: `/${locale.code}${startupPath(locale.code)}`, alternates: startupAlternates, images: [] });
 
         for (const g of laserGuides) {
           const alternates = ["fr", "he"].map(l => ({ hrefLang: l, href: `${BASE_URL}/${l}/chirurgie-laser-yeux/${g.slug}` }));

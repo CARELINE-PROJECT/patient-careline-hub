@@ -1,0 +1,144 @@
+{
+  "domains": [
+    {
+      "key": "ophtalmologie",
+      "fr": "Ophtalmologie",
+      "en": "Ophthalmology",
+      "nl": "Oogheelkunde"
+    },
+    {
+      "key": "ia-imagerie",
+      "fr": "IA en imagerie et diagnostic",
+      "en": "AI imaging & diagnostics",
+      "nl": "AI in beeldvorming en diagnostiek"
+    },
+    {
+      "key": "ia-clinique",
+      "fr": "IA d'aide à la consultation et à la décision",
+      "en": "AI clinical assistance & decision support",
+      "nl": "AI-ondersteuning bij consult en beslissing"
+    },
+    {
+      "key": "teleconsultation",
+      "fr": "Téléconsultation et prise de rendez-vous",
+      "en": "Telehealth & appointment booking",
+      "nl": "Teleconsultatie en afspraken"
+    },
+    {
+      "key": "telesurveillance",
+      "fr": "Télésurveillance et objets connectés",
+      "en": "Remote monitoring & wearables",
+      "nl": "Telemonitoring en wearables"
+    },
+    {
+      "key": "chirurgie-dispositifs",
+      "fr": "Chirurgie robotique et dispositifs",
+      "en": "Surgical robotics & devices",
+      "nl": "Chirurgische robotica en hulpmiddelen"
+    },
+    {
+      "key": "neurotech",
+      "fr": "Neurotechnologies",
+      "en": "Neurotechnology",
+      "nl": "Neurotechnologie"
+    },
+    {
+      "key": "medicaments-biotech",
+      "fr": "Découverte de médicaments et biotech",
+      "en": "Drug discovery & biotech",
+      "nl": "Geneesmiddelenontwikkeling en biotech"
+    },
+    {
+      "key": "sante-mentale",
+      "fr": "Santé mentale",
+      "en": "Mental health",
+      "nl": "Geestelijke gezondheid"
+    },
+    {
+      "key": "sante-feminine",
+      "fr": "Santé féminine",
+      "en": "Women's health",
+      "nl": "Vrouwengezondheid"
+    },
+    {
+      "key": "chroniques-reeducation",
+      "fr": "Maladies chroniques et rééducation",
+      "en": "Chronic care & rehabilitation",
+      "nl": "Chronische zorg en revalidatie"
+    },
+    {
+      "key": "prevention-depistage",
+      "fr": "Prévention et dépistage",
+      "en": "Prevention & screening",
+      "nl": "Preventie en screening"
+    },
+    {
+      "key": "assurance",
+      "fr": "Assurance santé",
+      "en": "Health insurance",
+      "nl": "Zorgverzekering"
+    },
+    {
+      "key": "acces-emergents",
+      "fr": "Accès aux soins dans le monde",
+      "en": "Global access to care",
+      "nl": "Wereldwijde toegang tot zorg"
+    },
+    {
+      "key": "donnees-logiciels",
+      "fr": "Données et logiciels de santé",
+      "en": "Health data & software",
+      "nl": "Gezondheidsdata en software"
+    },
+    {
+      "key": "essais-cliniques",
+      "fr": "Essais cliniques",
+      "en": "Clinical trials",
+      "nl": "Klinische studies"
+    }
+  ],
+  "continents": [
+    {
+      "key": "europe",
+      "fr": "Europe",
+      "en": "Europe",
+      "nl": "Europa"
+    },
+    {
+      "key": "amerique-du-nord",
+      "fr": "Amérique du Nord",
+      "en": "North America",
+      "nl": "Noord-Amerika"
+    },
+    {
+      "key": "amerique-latine",
+      "fr": "Amérique latine",
+      "en": "Latin America",
+      "nl": "Latijns-Amerika"
+    },
+    {
+      "key": "asie",
+      "fr": "Asie",
+      "en": "Asia",
+      "nl": "Azië"
+    },
+    {
+      "key": "afrique",
+      "fr": "Afrique",
+      "en": "Africa",
+      "nl": "Afrika"
+    },
+    {
+      "key": "moyen-orient",
+      "fr": "Moyen-Orient",
+      "en": "Middle East",
+      "nl": "Midden-Oosten"
+    },
+    {
+      "key": "oceanie",
+      "fr": "Océanie",
+      "en": "Oceania",
+      "nl": "Oceanië"
+    }
+  ]
+}

@@ -33,6 +33,7 @@ import {
 } from "@/components/site/primitives";
 import { CTASection } from "@/components/site/CTASection";
 import { SoftwarePartners } from "@/components/site/SoftwarePartners";
+import { StartupsBanner } from "@/components/site/StartupsBanner";
 
 export const Route = createFileRoute("/$locale/")({
   staticData: { sitemap: true },
@@ -176,6 +177,7 @@ function Home() {
       )}
 
       <SoftwarePartners />
+      <StartupsBanner />
 
       {/* How it works */}
       <Section tone="muted">

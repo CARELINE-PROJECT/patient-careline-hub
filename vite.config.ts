@@ -17,6 +17,7 @@ export default defineConfig({
     // Static prerender: every public page ships as complete HTML (text, title, meta, links)
     // without depending on JavaScript execution. Discovery is pinned off — this list is complete.
     pages: [
+      ...locales.map(({ code }) => ({ path: `/${code}${code === "fr" ? "/start-up" : "/startups"}` })),
       ...locales.flatMap(({ code }) => ["/press", "/legal/subprocessors"].map(path => ({ path: `/${code}${path}` }))),
       ...["", "/about", "/careers", "/companies", "/contact", "/faq", "/how-it-works", "/legal/cookies", "/legal/notice", "/legal/privacy", "/legal/terms", "/privacy-preferences", "/professionals", "/request", "/security", "/services", "/specialties", "/chirurgie-laser-yeux", "/humanitaire"].map(path => ({ path: `/he${path}` })),
       ...specialtyIds.map(id => ({ path: `/he/specialties/${id.replace(/_/g, "-")}` })),

@@ -10,8 +10,10 @@ import { siteConfig } from "@/config/site";
 import { ogImageFor } from "@/config/ogImages";
 import { humanitarianCopy } from "./humanitarian";
 import { transparencyCopy } from "./transparency";
+import { startupCopy, startupPath } from "./startups";
+import { startupLogos, visibleStartups } from "@/config/startups";
 
-export type HeadKey = keyof typeof en.head | "humanitarian" | "press" | "subprocessors";
+export type HeadKey = keyof typeof en.head | "humanitarian" | "press" | "subprocessors" | "startups";
 
 export const headKeyByPath: Record<string, HeadKey> = {
   "/": "home",
@@ -33,9 +35,15 @@ export const headKeyByPath: Record<string, HeadKey> = {
   "/humanitaire": "humanitarian",
   "/press": "press",
   "/legal/subprocessors": "subprocessors",
+  "/start-up": "startups",
+  "/startups": "startups",
 };
 
 export function staticRouteMeta(key: HeadKey, locale: string = "en") {
+  if (key === "startups") {
+    const c = startupCopy(locale).ui;
+    return [{ title: c.metaTitle }, { name: "description", content: c.metaDescription }, { property: "og:title", content: c.metaTitle }, { property: "og:description", content: c.metaDescription }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }];
+  }
   if (key === "press" || key === "subprocessors") {
     const copy = transparencyCopy(locale);
     const title = `${key === "press" ? copy.press : copy.providers} | Careline`;
@@ -73,7 +81,8 @@ export function staticRouteMeta(key: HeadKey, locale: string = "en") {
 
 /** Absolute URL of a page in a given language: localizedUrl("fr", "/services"). */
 export function localizedUrl(locale: LocaleCode, path: string): string {
-  return `${siteConfig.url}/${locale}${path === "/" ? "" : path}`;
+  const normalized = path === "/start-up" || path === "/startups" ? startupPath(locale) : path;
+  return `${siteConfig.url}/${locale}${normalized === "/" ? "" : normalized}`;
 }
 
 /** Reciprocal hreflang links for every supported language plus x-default (French). */
@@ -111,5 +120,13 @@ export function staticRouteHead(key: HeadKey, path: string, locale: string) {
         : []),
     ],
     links: [{ rel: "canonical", href: url }, ...hreflangLinks(path)],
+    ...(key === "startups" ? { scripts: [{ type: "application/ld+json", children: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "CollectionPage", "@id": `${url}#collection`, url, name: startupCopy(locale).ui.title, inLanguage: safeLocale(locale), mainEntity: { "@id": `${url}#list` } },
+        { "@type": "ItemList", "@id": `${url}#list`, numberOfItems: visibleStartups().length, itemListElement: visibleStartups().map((s, i) => ({ "@type": "ListItem", position: i + 1, item: { "@type": "Organization", name: s.name, url: s.website, ...(startupLogos[s.slug] ? { logo: new URL(startupLogos[s.slug]?.src ?? "", siteConfig.url).href } : {}), address: { "@type": "PostalAddress", addressCountry: s.country.code } } })) },
+        { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Careline", item: localizedUrl(safeLocale(locale), "/") }, { "@type": "ListItem", position: 2, name: startupCopy(locale).ui.nav, item: url }] },
+      ],
+    }).replace(/</g, "\\u003c") }] } : {}),
   };
 }

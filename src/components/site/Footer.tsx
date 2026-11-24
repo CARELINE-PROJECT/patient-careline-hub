@@ -9,6 +9,7 @@ import { openConsentSettings } from "@/lib/consent";
 import { ResponsivePhoto } from "@/components/site/ResponsivePhoto";
 import { footerGlobalCopy } from "@/i18n/footerGlobal";
 import { specialtyPageCopy } from "@/i18n/specialtyPages";
+import { startupCopy, startupPath } from "@/i18n/startups";
 
 export function Footer() {
   const { t, locale } = useI18n();
@@ -22,6 +23,7 @@ export function Footer() {
       links: [
         { to: "/about", label: t("footer.aboutLink") },
         { to: "/services", label: t("footer.services") },
+        { to: startupPath(locale), label: startupCopy(locale).ui.nav },
         { to: "/careers", label: t("footer.careers") },
         { to: "/contact", label: t("footer.contact") },
         { to: "/press", label: transparency.press },
